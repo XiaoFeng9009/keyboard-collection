@@ -43,7 +43,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
               return (
                 <div key={k.id} style={{marginBottom: idx < list.length - 1 ? 32 : 0}}>
                   {/* ### Keyboard Name */}
-                  <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',borderBottom:'2px solid var(--accent)',paddingBottom:6}}>{k.name}</h3>
+                  <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
 
                   {/* !Image */}
                   {img && (

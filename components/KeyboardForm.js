@@ -101,7 +101,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData }) {
           <div style={st.grp}><label style={st.label}>{'\u914D\u5217'}</label>
             <select value={layout} onChange={e=>setLayout(e.target.value)} style={st.input}>
               <option value="">{'\u9009\u62E9\u914D\u5217'}</option>
-              {['30%','40%','40%+Macro','40%+Pad','45%','50%','60%','60%+Macro','60%+Pad','AT','65%','65%+Macro','65%+Pad','65%AT','70%FRL_TKL','70%FRL_TKL+Macro','70%FRL_TKL+Pad','75%','80%TKL','1800','1800FRL','90%','98%','100%Full','100%Full_FRL','Pad','Alice','Split','Hub','Function','\u5176\u4ED6'].map(o=><option key={o} value={o}>{o}</option>)}
+              {['30%','40%','40%+Macro','40%+Pad','45%','50%','60%','60%+Macro','60%+Pad','AT','65%','65%+Macro','65%+Pad','65%AT','70%FRL_TKL','70%FRL_TKL+Macro','70%FRL_TKL+Pad','75%','80%TKL','80%TKL+Macro','1800','1800FRL','90%','98%','100%Full','100%Full_FRL','Pad','Alice','Split','Hub','Function','\u5176\u4ED6'].map(o=><option key={o} value={o}>{o}</option>)}
             </select></div>
           <div style={st.grp}><label style={st.label}>{'\u72B6\u6001'}</label>
             <select value={status} onChange={e=>setStatus(e.target.value)} style={st.input}>

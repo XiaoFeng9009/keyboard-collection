@@ -2021,6 +2021,16 @@
       "group": "SpringKeys"
     },
     {
+      "path": "/images/SumJoy/Debut Diversity.png",
+      "name": "Debut Diversity.png",
+      "group": "SumJoy"
+    },
+    {
+      "path": "/images/SumJoy/Scene 01 Dyad.webp",
+      "name": "Scene 01 Dyad.webp",
+      "group": "SumJoy"
+    },
+    {
       "path": "/images/The Last Keyboard/DeLast.webp",
       "name": "DeLast.webp",
       "group": "The Last Keyboard"
@@ -2256,5 +2266,5 @@
       "group": "(root)"
     }
   ],
-  "total": 451
+  "total": 453
 }

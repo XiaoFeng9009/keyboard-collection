@@ -42,7 +42,7 @@ export default function Studios() {
   if (loading) return <Layout><div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)',fontSize:13}}>{'\u52A0\u8F7D\u4E2D...'}</div></Layout>
 
   const card = { background:'var(--bg-primary)', border:'1px solid var(--border-base)', padding:'14px 18px',
-    cursor:'pointer', transition:'all .2s', boxShadow:'var(--shadow-base)', borderTop:'3px solid var(--text-primary)' }
+    cursor:'pointer', transition:'all .2s', boxShadow:'var(--shadow-base)' }
 
   return (
     <Layout>
@@ -64,12 +64,12 @@ export default function Studios() {
       {/* Studio sections grouped by letter */}
       {letters.map(ch => (
         <div key={ch} id={'letter-' + ch} style={{marginBottom:24}}>
-          <div style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',borderBottom:'2px solid var(--accent)',paddingBottom:4,marginBottom:12,letterSpacing:1}}>{ch}</div>
+          <div style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',paddingBottom:4,marginBottom:12,letterSpacing:1}}>{ch}</div>
           <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(220px,1fr))',gap:12}}>
             {(groups[ch] || []).map(s => (
               <div key={s.name} style={card}
-                onMouseEnter={e=>{e.currentTarget.style.boxShadow='var(--shadow-hover)';e.currentTarget.style.borderColor='var(--accent)';e.currentTarget.style.transform='translateY(-2px)'}}
-                onMouseLeave={e=>{e.currentTarget.style.boxShadow='var(--shadow-base)';e.currentTarget.style.borderColor='var(--border-base)';e.currentTarget.style.transform='translateY(0)'}}
+                onMouseEnter={e=>{e.currentTarget.style.boxShadow='var(--shadow-hover)';e.currentTarget.style.transform='translateY(-3px)'}}
+                onMouseLeave={e=>{e.currentTarget.style.boxShadow='var(--shadow-base)';e.currentTarget.style.transform='translateY(0)'}}
                 onClick={() => setStudioData(s.name)}>
                 <div style={{fontSize:14,fontWeight:600,marginBottom:2}}>{s.name}</div>
                 <div style={{display:'flex',alignItems:'center',gap:6,fontSize:11,color:'var(--text-muted)'}}>

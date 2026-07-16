@@ -18,34 +18,38 @@
       "sortTime": "2026-05-25"
     },
     {
+      "id": "kb_2",
       "name": "Scene 01: Dyad",
       "studio": "SumJoy",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-07-12",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/SumJoy/Scene 01 Dyad.webp"
+      ],
       "icTime": "2026-03-23",
       "icLink": "",
       "gbTime": "2026-07-12",
       "gbLink": "",
-      "image": "",
       "description": "",
-      "id": "kb_2",
-      "images": [],
-      "sortTime": "2026-07-12"
+      "image": ""
     },
     {
+      "id": "kb_3",
       "name": "Debut: Diversity",
       "studio": "SumJoy",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-04-10",
+      "layout": "80%TKL+Macro",
+      "status": "gb",
+      "images": [
+        "/images/SumJoy/Debut Diversity.png"
+      ],
       "icTime": "2024-08-24",
       "icLink": "",
       "gbTime": "2025-04-10",
       "gbLink": "",
-      "image": "",
       "description": "",
-      "id": "kb_3",
-      "images": [],
-      "sortTime": "2025-04-10"
+      "image": ""
     },
     {
       "name": "RT50",
@@ -5911,8 +5915,8 @@
       "name": "Athena75",
       "studio": "KBDFans怡科外设",
       "sortTime": "2026-07-09",
-      "layout": "",
-      "status": "",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Athena 75.webp"
       ],
@@ -5927,8 +5931,8 @@
       "name": "Agar micro",
       "studio": "KBDFans怡科外设",
       "sortTime": "2026-06-25",
-      "layout": "",
-      "status": "",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Agar micro.webp"
       ],
@@ -5943,8 +5947,8 @@
       "name": "TOFU TKL & Lucy",
       "studio": "KBDFans怡科外设",
       "sortTime": "2026-06-16",
-      "layout": "",
-      "status": "",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/TOFU TKL & Lucy.webp"
       ],
@@ -5955,29 +5959,28 @@
       "description": ""
     },
     {
+      "id": "kb_362",
       "name": "Adamas R2",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-05",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Adamas R2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-06-05",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_362",
-      "images": [
-        "/images/KBDFans怡科外设/Adamas R2.webp"
-      ],
-      "sortTime": "2026-06-05"
+      "description": ""
     },
     {
       "id": "kb_363",
       "name": "TOFU PAD",
       "studio": "KBDFans怡科外设",
       "sortTime": "2026-04-29",
-      "layout": "",
-      "status": "",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/TOFU PAD.webp"
       ],
@@ -5988,132 +5991,124 @@
       "description": ""
     },
     {
+      "id": "kb_364",
       "name": "Aepex60",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-04-23",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Aepex60.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-04-23",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_364",
-      "images": [
-        "/images/KBDFans怡科外设/Aepex60.webp"
-      ],
-      "sortTime": "2026-04-23"
+      "description": ""
     },
     {
+      "id": "kb_365",
       "name": "TOFU65 3.0",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-02-02",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/TOFU65 3.0.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-02-02",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_365",
-      "images": [
-        "/images/KBDFans怡科外设/TOFU65 3.0.webp"
-      ],
-      "sortTime": "2026-02-02"
+      "description": ""
     },
     {
+      "id": "kb_366",
       "name": "Vella",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-01-16",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Vella.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-01-16",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_366",
-      "images": [
-        "/images/KBDFans怡科外设/Vella.jpg"
-      ],
-      "sortTime": "2026-01-16"
+      "description": ""
     },
     {
+      "id": "kb_367",
       "name": "TOFU60 3.0",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/TOFU60 3.0.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-12-30",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_367",
-      "images": [
-        "/images/KBDFans怡科外设/TAKKA60 (Holy60 Tofu60 Redux).png",
-        "/images/KBDFans怡科外设/TOFU60 3.0.webp"
-      ],
-      "sortTime": "2025-12-30"
+      "description": ""
     },
     {
+      "id": "kb_368",
       "name": "Enso-E - Clever",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-09",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Enso-E - Clever.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-12-09",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_368",
-      "images": [
-        "/images/KBDFans怡科外设/Enso-E - Clever.webp"
-      ],
-      "sortTime": "2025-12-09"
+      "description": ""
     },
     {
+      "id": "kb_369",
       "name": "Synovia - BAIONLENJA",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-10-31",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Synovia - BAIONLENJA.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-10-31",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_369",
-      "images": [
-        "/images/KBDFans怡科外设/Synovia - BAIONLENJA.webp"
-      ],
-      "sortTime": "2025-10-31"
+      "description": ""
     },
     {
+      "id": "kb_370",
       "name": "Onibi鬼火 - Serajiman",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-09-26",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Onibi鬼火 - Serajiman.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-09-26",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_370",
-      "images": [
-        "/images/KBDFans怡科外设/Onibi鬼火 - Serajiman.jpg"
-      ],
-      "sortTime": "2025-09-26"
+      "description": ""
     },
     {
       "id": "kb_371",
       "name": "TOFU TKL",
       "studio": "KBDFans怡科外设",
       "sortTime": "2025-09-11",
-      "layout": "",
-      "status": "",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/TOFU TKL.jpg"
       ],
@@ -6124,29 +6119,28 @@
       "description": ""
     },
     {
+      "id": "kb_372",
       "name": "Manta65 - Bowl & Alexotos",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Manta65 - Bowl & Alexotos.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-08-01",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_372",
-      "images": [
-        "/images/KBDFans怡科外设/Manta65 - Bowl & Alexotos.png"
-      ],
-      "sortTime": "2025-08-01"
+      "description": ""
     },
     {
       "id": "kb_373",
       "name": "Agar Mini",
       "studio": "KBDFans怡科外设",
       "sortTime": "2025-08-01",
-      "layout": "",
-      "status": "",
+      "layout": "40%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Agar Mini.png"
       ],
@@ -6157,46 +6151,44 @@
       "description": ""
     },
     {
+      "id": "kb_374",
       "name": "Athena1800 雅典娜",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-07-29",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Athena1800 雅典娜.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-07-29",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_374",
-      "images": [
-        "/images/KBDFans怡科外设/Athena1800 雅典娜.jpg"
-      ],
-      "sortTime": "2025-07-29"
+      "description": ""
     },
     {
+      "id": "kb_375",
       "name": "Eden",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Eden.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_375",
-      "images": [
-        "/images/KBDFans怡科外设/Eden.jpg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
       "id": "kb_376",
       "name": "Agar",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Agar.png"
       ],
@@ -6207,46 +6199,44 @@
       "description": ""
     },
     {
+      "id": "kb_377",
       "name": "GT-80",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_377",
+      "sortTime": "",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/GT-80.png"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "BOOMERANG 回旋镖 - LaminarDesigns",
-      "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_378",
+      "name": "BOOMERANG 回旋镖 - LaminarDesigns",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/BOOMERANG 回旋镖 - LaminarDesigns.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_379",
       "name": "Constance TKL - Aiglatson Studio",
       "studio": "KBDFans怡科外设",
       "sortTime": "2024-10-10",
-      "layout": "",
-      "status": "",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Constance TKL - Aiglatson Studio.png"
       ],
@@ -6257,80 +6247,76 @@
       "description": ""
     },
     {
+      "id": "kb_380",
       "name": "Reverie",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_380",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Reverie.png"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "mellow",
-      "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_381",
+      "name": "mellow",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/mellow.png"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "Margo",
-      "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_382",
+      "name": "Margo",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Margo.png"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "461E 5°",
-      "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_383",
+      "name": "461E 5°",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/461E 5°.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_384",
       "name": "Boop Redux",
       "studio": "KBDFans怡科外设",
       "sortTime": "2024-05-10",
-      "layout": "",
-      "status": "",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Boop Redux.png"
       ],
@@ -6341,22 +6327,21 @@
       "description": ""
     },
     {
+      "id": "kb_385",
       "name": "Altair and Altair-X - ai03",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-04-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_385",
+      "sortTime": "2024-04-29",
+      "layout": "Split",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/Altair and Altair-X - ai03 (1).webp",
         "/images/KBDFans怡科外设/Altair and Altair-X - ai03.webp"
       ],
-      "sortTime": "2024-04-29"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-04-29",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_386",
@@ -6379,15 +6364,13 @@
       "name": "TAKKA60 (Holy60 Tofu60 Redux)",
       "studio": "KBDFans怡科外设",
       "sortTime": "2023-12-29",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/KBDFans怡科外设/Boop Redux.png",
-        "/images/KBDFans怡科外设/TAKKA60 (Holy60 Tofu60 Redux).png",
-        "/images/KBDFans怡科外设/TOFU60 3.0.webp"
+        "/images/KBDFans怡科外设/TAKKA60 (Holy60 Tofu60 Redux).png"
       ],
       "icTime": "",
-      "icLink": "IC链接",
+      "icLink": "",
       "gbTime": "2023-12-29",
       "gbLink": "",
       "description": ""
@@ -6397,8 +6380,8 @@
       "name": "KBD8X MK3",
       "studio": "KBDFans怡科外设",
       "sortTime": "2023-10-23",
-      "layout": "",
-      "status": "",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/KBD8X MK3.png"
       ],
@@ -6409,29 +6392,28 @@
       "description": ""
     },
     {
+      "id": "kb_389",
       "name": "Pluto70",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-06-23",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Pluto70.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2023-06-23",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_389",
-      "images": [
-        "/images/KBDFans怡科外设/Pluto70.png"
-      ],
-      "sortTime": "2023-06-23"
+      "description": ""
     },
     {
       "id": "kb_390",
       "name": "D45 V2",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "45%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/D45 V2.jpeg"
       ],
@@ -6442,29 +6424,28 @@
       "description": ""
     },
     {
+      "id": "kb_391",
       "name": "Odin",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Odin.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_391",
-      "images": [
-        "/images/KBDFans怡科外设/Odin.jpeg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
       "id": "kb_392",
       "name": "D60 Lite",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/D60 Lite.jpeg"
       ],
@@ -6475,29 +6456,28 @@
       "description": ""
     },
     {
+      "id": "kb_393",
       "name": "MAJA",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/MAJA.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_393",
-      "images": [
-        "/images/KBDFans怡科外设/MAJA.jpeg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
       "id": "kb_394",
       "name": "D60",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/D60.jpeg"
       ],
@@ -6508,46 +6488,44 @@
       "description": ""
     },
     {
+      "id": "kb_395",
       "name": "TOFU84",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_395",
+      "sortTime": "",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/TOFU84.jpeg"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "D65",
-      "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_396",
+      "name": "D65",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/D65.jpeg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_397",
       "name": "D45",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "45%",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/D45.jpeg"
       ],
@@ -6558,29 +6536,28 @@
       "description": ""
     },
     {
+      "id": "kb_398",
       "name": "Melody65",
       "studio": "KBDFans怡科外设",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/Melody65.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_398",
-      "images": [
-        "/images/KBDFans怡科外设/Melody65.jpeg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
       "id": "kb_399",
       "name": "KBD8X MKII",
       "studio": "KBDFans怡科外设",
       "sortTime": "",
-      "layout": "",
-      "status": "",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/KBDFans怡科外设/KBD8X MKII.jpeg"
       ],
