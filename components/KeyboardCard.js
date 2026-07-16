@@ -15,7 +15,7 @@ export default function KeyboardCard({ kb, onClick }) {
   const multi = kb.images && kb.images.length > 1
 
   const s = {
-    card: { background:'var(--bg-primary)', border:'1px solid var(--border-base)', overflow:'hidden', transition:'all .25s', boxShadow:'var(--shadow-base)', borderTop:'3px solid var(--text-primary)', cursor:'pointer' },
+    card: { background:'var(--bg-primary)', border:'1px solid var(--border-base)', overflow:'hidden', transition:'all .25s', boxShadow:'var(--shadow-base)', borderTop:'3px solid var(--text-primary)',borderRadius:8, cursor:'pointer' },
     imgWrap: { width:'100%', aspectRatio:'16/10', background:'var(--bg-secondary)', borderBottom:'1px solid var(--border-base)', position:'relative', overflow:'hidden' },
     body: { padding:16 },
     name: { fontSize:15, fontWeight:600, marginBottom:2 },

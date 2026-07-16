@@ -66,14 +66,14 @@ export default function Admin() {
 
   const save = (kb) => {
     let updated = editData ? data.map(k => k.id === kb.id ? kb : k) : [...data, kb]
-    setData(updated); sessionStorage.setItem("keyboardData", JSON.stringify(updated))
+    setData(updated); localStorage.setItem("keyboardData", JSON.stringify(updated))
     setShowForm(false); setEditData(null); setToastMsg(editData ? "\u5DF2\u66F4\u65B0\uFF08\u4E34\u65F6\uFF09\uFF0C\u8BF7\u5BFC\u51FA JSON \u4EE5\u6C38\u4E45\u4FDD\u5B58" : "\u5DF2\u6DFB\u52A0\uFF08\u4E34\u65F6\uFF09\uFF0C\u8BF7\u5BFC\u51FA JSON \u4EE5\u6C38\u4E45\u4FDD\u5B58")
   }
 
   const remove = (id) => {
     if (!confirm("\u786E\u5B9A\u5220\u9664?")) return
     const updated = data.filter(k => k.id !== id)
-    setData(updated); sessionStorage.setItem("keyboardData", JSON.stringify(updated)); setToastMsg("\u5DF2\u5220\u9664\uFF08\u4E34\u65F6\uFF09")
+    setData(updated); localStorage.setItem("keyboardData", JSON.stringify(updated)); setToastMsg("\u5DF2\u5220\u9664\uFF08\u4E34\u65F6\uFF09")
   }
 
   const exportJSON = () => {
@@ -85,7 +85,7 @@ export default function Admin() {
   const importJSON = (e) => {
     const file = e.target.files[0]; if (!file) return
     const r = new FileReader()
-    r.onload = (ev) => { try { const d = JSON.parse(ev.target.result); if (d.keyboards) { setData(d.keyboards); sessionStorage.setItem("keyboardData",JSON.stringify(d.keyboards)); setToastMsg("\u5BFC\u5165\u6210\u529F") } } catch(err) {} }
+    r.onload = (ev) => { try { const d = JSON.parse(ev.target.result); if (d.keyboards) { setData(d.keyboards); localStorage.setItem("keyboardData",JSON.stringify(d.keyboards)); setToastMsg("\u5BFC\u5165\u6210\u529F") } } catch(err) {} }
     r.readAsText(file); e.target.value = ""
   }
 
@@ -138,6 +138,7 @@ export default function Admin() {
         <button onClick={() => document.getElementById("importFile").click()} style={{...btn,background:"var(--bg-primary)",color:"var(--text-primary)",border:"1px solid var(--border-base)"}}>{String.fromCharCode(0x5BFC,0x5165,0x20,0x4A,0x53,0x4F,0x4E)}</button>
         <input type="file" id="importFile" accept=".json" style={{display:"none"}} onChange={importJSON} />
       </div>
+
 
       {/* Filter row */}
       <div style={{display:"flex",gap:8,marginBottom:12,flexWrap:"wrap",alignItems:"center",background:"var(--bg-secondary)",padding:"10px 14px",border:"1px solid var(--border-base)"}}>

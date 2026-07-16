@@ -5923,23 +5923,20 @@
       "description": ""
     },
     {
+      "id": "kb_360",
       "name": "Agar micro",
       "studio": "KBDFans怡科外设",
+      "sortTime": "2026-06-25",
       "layout": "",
       "status": "",
+      "images": [
+        "/images/KBDFans怡科外设/Agar micro.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-06-25",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_360",
-      "images": [
-        "/images/KBDFans怡科外设/Agar micro.webp",
-        "/images/KBDFans怡科外设/Agar Mini.png",
-        "/images/KBDFans怡科外设/Agar.png"
-      ],
-      "sortTime": "2026-06-25"
+      "description": ""
     },
     {
       "id": "kb_361",
@@ -6194,23 +6191,20 @@
       "sortTime": ""
     },
     {
+      "id": "kb_376",
       "name": "Agar",
       "studio": "KBDFans怡科外设",
+      "sortTime": "",
       "layout": "",
       "status": "",
+      "images": [
+        "/images/KBDFans怡科外设/Agar.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_376",
-      "images": [
-        "/images/KBDFans怡科外设/Agar micro.webp",
-        "/images/KBDFans怡科外设/Agar Mini.png",
-        "/images/KBDFans怡科外设/Agar.png"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
       "name": "GT-80",

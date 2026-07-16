@@ -28,6 +28,11 @@ export default function Home() {
   const start = (page - 1) * PAGE_SIZE
   const paged = filtered.slice(start, start + PAGE_SIZE)
 
+  const handleShowStudio = (studio) => {
+    setDetailData(null)
+    setStudioData(studio)
+  }
+
   return (
     <Layout>
       <SearchControls data={sortedKeyboards} onFilter={setFiltered} />
@@ -41,9 +46,8 @@ export default function Home() {
         </div>
       )}
       <Pagination current={page} total={filtered.length} pageSize={PAGE_SIZE} onChange={setPage} />
-      {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} />}
+      {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} onShowStudio={handleShowStudio} />}
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>
   )
 }
-
