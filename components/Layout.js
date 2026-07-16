@@ -1,11 +1,14 @@
 ﻿import { useRouter } from 'next/router'
 
+import BackToTop from './BackToTop'
+
 export default function Layout({ children }) {
   const router = useRouter()
   const tabs = [
-    { path: '/', label: '键盘' },
-    { path: '/timeline', label: '时间线' },
-    { path: '/admin', label: '管理' },
+    { path: '/', label: '\u952E\u76D8' },
+    { path: '/studios', label: '\u5DE5\u4F5C\u5BA4' },
+    { path: '/timeline', label: '\u65F6\u95F4\u7EBF' },
+    { path: '/admin', label: '\u7BA1\u7406' },
   ]
   return (
     <>
@@ -34,6 +37,9 @@ export default function Layout({ children }) {
       <main style={{maxWidth:1200,margin:'0 auto',padding:'32px 24px'}}>
         {children}
       </main>
-    </>
+      <BackToTop />
+      <BackToTop />
+        </>
   )
 }
+

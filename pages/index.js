@@ -1,7 +1,9 @@
-﻿import { useState, useEffect } from 'react'
+﻿import { useState, useEffect, useMemo } from 'react'
 import Layout from '../components/Layout'
 import SearchControls from '../components/SearchControls'
 import KeyboardCard from '../components/KeyboardCard'
+import KeyboardDetail from '../components/KeyboardDetail'
+import StudioDetail from '../components/StudioDetail'
 import Pagination from '../components/Pagination'
 import useData from '../lib/useData'
 
@@ -11,8 +13,14 @@ export default function Home() {
   const { keyboards, loading } = useData()
   const [filtered, setFiltered] = useState([])
   const [page, setPage] = useState(1)
+  const [detailData, setDetailData] = useState(null)
+  const [studioData, setStudioData] = useState(null)
 
-  useEffect(() => { if (keyboards.length > 0) setFiltered(keyboards) }, [keyboards])
+  const sortedKeyboards = useMemo(() =>
+    [...keyboards].sort((a,b) => (b.sortTime || '').localeCompare(a.sortTime || '')),
+  [keyboards])
+
+  useEffect(() => { setFiltered(sortedKeyboards) }, [sortedKeyboards])
   useEffect(() => { setPage(1) }, [filtered.length])
 
   if (loading) return <Layout><div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)',fontSize:13}}>{'\u52A0\u8F7D\u4E2D...'}</div></Layout>
@@ -22,9 +30,9 @@ export default function Home() {
 
   return (
     <Layout>
-      <SearchControls data={keyboards} onFilter={setFiltered} />
-      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(300px,1fr))',gap:20}}>
-        {paged.map(k => <KeyboardCard key={k.id} kb={k} />)}
+      <SearchControls data={sortedKeyboards} onFilter={setFiltered} />
+      <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:20}}>
+        {paged.map(k => <KeyboardCard key={k.id} kb={k} onClick={() => setDetailData(k)} />)}
       </div>
       {filtered.length === 0 && (
         <div style={{textAlign:'center',padding:'60px 20px',color:'var(--text-muted)'}}>
@@ -33,6 +41,9 @@ export default function Home() {
         </div>
       )}
       <Pagination current={page} total={filtered.length} pageSize={PAGE_SIZE} onChange={setPage} />
+      {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} />}
+      {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>
   )
 }
+
