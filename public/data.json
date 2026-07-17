@@ -8931,6 +8931,22 @@
       "id": "kb_512",
       "images": [],
       "sortTime": "2018-02-26"
+    },
+    {
+      "id": "kb_1784272356475",
+      "name": "OINN65",
+      "studio": "Keyboard Science",
+      "sortTime": "2026-07-15",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Keyboard Science/OINN65.webp"
+      ],
+      "icTime": "2026-01-10",
+      "icLink": "https://www.zfrontier.com/app/flow/aaXn9x79a9oo",
+      "gbTime": "2026-07-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/O5akVYxanVq3",
+      "description": ""
     }
   ]
 }

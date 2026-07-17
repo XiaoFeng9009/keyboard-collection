@@ -1,0 +1,10 @@
+﻿var f=require('fs');
+var c=f.readFileSync('./components/Layout.js','utf-8');
+c=c.replace('width: expanded ? 220 : 68','width: expanded ? 240 : 90');
+c=c.replace('marginLeft: 68','marginLeft: 90');
+c=c.replace('fontWeight: isActive ? 700 : 500','fontWeight: 600');
+c=c.replace("padding:'12px 0'","padding:'32px 0'");
+c=c.replace("padding:'14px 20px'","padding:'16px 24px'");
+c=c.replace("fontSize:13, fontWeight:600, letterSpacing:1.5","fontSize:14, fontWeight:700, letterSpacing:1.5");
+f.writeFileSync('./components/Layout.js',c,'utf-8');
+console.log('done');
