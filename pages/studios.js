@@ -1,11 +1,13 @@
 ﻿import { useState, useMemo } from 'react'
 import Layout from '../components/Layout'
 import StudioDetail from '../components/StudioDetail'
+import useBreakpoint from '../lib/useBreakpoint'
 import useData from '../lib/useData'
 
 const ALL_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#'
 
 export default function Studios() {
+  const { isDesktop, isTablet, isMobile } = useBreakpoint()
   const { keyboards, loading } = useData()
   const [studioData, setStudioData] = useState(null)
 
@@ -18,7 +20,6 @@ export default function Studios() {
       if (k.sortTime && k.sortTime > map[s].latest) map[s].latest = k.sortTime
     })
     const sorted = Object.values(map).sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'))
-
     const g = {}
     sorted.forEach(s => {
       const first = s.name.charAt(0).toUpperCase()
@@ -41,6 +42,7 @@ export default function Studios() {
 
   if (loading) return <Layout><div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)',fontSize:13}}>{'\u52A0\u8F7D\u4E2D...'}</div></Layout>
 
+  const cardMin = isMobile ? 140 : isTablet ? 180 : 220
   const card = { background:'var(--bg-primary)', border:'1px solid var(--border-base)', padding:'14px 18px',
     cursor:'pointer', transition:'all .2s', boxShadow:'var(--shadow-base)' }
 
@@ -54,21 +56,19 @@ export default function Studios() {
             <button key={ch} onClick={() => has && scrollTo(ch)}
               style={{background:'none',border:'none',cursor:has?'pointer':'default',padding:'1px 6px',
                 fontSize:10,fontWeight:has?600:400,color:has?'var(--text-primary)':'var(--text-muted)',
-                fontFamily:'inherit',lineHeight:1.6,opacity:has?1:0.3,letterSpacing:0}}
-              onMouseEnter={e=>{if(has)e.target.style.color='var(--accent)'}}
-              onMouseLeave={e=>{e.target.style.color=has?'var(--text-primary)':'var(--text-muted)'}}>{ch}</button>
+                fontFamily:'inherit',lineHeight:1.6,opacity:has?1:0.3,letterSpacing:0}}>{ch}</button>
           )
         })}
       </div>
 
-      {/* Studio sections grouped by letter */}
+      {/* Studio sections */}
       {letters.map(ch => (
         <div key={ch} id={'letter-' + ch} style={{marginBottom:24}}>
-          <div style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',paddingBottom:4,marginBottom:12,letterSpacing:1}}>{ch}</div>
-          <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(220px,1fr))',gap:12}}>
+          <div style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',borderBottom:'2px solid var(--accent)',paddingBottom:4,marginBottom:12,letterSpacing:1}}>{ch}</div>
+          <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax('+cardMin+'px,1fr))',gap:isMobile?10:12}}>
             {(groups[ch] || []).map(s => (
               <div key={s.name} style={card}
-                onMouseEnter={e=>{e.currentTarget.style.boxShadow='var(--shadow-hover)';e.currentTarget.style.transform='translateY(-3px)'}}
+                onMouseEnter={e=>{e.currentTarget.style.boxShadow='var(--shadow-hover)';e.currentTarget.style.transform='translateY(-2px)'}}
                 onMouseLeave={e=>{e.currentTarget.style.boxShadow='var(--shadow-base)';e.currentTarget.style.transform='translateY(0)'}}
                 onClick={() => setStudioData(s.name)}>
                 <div style={{fontSize:14,fontWeight:600,marginBottom:2}}>{s.name}</div>
@@ -83,10 +83,7 @@ export default function Studios() {
         </div>
       ))}
 
-      {/* Empty state */}
-      {letters.length === 0 && <div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)'}}>
-        <h3 style={{fontSize:16,marginBottom:8,color:'var(--text-primary)'}}>{'\u6682\u65E0\u6570\u636E'}</h3>
-      </div>}
+      {letters.length === 0 && <div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)'}}><h3 style={{fontSize:16,marginBottom:8,color:'var(--text-primary)'}}>{'\u6682\u65E0\u6570\u636E'}</h3></div>}
 
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>

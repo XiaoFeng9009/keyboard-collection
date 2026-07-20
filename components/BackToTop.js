@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 
 export default function BackToTop() {
   const [show, setShow] = useState(false)
+  const [isDesktop, setIsDesktop] = useState(true)
 
   useEffect(() => {
     const handler = () => setShow(window.scrollY > 300)
@@ -9,12 +10,19 @@ export default function BackToTop() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
+  useEffect(() => {
+    const check = () => setIsDesktop(window.innerWidth >= 1024)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
+
   if (!show) return null
 
   return (
     <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       style={{
-        position: 'fixed', bottom: 28, right: 240, zIndex: 250,
+        position: 'fixed', bottom: 28, right: isDesktop ? 240 : 24, zIndex: 250,
         width: 40, height: 40, cursor: 'pointer',
         background: '#18181b', color: '#fff', borderRadius: 8, border: '2px solid var(--accent)',
         fontSize: 18, lineHeight: '36px', textAlign: 'center',
