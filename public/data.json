@@ -5546,94 +5546,90 @@
       "sortTime": "2020-10-24"
     },
     {
+      "id": "kb_335",
       "name": "Supernova60",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-14",
+      "layout": "60%",
+      "status": "ic",
+      "images": [],
       "icTime": "2026-06-14",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_335",
-      "images": [],
-      "sortTime": "2026-06-14"
+      "description": ""
     },
     {
+      "id": "kb_336",
       "name": "Sentry60",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-03-23",
+      "layout": "60%",
+      "status": "gb",
+      "images": [],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-03-23",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_336",
-      "images": [],
-      "sortTime": "2026-03-23"
+      "description": ""
     },
     {
+      "id": "kb_337",
       "name": "Seal80",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-29",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Sensy Lab/Seal80.webp"
+      ],
       "icTime": "2025-10-17",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/AWRWqrPrVQQA",
       "gbTime": "2025-12-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_337",
-      "images": [],
-      "sortTime": "2025-12-29"
+      "gbLink": "https://www.zfrontier.com/app/flow/ag7QjLJoEyQd",
+      "description": ""
     },
     {
+      "id": "kb_338",
       "name": "Separation80(IC)",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-10-17",
+      "layout": "80%TKL",
+      "status": "ic",
+      "images": [],
       "icTime": "2025-10-17",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_338",
-      "images": [],
-      "sortTime": "2025-10-17"
+      "description": ""
     },
     {
+      "id": "kb_339",
       "name": "Smoke65",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-16",
+      "layout": "65%",
+      "status": "gb",
+      "images": [],
       "icTime": "2025-06-09",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-08-16",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_339",
-      "images": [],
-      "sortTime": "2025-06-09"
+      "description": ""
     },
     {
+      "id": "kb_340",
       "name": "篆/Seal100",
       "studio": "Sensy Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-07-29",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [],
       "icTime": "2024-04-25",
       "icLink": "",
       "gbTime": "2024-07-29",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_340",
-      "images": [],
-      "sortTime": "2024-07-29"
+      "description": ""
     },
     {
       "name": "NAMA",
@@ -8946,6 +8942,22 @@
       "icLink": "https://www.zfrontier.com/app/flow/aaXn9x79a9oo",
       "gbTime": "2026-07-15",
       "gbLink": "https://www.zfrontier.com/app/flow/O5akVYxanVq3",
+      "description": ""
+    },
+    {
+      "id": "kb_1784533540146",
+      "name": "Seal80 Dolch Edition",
+      "studio": "Sensy Lab",
+      "sortTime": "2026-07-20",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Sensy Lab/Seal80 Dolch Edition.webp"
+      ],
+      "icTime": "2026/05/01",
+      "icLink": "https://www.zfrontier.com/app/flow/G9KRVmNGw1Na",
+      "gbTime": "2026-07-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/0wgxAndm5Bz8",
       "description": ""
     }
   ]

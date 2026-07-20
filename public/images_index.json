@@ -2011,6 +2011,16 @@
       "group": "Russ Works"
     },
     {
+      "path": "/images/Sensy Lab/Seal80 Dolch Edition.webp",
+      "name": "Seal80 Dolch Edition.webp",
+      "group": "Sensy Lab"
+    },
+    {
+      "path": "/images/Sensy Lab/Seal80.webp",
+      "name": "Seal80.webp",
+      "group": "Sensy Lab"
+    },
+    {
       "path": "/images/Sensy Lab/Supernova超新星 60%.webp",
       "name": "Supernova超新星 60%.webp",
       "group": "Sensy Lab"
@@ -2271,5 +2281,5 @@
       "group": "(root)"
     }
   ],
-  "total": 454
+  "total": 456
 }
