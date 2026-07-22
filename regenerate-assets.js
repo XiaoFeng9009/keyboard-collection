@@ -58,7 +58,7 @@ let unmatched = 0;
 
 kbs.forEach(kb => {
   // 已有图片的跳过，不覆盖手动编辑
-  if (kb.images && kb.images.length > 0) {
+  if (kb.image || (Array.isArray(kb.images) && kb.images.length > 0)) {
     skipped++;
     return;
   }

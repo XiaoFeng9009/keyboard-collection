@@ -45,7 +45,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
     <>
       {fullscreenImg && (
         <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(fullscreenClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closeFullscreen}>
-          <img src={fullscreenImg} style={{maxWidth:'80%',maxHeight:'80%',objectFit:'contain'}} />
+          <img src={fullscreenImg} style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
         </div>
       )}
 

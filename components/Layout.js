@@ -75,7 +75,7 @@ export default function Layout({ children }) {
       )}
 
       {/* Main content */}
-      <div style={{marginLeft:(isDesktop?sidebarW:0),width:'100%',minHeight:'100vh'}}>
+      <div style={{marginLeft:(isDesktop?90:0),width:'100%',minHeight:'100vh'}}>
         <main style={{maxWidth:1200,margin:'0 auto',padding:isMobile?'60px 12px 32px':(isTablet?'60px 20px 32px':'32px 28px')}}>
           {children}
         </main>

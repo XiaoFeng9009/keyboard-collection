@@ -40,8 +40,16 @@ export default function Admin() {
 
   const filteredData = useMemo(() => {
     return sortedData.filter(k => {
-      if (filterName && !k.name.toLowerCase().includes(filterName.toLowerCase())) return false
-      if (filterStudio && !k.studio.toLowerCase().includes(filterStudio.toLowerCase())) return false
+    if (filterName) {
+      var fq=filterName.toLowerCase();
+      var nm=k.name.toLowerCase().indexOf(fq)!==-1 || k.name.split(/\s+/).map(function(w){return w[0]}).join('').toLowerCase().indexOf(fq)!==-1;
+      if(!nm) return false
+    }
+    if (filterStudio) {
+      var sq=filterStudio.toLowerCase();
+      var sm=k.studio.toLowerCase().indexOf(sq)!==-1 || k.studio.split(/\s+/).map(function(w){return w[0]}).join('').toLowerCase().indexOf(sq)!==-1;
+      if(!sm) return false
+    }
       if (filterLayout && k.layout !== filterLayout) return false
       if (filterStatus) {
         if (filterStatus === "none" && k.status) return false
@@ -142,8 +150,14 @@ export default function Admin() {
 
       {/* Filter row */}
       <div style={{display:"flex",gap:8,marginBottom:12,flexWrap:"wrap",alignItems:"center",background:"var(--bg-secondary)",padding:"10px 14px",border:"1px solid var(--border-base)"}}>
-        <input value={filterName} onChange={e=>setFilterName(e.target.value)} placeholder={String.fromCharCode(0x641C,0x7D22,0x540D,0x79F0)} style={{...inputStyle,flex:1,minWidth:100}} />
-        <input value={filterStudio} onChange={e=>setFilterStudio(e.target.value)} placeholder={String.fromCharCode(0x641C,0x7D22,0x5DE5,0x4F5C,0x5BA4)} style={{...inputStyle,flex:1,minWidth:100}} />
+        <div style={{position:'relative',flex:1,minWidth:100}}>
+  <input value={filterName} onChange={e=>setFilterName(e.target.value)} placeholder={String.fromCharCode(0x641C,0x7D22,0x540D,0x79F0)} style={{...inputStyle,width:'100%'}} />
+  {filterName && <button onClick={function(){setFilterName('')}} style={{position:'absolute',right:4,top:'50%',transform:'translateY(-50%)',background:'none',border:'none',cursor:'pointer',fontSize:12,color:'var(--text-muted)',padding:'2px 6px',lineHeight:1}}>{'\u2715'}</button>}
+</div>
+        <div style={{position:'relative',flex:1,minWidth:100}}>
+  <input value={filterStudio} onChange={e=>setFilterStudio(e.target.value)} placeholder={String.fromCharCode(0x641C,0x7D22,0x5DE5,0x4F5C,0x5BA4)} style={{...inputStyle,width:'100%'}} />
+  {filterStudio && <button onClick={function(){setFilterStudio('')}} style={{position:'absolute',right:4,top:'50%',transform:'translateY(-50%)',background:'none',border:'none',cursor:'pointer',fontSize:12,color:'var(--text-muted)',padding:'2px 6px',lineHeight:1}}>{'\u2715'}</button>}
+</div>
         <select value={filterLayout} onChange={e=>setFilterLayout(e.target.value)} style={selectStyle}>
           <option value="">{String.fromCharCode(0x5168,0x90E8,0x914D,0x5217)}</option>
           {layoutOptions.map(l => <option key={l} value={l}>{l}</option>)}

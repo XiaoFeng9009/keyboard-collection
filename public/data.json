@@ -82,40 +82,36 @@
       "sortTime": "2026-01-30"
     },
     {
+      "id": "kb_10",
       "name": "Origami TKL V2",
       "studio": "Plexkbd Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-02-01",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Plexkbd Studio/Origami TKL V2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-02-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_10",
-      "images": [
-        "/images/Plexkbd Studio/Origami TKL V2.webp",
-        "/images/Plexkbd Studio/Origami TKL.jpg"
-      ],
-      "sortTime": "2026-02-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/WKK1k3E91bMO",
+      "description": ""
     },
     {
+      "id": "kb_11",
       "name": "Origami TKL",
       "studio": "Plexkbd Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-11-07",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Plexkbd Studio/Origami TKL.jpg"
+      ],
       "icTime": "2024-10-17",
       "icLink": "https://geekhack.org/index.php?topic=123828.msg3194509#msg3194509",
       "gbTime": "2024-11-07",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_11",
-      "images": [
-        "/images/Plexkbd Studio/Origami TKL V2.webp",
-        "/images/Plexkbd Studio/Origami TKL.jpg"
-      ],
-      "sortTime": "2024-11-07"
+      "gbLink": "https://plexkbd.com/product/origami-tkl/",
+      "description": ""
     },
     {
       "name": "Astra80",
@@ -951,21 +947,20 @@
       "sortTime": "2025-08-01"
     },
     {
+      "id": "kb_63",
       "name": "折纸100",
       "studio": "PERMECH派镁",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-02",
-      "icLink": "",
-      "gbTime": "2026-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_63",
+      "sortTime": "2026-07-10",
+      "layout": "100%Full",
+      "status": "gb",
       "images": [
         "/images/PERMECH派镁/折纸100.webp"
       ],
-      "sortTime": "2026-07-10"
+      "icTime": "2026-03-02",
+      "icLink": "https://www.zfrontier.com/app/flow/G5WRyv3QO138",
+      "gbTime": "2026-07-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/oQgQ03XYpOjo",
+      "description": ""
     },
     {
       "name": "Motif65",
@@ -1019,55 +1014,53 @@
       "sortTime": "2026-03-13"
     },
     {
+      "id": "kb_67",
       "name": "ishtar60(IC)",
       "studio": "HSX Studio寒山雪",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-27",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/HSX Studio寒山雪/ishtar60.webp"
+      ],
       "icTime": "2026-06-27",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/jnQXV5arpnJ0",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_67",
-      "images": [],
-      "sortTime": "2026-06-27"
+      "description": ""
     },
     {
+      "id": "kb_68",
       "name": "Dimension TKL",
       "studio": "HSX Studio寒山雪",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-25",
-      "icLink": "",
-      "gbTime": "2026-05-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_68",
+      "sortTime": "2026-05-15",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/HSX Studio寒山雪/Dimension TKL.webp",
-        "/images/HSX Studio寒山雪/Draco TKL.webp"
+        "/images/HSX Studio寒山雪/Dimension TKL-1.webp",
+        "/images/HSX Studio寒山雪/Dimension TKL.webp"
       ],
-      "sortTime": "2026-05-15"
+      "icTime": "2026-03-25",
+      "icLink": "https://www.zfrontier.com/app/flow/oGmK3yKnmaEO",
+      "gbTime": "2026-05-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/ggqQMod1ONwy",
+      "description": ""
     },
     {
+      "id": "kb_69",
       "name": "Draco TKL",
       "studio": "HSX Studio寒山雪",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-11",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_69",
+      "sortTime": "2026-03-11",
+      "layout": "80%TKL",
+      "status": "ic",
       "images": [
-        "/images/HSX Studio寒山雪/Dimension TKL.webp",
         "/images/HSX Studio寒山雪/Draco TKL.webp"
       ],
-      "sortTime": "2026-03-11"
+      "icTime": "2026-03-11",
+      "icLink": "https://www.zfrontier.com/app/flow/jNK8VdmpmoAV",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "name": "Kurisu TKL",
@@ -1181,21 +1174,20 @@
       "sortTime": "2026-03-16"
     },
     {
+      "id": "kb_77",
       "name": "DeLast",
       "studio": "The Last Keyboard",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-07-02",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_77",
+      "sortTime": "2026-07-02",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/The Last Keyboard/DeLast.webp"
       ],
-      "sortTime": "2026-07-02"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-07-02",
+      "gbLink": "https://www.zfrontier.com/app/flow/WXLnx6kOxNNZ",
+      "description": ""
     },
     {
       "name": "Trapezium90 (IC)",
@@ -2779,64 +2771,72 @@
       "sortTime": "2026-05-04"
     },
     {
+      "id": "kb_173",
       "name": "Orfis60 (IC)",
       "studio": "Apex predator",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-07-04",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/Apex predator/Orfis60.webp"
+      ],
       "icTime": "2026-07-04",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/9q77gPLgMV1O",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
       "description": "",
-      "id": "kb_173",
-      "images": [],
-      "sortTime": "2026-07-04"
+      "image": ""
     },
     {
+      "id": "kb_174",
       "name": "Eyroix60",
       "studio": "Apex predator",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-05-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Apex predator/Eyroix60.webp"
+      ],
       "icTime": "2026-04-29",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/YEmbxqJq8pRp",
       "gbTime": "2026-05-30",
-      "gbLink": "",
-      "image": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/orJPQEdaqkaL",
       "description": "",
-      "id": "kb_174",
-      "images": [],
-      "sortTime": "2026-05-30"
+      "image": ""
     },
     {
+      "id": "kb_175",
       "name": "Orryx60",
       "studio": "Apex predator",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Apex predator/Orryx60.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
       "description": "",
-      "id": "kb_175",
-      "images": [],
-      "sortTime": ""
+      "image": ""
     },
     {
+      "id": "kb_176",
       "name": "Moxly60",
       "studio": "Apex predator",
-      "layout": "",
-      "status": "",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Apex predator/Moxly60.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
       "description": "",
-      "id": "kb_176",
-      "images": [],
-      "sortTime": ""
+      "image": ""
     },
     {
       "name": "产品名称",
@@ -2914,127 +2914,116 @@
       "sortTime": "2024-02-28"
     },
     {
+      "id": "kb_182",
       "name": "Geonix Rev.2.5",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-30",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/CHOSFOX哈狐/Geonix Rev.2.5.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-06-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_182",
-      "images": [
-        "/images/CHOSFOX哈狐/Geonix rev.2 40%.webp",
-        "/images/CHOSFOX哈狐/Geonix Rev.2.5.webp",
-        "/images/CHOSFOX哈狐/Geonix48.png"
-      ],
-      "sortTime": "2026-06-30"
+      "gbLink": "https://www.zfrontier.com/app/flow/1w559pnqZzvA",
+      "description": ""
     },
     {
+      "id": "kb_183",
       "name": "Vero75",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-31",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/CHOSFOX哈狐/Vero75.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/3EakkRnzRbVL",
       "gbTime": "2025-12-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_183",
-      "images": [],
-      "sortTime": "2025-12-31"
+      "gbLink": "https://www.zfrontier.com/app/flow/J0oBMR3B37vw",
+      "description": ""
     },
     {
+      "id": "kb_184",
       "name": "Geonix rev.2",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-20",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/CHOSFOX哈狐/Geonix rev.2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-08-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_184",
-      "images": [
-        "/images/CHOSFOX哈狐/Geonix rev.2 40%.webp",
-        "/images/CHOSFOX哈狐/Geonix Rev.2.5.webp",
-        "/images/CHOSFOX哈狐/Geonix48.png"
-      ],
-      "sortTime": "2025-08-20"
+      "gbLink": "https://www.zfrontier.com/app/flow/VlvJXLBVP0Om",
+      "description": ""
     },
     {
+      "id": "kb_185",
       "name": "Fox65",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-10-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_185",
+      "sortTime": "2024-10-30",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/CHOSFOX哈狐/Fox65.png"
       ],
-      "sortTime": "2024-10-30"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/a9kLnG7lJGA6",
+      "gbTime": "2024-10-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/Z1ydBa9mppoX",
+      "description": ""
     },
     {
+      "id": "kb_186",
       "name": "Geonix",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-07-01",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/CHOSFOX哈狐/Geonix48.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-07-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_186",
-      "images": [
-        "/images/CHOSFOX哈狐/Geonix rev.2 40%.webp",
-        "/images/CHOSFOX哈狐/Geonix Rev.2.5.webp",
-        "/images/CHOSFOX哈狐/Geonix48.png"
-      ],
-      "sortTime": "2024-07-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/o88BEgpyq337",
+      "description": ""
     },
     {
+      "id": "kb_187",
       "name": "Leo80",
       "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-01-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_187",
+      "sortTime": "2024-01-13",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/CHOSFOX哈狐/Leo80.png"
       ],
-      "sortTime": "2024-01-13"
-    },
-    {
-      "name": "CF81 & CF81 Pro",
-      "studio": "CHOSFOX哈狐",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2023-06-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-01-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/WNxxqvo3nQW0",
+      "description": ""
+    },
+    {
       "id": "kb_188",
+      "name": "CF81 & CF81 Pro",
+      "studio": "CHOSFOX哈狐",
+      "sortTime": "2023-06-10",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/CHOSFOX哈狐/CF81 & CF81 Pro.png"
       ],
-      "sortTime": "2023-06-10"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/mdZn10wbJg3b",
+      "gbTime": "2023-06-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/6x7VWBzQdGYP",
+      "description": ""
     },
     {
       "name": "埃及猫 Bastet Split",
@@ -3163,102 +3152,100 @@
       "sortTime": "2023-09-07"
     },
     {
+      "id": "kb_197",
       "name": "Schema M60 - Alexotos & Bowl",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-07-10",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Castle Bravo Studio/Schema M60 - Alexotos & Bowl.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_197",
-      "images": [],
-      "sortTime": "2026-07-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/rRAKXd97no3J",
+      "description": ""
     },
     {
+      "id": "kb_198",
       "name": "Carrera65(IC)",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-14",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/Castle Bravo Studio/Carrera65.webp"
+      ],
       "icTime": "2026-06-14",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/8qWn9Vwrzovg",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_198",
-      "images": [],
-      "sortTime": "2026-06-14"
+      "description": ""
     },
     {
+      "id": "kb_199",
       "name": "Ophanim65 - Baionlenja",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-06-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_199",
+      "sortTime": "2026-06-10",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Castle Bravo Studio/Baionlenja.webp"
       ],
-      "sortTime": "2026-06-10"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-06-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/XRlJ5PRZwo7E",
+      "description": ""
     },
     {
+      "id": "kb_200",
       "name": "iP(IC)",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-16",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/Castle Bravo Studio/iP.png"
+      ],
       "icTime": "2025-01-16",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Az50Q8zrBEjy",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_200",
-      "images": [],
-      "sortTime": "2025-01-16"
+      "description": ""
     },
     {
+      "id": "kb_201",
       "name": "iF R2",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-08-16",
-      "icLink": "",
-      "gbTime": "2024-08-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_201",
+      "sortTime": "2024-08-23",
+      "layout": "75%",
+      "status": "gb",
       "images": [
-        "/images/Castle Bravo Studio/iF R2.png",
-        "/images/Castle Bravo Studio/iF.png"
+        "/images/Castle Bravo Studio/iF R2.png"
       ],
-      "sortTime": "2024-08-23"
+      "icTime": "2024-08-16",
+      "icLink": "https://www.zfrontier.com/app/flow/7Bqj0OvwX5rz",
+      "gbTime": "2024-08-23",
+      "gbLink": "https://www.zfrontier.com/app/flow/zyod06k6jRxG",
+      "description": ""
     },
     {
+      "id": "kb_202",
       "name": "iF",
       "studio": "Castle Bravo Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-12-13",
-      "icLink": "",
-      "gbTime": "2022-01-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_202",
+      "sortTime": "2022-01-28",
+      "layout": "75%",
+      "status": "gb",
       "images": [
-        "/images/Castle Bravo Studio/iF R2.png",
         "/images/Castle Bravo Studio/iF.png"
       ],
-      "sortTime": "2022-01-28"
+      "icTime": "2021-12-13",
+      "icLink": "https://www.zfrontier.com/app/flow/eN9EL1vaLp8x",
+      "gbTime": "2022-01-28",
+      "gbLink": "https://www.zfrontier.com/app/flow/e3LxZPPyxX7L",
+      "description": ""
     },
     {
       "name": "Ctrl87",
@@ -4305,535 +4292,452 @@
       "sortTime": "2026-05-25"
     },
     {
+      "id": "kb_264",
       "name": "The Blaine V2:SE - Cannonkeys",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_264",
+      "sortTime": "2026-07-10",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Kezewa/The Blaine V2 SE.webp"
       ],
-      "sortTime": "2026-07-10"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-07-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/LaY7XkbyKMrB",
+      "description": ""
     },
     {
+      "id": "kb_265",
       "name": "Kraze - Nuxroskb",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-08",
-      "icLink": "",
-      "gbTime": "2026-06-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_265",
+      "sortTime": "2026-06-08",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
+        "/images/Kezewa/Kraze - Nuxroskb.webp"
       ],
-      "sortTime": "2026-06-08"
+      "icTime": "2026-04-08",
+      "icLink": "https://www.zfrontier.com/app/flow/rl9o8mK7jOZ8",
+      "gbTime": "2026-06-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/go1dwxL1AV59",
+      "description": ""
     },
     {
+      "id": "kb_266",
       "name": "Metanoia By AKB x Kezewa",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-05-06",
-      "icLink": "",
-      "gbTime": "2026-05-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_266",
+      "sortTime": "2026-05-29",
+      "layout": "65%+Macro",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/isOGR2 - AKB.jpg",
-        "/images/Kezewa/Metanoia By AKB x Kezewa.webp",
-        "/images/Kezewa/Metanoia.webp",
-        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg"
+        "/images/Kezewa/Metanoia By AKB x Kezewa.webp"
       ],
-      "sortTime": "2026-05-29"
+      "icTime": "2026-05-06",
+      "icLink": "https://www.zfrontier.com/app/flow/QdgWNLNOgvJ9",
+      "gbTime": "2026-05-29",
+      "gbLink": "https://www.zfrontier.com/app/flow/VG93VJN57XOR",
+      "description": ""
     },
     {
+      "id": "kb_267",
       "name": "Type Box 101800 By Hymm X Werk Technica (IC)",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-05-10",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_267",
+      "sortTime": "2026-05-10",
+      "layout": "AT",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Type Box 101800.webp"
       ],
-      "sortTime": "2026-05-10"
+      "icTime": "2026-05-10",
+      "icLink": "https://www.zfrontier.com/app/flow/OMw9k9lvaQoK",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_268",
       "name": "SW65 By Nuxroskb x ToroStudio",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-03",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_268",
+      "sortTime": "2026-03-03",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
         "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
       ],
-      "sortTime": "2026-03-03"
+      "icTime": "2026-03-03",
+      "icLink": "https://www.zfrontier.com/app/flow/RPL6pV07GAJM",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_269",
       "name": "Sebas CN - Nuxros X Kezewa",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-10-09",
-      "icLink": "",
-      "gbTime": "2026-01-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_269",
+      "sortTime": "2026-01-08",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/Krush65 - Nuxros.png",
-        "/images/Kezewa/Metanoia By AKB x Kezewa.webp",
-        "/images/Kezewa/Sebas - Nuxros.png",
-        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg",
-        "/images/Kezewa/Sebas TH - Nuxros x Aiglatson.png",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
+        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg"
       ],
-      "sortTime": "2026-01-08"
+      "icTime": "2025-10-09",
+      "icLink": "https://www.zfrontier.com/app/flow/RNVyoR5PvK5v",
+      "gbTime": "2026-01-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/YVMjb0JLBVQw",
+      "description": ""
     },
     {
+      "id": "kb_270",
       "name": "+84 Classic TKL - Nuxroskb",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-11-07",
-      "icLink": "",
-      "gbTime": "2025-12-05",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_270",
+      "sortTime": "2025-12-05",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Garderie TKL - Dropouts.png",
-        "/images/Kezewa/Garderie TKL.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
+        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp"
       ],
-      "sortTime": "2025-12-05"
+      "icTime": "2025-11-07",
+      "icLink": "https://www.zfrontier.com/app/flow/PAXR9pyYm66b",
+      "gbTime": "2025-12-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/JBvoXYX13QRN",
+      "description": ""
     },
     {
+      "id": "kb_271",
       "name": "Helios88 - FE21.3",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_271",
+      "sortTime": "2025/10/08",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Helios88 - FE21.3.jpg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025/10/08",
+      "gbLink": "https://www.zfrontier.com/app/flow/lVYXEyRBlyYY",
+      "description": ""
     },
     {
+      "id": "kb_272",
       "name": "isOGR2 - AKB",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-10-03",
+      "layout": "Function",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/isOGR2 - AKB.jpg"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_272",
-      "images": [
-        "/images/Kezewa/isOGR2 - AKB.jpg",
-        "/images/Kezewa/Metanoia By AKB x Kezewa.webp"
-      ],
-      "sortTime": ""
+      "gbTime": "2025-10-03",
+      "gbLink": "https://www.zfrontier.com/app/flow/wjQWlVmkx60E",
+      "description": ""
     },
     {
+      "id": "kb_273",
       "name": "Envy65 - Saab x Moon",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_273",
+      "sortTime": "2025/09/12",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Envy65 - Saab x Moon.jpeg"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "Vam05",
-      "studio": "Kezewa",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025/09/12",
+      "gbLink": "https://www.zfrontier.com/app/flow/xvPPQRM317oO",
+      "description": ""
+    },
+    {
       "id": "kb_274",
+      "name": "Vam05",
+      "studio": "Kezewa",
+      "sortTime": "2025/09/09",
+      "layout": "45%",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Vam05.jpg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025/09/09",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_275",
       "name": "Sebas TH - Nuxros x Aiglatson",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-07-29",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Sebas TH - Nuxros x Aiglatson.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-07-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_275",
-      "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/Krush65 - Nuxros.png",
-        "/images/Kezewa/Sebas - Nuxros.png",
-        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg",
-        "/images/Kezewa/Sebas TH - Nuxros x Aiglatson.png",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
-      ],
-      "sortTime": "2025-07-29"
+      "gbLink": "https://www.zfrontier.com/app/flow/mR5LP5djQj8y",
+      "description": ""
     },
     {
+      "id": "kb_276",
       "name": "OGR2 - Alchemist",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "https://geekhack.org/index.php?topic=125307.0",
-      "gbTime": "2025-07-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_276",
+      "sortTime": "2025-07-25",
+      "layout": "65%+Macro",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/isOGR2 - AKB.jpg",
         "/images/Kezewa/OGR2 - Alchemist.png"
       ],
-      "sortTime": "2025-07-25"
-    },
-    {
-      "name": "Enter80",
-      "studio": "Kezewa",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-04-18",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025-07-25",
+      "gbLink": "https://geekhack.org/index.php?topic=125307.0",
+      "description": ""
+    },
+    {
       "id": "kb_277",
+      "name": "Enter80",
+      "studio": "Kezewa",
+      "sortTime": "2025-04-18",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Enter80.png"
       ],
-      "sortTime": "2025-04-18"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/P3wdZldELybJ",
+      "gbTime": "2025-04-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/k1d3gENL6OzP",
+      "description": ""
     },
     {
+      "id": "kb_278",
       "name": "TORO60 - Toro Studio",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_278",
+      "sortTime": "2025-02-25",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/Spectacle60 - Stilou Studio.png",
-        "/images/Kezewa/Spectacle80 - Stilou Studio.png",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp",
         "/images/Kezewa/TORO60 - Toro Studio.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025-02-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/Z703dzKAjzZp",
+      "description": ""
     },
     {
+      "id": "kb_279",
       "name": "Snake R2 - Undefined",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-12-24",
-      "icLink": "",
-      "gbTime": "2024-12-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_279",
+      "sortTime": "2024-12-31",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Snake R2 - Undefined.png"
       ],
-      "sortTime": "2024-12-31"
+      "icTime": "2024-12-24",
+      "icLink": "https://www.zfrontier.com/app/flow/qzwqnojb0E6x",
+      "gbTime": "2024-12-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/3mV1KJEvv05Z",
+      "description": ""
     },
     {
+      "id": "kb_280",
       "name": "Optica60 - Penguin",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-09-27",
-      "icLink": "",
-      "gbTime": "2024-11-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_280",
+      "sortTime": "2024-11-20",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Optica60 - Penguin.png"
       ],
-      "sortTime": "2024-11-20"
+      "icTime": "2024-09-27",
+      "icLink": "https://www.zfrontier.com/app/flow/6vLVgR3JdZqQ",
+      "gbTime": "2024-11-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/O6X6bwQMmvPz",
+      "description": ""
     },
     {
+      "id": "kb_281",
       "name": "Garderie TKL - Dropouts",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-10-21",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Garderie TKL.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-10-21",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_281",
-      "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Garderie TKL - Dropouts.png",
-        "/images/Kezewa/Garderie TKL.webp"
-      ],
-      "sortTime": "2024-10-21"
+      "gbLink": "https://www.zfrontier.com/app/flow/m51xLaPPy0z8",
+      "description": ""
     },
     {
+      "id": "kb_282",
       "name": "Larva60 - BAIONLENJA",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-10-16",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Larva60 - BAIONLENJA.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-10-16",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_282",
-      "images": [
-        "/images/Kezewa/Gehirn80 - BAIONLENJA.png",
-        "/images/Kezewa/Larva60 - BAIONLENJA.png",
-        "/images/Kezewa/OBJ.1 - BAIONLENJA.png"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_283",
       "name": "Sebas - Nuxros",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-09-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_283",
+      "sortTime": "2024-09-20",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/Krush65 - Nuxros.png",
-        "/images/Kezewa/Sebas - Nuxros.png",
-        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg",
-        "/images/Kezewa/Sebas TH - Nuxros x Aiglatson.png",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
+        "/images/Kezewa/Sebas - Nuxros.png"
       ],
-      "sortTime": "2024-09-20"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/LmGq1lmwKa9a",
+      "gbTime": "2024-09-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/PoLQ8O9PM3GL",
+      "description": ""
     },
     {
+      "id": "kb_284",
       "name": "Krush65 - Nuxros",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-04-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_284",
+      "sortTime": "2024-04-30",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-        "/images/Kezewa/Kraze - Nuxroskb.webp",
-        "/images/Kezewa/Krush65 - Nuxros.png",
-        "/images/Kezewa/Sebas - Nuxros.png",
-        "/images/Kezewa/Sebas CN - Nuxros X Kezewa.jpg",
-        "/images/Kezewa/Sebas TH - Nuxros x Aiglatson.png",
-        "/images/Kezewa/SW65 By Nuxroskb x ToroStudi.webp"
+        "/images/Kezewa/Krush65 - Nuxros.png"
       ],
-      "sortTime": "2024-04-30"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/69nEOyEOAaop",
+      "gbTime": "2024-04-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/P7Z3AQnvoE05",
+      "description": ""
     },
     {
+      "id": "kb_285",
       "name": "Protagonist - Wired In",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-03-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_285",
+      "sortTime": "2024-03-25",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Kezewa/Protagonist - Wired In.png"
       ],
-      "sortTime": "2024-03-25"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-03-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/o6lpmLxjXMJo",
+      "description": ""
     },
     {
+      "id": "kb_286",
       "name": "OBJ.1 - BAIONLENJA",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_286",
+      "sortTime": "2024/03/10",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/Gehirn80 - BAIONLENJA.png",
-        "/images/Kezewa/Larva60 - BAIONLENJA.png",
         "/images/Kezewa/OBJ.1 - BAIONLENJA.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024/03/10",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_287",
       "name": "Gehirn80 - BAIONLENJA",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2023-12-18",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_287",
+      "sortTime": "2023-12-18",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/Gehirn80 - BAIONLENJA.png",
-        "/images/Kezewa/Larva60 - BAIONLENJA.png",
-        "/images/Kezewa/OBJ.1 - BAIONLENJA.png"
+        "/images/Kezewa/Gehirn80 - BAIONLENJA.png"
       ],
-      "sortTime": "2023-12-18"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/vd8Ka9aJzGKB",
+      "gbTime": "2023-12-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/xRyMzpYpqxLa",
+      "description": ""
     },
     {
+      "id": "kb_288",
       "name": "Spectacle80 - Stilou Studio",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023/12/08",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Spectacle80 - Stilou Studio.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_288",
-      "images": [
-        "/images/Kezewa/Spectacle60 - Stilou Studio.png",
-        "/images/Kezewa/Spectacle80 - Stilou Studio.png",
-        "/images/Kezewa/TORO60 - Toro Studio.png"
-      ],
-      "sortTime": ""
+      "gbTime": "2023/12/08",
+      "gbLink": "https://www.zfrontier.com/app/flow/oBaw1l5pO1xL",
+      "description": ""
     },
     {
+      "id": "kb_289",
       "name": "Enter67 V2",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-09-25",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Enter67 V2.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2023-09-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_289",
-      "images": [
-        "/images/Kezewa/Enter67 V2.png",
-        "/images/Kezewa/Enter67.png"
-      ],
-      "sortTime": "2023-09-25"
+      "gbLink": "https://www.zfrontier.com/app/flow/EOwK5Gab68Kx",
+      "description": ""
     },
     {
+      "id": "kb_290",
       "name": "Spectacle60 - Stilou Studio",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2023-05-12",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_290",
+      "sortTime": "2023-05-12",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/Spectacle60 - Stilou Studio.png",
-        "/images/Kezewa/Spectacle80 - Stilou Studio.png",
-        "/images/Kezewa/TORO60 - Toro Studio.png"
+        "/images/Kezewa/Spectacle60 - Stilou Studio.png"
       ],
-      "sortTime": "2023-05-12"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/MA7nRkVrrOj8",
+      "gbTime": "2023-05-12",
+      "gbLink": "https://www.zfrontier.com/app/flow/rywG0YyQJVPY",
+      "description": ""
     },
     {
+      "id": "kb_291",
       "name": "Enter67",
       "studio": "Kezewa",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2023-02-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_291",
+      "sortTime": "2023-02-25",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Kezewa/Enter67 V2.png",
         "/images/Kezewa/Enter67.png"
       ],
-      "sortTime": "2023-02-25"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/BPzLoOAMnZxV",
+      "gbTime": "2023-02-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/LpR1Wpxw0BVW",
+      "description": ""
     },
     {
       "name": "GLITTER65 L01",
@@ -5552,7 +5456,9 @@
       "sortTime": "2026-06-14",
       "layout": "60%",
       "status": "ic",
-      "images": [],
+      "images": [
+        "/images/Sensy Lab/Supernova60.webp"
+      ],
       "icTime": "2026-06-14",
       "icLink": "",
       "gbTime": "",
@@ -5566,7 +5472,9 @@
       "sortTime": "2026-03-23",
       "layout": "60%",
       "status": "gb",
-      "images": [],
+      "images": [
+        "/images/Sensy Lab/Sentry60.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-03-23",
@@ -5596,7 +5504,9 @@
       "sortTime": "2025-10-17",
       "layout": "80%TKL",
       "status": "ic",
-      "images": [],
+      "images": [
+        "/images/Sensy Lab/Separation80.jpg"
+      ],
       "icTime": "2025-10-17",
       "icLink": "",
       "gbTime": "",
@@ -5610,7 +5520,9 @@
       "sortTime": "2025-08-16",
       "layout": "65%",
       "status": "gb",
-      "images": [],
+      "images": [
+        "/images/Sensy Lab/Smoke65.webp"
+      ],
       "icTime": "2025-06-09",
       "icLink": "",
       "gbTime": "2025-08-16",
@@ -5624,7 +5536,9 @@
       "sortTime": "2024-07-29",
       "layout": "100%Full",
       "status": "gb",
-      "images": [],
+      "images": [
+        "/images/Sensy Lab/Seal100.png"
+      ],
       "icTime": "2024-04-25",
       "icLink": "",
       "gbTime": "2024-07-29",
@@ -7941,477 +7855,421 @@
       "sortTime": "2015-08-10"
     },
     {
+      "id": "kb_456",
       "name": "Wind-borne60",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-02-05",
-      "icLink": "",
-      "gbTime": "2026-06-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_456",
+      "sortTime": "2026-06-29",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/Wind-borne60-1.webp",
         "/images/NIUNIU牛牛开车/Wind-borne60.webp"
       ],
-      "sortTime": "2026-06-29"
+      "icTime": "2026-02-05",
+      "icLink": "https://www.zfrontier.com/app/flow/653VyNJJG3rQ",
+      "gbTime": "2026-06-29",
+      "gbLink": "https://www.zfrontier.com/app/flow/KobaOnKbaGqP",
+      "description": ""
     },
     {
+      "id": "kb_457",
       "name": "OV40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-18",
-      "icLink": "",
-      "gbTime": "2026-05-02",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_457",
+      "sortTime": "2026-05-02",
+      "layout": "40%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/OV40.webp"
       ],
-      "sortTime": "2026-05-02"
+      "icTime": "2026-04-18",
+      "icLink": "https://www.zfrontier.com/app/flow/mNQyvOOG0Bvj",
+      "gbTime": "2026-05-02",
+      "gbLink": "https://www.zfrontier.com/app/flow/OjLY6gRkWwBg",
+      "description": ""
     },
     {
+      "id": "kb_458",
       "name": "KeyBoy40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-03-15",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/KeyBoy40.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-03-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_458",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/KeyBoy40.webp"
-      ],
-      "sortTime": "2026-03-15"
+      "gbLink": "https://www.zfrontier.com/app/flow/LZ9GjXdQokja",
+      "description": ""
     },
     {
+      "id": "kb_459",
       "name": "SOAP40 肥皂40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-11-30",
-      "icLink": "",
-      "gbTime": "2025-12-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_459",
+      "sortTime": "2025-12-23",
+      "layout": "40%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/Soap40.webp"
       ],
-      "sortTime": "2025-12-23"
+      "icTime": "2025-11-30",
+      "icLink": "https://www.zfrontier.com/app/flow/k8K6AmvXNONj",
+      "gbTime": "2025-12-23",
+      "gbLink": "https://www.zfrontier.com/app/flow/X61jVAm19wBA",
+      "description": ""
     },
     {
+      "id": "kb_460",
       "name": "Fyra40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_460",
+      "sortTime": "2025-10-21",
+      "layout": "45%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/Fyra40.webp"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "HX-40",
-      "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-09-25",
+      "gbTime": "2025-10-21",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_461",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/HX-40.webp"
-      ],
-      "sortTime": "2025-09-25"
+      "description": ""
     },
     {
+      "id": "kb_461",
+      "name": "HX-40",
+      "studio": "NIUNIU牛牛开车",
+      "sortTime": "2025-09-25",
+      "layout": "45%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/HX-40.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/zlRkKKL81p1b",
+      "gbTime": "2025-09-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/KXPMx5vQBM6d",
+      "description": ""
+    },
+    {
+      "id": "kb_462",
       "name": "不倒翁40 R3",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-04-14",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/不倒翁40 R3.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-04-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_462",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R1&R2.webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R3.webp"
-      ],
-      "sortTime": "2025-04-14"
+      "gbLink": "https://www.zfrontier.com/app/flow/ONVQNzKg6qyz",
+      "description": ""
     },
     {
+      "id": "kb_463",
       "name": "@40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-27",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/@40.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-01-27",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_463",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/Brick40.webp",
-        "/images/NIUNIU牛牛开车/Felice40.webp",
-        "/images/NIUNIU牛牛开车/Fyra40.webp",
-        "/images/NIUNIU牛牛开车/HX-40.webp",
-        "/images/NIUNIU牛牛开车/KeyBoy40.webp",
-        "/images/NIUNIU牛牛开车/OV40.webp",
-        "/images/NIUNIU牛牛开车/REEL40.webp",
-        "/images/NIUNIU牛牛开车/Soap40.webp",
-        "/images/NIUNIU牛牛开车/Weight40(秤砣40).webp",
-        "/images/NIUNIU牛牛开车/zan40(小垃圾桶40).webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R1&R2.webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R3.webp",
-        "/images/NIUNIU牛牛开车/蜂窝40.webp"
-      ],
-      "sortTime": "2025-01-27"
+      "gbLink": "https://www.zfrontier.com/app/flow/Z5vA75JKG1qy",
+      "description": ""
     },
     {
+      "id": "kb_464",
       "name": "Felice40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-09-13",
-      "icLink": "",
-      "gbTime": "2024-09-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_464",
+      "sortTime": "2024-09-25",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/Felice40.webp"
       ],
-      "sortTime": "2024-09-25"
+      "icTime": "2024-09-13",
+      "icLink": "https://www.zfrontier.com/app/flow/pJ7RwddRYpQw",
+      "gbTime": "2024-09-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/rkl3aJYgE576",
+      "description": ""
     },
     {
-      "name": "#34 R2",
+      "id": "kb_465",
+      "name": "#34 R2(井34 R2)",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-09-09",
+      "layout": "30%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/井34 R2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-09-09",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_465",
-      "images": [
-        "/images/NIUNIU牛牛开车/#34 R2.webp",
-        "/images/NIUNIU牛牛开车/#34.webp"
-      ],
-      "sortTime": "2024-09-09"
+      "gbLink": "https://www.zfrontier.com/app/flow/YEak67OndXNv",
+      "description": ""
     },
     {
+      "id": "kb_466",
       "name": "Gameboy34",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-04-05",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_466",
+      "sortTime": "2024-06-30",
+      "layout": "30%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/#34.webp",
         "/images/NIUNIU牛牛开车/Gameboy34.webp"
       ],
-      "sortTime": "2024-04-05"
+      "icTime": "2024-04-05",
+      "icLink": "https://www.zfrontier.com/app/flow/dkOkEXG8kZYp",
+      "gbTime": "2024-06-30",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_467",
       "name": "Brick40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-06-06",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/Brick40.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-06-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_467",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/Brick40.webp"
-      ],
-      "sortTime": "2024-06-06"
+      "gbLink": "https://www.zfrontier.com/app/flow/OqjmWvLa16B8",
+      "description": ""
     },
     {
+      "id": "kb_468",
       "name": "zan40(小垃圾桶40)",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-02-05",
-      "icLink": "",
-      "gbTime": "2024-03-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_468",
+      "sortTime": "2024-03-16",
+      "layout": "40%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/zan40(小垃圾桶40).webp"
       ],
-      "sortTime": "2024-03-16"
+      "icTime": "2024-02-05",
+      "icLink": "https://www.zfrontier.com/app/flow/XyEqGrzK7akK",
+      "gbTime": "2024-03-16",
+      "gbLink": "https://www.zfrontier.com/app/flow/KbN1bnBrpJwP",
+      "description": ""
     },
     {
+      "id": "kb_469",
       "name": "牛比66",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-01-17",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_469",
+      "sortTime": "2024-01-17",
+      "layout": "40%+Pad",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/牛比66.webp"
       ],
-      "sortTime": "2024-01-17"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-01-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/YPLxa97Kp3dr",
+      "description": ""
     },
     {
+      "id": "kb_470",
       "name": "不倒翁40 R1&R2",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-12-10",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/不倒翁40 R1&R2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2023-12-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_470",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R1&R2.webp",
-        "/images/NIUNIU牛牛开车/不倒翁40 R3.webp"
-      ],
-      "sortTime": "2023-12-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/GEogwz7RE9rY",
+      "description": ""
     },
     {
-      "name": "#34",
+      "id": "kb_471",
+      "name": "#34(井34)",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-10-16",
+      "layout": "30%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/井34.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2023-10-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_471",
-      "images": [
-        "/images/NIUNIU牛牛开车/#34 R2.webp",
-        "/images/NIUNIU牛牛开车/#34.webp",
-        "/images/NIUNIU牛牛开车/Gameboy34.webp"
-      ],
-      "sortTime": "2023-10-16"
+      "gbLink": "https://www.zfrontier.com/app/flow/36ZwdPjvEjGL",
+      "description": ""
     },
     {
+      "id": "kb_472",
       "name": "Trash Bin 50(垃圾桶50)",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-06-09",
-      "icLink": "",
-      "gbTime": "2023-07-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_472",
+      "sortTime": "2023-07-20",
+      "layout": "50%",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/Trash Bin 50(垃圾桶50).webp"
       ],
-      "sortTime": "2023-07-20"
+      "icTime": "2023-06-09",
+      "icLink": "https://www.zfrontier.com/app/flow/7Xk18oRlVXZz",
+      "gbTime": "2023-07-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/5aPQNZMy5ZNl",
+      "description": ""
     },
     {
+      "id": "kb_473",
       "name": "REEL40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-07-14",
-      "icLink": "",
-      "gbTime": "2023-03-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_473",
+      "sortTime": "2023-03-20",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/REEL40.webp"
       ],
-      "sortTime": "2023-03-20"
+      "icTime": "2022-07-14",
+      "icLink": "https://www.zfrontier.com/app/flow/e1aEwJaNookQ",
+      "gbTime": "2023-03-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/KxEkynLBbK5J",
+      "description": ""
     },
     {
+      "id": "kb_474",
       "name": "Weight40(秤砣40)",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-05-02",
-      "icLink": "",
-      "gbTime": "2022-11-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_474",
+      "sortTime": "2022-11-25",
+      "layout": "40%",
+      "status": "gb",
       "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
         "/images/NIUNIU牛牛开车/Weight40(秤砣40).webp"
       ],
-      "sortTime": "2022-11-25"
+      "icTime": "2022-05-02",
+      "icLink": "https://www.zfrontier.com/app/flow/eNVnYM9XXbAO",
+      "gbTime": "2022-11-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/w00vZk98dZRy",
+      "description": ""
     },
     {
+      "id": "kb_475",
       "name": "蜂窝40",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-07-10",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/蜂窝40.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2022-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_475",
-      "images": [
-        "/images/NIUNIU牛牛开车/@40.webp",
-        "/images/NIUNIU牛牛开车/蜂窝40.webp"
-      ],
-      "sortTime": "2022-07-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/2dbnQLmKERRm",
+      "description": ""
     },
     {
+      "id": "kb_476",
       "name": "牛金塔MID",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2022-07-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_476",
+      "sortTime": "2022-07-06",
+      "layout": "40%",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/牛金塔MID.webp"
       ],
-      "sortTime": "2022-07-06"
-    },
-    {
-      "name": "牛金塔mini",
-      "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2022-06-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2022-07-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/2gO5Jbo6avN0",
+      "description": ""
+    },
+    {
       "id": "kb_477",
+      "name": "牛金塔mini",
+      "studio": "NIUNIU牛牛开车",
+      "sortTime": "2022-06-01",
+      "layout": "Function",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/牛金塔mini.webp"
       ],
-      "sortTime": "2022-06-01"
-    },
-    {
-      "name": "牛45",
-      "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2022-05-18",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2022-06-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/emnGnENmEprZ",
+      "description": ""
+    },
+    {
       "id": "kb_478",
+      "name": "牛45",
+      "studio": "NIUNIU牛牛开车",
+      "sortTime": "2022-05-18",
+      "layout": "45%",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/牛45.webp"
       ],
-      "sortTime": "2022-05-18"
-    },
-    {
-      "name": "發60-外壳",
-      "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-04-08",
-      "icLink": "",
-      "gbTime": "2022-04-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_479",
-      "images": [],
-      "sortTime": "2022-04-08"
-    },
-    {
-      "name": "牛17",
-      "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2022-05-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/4KkZ6zOaWvVN",
+      "description": ""
+    },
+    {
+      "id": "kb_479",
+      "name": "發60-外壳",
+      "studio": "NIUNIU牛牛开车",
+      "sortTime": "2022-04-08",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/NIUNIU牛牛开车/發60-外壳.webp"
+      ],
+      "icTime": "2022-04-08",
+      "icLink": "https://www.zfrontier.com/app/flow/29XVodBmVOY8",
+      "gbTime": "2022-04-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/eNrKoxVn8mZX",
+      "description": ""
+    },
+    {
       "id": "kb_480",
+      "name": "牛17",
+      "studio": "NIUNIU牛牛开车",
+      "sortTime": "2022-03-07",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/牛17.webp"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2022-03-07",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_481",
       "name": "9键pad",
       "studio": "NIUNIU牛牛开车",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-02-23",
-      "icLink": "",
-      "gbTime": "2022-03-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_481",
+      "sortTime": "2022-03-01",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/NIUNIU牛牛开车/9键pad.webp"
       ],
-      "sortTime": "2022-03-01"
+      "icTime": "2022-02-23",
+      "icLink": "https://www.zfrontier.com/app/flow/DyX87wol16r5",
+      "gbTime": "2022-03-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/2wNJB9LGRn3p",
+      "description": ""
     },
     {
       "name": "Gehirn60 - BAIONLENJA",

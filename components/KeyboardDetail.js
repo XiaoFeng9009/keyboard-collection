@@ -27,7 +27,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
     <>
       {previewImg && (
         <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
-          <img src={previewImg} style={{maxWidth:'80%',maxHeight:'80%',objectFit:'contain'}} />
+          <img src={previewImg} style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
         </div>
       )}
       <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:20,animation:'overlayIn .3s ease'}} onClick={onClose}>
