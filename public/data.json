@@ -347,36 +347,36 @@
       "sortTime": "2025-11-09"
     },
     {
+      "id": "kb_27",
       "name": "DOE60",
       "studio": "Hare works",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-06-28",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_27",
+      "sortTime": "2026-06-28",
+      "layout": "Alice",
+      "status": "ic",
       "images": [
         "/images/Hare works/DOE60.webp"
       ],
-      "sortTime": "2026-06-28"
+      "icTime": "2026-06-28",
+      "icLink": "https://www.zfrontier.com/app/flow/AWMvyWNG75da",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_28",
       "name": "TWO40",
       "studio": "Hare works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-11-03",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Hare works/TWO40.jpg"
+      ],
       "icTime": "2025-07-25",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/vEOQgV6dNdxM",
       "gbTime": "2025-11-03",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_28",
-      "images": [],
-      "sortTime": "2025-11-03"
+      "gbLink": "https://www.zfrontier.com/app/flow/0azm16OEgv96",
+      "description": ""
     },
     {
       "name": "Kafka",
