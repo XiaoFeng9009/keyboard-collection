@@ -23,9 +23,8 @@ export default function Layout({ children }) {
   var renderSidebar = function(isOpenStyle) {
     return (
       <>
-        <div style={{display:'flex',alignItems:'center',gap:10,padding:'20px 16px',minHeight:64,borderBottom:'1px solid var(--border-base)',whiteSpace:'nowrap',overflow:'hidden'}}>
-          <span style={{fontSize:24,fontWeight:800,flexShrink:0,width:28,textAlign:'center',letterSpacing:0}}>K</span>
-          <span style={{fontSize:14,fontWeight:700,letterSpacing:1.5,background:'var(--accent)',color:'#18181b',padding:'2px 8px',borderRadius:3,opacity:(isOpenStyle||expanded)?1:0,transition:'opacity .2s ease',whiteSpace:'nowrap',overflow:'hidden',maxWidth:200}}>COLLECTION</span>
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center',padding:'20px 16px',minHeight:64,borderBottom:'1px solid var(--border-base)',whiteSpace:'nowrap',overflow:'hidden'}}>
+          <img src='/images/logo.png' alt='logo' style={{height:56,width:'auto',flexShrink:0}} />
         </div>
         <div style={{flex:1,padding: isOpenStyle ? '8px 0' : '32px 0'}}>
           {tabs.map(function(t) {
