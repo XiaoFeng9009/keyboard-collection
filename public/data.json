@@ -2207,55 +2207,52 @@
       "sortTime": "2024-10-11"
     },
     {
+      "id": "kb_140",
       "name": "NinePad R2",
       "studio": "NINE-FOX九尾",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-11-04",
-      "icLink": "",
-      "gbTime": "2021-12-05",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_140",
+      "sortTime": "2021-12-05",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
-        "/images/NINE-FOX九尾/NinePad R2.png",
-        "/images/NINE-FOX九尾/NinePad.png"
+        "/images/NINE-FOX九尾/NinePad R2.png"
       ],
-      "sortTime": "2021-12-05"
+      "icTime": "2021-11-04",
+      "icLink": "https://www.zfrontier.com/app/flow/Drpyd6yZZnMb",
+      "gbTime": "2021-12-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/2wgvzy8VbxwB",
+      "description": ""
     },
     {
+      "id": "kb_141",
       "name": "NinePad",
       "studio": "NINE-FOX九尾",
-      "layout": "",
-      "status": "",
-      "icTime": "2019-01-18",
-      "icLink": "",
-      "gbTime": "2019-03-17",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_141",
+      "sortTime": "2019-03-17",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
-        "/images/NINE-FOX九尾/NinePad R2.png",
         "/images/NINE-FOX九尾/NinePad.png"
       ],
-      "sortTime": "2019-03-17"
+      "icTime": "2019-01-18",
+      "icLink": "https://www.zfrontier.com/app/flow/2Q1a8XyAnlwQ",
+      "gbTime": "2019-03-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/e15lWbgYoY7P",
+      "description": ""
     },
     {
+      "id": "kb_142",
       "name": "流80 NAGARE80",
       "studio": "OneKey Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_142",
-      "images": [],
-      "sortTime": ""
+      "sortTime": "2022-05-25",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/OneKey Studio/流80 NAGARE80.webp"
+      ],
+      "icTime": "2022-03-23",
+      "icLink": "https://www.zfrontier.com/app/flow/D6WqlvRVEm36",
+      "gbTime": "2022-05-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/2vAXRPyAvNmb",
+      "description": ""
     },
     {
       "name": "Z1",
@@ -6080,7 +6077,7 @@
       "id": "kb_375",
       "name": "Eden",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2025-04-11",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6088,7 +6085,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-04-11",
       "gbLink": "",
       "description": ""
     },
@@ -6096,7 +6093,7 @@
       "id": "kb_376",
       "name": "Agar",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2025-03-10",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6104,7 +6101,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-03-10",
       "gbLink": "",
       "description": ""
     },
@@ -6112,7 +6109,7 @@
       "id": "kb_377",
       "name": "GT-80",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-11-30",
       "layout": "75%",
       "status": "gb",
       "images": [
@@ -6120,7 +6117,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-11-30",
       "gbLink": "",
       "description": ""
     },
@@ -6128,7 +6125,7 @@
       "id": "kb_378",
       "name": "BOOMERANG 回旋镖 - LaminarDesigns",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-10-12",
       "layout": "Alice",
       "status": "gb",
       "images": [
@@ -6136,7 +6133,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-10-12",
       "gbLink": "",
       "description": ""
     },
@@ -6160,7 +6157,7 @@
       "id": "kb_380",
       "name": "Reverie",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-09-21",
       "layout": "65%",
       "status": "gb",
       "images": [
@@ -6168,7 +6165,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-09-21",
       "gbLink": "",
       "description": ""
     },
@@ -6176,7 +6173,7 @@
       "id": "kb_381",
       "name": "mellow",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-08-23",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6184,7 +6181,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-08-23",
       "gbLink": "",
       "description": ""
     },
@@ -6192,7 +6189,7 @@
       "id": "kb_382",
       "name": "Margo",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-07-12",
       "layout": "65%",
       "status": "gb",
       "images": [
@@ -6200,7 +6197,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-07-12",
       "gbLink": "",
       "description": ""
     },
@@ -6208,7 +6205,7 @@
       "id": "kb_383",
       "name": "461E 5°",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-05-13",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6216,7 +6213,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-05-13",
       "gbLink": "",
       "description": ""
     },
@@ -6257,7 +6254,7 @@
       "id": "kb_386",
       "name": "TOFU FA",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2024-04-18",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6265,7 +6262,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-04-18",
       "gbLink": "",
       "description": ""
     },
@@ -6321,7 +6318,7 @@
       "id": "kb_390",
       "name": "D45 V2",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2023-04-19",
       "layout": "45%",
       "status": "gb",
       "images": [
@@ -6329,7 +6326,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2023-04-19",
       "gbLink": "",
       "description": ""
     },
@@ -6337,7 +6334,7 @@
       "id": "kb_391",
       "name": "Odin",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-08-15",
       "layout": "98%",
       "status": "gb",
       "images": [
@@ -6345,7 +6342,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-08-15",
       "gbLink": "",
       "description": ""
     },
@@ -6353,7 +6350,7 @@
       "id": "kb_392",
       "name": "D60 Lite",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-08-05",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6361,7 +6358,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-08-05",
       "gbLink": "",
       "description": ""
     },
@@ -6369,7 +6366,7 @@
       "id": "kb_393",
       "name": "MAJA",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-04-07",
       "layout": "Alice",
       "status": "gb",
       "images": [
@@ -6377,7 +6374,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-04-07",
       "gbLink": "",
       "description": ""
     },
@@ -6385,7 +6382,7 @@
       "id": "kb_394",
       "name": "D60",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-04-07",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -6393,7 +6390,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-04-07",
       "gbLink": "",
       "description": ""
     },
@@ -6401,7 +6398,7 @@
       "id": "kb_395",
       "name": "TOFU84",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-03-26",
       "layout": "75%",
       "status": "gb",
       "images": [
@@ -6409,7 +6406,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-03-26",
       "gbLink": "",
       "description": ""
     },
@@ -6417,7 +6414,7 @@
       "id": "kb_396",
       "name": "D65",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-03-02",
       "layout": "65%",
       "status": "gb",
       "images": [
@@ -6425,7 +6422,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-03-02",
       "gbLink": "",
       "description": ""
     },
@@ -6433,7 +6430,7 @@
       "id": "kb_397",
       "name": "D45",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2021-03-01",
       "layout": "45%",
       "status": "gb",
       "images": [
@@ -6441,7 +6438,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-03-01",
       "gbLink": "",
       "description": ""
     },
@@ -6449,7 +6446,7 @@
       "id": "kb_398",
       "name": "Melody65",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2020-10-26",
       "layout": "65%",
       "status": "gb",
       "images": [
@@ -6457,7 +6454,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2020-10-26",
       "gbLink": "",
       "description": ""
     },
@@ -6465,7 +6462,7 @@
       "id": "kb_399",
       "name": "KBD8X MKII",
       "studio": "KBDFans怡科外设",
-      "sortTime": "",
+      "sortTime": "2020-06-20",
       "layout": "80%TKL",
       "status": "gb",
       "images": [
@@ -6473,7 +6470,7 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2020-06-20",
       "gbLink": "",
       "description": ""
     },
@@ -6563,11 +6560,7 @@
       "layout": "75%",
       "status": "gb",
       "images": [
-        "/images/Matrix Lab/FAUKWAA - Carnival.png",
-        "/images/Matrix Lab/FAUKWAA - [MY-2K] 1999.png",
-        "/images/Matrix Lab/FAUKWAA · MY-2K 100NG Edition.png",
-        "/images/Matrix Lab/FAUKWAA · MY-2K.png",
-        "/images/Matrix Lab/Mr.Hat · Faukwaa.png"
+        "/images/Matrix Lab/FAUKWAA - [MY-2K] 1999.png"
       ],
       "icTime": "",
       "icLink": "",

@@ -1736,6 +1736,11 @@
       "group": "NNNexus X Lab"
     },
     {
+      "path": "/images/OneKey Studio/流80 NAGARE80.webp",
+      "name": "流80 NAGARE80.webp",
+      "group": "OneKey Studio"
+    },
+    {
       "path": "/images/Orbis/Astra80.webp",
       "name": "Astra80.webp",
       "group": "Orbis"
@@ -2246,5 +2251,5 @@
       "group": "(root)"
     }
   ],
-  "total": 449
+  "total": 450
 }
