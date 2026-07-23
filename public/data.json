@@ -439,82 +439,78 @@
       "sortTime": "2024-07-20"
     },
     {
+      "id": "kb_33",
       "name": "Sela70",
       "studio": "Hance Industry",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2022-12-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_33",
+      "sortTime": "2022-12-10",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/Hance Industry/Sela-70.webp"
       ],
-      "sortTime": "2022-12-10"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/NL008L5Wj7bX",
+      "gbTime": "2022-12-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/NqOJqZ96MbNO",
+      "description": ""
     },
     {
+      "id": "kb_34",
       "name": "XOX70",
       "studio": "Thocc Supply",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "https://geekhack.org/index.php?topic=117730.0",
-      "gbTime": "2022-08-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_34",
+      "sortTime": "2022-08-31",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/Thocc Supply/XOX70.jpg"
       ],
-      "sortTime": "2022-08-31"
+      "icTime": "",
+      "icLink": "https://geekhack.org/index.php?topic=117730.0",
+      "gbTime": "2022-08-31",
+      "gbLink": "https://geekhack.org/index.php?topic=118194",
+      "description": ""
     },
     {
+      "id": "kb_35",
       "name": "Join65",
       "studio": "Knife Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2023-05-05",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_35",
+      "sortTime": "2023-05-05",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Knife Lab/Join65.jpg"
       ],
-      "sortTime": "2023-05-05"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/kMNGZ5w1KmQm",
+      "gbTime": "2023-05-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/wRxOQ6WZAj0E",
+      "description": ""
     },
     {
+      "id": "kb_36",
       "name": "Dolphin75",
       "studio": "Knife Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2022-10-07",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_36",
+      "sortTime": "2022-10-07",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Knife Lab/Dolphin75.jpg"
       ],
-      "sortTime": "2022-10-07"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/OOdyMORQpwKr",
+      "gbTime": "2022-10-07",
+      "gbLink": "https://www.zfrontier.com/app/flow/oP6aov0p83al",
+      "description": ""
     },
     {
       "name": "Silhouette",
       "studio": "4GT",
-      "layout": "",
-      "status": "",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://docs.google.com/forms/d/e/1FAIpQLScp58Kf9s1LNBuKDNGl-5vv5RfTNURYUzZXTacjtoj6CgMFPA/viewform",
       "gbTime": "2023-05-15",
-      "gbLink": "",
+      "gbLink": "https://www.instagram.com/p/CsPmRqfsedj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       "image": "",
       "description": "",
       "id": "kb_37",
@@ -524,12 +520,12 @@
     {
       "name": "Sabre",
       "studio": "4GT",
-      "layout": "",
-      "status": "",
+      "layout": "Alice",
+      "status": "gb",
       "icTime": "",
       "icLink": "",
       "gbTime": "2021-12-24",
-      "gbLink": "",
+      "gbLink": "https://www.instagram.com/p/CX3SYF1Oqh2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       "image": "",
       "description": "",
       "id": "kb_38",
@@ -1712,42 +1708,46 @@
     {
       "name": "Magnum65",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "layout": "65%",
+      "status": "gb",
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-02-17",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/x73VqgAkvVBd",
       "image": "",
       "description": "",
       "id": "kb_110",
-      "images": [],
+      "images": [
+        "/images/Cary Works/Magnum65.png"
+      ],
       "sortTime": "2024-02-17"
     },
     {
       "name": "RevoHappy60",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "icTime": "",
       "icLink": "",
       "gbTime": "2022-03-25",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/45kl1w3plyYo",
       "image": "",
       "description": "",
       "id": "kb_111",
-      "images": [],
+      "images": [
+        "/images/Cary Works/RevoHappy60.png"
+      ],
       "sortTime": "2022-03-25"
     },
     {
       "name": "C11",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "layout": "Function",
+      "status": "gb",
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/45apxnapOd5l",
       "gbTime": "2021-05-25",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/e3pxpPvJpnnL",
       "image": "",
       "description": "",
       "id": "kb_112",
@@ -1759,12 +1759,12 @@
     {
       "name": "ViewEdge",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "layout": "Hub",
+      "status": "gb",
       "icTime": "",
       "icLink": "",
       "gbTime": "2020-12-06",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/2Jgz8n1zB6B1",
       "image": "",
       "description": "",
       "id": "kb_113",
@@ -1774,32 +1774,30 @@
       "sortTime": "2020-12-06"
     },
     {
+      "id": "kb_114",
       "name": "Dolch.CR 80",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2020-09-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_114",
+      "sortTime": "2020-09-06",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Cary Works/Dolch.CR 65%.png",
-        "/images/Cary Works/Dolch.CR 80%.png"
+        "/images/Cary Works/Dolch.CR 80.png"
       ],
-      "sortTime": "2020-09-06"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/e11mZMyGOMm5",
+      "gbTime": "2020-09-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/28XzYaxzGpJE",
+      "description": ""
     },
     {
       "name": "VESPA.CR",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "layout": "65%",
+      "status": "gb",
       "icTime": "",
       "icLink": "",
       "gbTime": "2020-01-12",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/4oL71ob8QnoO",
       "image": "",
       "description": "",
       "id": "kb_115",
@@ -1809,22 +1807,20 @@
       "sortTime": "2020-01-12"
     },
     {
+      "id": "kb_116",
       "name": "Dolch.CR 65",
       "studio": "Cary Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-12-26",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Cary Works/Dolch.CR 65.png"
+      ],
       "icTime": "",
       "icLink": "https://geekhack.org/index.php?topic=97373.0",
       "gbTime": "2018-12-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_116",
-      "images": [
-        "/images/Cary Works/Dolch.CR 65%.png",
-        "/images/Cary Works/Dolch.CR 80%.png"
-      ],
-      "sortTime": "2018-12-26"
+      "gbLink": "https://geekhack.org/index.php?topic=98727.0",
+      "description": ""
     },
     {
       "name": "Vintech Series 06",
@@ -1897,12 +1893,12 @@
     {
       "name": "grid100",
       "studio": "grid",
-      "layout": "",
-      "status": "",
+      "layout": "Function",
+      "status": "gb",
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/6LwRzd8PBQW0",
       "gbTime": "2023-05-12",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/EnX0zMdXjGJ6",
       "image": "",
       "description": "",
       "id": "kb_121",
@@ -1914,12 +1910,12 @@
     {
       "name": "grid650",
       "studio": "grid",
-      "layout": "",
-      "status": "",
+      "layout": "65%",
+      "status": "gb",
       "icTime": "",
       "icLink": "https://geekhack.org/index.php?topic=109386.msg2974979#msg2974979",
       "gbTime": "2020-12-08",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/4KEm3Q1xBxE9",
       "image": "",
       "description": "",
       "id": "kb_122",
@@ -1931,10 +1927,10 @@
     {
       "name": "grid600",
       "studio": "grid",
-      "layout": "",
-      "status": "",
+      "layout": "60%",
+      "status": "gb",
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.gridishere.com/work/grid600",
       "gbTime": "2018-07-31",
       "gbLink": "https://www.keebtalk.com/t/gb-grid-600-group-buy-is-here-updates/3156",
       "image": "",
@@ -2006,121 +2002,117 @@
       "sortTime": "2024-10-26"
     },
     {
+      "id": "kb_128",
       "name": "Hippo TKL",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "https://geekhack.org/index.php?topic=123731.msg3193631#msg3193631",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_128",
+      "sortTime": "2025-01-17",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
+        "/images/Jacky KeyLab/Hippo TKL.jpeg",
         "/images/Jacky KeyLab/Hippo TKL.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025-01-17",
+      "gbLink": "https://geekhack.org/index.php?topic=123731.msg3193631#msg3193631",
+      "description": ""
     },
     {
+      "id": "kb_129",
       "name": "Cat65",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-11-09",
-      "icLink": "",
-      "gbTime": "2023-12-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_129",
+      "sortTime": "2023-12-16",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Jacky KeyLab/Cat65.png"
       ],
-      "sortTime": "2023-12-16"
+      "icTime": "2023-11-09",
+      "icLink": "https://www.zfrontier.com/app/flow/GYJrAnj8M9Ea",
+      "gbTime": "2023-12-16",
+      "gbLink": "https://www.zfrontier.com/app/flow/b3gzKx5zmLgM",
+      "description": ""
     },
     {
+      "id": "kb_130",
       "name": "Bear65 V2",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-06-16",
-      "icLink": "",
-      "gbTime": "2022-07-03",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_130",
+      "sortTime": "2022-07-03",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/Jacky KeyLab/Bear-65% ergo.png",
-        "/images/Jacky KeyLab/Bear-65% V2.png"
+        "/images/Jacky KeyLab/Bear65 V2.png"
       ],
-      "sortTime": "2022-07-03"
+      "icTime": "2022-06-16",
+      "icLink": "https://www.zfrontier.com/app/flow/2lqljoxlxd1p",
+      "gbTime": "2022-07-03",
+      "gbLink": "https://www.zfrontier.com/app/flow/DLVmdPdv1gwa",
+      "description": ""
     },
     {
+      "id": "kb_131",
       "name": "Panda65",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-10-12",
+      "sortTime": "2021-10-12",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Jacky KeyLab/Panda65.png"
+      ],
+      "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2021-10-12",
       "gbLink": "https://www.zfrontier.com/app/flow/2PjgbvRbZKb1",
-      "image": "",
-      "description": "",
-      "id": "kb_131",
-      "images": [],
-      "sortTime": "2021-10-12"
+      "description": ""
     },
     {
+      "id": "kb_132",
       "name": "Piggy60",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-05-14",
-      "icLink": "",
-      "gbTime": "2021-06-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_132",
+      "sortTime": "2021-06-13",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/Jacky KeyLab/Piggy-60%.png"
+        "/images/Jacky KeyLab/Piggy60.png"
       ],
-      "sortTime": "2021-06-13"
+      "icTime": "2021-05-14",
+      "icLink": "https://www.zfrontier.com/app/flow/2dArdlQZJwmp",
+      "gbTime": "2021-06-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/40LwPrgVdy5E",
+      "description": ""
     },
     {
+      "id": "kb_133",
       "name": "Bear65 ergo",
       "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "2020-06-20",
-      "icLink": "",
-      "gbTime": "2020-07-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_133",
+      "sortTime": "2020-07-16",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/Jacky KeyLab/Bear-65% ergo.png",
-        "/images/Jacky KeyLab/Bear-65% V2.png"
+        "/images/Jacky KeyLab/Bear65.png"
       ],
-      "sortTime": "2020-07-16"
+      "icTime": "2020-06-20",
+      "icLink": "https://www.zfrontier.com/app/flow/emG7EOB6Lr78",
+      "gbTime": "2020-07-16",
+      "gbLink": "https://www.zfrontier.com/app/flow/2PLMVEVmJXkr",
+      "description": ""
     },
     {
-      "name": "S7-elephant70",
-      "studio": "Jacky KeyLab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "https://geekhack.org/index.php?topic=103148.msg2827400#msg2827400",
-      "gbTime": "2019-10-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_134",
-      "images": [],
-      "sortTime": "2019-10-29"
+      "name": "S7 elephant70",
+      "studio": "Jacky KeyLab",
+      "sortTime": "2019-10-29",
+      "layout": "65%+Macro",
+      "status": "gb",
+      "images": [
+        "/images/Jacky KeyLab/S7 elephant 70.png"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2019-10-29",
+      "gbLink": "https://geekhack.org/index.php?topic=103148.msg2827400#msg2827400",
+      "description": ""
     },
     {
       "name": "NV70",
@@ -2379,378 +2371,340 @@
       "sortTime": "2025-12-23"
     },
     {
+      "id": "kb_151",
       "name": "PT750",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-12-03",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_151",
+      "sortTime": "2024-12-03",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/PT750.png"
       ],
-      "sortTime": "2024-12-03"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-12-03",
+      "gbLink": "https://www.zfrontier.com/app/flow/ORMbKjGWzaw1",
+      "description": ""
     },
     {
+      "id": "kb_152",
       "name": "Volt Plus",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-05-09",
-      "icLink": "",
-      "gbTime": "2024-05-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_152",
+      "sortTime": "2024-05-13",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
-        "/images/PercentStudio浦杉制造/VOLT 2.0.png",
-        "/images/PercentStudio浦杉制造/VOLT PLUS.png",
-        "/images/PercentStudio浦杉制造/Volt80.png"
+        "/images/PercentStudio浦杉制造/VOLT PLUS.png"
       ],
-      "sortTime": "2024-05-13"
+      "icTime": "2024-05-09",
+      "icLink": "https://www.zfrontier.com/app/flow/93kb7gzVOq8G",
+      "gbTime": "2024-05-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/r1K86PwJgXan",
+      "description": ""
     },
     {
+      "id": "kb_153",
       "name": "Volt80 2.0",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-01-30",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_153",
+      "sortTime": "2024-01-30",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/PercentStudio浦杉制造/Volt80.png"
+        "/images/PercentStudio浦杉制造/Volt80 2.0.png"
       ],
-      "sortTime": "2024-01-30"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-01-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/Y5XqMgdY97Z6",
+      "description": ""
     },
     {
+      "id": "kb_154",
       "name": "Luna X1",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-05-26",
-      "icLink": "",
-      "gbTime": "2023-05-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_154",
+      "sortTime": "2023-05-31",
+      "layout": "60%",
+      "status": "gb",
       "images": [
-        "/images/PercentStudio浦杉制造/LUNA X1.png",
-        "/images/PercentStudio浦杉制造/Luna70.png",
-        "/images/PercentStudio浦杉制造/Luna75.png",
-        "/images/PercentStudio浦杉制造/Luna80.png"
+        "/images/PercentStudio浦杉制造/LUNA X1.png"
       ],
-      "sortTime": "2023-05-31"
+      "icTime": "2023-05-26",
+      "icLink": "https://www.zfrontier.com/app/flow/PlxnjgExKW5L",
+      "gbTime": "2023-05-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/QdAQ9jgpvYx9",
+      "description": ""
     },
     {
+      "id": "kb_155",
       "name": "Luna70",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-03-25",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_155",
+      "sortTime": "2023-03-25",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Luna70.png"
       ],
-      "sortTime": "2023-03-25"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2023-03-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/N8w9r8xq9xOx",
+      "description": ""
     },
     {
+      "id": "kb_156",
       "name": "PT990",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-10-07",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_156",
+      "sortTime": "2022-10-07",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/PT990.png"
       ],
-      "sortTime": "2022-10-07"
-    },
-    {
-      "name": "Luna75",
-      "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2022-08-09",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2022-10-07",
+      "gbLink": "https://www.zfrontier.com/app/flow/pvaxm9BgkwyO",
+      "description": ""
+    },
+    {
       "id": "kb_157",
+      "name": "Luna75",
+      "studio": "PercentStudio浦杉制造",
+      "sortTime": "2022-08-09",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Luna75.png"
       ],
-      "sortTime": "2022-08-09"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2022-08-09",
+      "gbLink": "https://www.zfrontier.com/app/flow/2PbQAwXw19PG",
+      "description": ""
     },
     {
+      "id": "kb_158",
       "name": "Luna80",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-12-12",
-      "icLink": "",
-      "gbTime": "2021-12-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_158",
+      "sortTime": "2021-12-30",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Luna80.png"
       ],
-      "sortTime": "2021-12-30"
+      "icTime": "2021-12-12",
+      "icLink": "https://www.zfrontier.com/app/flow/2wJMQzQXg0pb",
+      "gbTime": "2021-12-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/2PpBmMJRL38J",
+      "description": ""
     },
     {
+      "id": "kb_159",
       "name": "Trio65",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-11-27",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_159",
+      "sortTime": "2021-11-27",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Trio65.png"
       ],
-      "sortTime": "2021-11-27"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2021-11-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/emVjEmNYyow5",
+      "description": ""
     },
     {
+      "id": "kb_160",
       "name": "Trio75",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-09-10",
-      "icLink": "",
-      "gbTime": "2021-09-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_160",
+      "sortTime": "2021-09-19",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Trio75.png"
       ],
-      "sortTime": "2021-09-19"
+      "icTime": "2021-09-10",
+      "icLink": "https://www.zfrontier.com/app/flow/2k9mxEE5WL8J",
+      "gbTime": "2021-09-19",
+      "gbLink": "https://www.zfrontier.com/app/flow/4Z59a3XJ5oW0",
+      "description": ""
     },
     {
+      "id": "kb_161",
       "name": "Trio60",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-08-03",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_161",
+      "sortTime": "2021-08-03",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Trio60.png"
       ],
-      "sortTime": "2021-08-03"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2021-08-03",
+      "gbLink": "https://www.zfrontier.com/app/flow/eBp8X3Obw7MV",
+      "description": ""
     },
     {
+      "id": "kb_162",
       "name": "Skog Reboot",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "2020-09-08",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_162",
+      "sortTime": "2020-09-08",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/PercentStudio浦杉制造/Skog Lite.png",
-        "/images/PercentStudio浦杉制造/Skog Reboot.png",
-        "/images/PercentStudio浦杉制造/Skog.png"
+        "/images/PercentStudio浦杉制造/Skog Reboot.png"
       ],
-      "sortTime": "2020-09-08"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2020-09-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/DrmOJg6B05lZ",
+      "description": ""
     },
     {
+      "id": "kb_163",
       "name": "Canoe Gen2",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
+      "sortTime": "2019-12-07",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/PercentStudio浦杉制造/CANOE Gen2.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2019-12-07",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_163",
-      "images": [
-        "/images/PercentStudio浦杉制造/CANOE FE.png",
-        "/images/PercentStudio浦杉制造/CANOE Gen2.png",
-        "/images/PercentStudio浦杉制造/canoe.png"
-      ],
-      "sortTime": "2019-12-07"
+      "gbLink": "https://www.zfrontier.com/app/flow/2E0Ll8N3WVJO",
+      "description": ""
     },
     {
+      "id": "kb_164",
       "name": "Volt80",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2019-08-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_164",
+      "sortTime": "2019-08-19",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Volt80.png"
       ],
-      "sortTime": "2019-08-19"
-    },
-    {
-      "name": "Booster",
-      "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2019-08-19",
+      "gbLink": "https://www.zfrontier.com/app/flow/D6WkRE1azww0",
+      "description": ""
+    },
+    {
       "id": "kb_165",
+      "name": "Booster",
+      "studio": "PercentStudio浦杉制造",
+      "sortTime": "2019-07-01",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Booster.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2019-07-01",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_166",
       "name": "Canoe FE",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
+      "sortTime": "2019-05-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/PercentStudio浦杉制造/CANOE FE.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2019-05-01",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_166",
-      "images": [
-        "/images/PercentStudio浦杉制造/CANOE FE.png",
-        "/images/PercentStudio浦杉制造/CANOE Gen2.png",
-        "/images/PercentStudio浦杉制造/canoe.png"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_167",
       "name": "Maze",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2018-12-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_167",
+      "sortTime": "2018-12-13",
+      "layout": "60%+Macro",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/Maze.png"
       ],
-      "sortTime": "2018-12-13"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2018-12-13",
+      "gbLink": "https://drop.com/talk/17884/available-now-maze-by-percent-studio",
+      "description": ""
     },
     {
+      "id": "kb_168",
       "name": "Skog Lite",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-09-01",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/PercentStudio浦杉制造/Skog Lite.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2018-09-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_168",
-      "images": [
-        "/images/PercentStudio浦杉制造/Skog Lite.png",
-        "/images/PercentStudio浦杉制造/Skog Reboot.png",
-        "/images/PercentStudio浦杉制造/Skog.png"
-      ],
-      "sortTime": "2018-09-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/emVbnkVYQXy2",
+      "description": ""
     },
     {
+      "id": "kb_169",
       "name": "Deer",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_169",
+      "sortTime": "2018-04-01",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/PercentStudio浦杉制造/DEER.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2018-04-01",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_170",
       "name": "Canoe",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
+      "sortTime": "2017-06-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/PercentStudio浦杉制造/canoe.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2017-06-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_170",
-      "images": [
-        "/images/PercentStudio浦杉制造/CANOE FE.png",
-        "/images/PercentStudio浦杉制造/CANOE Gen2.png",
-        "/images/PercentStudio浦杉制造/canoe.png"
-      ],
-      "sortTime": "2017-06-01"
+      "gbLink": "https://www.instagram.com/p/BkeHFCJndQk/?img_index=1",
+      "description": ""
     },
     {
+      "id": "kb_171",
       "name": "Skog",
       "studio": "PercentStudio浦杉制造",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_171",
+      "sortTime": "2016-12-01",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/PercentStudio浦杉制造/Skog Lite.png",
-        "/images/PercentStudio浦杉制造/Skog Reboot.png",
         "/images/PercentStudio浦杉制造/Skog.png"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2016-12-01",
+      "gbLink": "",
+      "description": ""
     },
     {
       "name": "Venus",
