@@ -48,7 +48,7 @@ export default function Home() {
           <p>{'\u8BF7\u5728\u7BA1\u7406\u9875\u9762\u6DFB\u52A0\u952E\u76D8'}</p>
         </div>
       )}
-      <Pagination current={page} total={filtered.length} pageSize={PAGE_SIZE} onChange={function(p){setPage(p);window.scrollTo({top:0,behavior:'smooth'})}} />
+      <Pagination current={page} total={filtered.length} pageSize={PAGE_SIZE} onChange={function(p){setPage(p);requestAnimationFrame(function(){window.scrollTo({top:0,behavior:'smooth'})})}} />
       {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} onShowStudio={handleShowStudio} />}
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>
