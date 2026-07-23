@@ -8556,235 +8556,244 @@
       "sortTime": "2021-06-06"
     },
     {
+      "id": "kb_498",
       "name": "Infinite70 G·Works 01",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-01-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_498",
+      "sortTime": "2026-01-28",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/GrayStudio造键坞/Infinite70.webp"
       ],
-      "sortTime": "2026-01-28"
-    },
-    {
-      "name": "Space80 R2",
-      "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-07-21",
-      "icLink": "",
-      "gbTime": "2025-08-11",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_499",
-      "images": [
-        "/images/GrayStudio造键坞/space80r2.webp"
-      ],
-      "sortTime": "2025-08-11"
-    },
-    {
-      "name": "Emonda60 G·Works 04",
-      "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_500",
-      "images": [],
-      "sortTime": ""
+      "gbTime": "2026-01-28",
+      "gbLink": "https://www.zfrontier.com/app/flow/ZR8XdpaYRGrr",
+      "description": ""
     },
     {
+      "id": "kb_499",
+      "name": "Space80 R2",
+      "studio": "GrayStudio造键坞",
+      "sortTime": "2025-08-11",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Space80 R2.webp"
+      ],
+      "icTime": "2025-07-21",
+      "icLink": "https://www.zfrontier.com/app/flow/Gyd60K8kEdRm",
+      "gbTime": "2025-08-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/bKwJzMGXV1OM",
+      "description": ""
+    },
+    {
+      "id": "kb_500",
+      "name": "Emonda60 G·Works 04",
+      "studio": "GrayStudio造键坞",
+      "sortTime": "2025-02-01",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Emonda60.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025-02-01",
+      "gbLink": "",
+      "description": ""
+    },
+    {
+      "id": "kb_501",
       "name": "Macross65 G·Works 02",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-10",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Macross65.webp"
+      ],
       "icTime": "2024-12-24",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/xNz6awjxB0G8",
       "gbTime": "2025-01-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_501",
-      "images": [],
-      "sortTime": "2025-01-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/YBBoEdZAOw9w",
+      "description": ""
     },
     {
-      "name": "Space82%",
-      "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-03-11",
-      "icLink": "",
-      "gbTime": "2024-03-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_502",
-      "images": [],
-      "sortTime": "2024-03-25"
+      "name": "Space82",
+      "studio": "GrayStudio造键坞",
+      "sortTime": "2024-03-25",
+      "layout": "1800FRL",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Space82.webp"
+      ],
+      "icTime": "2024-03-11",
+      "icLink": "https://www.zfrontier.com/app/flow/mOyqg70z9arb",
+      "gbTime": "2024-03-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/M0qzBOkxKm3K",
+      "description": ""
     },
     {
+      "id": "kb_503",
       "name": "BD60",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-11-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/bd60.webp"
+      ],
       "icTime": "2023-11-20",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/mal93RnLNqka",
       "gbTime": "2023-11-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_503",
-      "images": [],
-      "sortTime": "2023-11-30"
+      "gbLink": "https://www.zfrontier.com/app/flow/va7w6JBAKAAM",
+      "description": ""
     },
     {
+      "id": "kb_504",
       "name": "Aero75",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-09-23",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Aero75.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2022-09-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_504",
-      "images": [],
-      "sortTime": "2022-09-23"
+      "gbLink": "https://www.zfrontier.com/app/flow/1YwqG335balZ",
+      "description": ""
     },
     {
+      "id": "kb_505",
       "name": "Space65 R3",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-01-13",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Space65 R3.webp"
+      ],
       "icTime": "2021-12-31",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2aLwjakY0vZv",
       "gbTime": "2022-01-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_505",
-      "images": [],
-      "sortTime": "2022-01-13"
+      "gbLink": "https://www.zfrontier.com/app/flow/2JkkaEAxjzaM",
+      "description": ""
     },
     {
+      "id": "kb_506",
       "name": "Space80",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-04-23",
-      "icLink": "",
-      "gbTime": "2021-05-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_506",
+      "sortTime": "2021-05-10",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/GrayStudio造键坞/space80r2.webp"
+        "/images/GrayStudio造键坞/Space80.webp"
       ],
-      "sortTime": "2021-05-10"
+      "icTime": "2021-04-23",
+      "icLink": "https://www.zfrontier.com/app/flow/eNjaavYVyAAZ",
+      "gbTime": "2021-05-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/4KoRoAg8Qdd5",
+      "description": ""
     },
     {
+      "id": "kb_507",
       "name": "Think6.5 V2",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2020-07-10",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Think6.5 V2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2020-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_507",
-      "images": [],
-      "sortTime": "2020-07-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/D6nWKP3mWKQP",
+      "description": ""
     },
     {
+      "id": "kb_508",
       "name": "Space65 R2 Cybervoyager",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2020-04-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Space65 R2 Cybervoyager.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2020-04-01",
       "gbLink": "https://www.zfrontier.com/app/flow/4xQYKgGbmmlO",
-      "image": "",
-      "description": "",
-      "id": "kb_508",
-      "images": [],
-      "sortTime": "2020-04-01"
+      "description": ""
     },
     {
+      "id": "kb_509",
       "name": "Think6.5",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2019-04-11",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Think6.5.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2019-04-11",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_509",
-      "images": [],
-      "sortTime": "2019-04-11"
+      "gbLink": "https://www.zfrontier.com/app/flow/DzjPNNWpNGgq",
+      "description": ""
     },
     {
+      "id": "kb_510",
       "name": "Space65 R1",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-12-28",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/Space65 R1.webp"
+      ],
       "icTime": "2018-12-18",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/D6BaWrj1llmP",
       "gbTime": "2018-12-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_510",
-      "images": [],
-      "sortTime": "2018-12-28"
+      "gbLink": "https://www.zfrontier.com/app/flow/2wdyVb7JPqrq",
+      "description": ""
     },
     {
+      "id": "kb_511",
       "name": "HB85",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-10-20",
+      "layout": "90%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/HB85.webp"
+      ],
       "icTime": "2018-04-09",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/emG60517aQ8D",
       "gbTime": "2018-10-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_511",
-      "images": [],
-      "sortTime": "2018-10-20"
+      "gbLink": "https://www.zfrontier.com/app/flow/4bkMMw1gZBRe",
+      "description": ""
     },
     {
+      "id": "kb_512",
       "name": "COD67",
       "studio": "GrayStudio造键坞",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-02-26",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/COD67.webp"
+      ],
       "icTime": "2017-10-20",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/DALgzPJKJJP2",
       "gbTime": "2018-02-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_512",
-      "images": [],
-      "sortTime": "2018-02-26"
+      "gbLink": "https://www.zfrontier.com/app/flow/Drp8Eq1pL3Ze",
+      "description": ""
     },
     {
       "id": "kb_1784272356475",

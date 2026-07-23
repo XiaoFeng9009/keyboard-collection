@@ -481,13 +481,73 @@
       "group": "GDK Lab"
     },
     {
+      "path": "/images/GrayStudio造键坞/Aero75.webp",
+      "name": "Aero75.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/bd60.webp",
+      "name": "bd60.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/COD67.webp",
+      "name": "COD67.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Emonda60.webp",
+      "name": "Emonda60.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/HB85.webp",
+      "name": "HB85.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
       "path": "/images/GrayStudio造键坞/Infinite70.webp",
       "name": "Infinite70.webp",
       "group": "GrayStudio造键坞"
     },
     {
-      "path": "/images/GrayStudio造键坞/space80r2.webp",
-      "name": "space80r2.webp",
+      "path": "/images/GrayStudio造键坞/Macross65.webp",
+      "name": "Macross65.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Space65 R1.webp",
+      "name": "Space65 R1.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Space65 R2 Cybervoyager.webp",
+      "name": "Space65 R2 Cybervoyager.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Space65 R3.webp",
+      "name": "Space65 R3.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Space80 R2.webp",
+      "name": "Space80 R2.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Space80.webp",
+      "name": "Space80.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Think6.5 V2.webp",
+      "name": "Think6.5 V2.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/Think6.5.webp",
+      "name": "Think6.5.webp",
       "group": "GrayStudio造键坞"
     },
     {
@@ -2236,16 +2296,6 @@
       "group": "ZitaoTech"
     },
     {
-      "path": "/images/ChatGPT Image 2026年5月29日 16_31_52.png",
-      "name": "ChatGPT Image 2026年5月29日 16_31_52.png",
-      "group": "(root)"
-    },
-    {
-      "path": "/images/ChatGPT Image 2026年5月29日 16_40_03.png",
-      "name": "ChatGPT Image 2026年5月29日 16_40_03.png",
-      "group": "(root)"
-    },
-    {
       "path": "/images/ChatGPT Image 2026年6月23日 13_55_17.png",
       "name": "ChatGPT Image 2026年6月23日 13_55_17.png",
       "group": "(root)"
@@ -2256,18 +2306,8 @@
       "group": "(root)"
     },
     {
-      "path": "/images/favicon (2).svg",
-      "name": "favicon (2).svg",
-      "group": "(root)"
-    },
-    {
       "path": "/images/favicon.png",
       "name": "favicon.png",
-      "group": "(root)"
-    },
-    {
-      "path": "/images/favicon.svg",
-      "name": "favicon.svg",
       "group": "(root)"
     },
     {
@@ -2291,16 +2331,6 @@
       "group": "(root)"
     },
     {
-      "path": "/images/resized-logo.png",
-      "name": "resized-logo.png",
-      "group": "(root)"
-    },
-    {
-      "path": "/images/resized-网站LOGO.png",
-      "name": "resized-网站LOGO.png",
-      "group": "(root)"
-    },
-    {
       "path": "/images/TPS40 new.webp",
       "name": "TPS40 new.webp",
       "group": "(root)"
@@ -2321,5 +2351,5 @@
       "group": "(root)"
     }
   ],
-  "total": 464
+  "total": 470
 }
