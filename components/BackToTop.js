@@ -22,7 +22,7 @@ export default function BackToTop() {
   return (
     <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       style={{
-        position: 'fixed', bottom: 28, right: isDesktop ? 240 : 24, zIndex: 250,
+        position: 'fixed', bottom: 28, right: 28, zIndex: 250,
         width: 40, height: 40, cursor: 'pointer',
         background: '#18181b', color: '#fff', borderRadius: 8, border: '2px solid var(--accent)',
         fontSize: 18, lineHeight: '36px', textAlign: 'center',

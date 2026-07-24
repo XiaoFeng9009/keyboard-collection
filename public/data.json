@@ -959,21 +959,20 @@
       "description": ""
     },
     {
+      "id": "kb_64",
       "name": "Motif65",
       "studio": "Akuko Labs",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2025-02-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_64",
+      "sortTime": "2025-02-19",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Akuko Labs/Motif65.webp"
       ],
-      "sortTime": "2025-02-19"
+      "icTime": "",
+      "icLink": "https://akukolabs.com/motif65",
+      "gbTime": "2025-02-19",
+      "gbLink": "https://www.zfrontier.com/app/mch/1knVO7JOVENa",
+      "description": ""
     },
     {
       "name": "LN60 (IC)",
@@ -1436,274 +1435,260 @@
       "sortTime": "2025-06-09"
     },
     {
+      "id": "kb_94",
       "name": "Lotus80",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-04-14",
-      "icLink": "",
-      "gbTime": "2025-05-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_94",
+      "sortTime": "2025-05-31",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/lotus80.webp"
       ],
-      "sortTime": "2025-05-31"
+      "icTime": "2025-04-14",
+      "icLink": "https://www.zfrontier.com/app/flow/XXb1Vaj0330l",
+      "gbTime": "2025-05-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/MGkVKlyrlxRz",
+      "description": ""
     },
     {
+      "id": "kb_95",
       "name": "Time65 Classic",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-02-19",
-      "icLink": "",
-      "gbTime": "2024-03-18",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_95",
+      "sortTime": "2024-03-18",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Fox Lab/TIME65% Classic.png"
+        "/images/Fox Lab/TIME65 Classic.png"
       ],
-      "sortTime": "2024-03-18"
+      "icTime": "2024-02-19",
+      "icLink": "https://www.zfrontier.com/app/flow/K8E7BdwjyqbE",
+      "gbTime": "2024-03-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/wgaNpbVdkRLy",
+      "description": ""
     },
     {
+      "id": "kb_96",
       "name": "Sand Glass Ergo 7",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-02-24",
-      "icLink": "",
-      "gbTime": "2023-03-27",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_96",
+      "sortTime": "2023-03-27",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/Fox Lab/San Glass Ergo 8.png",
         "/images/Fox Lab/Sand Glass Ergo 7.png"
       ],
-      "sortTime": "2023-03-27"
+      "icTime": "2023-02-24",
+      "icLink": "https://www.zfrontier.com/app/flow/yLyWrrXEXz85",
+      "gbTime": "2023-03-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/kPp8LbyJZ3dm",
+      "description": ""
     },
     {
+      "id": "kb_97",
       "name": "Sunset80",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-09-19",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_97",
+      "sortTime": "2022-11-01",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Sunset80.png"
       ],
-      "sortTime": "2022-09-19"
+      "icTime": "2022-09-19",
+      "icLink": "https://www.zfrontier.com/app/flow/P3o7wp1kqjK5",
+      "gbTime": "2022-11-01",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_98",
       "name": "Sand Glass Ergo 8",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-12-20",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_98",
+      "sortTime": "2022-01-07",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
-        "/images/Fox Lab/San Glass Ergo 8.png",
-        "/images/Fox Lab/Sand Glass Ergo 7.png"
+        "/images/Fox Lab/San Glass Ergo 8.png"
       ],
-      "sortTime": "2021-12-20"
+      "icTime": "2021-12-20",
+      "icLink": "https://www.zfrontier.com/app/flow/eVq1JGn3zdvA",
+      "gbTime": "2022-01-07",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_99",
       "name": "Leaf65",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2020-12-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_99",
+      "sortTime": "2020-12-30",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Leaf65.png"
       ],
-      "sortTime": "2020-12-30"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/40bZ61jBwbLG",
+      "gbTime": "2020-12-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/45aqZ63Yn85J",
+      "description": ""
     },
     {
+      "id": "kb_100",
       "name": "Time80 Reforged(Time80Re)",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2020-07-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_100",
+      "sortTime": "2020-07-13",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Fox Lab/TIME 80% Reforged（Time80Re）.png"
+        "/images/Fox Lab/TIME 80 Reforged（Time80Re）.png"
       ],
-      "sortTime": "2020-07-13"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2RQXJLKX3lYV",
+      "gbTime": "2020-07-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/eMzQlYYN8RwK",
+      "description": ""
     },
     {
+      "id": "kb_101",
       "name": "F80se",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2020-04-23",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Fox Lab/F80se.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2020-04-23",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_101",
-      "images": [],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_102",
       "name": "Theo60 - ?",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2019-11-20",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Fox Lab/Theo60.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2019-11-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_102",
-      "images": [],
-      "sortTime": "2019-11-20"
+      "gbLink": "https://www.zfrontier.com/app/flow/2vk3gEpKoolW",
+      "description": "由Fox Lab代理代工销售"
     },
     {
+      "id": "kb_103",
       "name": "Key65",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2019-09-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_103",
+      "sortTime": "2019-09-25",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Key65.png"
       ],
-      "sortTime": "2019-09-25"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/DAKYnGpxBpMy",
+      "gbTime": "2019-09-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/emknwbMLzN5j",
+      "description": ""
     },
     {
+      "id": "kb_104",
       "name": "Leaf60",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2019-01-11",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_104",
+      "sortTime": "2019-01-11",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Leaf60.png"
       ],
-      "sortTime": "2019-01-11"
-    },
-    {
-      "name": "Leaf80",
-      "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2018-07-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2019-01-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/eNBR69pxooVk",
+      "description": ""
+    },
+    {
       "id": "kb_105",
+      "name": "Leaf80",
+      "studio": "Fox Lab",
+      "sortTime": "2018-07-31",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Leaf80.png"
       ],
-      "sortTime": "2018-07-31"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/4ZzE9wly6bA4",
+      "gbTime": "2018-07-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/e1XRybK0zzL4",
+      "description": ""
     },
     {
+      "id": "kb_106",
       "name": "OrangePad",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2018-04-07",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_106",
+      "sortTime": "2018-04-07",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/OrangePad.png"
       ],
-      "sortTime": "2018-04-07"
-    },
-    {
-      "name": "Orange75",
-      "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2018-04-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2018-04-07",
+      "gbLink": "https://www.zfrontier.com/app/mch/EBbNmOPnOOwB",
+      "description": ""
+    },
+    {
       "id": "kb_107",
+      "name": "Orange75",
+      "studio": "Fox Lab",
+      "sortTime": "2018-04-06",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Orange75.png"
       ],
-      "sortTime": "2018-04-06"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2018-04-06",
+      "gbLink": "https://www.zfrontier.com/app/mch/l6qzNE0Epbn1",
+      "description": ""
     },
     {
+      "id": "kb_108",
       "name": "Time80",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2017-10-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_108",
+      "sortTime": "2017-10-31",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Fox Lab/TIME 80% Reforged（Time80Re）.png"
+        "/images/Fox Lab/Time80.png"
       ],
-      "sortTime": "2017-10-31"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/mch/lWr55mPm4QQ1",
+      "gbTime": "2017-10-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/D61GJ3rzAwP2",
+      "description": "国内限量66把，有专属编号 图片来源：https://www.zfrontier.com/app/flow/4ZVOlJ06Lkj4"
     },
     {
+      "id": "kb_109",
       "name": "Orange80",
       "studio": "Fox Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2017-06-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_109",
+      "sortTime": "2017-06-28",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Fox Lab/Orange80.png"
       ],
-      "sortTime": "2017-06-28"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2017-06-28",
+      "gbLink": "https://www.zfrontier.com/app/flow/eVAQyxLMPJw4",
+      "description": ""
     },
     {
       "name": "Magnum65",
@@ -2247,79 +2232,84 @@
       "description": ""
     },
     {
+      "id": "kb_143",
       "name": "Z1",
       "studio": "Zephyr Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-20",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Zephyr Lab/Z1.png"
+      ],
       "icTime": "2025-01-02",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/L6lxM0Y78kz3",
       "gbTime": "2025-01-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_143",
-      "images": [],
-      "sortTime": "2025-01-20"
+      "gbLink": "https://www.zfrontier.com/app/flow/Av7WAaawVn1o",
+      "description": ""
     },
     {
+      "id": "kb_144",
       "name": "Laby85",
       "studio": "Domikey",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-06-30",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/Domikey/Laby85.webp"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-06-30",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_144",
-      "images": [],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_145",
       "name": "Babyface",
       "studio": "Domikey",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-05-12",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Domikey/Babyface.webp"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-05-12",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_145",
-      "images": [],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_146",
       "name": "Laby67",
       "studio": "Domikey",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-05-06",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Domikey/Laby67.webp"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-05-06",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_146",
-      "images": [],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_147",
       "name": "Laby81",
       "studio": "Domikey",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-06-29",
+      "layout": "1800FRL",
+      "status": "gb",
+      "images": [
+        "/images/Domikey/Laby81.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2022-06-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_147",
-      "images": [],
-      "sortTime": "2022-06-29"
+      "gbLink": "https://www.zfrontier.com/app/flow/2kxb66YnMBY6",
+      "description": ""
     },
     {
       "name": "Atom80",
@@ -6629,7 +6619,6 @@
       "layout": "65%",
       "status": "gb",
       "images": [
-        "/images/Matrix Lab/NOOS WING.jpg",
         "/images/Matrix Lab/NOOS.png"
       ],
       "icTime": "",

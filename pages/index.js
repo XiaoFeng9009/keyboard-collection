@@ -1,4 +1,6 @@
 ﻿import { useState, useEffect, useMemo } from 'react'
+import BlurOverlay from '../components/BlurOverlay'
+import TopProgressBar from '../components/TopProgressBar'
 import Layout from '../components/Layout'
 import SearchControls from '../components/SearchControls'
 import KeyboardCard from '../components/KeyboardCard'
@@ -7,14 +9,18 @@ import StudioDetail from '../components/StudioDetail'
 import Pagination from '../components/Pagination'
 import useBreakpoint from '../lib/useBreakpoint'
 import useData from '../lib/useData'
+import { useRouter } from 'next/router'
 
 const DEFAULT_PAGE_SIZE = 8
 
 export default function Home() {
+  const router = useRouter()
   const { isDesktop, isTablet, isMobile } = useBreakpoint()
   const { keyboards, loading } = useData()
+  const [showBlur, setShowBlur] = useState(false)
   const [filtered, setFiltered] = useState([])
   const [page, setPage] = useState(1)
+  const [resetKey, setResetKey] = useState(0)
   const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE)
 
   useEffect(function() {
@@ -44,14 +50,33 @@ export default function Home() {
     setPageSize(newSize)
   }
 
+  const handleGoHome = function() {
+    setPage(1)
+    setFiltered(sortedKeyboards)
+    setResetKey(function(k){return k+1})
+    setShowBlur(true)
+    setTimeout(function() {
+      setPage(1)
+      setFiltered(sortedKeyboards)
+      setResetKey(function(k){return k+1})
+    }, 200)
+    setTimeout(function() {
+      setShowBlur(false)
+    }, 1000)
+    setTimeout(function() {
+      router.push('/')
+    }, 1800)
+  }
+
   const handleShowStudio = (studio) => {
     setDetailData(null)
     setStudioData(studio)
   }
 
   return (
-    <Layout>
-      <SearchControls data={sortedKeyboards} onFilter={setFiltered} />
+    <>
+      <Layout onGoHome={handleGoHome}>
+      <SearchControls key={router.asPath + '_' + resetKey} data={sortedKeyboards} onFilter={setFiltered} />
       <div style={{display:'grid',gridTemplateColumns:'repeat('+cols+',1fr)',gap:isMobile?'0.75rem':'1.25rem'}}>
         {paged.map(k => <KeyboardCard key={k.id} kb={k} onClick={() => setDetailData(k)} />)}
       </div>
@@ -65,5 +90,7 @@ export default function Home() {
       {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} onShowStudio={handleShowStudio} />}
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>
+      <BlurOverlay active={showBlur} />
+    </>
   )
 }

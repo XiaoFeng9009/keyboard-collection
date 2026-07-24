@@ -72,7 +72,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
 
             {/* Close button */}
             <div style={{textAlign:'center',marginTop:28}}>
-              <button onClick={onClose} style={{background:'none',border:'1px solid var(--border-base)',borderRadius:8,fontSize:13,cursor:'pointer',padding:'10px 32px',color:'var(--text-secondary)',fontFamily:'inherit',letterSpacing:0.5}}>{'关闭'}</button>
+              <button onClick={onClose} style={{background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:18,cursor:'pointer',padding:'4px 12px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
             </div>
           </div>
         </div>

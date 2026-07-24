@@ -32,3 +32,4 @@ input,select,textarea{font-family:inherit}
 @keyframes popupIn{from{opacity:0;transform:scale(0.95) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
 @keyframes previewIn{from{opacity:0;transform:scale(0.85)}to{opacity:1;transform:scale(1)}}
 @keyframes previewOut{from{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(0.85)}}
+@keyframes progressSlide{0%{transform:translateX(-100%)}100%{transform:translateX(400%)}}

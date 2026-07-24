@@ -12,7 +12,6 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" href="/images/favicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossOrigin="anonymous" />
         <meta property="og:title" content={'\u5BA2\u5236\u5316\u952E\u76D8\u6570\u636E\u5E93 | Custom Keyboard Database'} />
         <meta property="og:description" content={'\u6536\u5F55\u5404\u5DE5\u4F5C\u5BA4\u7684\u5BA2\u5236\u5316\u952E\u76D8\u4F5C\u54C1\u4FE1\u606F\uFF0C\u652F\u6301\u68C0\u7D22\u3001\u7B5B\u9009\u3001\u65F6\u95F4\u7EBF\u6D4F\u89C8\u3002'} />
         <meta property="og:type" content="website" />

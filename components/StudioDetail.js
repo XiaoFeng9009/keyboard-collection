@@ -98,7 +98,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                     var img = getImg(k)
                     return (
                       <div key={k.id} ref={function(el){sectionRefs.current[idx]=el}} data-idx={idx}
-                        style={{marginBottom: idx < list.length - 1 ? 36 : 0}}>
+                        style={{scrollMarginTop:80, marginBottom: idx < list.length - 1 ? 36 : 0}}>
                         <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
                         {img && (<img src={img} alt={k.name} style={{width:'100%',height:280,objectFit:'cover',display:'block',margin:'0 auto 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
                         <p style={{fontSize:14,fontWeight:600,marginBottom:12,color:'var(--text-primary)'}}>{k.name}</p>
