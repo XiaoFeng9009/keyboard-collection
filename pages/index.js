@@ -59,13 +59,13 @@ export default function Home() {
       setPage(1)
       setFiltered(sortedKeyboards)
       setResetKey(function(k){return k+1})
-    }, 200)
+    }, 100)
     setTimeout(function() {
       setShowBlur(false)
-    }, 1000)
+    }, 550)
     setTimeout(function() {
       router.push('/')
-    }, 1800)
+    }, 1000)
   }
 
   const handleShowStudio = (studio) => {

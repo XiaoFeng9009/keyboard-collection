@@ -19,7 +19,7 @@ export default function BlurOverlay({ active }) {
       return function() { if (raf) cancelAnimationFrame(raf) }
     }
     if (phase === 'exit') {
-      const t = setTimeout(function() { setPhase('hidden') }, 800)
+      const t = setTimeout(function() { setPhase('hidden') }, 400)
       return function() { clearTimeout(t) }
     }
   }, [phase])
@@ -33,7 +33,7 @@ export default function BlurOverlay({ active }) {
       backdropFilter: 'blur(15px)',
       WebkitBackdropFilter: 'blur(12px)',
       opacity: phase === 'show' ? 1 : 0,
-      transition: 'opacity .8s cubic-bezier(0.0,0.6,0.3,1.0)'
+      transition: 'opacity .4s cubic-bezier(0.0,0.6,0.3,1.0)'
     }} />
   )
 }
