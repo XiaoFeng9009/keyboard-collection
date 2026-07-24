@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import BackToTop from './BackToTop'
 import useBreakpoint from '../lib/useBreakpoint'
