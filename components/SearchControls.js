@@ -5,7 +5,8 @@ export default function SearchControls({ data, onFilter }) {
   const [query, setQuery] = useState('')
   const [layout, setLayout] = useState('')
   const [filteredCount, setFilteredCount] = useState(data.length)
-  const layouts = [...new Set(data.filter(k => k.layout).map(k => k.layout))].sort()
+  var layoutOrder=["30%","40%","40%+Macro","40%+Pad","45%","50%","60%","60%+Macro","60%+Pad","AT","65%","65%+Macro","65%+Pad","65%AT","70%FRL_TKL","70%FRL_TKL+Macro","70%FRL_TKL+Pad","75%","80%TKL","80%TKL+Macro","1800","1800FRL","90%","98%","100%Full","100%Full_FRL","Pad","Alice","Split","Hub","Function","其他"];
+  var layouts=layoutOrder.filter(function(o){return data.some(function(k){return k.layout===o})})
 
   function getAbbr(text) {
     return text.split(/\s+/).map(function(w) { return w.charAt(0) }).join('').toLowerCase()

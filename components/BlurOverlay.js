@@ -29,7 +29,7 @@ export default function BlurOverlay({ active }) {
   return (
     <div style={{
       position: 'fixed', inset: 0, zIndex: 99998,
-      background: 'rgba(24,24,27,0.15)',
+      background: 'rgba(24,24,27,0.35)',
       backdropFilter: 'blur(15px)',
       WebkitBackdropFilter: 'blur(12px)',
       opacity: phase === 'show' ? 1 : 0,
