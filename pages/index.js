@@ -8,13 +8,21 @@ import Pagination from '../components/Pagination'
 import useBreakpoint from '../lib/useBreakpoint'
 import useData from '../lib/useData'
 
-const PAGE_SIZE = 20
+const DEFAULT_PAGE_SIZE = 8
 
 export default function Home() {
   const { isDesktop, isTablet, isMobile } = useBreakpoint()
   const { keyboards, loading } = useData()
   const [filtered, setFiltered] = useState([])
   const [page, setPage] = useState(1)
+  const [pageSize, setPageSize] = useState(DEFAULT_PAGE_SIZE)
+
+  useEffect(function() {
+    if (typeof window !== 'undefined') {
+      var s = localStorage.getItem('keyboardPageSize')
+      if (s) setPageSize(parseInt(s))
+    }
+  }, [])
   const [detailData, setDetailData] = useState(null)
   const [studioData, setStudioData] = useState(null)
   const cols = isDesktop ? 4 : isTablet ? 2 : 1
@@ -28,8 +36,13 @@ export default function Home() {
 
   if (loading) return <Layout><div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)',fontSize:13}}>{'\u52A0\u8F7D\u4E2D...'}</div></Layout>
 
-  const start = (page - 1) * PAGE_SIZE
-  const paged = filtered.slice(start, start + PAGE_SIZE)
+  const start = (page - 1) * pageSize
+  const paged = filtered.slice(start, start + pageSize)
+
+  const handlePageSizeChange = function(newSize) {
+    localStorage.setItem('keyboardPageSize', String(newSize))
+    setPageSize(newSize)
+  }
 
   const handleShowStudio = (studio) => {
     setDetailData(null)
@@ -39,7 +52,7 @@ export default function Home() {
   return (
     <Layout>
       <SearchControls data={sortedKeyboards} onFilter={setFiltered} />
-      <div style={{display:'grid',gridTemplateColumns:'repeat('+cols+',1fr)',gap:isMobile?12:20}}>
+      <div style={{display:'grid',gridTemplateColumns:'repeat('+cols+',1fr)',gap:isMobile?'0.75rem':'1.25rem'}}>
         {paged.map(k => <KeyboardCard key={k.id} kb={k} onClick={() => setDetailData(k)} />)}
       </div>
       {filtered.length === 0 && (
@@ -48,7 +61,7 @@ export default function Home() {
           <p>{'\u8BF7\u5728\u7BA1\u7406\u9875\u9762\u6DFB\u52A0\u952E\u76D8'}</p>
         </div>
       )}
-      <Pagination current={page} total={filtered.length} pageSize={PAGE_SIZE} onChange={function(p){setPage(p);requestAnimationFrame(function(){window.scrollTo({top:0,behavior:'smooth'})})}} />
+      <Pagination current={page} total={filtered.length} pageSize={pageSize} onChange={function(p){setPage(p);requestAnimationFrame(function(){window.scrollTo({top:0,behavior:'smooth'})})}} onPageSizeChange={handlePageSizeChange} />
       {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} onShowStudio={handleShowStudio} />}
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>

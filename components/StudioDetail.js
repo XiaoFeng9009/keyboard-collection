@@ -65,7 +65,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
         </div>
       )}
 
-      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:'60px 20px'}} onClick={onClose}>
+      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:'60px 20px',animation:'overlayIn .3s ease'}} onClick={onClose}>
         <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:960,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
           <div style={{overflowY:'auto',maxHeight:'75vh'}}>
 

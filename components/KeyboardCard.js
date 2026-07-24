@@ -1,33 +1,44 @@
-﻿function getImg(kb) {
+import { useState } from 'react'
+function getImg(kb) {
   if (kb.images && kb.images.length > 0) return kb.images[0]
   return kb.image || ''
 }
 
 export default function KeyboardCard({ kb, onClick }) {
-  const sc = {
+  var sc = {
     ic: { label: 'IC' },
     gb: { label: 'GB' },
     completed: { label: '\u5DF2\u5B8C\u6210' }
   }[kb.status]
-  const img = getImg(kb)
-  const multi = kb.images && kb.images.length > 1
+  var img = getImg(kb)
+  var multi = kb.images && kb.images.length > 1
+  var [hovered, setHovered] = useState(false)
+  var t = hovered ? 1 : 0
+  var handleEnter = function() { setHovered(true) }
+  var handleLeave = function() { setHovered(false) }
+  var handleClick = function() { onClick && onClick(kb) }
 
-  const s = {
-    card: { background:'var(--bg-primary)', overflow:'hidden', transition:'all .35s ease', boxShadow:'0 1px 3px rgba(0,0,0,0.04), 0 4px 8px rgba(0,0,0,0.04)', borderRadius:10, cursor:'pointer' },
-    imgWrap: { width:'100%', aspectRatio:'16/10', background:'var(--bg-secondary)', position:'relative', overflow:'hidden' },
-    body: { padding:16 },
+  var s = {
+    card: { background:'var(--bg-primary)', overflow:'hidden', borderRadius:10, cursor:'pointer', position:'relative' },
+    imgWrap: { width:'100%', aspectRatio:'16/12', background:'var(--bg-secondary)', position:'relative', overflow:'hidden' },
+    body: { padding:'1.25rem' },
     name: { fontSize:15, fontWeight:600, marginBottom:2 },
     studio: { fontSize:12, color:'var(--text-secondary)', marginBottom:10, letterSpacing:0.3 }
   }
 
   return (
-    <div style={s.card}
-      onMouseEnter={e=>{e.currentTarget.style.boxShadow='0 4px 12px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.06)';e.currentTarget.style.transform='translateY(-2px) scale(1.015)'}}
-      onMouseLeave={e=>{e.currentTarget.style.boxShadow='0 1px 3px rgba(0,0,0,0.04), 0 4px 8px rgba(0,0,0,0.04)';e.currentTarget.style.transform='translateY(0) scale(1)'}}
-      onClick={() => onClick && onClick(kb)}>
+        <div style={s.card}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
+      onClick={handleClick}
+      >
+      
+      {/* Yellow accent bar - sweeps from left on hover */}
+      <div style={{position:'absolute',top:0,left:0,right:0,height:3,zIndex:2,background:'var(--accent)',transform:'scaleX(' + t + ')',transformOrigin:'left',transition:'transform .3s ease'}} />
+      
       <div style={s.imgWrap}>
-        {img ? <img src={img} alt={kb.name} style={{width:'100%',height:'100%',objectFit:'cover'}}
-          onError={e=>{e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
+        {img ? <img src={img} alt={kb.name} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale(' + (1 + t * 0.05) + ')',transition:'transform .7s ease'}}
+          onError={function(e){e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
         <div style={{display:img?'none':'flex',alignItems:'center',justifyContent:'center',height:'100%',color:'var(--text-muted)',fontSize:12}}>{kb.name}</div>
         {multi && <div style={{position:'absolute',top:8,right:8,background:'var(--bg-primary)',padding:'2px 6px',fontSize:10,borderRadius:4}}>{'+'+(kb.images.length-1)}</div>}
       </div>

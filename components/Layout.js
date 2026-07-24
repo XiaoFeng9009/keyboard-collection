@@ -19,10 +19,10 @@ export default function Layout({ children }) {
   }, [])
 
   const tabs = [
-    { path: '/', label: '\u952E\u76D8', icon: 'fas fa-home' },
-    { path: '/studios', label: '\u5DE5\u4F5C\u5BA4', icon: 'fas fa-th' },
-    { path: '/timeline', label: '\u65F6\u95F4\u7EBF', icon: 'fas fa-archive' },
-    { path: '/admin', label: '\u7BA1\u7406', icon: 'fas fa-tag' },
+    { path: '/', label: 'HOME', icon: 'fas fa-home' },
+    { path: '/studios', label: 'STUDIO', icon: 'fas fa-th' },
+    { path: '/timeline', label: 'TIMELINE', icon: 'fas fa-archive' },
+    { path: '/admin', label: 'SETTING', icon: 'fas fa-tag' },
   ]
 
   var sidebarW = expanded ? 260 : 90
@@ -30,17 +30,17 @@ export default function Layout({ children }) {
   var renderSidebar = function(isOpenStyle) {
     return (
       <>
-        <div style={{display:'flex',alignItems:'center',justifyContent:'center',padding:'20px 16px',minHeight:64,borderBottom:'1px solid var(--border-base)',whiteSpace:'nowrap',overflow:'hidden'}}>
-          <img src='/images/logo.png' alt='logo' style={{height:56,width:'auto',flexShrink:0}} />
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center',padding:'20px 16px',height:64,borderBottom:'1px solid var(--border-base)',whiteSpace:'nowrap',overflow:'hidden'}}>
+          <img src='/images/logo.png' alt='logo' style={{height:56,width:'auto',transform:'scale(1.33)',transformOrigin:'center center',flexShrink:0,cursor:'pointer'}} onClick={function(){router.push('/')}} />
         </div>
         <div style={{flex:1,padding: isOpenStyle ? '8px 0' : '32px 0'}}>
           {tabs.map(function(t) {
             var isActive = router.pathname === t.path
             return (
               <button key={t.path} onClick={function(){ router.push(t.path); if(!isDesktop) setMenuOpen(false) }}
-                style={{width:'100%',display:'flex',alignItems:'center',padding:'14px 20px',border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:15,letterSpacing:0.5,background:isActive?'var(--accent)':'transparent',color:isActive?'#18181b':'var(--text-primary)',fontWeight:600,transition:'all .15s',whiteSpace:'nowrap',textAlign:'left'}}>
+                style={{width:'100%',display:'flex',alignItems:'center',padding:'14px 34px',border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:15,letterSpacing:0.5,background:isActive?'var(--accent)':'transparent',color:isActive?'#18181b':'var(--text-primary)',fontWeight:600,transition:'all .15s',whiteSpace:'nowrap',textAlign:'left'}}>
                 <i className={t.icon} style={{fontSize:16,width:22,textAlign:'center',lineHeight:1}}></i>
-                <span style={{marginLeft:12,opacity:(isOpenStyle||expanded)?1:0,transition:'opacity .2s ease',whiteSpace:'nowrap',overflow:'hidden'}}>{t.label}</span>
+                <span style={{opacity:(isOpenStyle||expanded)?1:0,maxWidth:(isOpenStyle||expanded)?200:0,marginLeft:(isOpenStyle||expanded)?14:0,overflow:'hidden',whiteSpace:'nowrap',transition:(isOpenStyle||expanded)?'opacity .3s ease .075s,maxWidth .3s ease .075s,marginLeft .3s ease .075s':'opacity .2s ease,maxWidth .2s ease,marginLeft .2s ease'}}>{t.label}</span>
               </button>
             )
           })}
@@ -56,7 +56,7 @@ export default function Layout({ children }) {
     <div style={{minHeight:'100vh',display:'flex'}}>
       {/* Desktop sidebar */}
       {isDesktop && (
-        <nav style={{position:'fixed',left:0,top:0,bottom:0,zIndex:100,width:sidebarW,display:'flex',flexDirection:'column',background:'var(--bg-primary)',borderRight:'1px solid var(--border-base)',boxShadow:'var(--shadow-base)',overflow:'hidden',transition:'width .25s ease,transform .25s ease',transform:'translateZ(0)',willChange:'width',backfaceVisibility:'hidden'}}
+        <nav style={{position:'fixed',left:0,top:0,bottom:0,zIndex:100,display:'flex',flexDirection:'column',background:'var(--bg-primary)',borderRight:'1px solid var(--border-base)',boxShadow:'var(--shadow-base)',overflow:'hidden',transition:'width .3s ease-in-out'}}
           onMouseEnter={function(){setExpanded(true)}}
           onMouseLeave={function(){setExpanded(false)}}>
           {renderSidebar(false)}
@@ -82,7 +82,7 @@ export default function Layout({ children }) {
 
       {/* Main content */}
       <div style={{marginLeft:(isDesktop?90:0),width:'100%',minHeight:'100vh'}}>
-        <main style={{maxWidth:1200,margin:'0 auto',padding:isMobile?'60px 12px 32px':(isTablet?'60px 20px 32px':'32px 28px')}}>
+        <main style={{maxWidth:'85rem',margin:'0 auto',padding:isMobile?'60px 12px 32px':(isTablet?'60px 20px 32px':'32px 28px')}}>
           {children}
         </main>
       </div>

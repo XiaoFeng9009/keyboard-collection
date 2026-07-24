@@ -15,7 +15,7 @@
   --grid-color: rgba(0,0,0,0.03);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{font-size:clamp(14px,calc(16px * (100vw / 1440)),24px)}
+html{font-size:clamp(14px,calc(16px * (100vw / 1440)),48px)}
 body{
   background:var(--bg-base);color:var(--text-primary);
   font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;

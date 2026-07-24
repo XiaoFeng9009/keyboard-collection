@@ -1,6 +1,6 @@
 ﻿import { useState } from 'react'
 
-export default function Pagination({ current, total, pageSize, onChange }) {
+export default function Pagination({ current, total, pageSize, onChange, onPageSizeChange }) {
   const [jumpInput, setJumpInput] = useState('')
   const totalPages = Math.ceil(total / pageSize)
   if (totalPages <= 1) return null
@@ -11,21 +11,21 @@ export default function Pagination({ current, total, pageSize, onChange }) {
       fontWeight: active ? 600 : 400,
       background: active ? 'var(--accent)' : 'var(--bg-primary)',
       color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-      border: active ? '2px solid var(--text-primary)' : '1px solid var(--border-base)',
-      transition: 'all .15s', borderRadius: 0, lineHeight: 1, minWidth: 32,
+      border: '1px solid var(--border-base)', boxShadow: active ? '0 0 0 1.5px var(--text-primary)' : 'none',
+      transition: 'all .15s', borderRadius: 6, lineHeight: 1, minWidth: 32,
     }),
     nav: (disabled) => ({
-      padding: '6px 10px', fontSize: 12, cursor: disabled ? 'default' : 'pointer',
+      padding: '6px 12px', fontSize: 12, cursor: disabled ? 'default' : 'pointer',
       fontFamily: 'inherit', fontWeight: 500,
       background: 'var(--bg-primary)',
       color: disabled ? 'var(--text-muted)' : 'var(--text-primary)',
       border: '1px solid var(--border-base)',
-      opacity: disabled ? 0.4 : 1, transition: 'all .15s', borderRadius: 0, lineHeight: 1,
+      opacity: disabled ? 0.4 : 1, transition: 'all .15s', borderRadius: 6, lineHeight: 1,
     }),
     input: {
       width: 48, padding: '6px 8px', fontSize: 12, textAlign: 'center',
       background: 'var(--bg-base)', border: '1px solid var(--border-base)',
-      color: 'var(--text-primary)', fontFamily: 'inherit', borderRadius: 0,
+      color: 'var(--text-primary)', fontFamily: 'inherit', borderRadius: 6,
     }
   }
 
@@ -71,12 +71,18 @@ export default function Pagination({ current, total, pageSize, onChange }) {
         onMouseEnter={e=>{if(current<totalPages)e.target.style.borderColor='var(--text-primary)'}}
         onMouseLeave={e=>{e.target.style.borderColor='var(--border-base)'}}>{'\u00BB'}</button>
 
-      <form onSubmit={handleJump} style={{display:'flex',alignItems:'center',gap:4,marginLeft:8}}>
+      <select value={pageSize} onChange={function(e){onPageSizeChange(parseInt(e.target.value))}}
+        style={{padding:'6px 8px',fontSize:12,background:'var(--bg-base)',border:'1px solid var(--border-base)',color:'var(--text-primary)',fontFamily:'inherit',cursor:'pointer',borderRadius:6,marginLeft:8}}>
+        <option value={8}>8</option>
+        <option value={12}>12</option>
+        <option value={16}>16</option>
+      </select>
+            <form onSubmit={handleJump} style={{display:'flex',alignItems:'center',gap:4,marginLeft:8}}>
         <input type="text" value={jumpInput} onChange={e=>setJumpInput(e.target.value)}
           placeholder={''+totalPages} style={base.input} />
-        <button type="submit" style={{padding:'6px 10px',fontSize:12,cursor:'pointer',
+        <button type="submit" style={{padding:'6px 12px',fontSize:12,cursor:'pointer',
           fontFamily:'inherit',fontWeight:500,background:'var(--bg-primary)',
-          color:'var(--text-primary)',border:'1px solid var(--border-base)',borderRadius:0,
+          color:'var(--text-primary)',border:'1px solid var(--border-base)',borderRadius:6,
           lineHeight:1}} onMouseEnter={e=>e.target.style.borderColor='var(--text-primary)'}
           onMouseLeave={e=>e.target.style.borderColor='var(--border-base)'}>GO</button>
       </form>
