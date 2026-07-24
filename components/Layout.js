@@ -10,6 +10,13 @@ export default function Layout({ children }) {
 
   const [expanded, setExpanded] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [isLocal, setIsLocal] = useState(true)
+
+  useEffect(function() {
+    if (typeof window !== 'undefined') {
+      setIsLocal(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    }
+  }, [])
 
   const tabs = [
     { path: '/', label: '\u952E\u76D8', icon: 'fas fa-home' },

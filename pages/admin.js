@@ -110,6 +110,16 @@ export default function Admin() {
 
   // Login form
   if (!authenticated) {
+    if (typeof window !== "undefined" && window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
+      return (
+        <Layout>
+          <div style={{textAlign:"center",padding:"80px 20px"}}>
+            <h2 style={{fontSize:32,fontWeight:700,color:"var(--text-primary)",marginBottom:8}}>404</h2>
+            <p style={{fontSize:14,color:"var(--text-muted)"}}>Page not found</p>
+          </div>
+        </Layout>
+      )
+    }
     return (
       <Layout>
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",minHeight:"60vh",flexDirection:"column",gap:16}}>
