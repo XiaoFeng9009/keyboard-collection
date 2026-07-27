@@ -501,6 +501,16 @@
       "group": "GDK Lab"
     },
     {
+      "path": "/images/GDK Lab/NV60.jpg",
+      "name": "NV60.jpg",
+      "group": "GDK Lab"
+    },
+    {
+      "path": "/images/GDK Lab/NV60.webp",
+      "name": "NV60.webp",
+      "group": "GDK Lab"
+    },
+    {
       "path": "/images/GrayStudio造键坞/Aero75.webp",
       "name": "Aero75.webp",
       "group": "GrayStudio造键坞"
@@ -518,6 +528,11 @@
     {
       "path": "/images/GrayStudio造键坞/Emonda60.webp",
       "name": "Emonda60.webp",
+      "group": "GrayStudio造键坞"
+    },
+    {
+      "path": "/images/GrayStudio造键坞/HardRock60.png",
+      "name": "HardRock60.png",
       "group": "GrayStudio造键坞"
     },
     {
@@ -2476,5 +2491,5 @@
       "group": "(root)"
     }
   ],
-  "total": 495
+  "total": 498
 }

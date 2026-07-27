@@ -8301,6 +8301,39 @@
       "gbTime": "2023-01-15",
       "gbLink": "",
       "description": "抽签"
+    },
+    {
+      "id": "kb_1785143431614",
+      "name": "NV60",
+      "studio": "GDK Lab",
+      "sortTime": "2026-07-27",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GDK Lab/NV60.webp",
+        "/images/GDK Lab/NV60.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-07-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/rkP66YQ8vwm3",
+      "description": ""
+    },
+    {
+      "id": "kb_1785143933153",
+      "name": "HardRock60",
+      "studio": "GrayStudio造键坞",
+      "sortTime": "2026-07-24",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GrayStudio造键坞/HardRock60.png"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-07-24",
+      "gbLink": "",
+      "description": ""
     }
   ]
 }
