@@ -1,21 +1,20 @@
 {
   "keyboards": [
     {
-      "name": "K-EDC65 (IC)",
-      "studio": "JR举人工作室",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-05-25",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_1",
+      "name": "K-EDC65",
+      "studio": "JR举人工作室",
+      "sortTime": "2026-05-25",
+      "layout": "65%",
+      "status": "ic",
       "images": [
         "/images/JR举人工作室/K-EDC65.webp"
       ],
-      "sortTime": "2026-05-25"
+      "icTime": "2026-05-25",
+      "icLink": "https://www.zfrontier.com/app/flow/kZNy5wxRAkNv",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_2",
@@ -548,73 +547,69 @@
       "sortTime": "2021-12-24"
     },
     {
+      "id": "kb_39",
       "name": "Dama80",
       "studio": "Hamon Tap",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-05-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_39",
+      "sortTime": "2026-05-06",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Hamon Tap/Dama80.webp"
       ],
-      "sortTime": "2026-05-06"
-    },
-    {
-      "name": "Dama60",
-      "studio": "Hamon Tap",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2026-02-05",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2026-05-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/Ovr818BZpEkY",
+      "description": ""
+    },
+    {
       "id": "kb_40",
+      "name": "Dama60",
+      "studio": "Hamon Tap",
+      "sortTime": "2026-02-05",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Hamon Tap/Dama60.jpg"
       ],
-      "sortTime": "2026-02-05"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-02-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/qY31kXXA1brx",
+      "description": ""
     },
     {
+      "id": "kb_41",
       "name": "Reign (IC)",
       "studio": "Foraz Signature",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-13",
-      "icLink": "https://www.reddit.com/r/MechanicalKeyboards/comments/1skbf85/forazsignatureco_reign/",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_41",
+      "sortTime": "2026-04-13",
+      "layout": "60%+Macro",
+      "status": "ic",
       "images": [
         "/images/Foraz Signature/Reign_DCS_Mudbean_Render_1_MiKeyDigit.webp",
         "/images/Foraz Signature/Reign_Viridater_Aeneus_2.webp"
       ],
-      "sortTime": "2026-04-13"
+      "icTime": "2026-04-13",
+      "icLink": "https://www.reddit.com/r/MechanicalKeyboards/comments/1skbf85/forazsignatureco_reign/",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_42",
       "name": "Hope",
       "studio": "Foraz Signature",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-02-09",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_42",
+      "sortTime": "2026-02-09",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Foraz Signature/Hope.jpg"
       ],
-      "sortTime": "2026-02-09"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-02-09",
+      "gbLink": "https://typeplus.net/products/hope-keyboard?variant=47588890345717",
+      "description": "国内由扯扯科技代理销售"
     },
     {
       "id": "kb_43",
@@ -777,89 +772,84 @@
       "description": ""
     },
     {
+      "id": "kb_53",
       "name": "ZM50",
       "studio": "JRXY匠人学院",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-02-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_53",
+      "sortTime": "2026-02-10",
+      "layout": "50%",
+      "status": "gb",
       "images": [
         "/images/JRXY匠人学院/ZM50.webp"
       ],
-      "sortTime": "2026-02-10"
-    },
-    {
-      "name": "AMX80",
-      "studio": "JRXY匠人学院",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-07-17",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2026-02-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/vm75qdRzr01j",
+      "description": ""
+    },
+    {
       "id": "kb_54",
+      "name": "AMX80",
+      "studio": "JRXY匠人学院",
+      "sortTime": "2025-07-17",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/JRXY匠人学院/AMX80.webp"
       ],
-      "sortTime": "2025-07-17"
-    },
-    {
-      "name": "古琴65&96",
-      "studio": "JRXY匠人学院",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2024-02-27",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025-07-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/BXKykbB59Ovw",
+      "description": ""
+    },
+    {
       "id": "kb_55",
+      "name": "古琴65&96",
+      "studio": "JRXY匠人学院",
+      "sortTime": "2024-02-27",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/JRXY匠人学院/古琴65&96.webp"
       ],
-      "sortTime": "2024-02-27"
-    },
-    {
-      "name": "AMX60",
-      "studio": "JRXY匠人学院",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2022-10-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-02-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/gEKMn7R6Xgz1",
+      "description": ""
+    },
+    {
       "id": "kb_56",
+      "name": "AMX60",
+      "studio": "JRXY匠人学院",
+      "sortTime": "2022-10-14",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/JRXY匠人学院/AMX60.webp"
       ],
-      "sortTime": "2022-10-14"
-    },
-    {
-      "name": "AMX40",
-      "studio": "JRXY匠人学院",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2022-05-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2022-10-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/AgRBZWaRwpjy",
+      "description": ""
+    },
+    {
       "id": "kb_57",
+      "name": "AMX40",
+      "studio": "JRXY匠人学院",
+      "sortTime": "2022-05-26",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/JRXY匠人学院/AMX40.webp"
       ],
-      "sortTime": "2022-05-26"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2022-05-26",
+      "gbLink": "https://www.zfrontier.com/app/flow/D7gNKjjoMZon",
+      "description": ""
     },
     {
       "id": "kb_58",
@@ -878,21 +868,20 @@
       "description": ""
     },
     {
+      "id": "kb_59",
       "name": "Ore60",
       "studio": "Quiet Triangle Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-02-17",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_59",
+      "sortTime": "2026-02-17",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Quiet Triangle Studio/Ore60.webp"
       ],
-      "sortTime": "2026-02-17"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-02-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/LZYoA71gdNEw",
+      "description": ""
     },
     {
       "id": "kb_60",
@@ -993,21 +982,20 @@
       "sortTime": "2026-03-07"
     },
     {
-      "name": "Selene65(IC)",
-      "studio": "Aether Works",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-13",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_66",
+      "name": "Selene65",
+      "studio": "Aether Works",
+      "sortTime": "2026-03-13",
+      "layout": "65%",
+      "status": "ic",
       "images": [
         "/images/Aether Works/Selene65.webp"
       ],
-      "sortTime": "2026-03-13"
+      "icTime": "2026-03-13",
+      "icLink": "https://www.zfrontier.com/app/flow/5N9gJLlJgXBo",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_67",
@@ -1075,36 +1063,34 @@
       "description": ""
     },
     {
+      "id": "kb_71",
       "name": "NP-R",
       "studio": "Flatbrains",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "https://geekhack.org/index.php?topic=126401.0",
-      "gbTime": "2026-03-05",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_71",
+      "sortTime": "2026-03-05",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/Flatbrains/NP-R.webp"
       ],
-      "sortTime": "2026-03-05"
+      "icTime": "",
+      "icLink": "https://geekhack.org/index.php?topic=126401.0",
+      "gbTime": "2026-03-05",
+      "gbLink": "https://www.zfrontier.com/app/mch/1JEAbERbX9On",
+      "description": "国内由ZFrontier代理销售"
     },
     {
+      "id": "kb_72",
       "name": "Plaket XL",
       "studio": "Flatbrains",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-10-25",
+      "layout": "60%+Macro",
+      "status": "gb",
+      "images": [],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-10-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_72",
-      "images": [],
-      "sortTime": "2024-10-25"
+      "gbLink": "https://www.zfrontier.com/app/flow/K7KoQ5RmN35l",
+      "description": "国内由Kezewa代理销售 未找到具体开团日期暂定10.25"
     },
     {
       "name": "产品名称",
@@ -1184,70 +1170,69 @@
       "description": ""
     },
     {
-      "name": "Trapezium90 (IC)",
+      "name": "Trapezium90",
       "studio": "ZBLB CLUB",
-      "layout": "",
-      "status": "",
+      "layout": "65%AT",
+      "status": "ic",
       "icTime": "2026-03-20",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/w9VE9pXLEN0Q",
       "gbTime": "",
       "gbLink": "",
       "image": "",
       "description": "",
       "id": "kb_78",
-      "images": [],
+      "images": [
+        "/images/ZBLB CLUB/Trapezium90.webp"
+      ],
       "sortTime": "2026-03-20"
     },
     {
-      "name": "Dock77 (IC)",
-      "studio": "Overwrite Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-27",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "https://www.zfrontier.com/app/flow/zb0k8ymxGbW9",
-      "image": "",
-      "description": "",
       "id": "kb_79",
+      "name": "Dock77",
+      "studio": "Overwrite Studio",
+      "sortTime": "2026-03-27",
+      "layout": "75%",
+      "status": "ic",
       "images": [
         "/images/Overwrite Studio/Dock77.webp"
       ],
-      "sortTime": "2026-03-27"
+      "icTime": "2026-03-27",
+      "icLink": "https://www.zfrontier.com/app/flow/zb0k8ymxGbW9",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_80",
       "name": "MOK AIR",
       "studio": "MODIKY Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-02",
-      "icLink": "",
-      "gbTime": "2026-05-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_80",
+      "sortTime": "2026-05-15",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/MODIKY Studio/MOK AIR 84.webp"
       ],
-      "sortTime": "2026-05-15"
+      "icTime": "2026-04-02",
+      "icLink": "https://www.zfrontier.com/app/flow/9035PAQpazMG",
+      "gbTime": "2026-05-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/N36XNLZQqYag",
+      "description": "75%紧凑配列矮轴套件"
     },
     {
-      "name": "Bauer 65",
-      "studio": "G Bur",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-04-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_81",
+      "name": "Bauer65",
+      "studio": "G Bur",
+      "sortTime": "2026-04-01",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/G Bur/Bauer 65.webp"
       ],
-      "sortTime": "2026-04-01"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-04-01",
+      "gbLink": "https://omnitype.com/products/bauer-65?srsltid=AfmBOorrAaO9tcJJdIE57ynBORiFRUA1pQdO4GUOEU110YRxaZQO2dX4&variant=46928529031337",
+      "description": "国内由KBDFans代理销售"
     },
     {
       "id": "kb_82",
@@ -1410,38 +1395,36 @@
       "description": ""
     },
     {
+      "id": "kb_92",
       "name": "Flora65",
       "studio": "SpringKeys",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-02",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_92",
+      "sortTime": "2026-07-24",
+      "layout": "65%",
+      "status": "ic",
       "images": [
         "/images/SpringKeys/flora65.webp"
       ],
-      "sortTime": "2026-03-02"
-    },
-    {
-      "name": "Hawk60",
-      "studio": "SpringKeys",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-06-09",
-      "icLink": "",
+      "icTime": "2026-07-24",
+      "icLink": "https://www.zfrontier.com/app/flow/z7OPPP1oW1gd",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_93",
+      "name": "Hawk60",
+      "studio": "SpringKeys",
+      "sortTime": "2025-06-09",
+      "layout": "60%",
+      "status": "ic",
       "images": [
         "/images/SpringKeys/Hawk60.webp"
       ],
-      "sortTime": "2025-06-09"
+      "icTime": "2025-06-09",
+      "icLink": "https://www.zfrontier.com/app/flow/Y35J6vKYOWPp",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_94",
@@ -1817,72 +1800,68 @@
       "description": ""
     },
     {
+      "id": "kb_117",
       "name": "Vintech Series 06",
       "studio": "Fusion Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-03-06",
-      "icLink": "",
-      "gbTime": "2026-05-21",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_117",
+      "sortTime": "2026-05-21",
+      "layout": "100%Full",
+      "status": "gb",
       "images": [
         "/images/Fusion Lab/Vintech Series 06.webp"
       ],
-      "sortTime": "2026-05-21"
+      "icTime": "2026-03-06",
+      "icLink": "https://www.zfrontier.com/app/flow/65ykW8P3qjqp",
+      "gbTime": "2026-05-21",
+      "gbLink": "https://www.zfrontier.com/app/flow/vQzNgEvm73K5",
+      "description": ""
     },
     {
+      "id": "kb_118",
       "name": "LUMON-X (人生切割术)",
       "studio": "Fusion Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-02-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_118",
+      "sortTime": "2026-02-25",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Fusion Lab/LUMON-X.webp"
       ],
-      "sortTime": "2026-02-25"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-02-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/W8MXNd0Bg8pQ",
+      "description": ""
     },
     {
+      "id": "kb_119",
       "name": "Vision75",
       "studio": "Fusion Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-10-15",
-      "icLink": "",
-      "gbTime": "2025-05-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_119",
+      "sortTime": "2025-05-08",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Fusion Lab/Vision75.webp"
       ],
-      "sortTime": "2025-05-08"
+      "icTime": "2023-10-15",
+      "icLink": "https://www.zfrontier.com/app/flow/pNj0vdpx8y9E",
+      "gbTime": "2025-05-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/P7YMGVkxWvdG",
+      "description": ""
     },
     {
+      "id": "kb_120",
       "name": "鲲75",
       "studio": "Fusion Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-12-11",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_120",
+      "sortTime": "2024-12-11",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Fusion Lab/鲲75.webp"
       ],
-      "sortTime": "2024-12-11"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-12-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/6GGp9XJo0nbO",
+      "description": ""
     },
     {
       "name": "grid100",
@@ -1936,64 +1915,20 @@
       "sortTime": "2018-07-31"
     },
     {
-      "name": "H2H₂ Pad",
-      "studio": "Hannn",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-12",
-      "icLink": "",
-      "gbTime": "2026-05-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_124",
-      "images": [],
-      "sortTime": "2026-05-23"
-    },
-    {
-      "name": "Pro2.K HHKB Pro2 外壳",
-      "studio": "Hannn",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-07-06",
-      "icLink": "",
-      "gbTime": "2025-08-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_125",
-      "images": [],
-      "sortTime": "2025-08-28"
-    },
-    {
-      "name": "H2H HHKB Classic 外壳",
-      "studio": "Hannn",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-11-28",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_126",
-      "images": [],
-      "sortTime": "2024-11-28"
-    },
-    {
+      "id": "kb_127",
       "name": "Eclipse65",
       "studio": "Hannn",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-10-26",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/Hannn/Eclipse65.png"
+      ],
       "icTime": "2024-10-26",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Z37oK1b7X6r7",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_127",
-      "images": [],
-      "sortTime": "2024-10-26"
+      "description": ""
     },
     {
       "id": "kb_128",
@@ -2318,36 +2253,36 @@
       "description": ""
     },
     {
+      "id": "kb_148",
       "name": "Atom80",
       "studio": "Atom Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2018-01-08",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Atom Studio/Atom80.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2018-01-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_148",
-      "images": [],
-      "sortTime": "2018-01-08"
+      "gbLink": "https://www.zfrontier.com/app/flow/29nYOa8R700D",
+      "description": ""
     },
     {
+      "id": "kb_149",
       "name": "Doo & Do.25",
       "studio": "Vida Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-02-13",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_149",
+      "sortTime": "2026-04-13",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/Vida Lab/Doo & Do.25.webp"
       ],
-      "sortTime": "2026-02-13"
+      "icTime": "2026-04-13",
+      "icLink": "https://www.zfrontier.com/app/flow/Oq9jW8OEQ5g1",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_150",
@@ -2702,19 +2637,20 @@
       "description": ""
     },
     {
+      "id": "kb_172",
       "name": "Venus",
       "studio": "TRY Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-05-04",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/TRY Studio/Venus.webp"
+      ],
       "icTime": "2026-01-30",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/NMPzGG1zdokL",
       "gbTime": "2026-05-04",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_172",
-      "images": [],
-      "sortTime": "2026-05-04"
+      "gbLink": "https://www.zfrontier.com/app/flow/NJ08WXNQqJ9x",
+      "description": ""
     },
     {
       "id": "kb_173",
@@ -3271,332 +3207,293 @@
       "sortTime": ""
     },
     {
+      "id": "kb_208",
       "name": "Torque-L",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-06-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_208",
+      "sortTime": "2026-06-10",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Russ Works/Torque-L.webp"
       ],
-      "sortTime": "2026-06-10"
-    },
-    {
-      "name": "NingNing",
-      "studio": "Russ Works",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2026-05-24",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2026-06-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/rRn0wW5Eq0mZ",
+      "description": "Russ Works与Grit Works共同开发"
+    },
+    {
       "id": "kb_209",
+      "name": "NingNing",
+      "studio": "Russ Works",
+      "sortTime": "2026-05-24",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Russ Works/Ningning.jpg"
       ],
-      "sortTime": "2026-05-24"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-05-24",
+      "gbLink": "https://shimo.im/docs/gwEjAPQWqIyED4Ig",
+      "description": "键盘配列：60% 结构方式：Silicone Gasket 打字角度：9° 重量：2100g（组装后） 前高：15.88 mm  PCB：1.6mm 焊接PCB /1.6mm 热插拔PCB 无开槽 因现货发售备货有限，默认配置均为热插拔PCB，焊接PCB需加购 定位板：铝定位板（统一为阳极黑） 配列选择：7U HHKB/WK/WKL 数量：HHKB 60套 WKL20套 WK20套 上盖颜色：阳极深灰/阳极奥数紫/阳极咖啡/阳极银 底壳：黄铜喷砂 配重：铝合金阳极浅灰/铝合金阳极灰金"
     },
     {
+      "id": "kb_210",
       "name": "Laeticia60",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-03-19",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Laeticia60.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-03-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_210",
-      "images": [],
-      "sortTime": "2026-03-19"
+      "gbLink": "https://jsj.top/f/ocr8jr",
+      "description": ""
     },
     {
+      "id": "kb_211",
       "name": "Yujin mini",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Yujin mini.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-12-30",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_211",
-      "images": [
-        "/images/Russ Works/Yujin mini.png",
-        "/images/Russ Works/Yujin TKL.jpg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_212",
       "name": "Winter TKL R2",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-09-15",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Winter TKL R2.jpg"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-09-15",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_212",
-      "images": [
-        "/images/Russ Works/Lamy TKL.jpg",
-        "/images/Russ Works/Wendy TKL.jpg",
-        "/images/Russ Works/Winter TKL R2.jpg",
-        "/images/Russ Works/Winter TKL.jpg",
-        "/images/Russ Works/Yujin TKL.jpg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_213",
       "name": "Suisei R3",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-23",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Suisei R3.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-08-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_213",
-      "images": [
-        "/images/Russ Works/Suisei R3.jpg",
-        "/images/Russ Works/Suisei.jpg"
-      ],
-      "sortTime": "2025-08-23"
+      "gbLink": "https://app.notion.com/p/Suisei-R3-Group-Buy-Information-1e751a0b2f3f807dad15c6387c34bdec?source=copy_link",
+      "description": ""
     },
     {
+      "id": "kb_214",
       "name": "Velora80",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-09",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Velora80.jpg"
+      ],
       "icTime": "2025-07-20",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/wpnqzw8lpXkq",
       "gbTime": "2025-08-09",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_214",
-      "images": [],
-      "sortTime": "2025-08-09"
+      "gbLink": "https://www.zfrontier.com/app/flow/NJRb3rgYQP5k",
+      "description": ""
     },
     {
+      "id": "kb_215",
       "name": "Rin60",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_215",
+      "sortTime": "2025-06-05",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Russ Works/Rin60.jpg"
       ],
-      "sortTime": ""
-    },
-    {
-      "name": "Rio",
-      "studio": "Russ Works",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-06-05",
       "gbLink": "",
-      "image": "",
-      "description": "",
+      "description": ""
+    },
+    {
       "id": "kb_216",
+      "name": "Rio65",
+      "studio": "Russ Works",
+      "sortTime": "2025-04-14",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Russ Works/Rio.jpg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025-04-14",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_217",
       "name": "Karina65",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-02-03",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Karina65.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-02-03",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_217",
-      "images": [],
-      "sortTime": "2025-02-03"
+      "gbLink": "https://keyspensory.store/products/karina-65-by-russ-works",
+      "description": ""
     },
     {
+      "id": "kb_218",
       "name": "Fukuro R2",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-03",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Fukuro R2.jpg"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_218",
-      "images": [
-        "/images/Russ Works/Fukuro R2.jpg",
-        "/images/Russ Works/Fukuro.jpg"
-      ],
-      "sortTime": ""
+      "gbTime": "2025-01-03",
+      "gbLink": "https://www.instagram.com/p/DESPr5av_SB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+      "description": ""
     },
     {
+      "id": "kb_219",
       "name": "Lamy R2",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-08-17",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Lamy R2.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-08-17",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_219",
-      "images": [
-        "/images/Russ Works/Lamy R2.jpg",
-        "/images/Russ Works/Lamy TKL.jpg"
-      ],
-      "sortTime": "2024-08-17"
+      "gbLink": "https://www.instagram.com/p/C-EeTYQPU56/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "description": ""
     },
     {
+      "id": "kb_220",
       "name": "Yujin TKL",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_220",
+      "sortTime": "2024-04-07",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/Russ Works/Lamy TKL.jpg",
-        "/images/Russ Works/Wendy TKL.jpg",
-        "/images/Russ Works/Winter TKL R2.jpg",
-        "/images/Russ Works/Winter TKL.jpg",
-        "/images/Russ Works/Yujin mini.png",
         "/images/Russ Works/Yujin TKL.jpg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-04-07",
+      "gbLink": "https://www.instagram.com/p/C5bc1_EPpDR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "description": ""
     },
     {
+      "id": "kb_221",
       "name": "Winter TKL",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023/05/06",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Winter TKL.jpg",
+        "/images/Russ Works/Winter TKL R2.jpg"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2023/05/06",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_221",
-      "images": [
-        "/images/Russ Works/Lamy TKL.jpg",
-        "/images/Russ Works/Wendy TKL.jpg",
-        "/images/Russ Works/Winter TKL R2.jpg",
-        "/images/Russ Works/Winter TKL.jpg",
-        "/images/Russ Works/Yujin TKL.jpg"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_222",
       "name": "Fukuro",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-02-08",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Fukuro.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2023-02-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_222",
-      "images": [
-        "/images/Russ Works/Fukuro R2.jpg",
-        "/images/Russ Works/Fukuro.jpg"
-      ],
-      "sortTime": "2023-02-08"
+      "gbLink": "https://www.instagram.com/p/CoZ9CIXvIBH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "description": ""
     },
     {
+      "id": "kb_223",
       "name": "Wendy TKL",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-10-10",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Wendy TKL.jpg"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_223",
-      "images": [
-        "/images/Russ Works/Lamy TKL.jpg",
-        "/images/Russ Works/Wendy TKL.jpg",
-        "/images/Russ Works/Winter TKL R2.jpg",
-        "/images/Russ Works/Winter TKL.jpg",
-        "/images/Russ Works/Yujin TKL.jpg"
-      ],
-      "sortTime": ""
+      "gbTime": "2022-10-10",
+      "gbLink": "https://www.instagram.com/p/Cjhfgv-P3dj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "description": ""
     },
     {
+      "id": "kb_224",
       "name": "Suisei",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_224",
+      "sortTime": "2022-08-04",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Russ Works/Suisei R3.jpg",
         "/images/Russ Works/Suisei.jpg"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2022-08-04",
+      "gbLink": "https://www.instagram.com/p/CgbjaTVveLI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
+      "description": ""
     },
     {
+      "id": "kb_225",
       "name": "Lamy TKL",
       "studio": "Russ Works",
-      "layout": "",
-      "status": "",
+      "sortTime": "2021-11-19",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Russ Works/Lamy TKL.jpg"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2021-11-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_225",
-      "images": [
-        "/images/Russ Works/Lamy R2.jpg",
-        "/images/Russ Works/Lamy TKL.jpg",
-        "/images/Russ Works/Wendy TKL.jpg",
-        "/images/Russ Works/Winter TKL R2.jpg",
-        "/images/Russ Works/Winter TKL.jpg",
-        "/images/Russ Works/Yujin TKL.jpg"
-      ],
-      "sortTime": "2021-11-19"
+      "gbLink": "https://www.instagram.com/p/CWb3a3aBg96/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "description": ""
     },
     {
       "id": "kb_226",
@@ -3775,163 +3672,166 @@
       "description": ""
     },
     {
+      "id": "kb_237",
       "name": "Elysium",
       "studio": "HELIX Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-07-21",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/HELIX Lab/Elysium.webp"
+      ],
       "icTime": "2024-04-12",
-      "icLink": "IC链接",
+      "icLink": "https://www.zfrontier.com/app/flow/1ykd5zLn9nnz",
       "gbTime": "2024-07-21",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_237",
-      "images": [],
-      "sortTime": "2024-07-21"
+      "gbLink": "https://www.zfrontier.com/app/flow/kYxva6gJaGM6",
+      "description": ""
     },
     {
+      "id": "kb_238",
       "name": "AARU65",
       "studio": "HELIX Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-11-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/HELIX Lab/Aaru.png",
+        "/images/HELIX Lab/AARU65.png"
+      ],
       "icTime": "2022-08-27",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/DYJzl8AXYy00",
       "gbTime": "2022-11-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_238",
-      "images": [],
-      "sortTime": "2022-11-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/zPKQPpzaqrkb",
+      "description": ""
     },
     {
+      "id": "kb_239",
       "name": "ANKH Pad",
       "studio": "HELIX Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2021-06-16",
+      "layout": "Pad",
+      "status": "gb",
+      "images": [
+        "/images/HELIX Lab/ANKH Pad.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2021-06-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_239",
-      "images": [],
-      "sortTime": "2021-06-16"
+      "gbLink": "https://www.zfrontier.com/app/flow/4XzBjvEvZMny",
+      "description": ""
     },
     {
+      "id": "kb_240",
       "name": "Aaru",
       "studio": "HELIX Lab",
-      "layout": "",
-      "status": "",
+      "sortTime": "2020-08-01",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/HELIX Lab/Aaru.png",
+        "/images/HELIX Lab/AARU65.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2020-08-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_240",
-      "images": [],
-      "sortTime": "2020-08-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/2PZzjYNPLA8J",
+      "description": ""
     },
     {
-      "name": "Deco75DH (IC)",
+      "id": "kb_241",
+      "name": "Deco75DH",
       "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-02-18",
+      "layout": "75%",
+      "status": "ic",
+      "images": [
+        "/images/iNN Studio/Deco75DH.webp"
+      ],
       "icTime": "2026-02-18",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/qZN5m0Go1gN1",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_241",
-      "images": [],
-      "sortTime": "2026-02-18"
+      "description": ""
     },
     {
+      "id": "kb_242",
       "name": "Katina",
       "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-10-18",
-      "icLink": "",
-      "gbTime": "2026-01-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_242",
+      "sortTime": "2026-01-14",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/iNN Studio/Katina TKL.webp"
       ],
-      "sortTime": "2026-01-14"
+      "icTime": "2025-10-18",
+      "icLink": "https://www.zfrontier.com/app/flow/vyPNl5qbZqQL",
+      "gbTime": "2026-01-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/QPm5brY9jZGv",
+      "description": ""
     },
     {
-      "name": "Float60 (IC)",
+      "id": "kb_243",
+      "name": "Float60",
       "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-10-05",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/iNN Studio/Float60.png"
+      ],
       "icTime": "2025-10-05",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/nGEzLzXGNPbJ",
       "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_243",
+      "description": ""
+    },
+    {
+      "id": "kb_244",
+      "name": "Veil65",
+      "studio": "iNN Studio",
+      "sortTime": "2025-08-15",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/iNN Studio/Veil65 纱65.png"
+      ],
+      "icTime": "2025-06-21",
+      "icLink": "https://www.zfrontier.com/app/flow/daXLBxEO8MPd",
+      "gbTime": "2025-08-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/zV97vGoKnE8q",
+      "description": ""
+    },
+    {
+      "id": "kb_245",
+      "name": "Flo-AT",
+      "studio": "iNN Studio",
+      "sortTime": "2025-04-29",
+      "layout": "AT",
+      "status": "gb",
       "images": [
         "/images/iNN Studio/Flo-AT.png"
       ],
-      "sortTime": "2025-10-05"
-    },
-    {
-      "name": "Veil65",
-      "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-06-21",
-      "icLink": "",
-      "gbTime": "2025-08-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_244",
-      "images": [],
-      "sortTime": "2025-08-15"
-    },
-    {
-      "name": "Flo-AT",
-      "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
       "icTime": "2025-03-05",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/OjO1d7nKZgkz",
       "gbTime": "2025-04-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_245",
-      "images": [
-        "/images/iNN Studio/Flo-AT.png",
-        "/images/iNN Studio/FLOAT 60.png"
-      ],
-      "sortTime": "2025-04-29"
+      "gbLink": "https://www.zfrontier.com/app/flow/0QZGoljVV5KR",
+      "description": ""
     },
     {
-      "name": "Parabolica",
-      "studio": "iNN Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-08-01",
-      "icLink": "",
-      "gbTime": "2024-11-11",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_246",
+      "name": "Parabolica60",
+      "studio": "iNN Studio",
+      "sortTime": "2024-11-11",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/iNN Studio/Parabolica60.png"
       ],
-      "sortTime": "2024-11-11"
+      "icTime": "2024-08-01",
+      "icLink": "https://www.zfrontier.com/app/flow/gpKXm9AoN5oy",
+      "gbTime": "2024-11-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/6w1dN7EKP0zL",
+      "description": ""
     },
     {
       "id": "kb_247",
@@ -4126,90 +4026,85 @@
       "description": ""
     },
     {
+      "id": "kb_259",
       "name": "NAJA68",
       "studio": "TickType塔塔次方",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-05-27",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_259",
+      "sortTime": "2026-05-27",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/TickType塔塔次方/NAJA68.webp"
       ],
-      "sortTime": "2026-05-27"
-    },
-    {
-      "name": "DP104",
-      "studio": "TickType塔塔次方",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-10-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2026-05-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/6AaBOBNNkdlL",
+      "description": ""
+    },
+    {
       "id": "kb_260",
+      "name": "DP104",
+      "studio": "TickType塔塔次方",
+      "sortTime": "2025-10-31",
+      "layout": "100%Full",
+      "status": "gb",
       "images": [
         "/images/TickType塔塔次方/DP104.png"
       ],
-      "sortTime": "2025-10-31"
-    },
-    {
-      "name": "Evo75",
-      "studio": "TickType塔塔次方",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-07-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025-10-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/ZdgVE8Wnb691",
+      "description": ""
+    },
+    {
       "id": "kb_261",
+      "name": "Evo75",
+      "studio": "TickType塔塔次方",
+      "sortTime": "2025-07-14",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/TickType塔塔次方/Evo75.png"
       ],
-      "sortTime": "2025-07-14"
-    },
-    {
-      "name": "Evo80",
-      "studio": "TickType塔塔次方",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2024-08-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025-07-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/yLpmqrAwL7mG",
+      "description": ""
+    },
+    {
       "id": "kb_262",
+      "name": "Evo80",
+      "studio": "TickType塔塔次方",
+      "sortTime": "2024-08-29",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/TickType塔塔次方/Evo80.png"
       ],
-      "sortTime": "2024-08-29"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024-08-29",
+      "gbLink": "https://www.zfrontier.com/app/flow/NroPlYLRRJmx",
+      "description": ""
     },
     {
+      "id": "kb_263",
       "name": "D.CR-8",
       "studio": "NNNexus X Lab",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-07-17",
-      "icLink": "",
-      "gbTime": "2026-05-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_263",
+      "sortTime": "2026-05-25",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/NNNexus X Lab/D.CR-8 (2).webp",
-        "/images/NNNexus X Lab/D.CR-8.webp"
+        "/images/NNNexus X Lab/D.CR-8.webp",
+        "/images/NNNexus X Lab/D.CR-8 (2).webp"
       ],
-      "sortTime": "2026-05-25"
+      "icTime": "2025-07-17",
+      "icLink": "https://www.zfrontier.com/app/flow/gGEGragZyAZl",
+      "gbTime": "2026-05-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/J9q0ygv3KAvN",
+      "description": ""
     },
     {
       "id": "kb_264",
@@ -4660,577 +4555,534 @@
       "description": ""
     },
     {
+      "id": "kb_292",
       "name": "GLITTER65 L01",
       "studio": "MoeeTech",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-04-23",
-      "icLink": "",
-      "gbTime": "2026-05-22",
-      "gbLink": "https://www.zfrontier.com/app/flow/X9Yzy8gGbGzl",
-      "image": "",
-      "description": "",
-      "id": "kb_292",
+      "sortTime": "2026-05-22",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/MoeeTech/GLITTER65 L01.webp",
-        "/images/MoeeTech/GLITTER65 R2.png",
         "/images/MoeeTech/L01.webp"
       ],
-      "sortTime": "2026-05-22"
+      "icTime": "2026-04-23",
+      "icLink": "https://www.zfrontier.com/app/flow/vN8yOaoLvGkM",
+      "gbTime": "2026-05-22",
+      "gbLink": "https://www.zfrontier.com/app/flow/X9Yzy8gGbGzl",
+      "description": ""
     },
     {
+      "id": "kb_293",
       "name": "GLITTER65 R2",
       "studio": "MoeeTech",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-01-22",
-      "icLink": "",
-      "gbTime": "2024-04-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_293",
+      "sortTime": "2024-04-30",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/MoeeTech/GLITTER65 L01.webp",
         "/images/MoeeTech/GLITTER65 R2.png"
       ],
-      "sortTime": "2024-04-30"
+      "icTime": "2024-01-22",
+      "icLink": "https://www.zfrontier.com/app/flow/rjRZO3P8G3g8",
+      "gbTime": "2024-04-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/WqxxxAwb3GqM",
+      "description": ""
     },
     {
+      "id": "kb_294",
       "name": "GLITTER 65",
       "studio": "MoeeTech",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-09-22",
-      "icLink": "",
-      "gbTime": "2023-12-04",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_294",
+      "sortTime": "2023-12-04",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/MoeeTech/GLITTER 65.png",
-        "/images/MoeeTech/GLITTER65 L01.webp",
-        "/images/MoeeTech/GLITTER65 R2.png"
+        "/images/MoeeTech/GLITTER 65.png"
       ],
-      "sortTime": "2023-12-04"
+      "icTime": "2023-09-22",
+      "icLink": "https://www.zfrontier.com/app/flow/En3EYpgmdVNJ",
+      "gbTime": "2023-12-04",
+      "gbLink": "https://www.zfrontier.com/app/flow/rKoo0ZooWVM8",
+      "description": ""
     },
     {
-      "name": "Key Boy Advance",
-      "studio": "Promotype",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-02-18",
-      "icLink": "",
-      "gbTime": "2026-05-20",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_295",
+      "name": "KeyBoy Advance",
+      "studio": "Promotype",
+      "sortTime": "2026-05-20",
+      "layout": "50%",
+      "status": "gb",
       "images": [
         "/images/Promotype/Key Boy Advance.webp"
       ],
-      "sortTime": "2026-05-20"
+      "icTime": "2026-02-18",
+      "icLink": "https://www.zfrontier.com/app/flow/pbOWjRP1v5RE?utm_source=copyLink",
+      "gbTime": "2026-05-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/mPOwn07p9grZ",
+      "description": ""
     },
     {
+      "id": "kb_296",
       "name": "H2H₂ 静电容双模数字Pad",
       "studio": "Hannn",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-05-23",
+      "layout": "Pad",
+      "status": "gb",
+      "images": [
+        "/images/Hannn/H2H₂ 静电容双模数字Pad.webp"
+      ],
       "icTime": "2026-04-12",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/MqGXyMZQPAQK",
       "gbTime": "2026-05-23",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_296",
-      "images": [],
-      "sortTime": "2026-05-23"
+      "gbLink": "https://www.zfrontier.com/app/flow/B68bXAM1WrWN",
+      "description": ""
     },
     {
+      "id": "kb_297",
       "name": "Pro2.K HHKB Pro2 静电容外壳",
       "studio": "Hannn",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-08-28",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Hannn/Pro2.K HHKB Pro2 静电容外壳.jpg"
+      ],
       "icTime": "2025-07-06",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/X1ZgNR5PWLMq",
       "gbTime": "2025-08-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_297",
-      "images": [],
-      "sortTime": "2025-08-28"
+      "gbLink": "https://www.zfrontier.com/app/flow/ZByqYqqw910X",
+      "description": ""
     },
     {
-      "name": "H2H HHKB外壳",
-      "studio": "Hannn",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-11-28",
-      "icLink": "IC链接",
-      "gbTime": "2024-11-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_298",
-      "images": [],
-      "sortTime": "2024-11-28"
-    },
-    {
-      "name": "ECLIPSE65 (IC)",
+      "name": "H2H HHKB Classic 静电容外壳",
       "studio": "Hannn",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-10-26",
+      "sortTime": "2024-11-28",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Hannn/H2H HHKB外壳.webp"
+      ],
+      "icTime": "2024-11-28",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_299",
-      "images": [],
-      "sortTime": "2024-10-26"
+      "gbTime": "2024-11-28",
+      "gbLink": "https://www.zfrontier.com/app/flow/VjkaGO7pzLyP",
+      "description": ""
     },
     {
+      "id": "kb_300",
       "name": "KINE",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-05-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_300",
+      "sortTime": "2026-05-26",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/KINE.webp"
       ],
-      "sortTime": "2026-05-26"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-05-26",
+      "gbLink": "https://www.zfrontier.com/app/flow/GKnQdqxpaZXv",
+      "description": ""
     },
     {
+      "id": "kb_301",
       "name": "Luminkey98 V2",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-04-03",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/Createkeebs/luminkey98.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-04-03",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_301",
-      "images": [
-        "/images/Createkeebs/Luminkey98.png",
-        "/images/Createkeebs/luminkey98.webp"
-      ],
-      "sortTime": "2026-04-03"
+      "gbLink": "https://www.zfrontier.com/app/flow/GwL0RodOQd9a",
+      "description": ""
     },
     {
+      "id": "kb_302",
       "name": "Magger68",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2025-06-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_302",
+      "sortTime": "2025-06-16",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Magger68.webp"
       ],
-      "sortTime": "2025-06-16"
-    },
-    {
-      "name": "Nova",
-      "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2025-04-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2025-06-16",
+      "gbLink": "https://www.zfrontier.com/app/flow/lzbjZbK05KLK",
+      "description": ""
+    },
+    {
       "id": "kb_303",
+      "name": "Nova",
+      "studio": "Createkeebs",
+      "sortTime": "2025-04-25",
+      "layout": "Function",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Nova.webp"
       ],
-      "sortTime": "2025-04-25"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025-04-25",
+      "gbLink": "https://www.zfrontier.com/app/mch/lLNg0Rvmd5A3",
+      "description": ""
     },
     {
+      "id": "kb_304",
       "name": "Luminkey75 V2",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-10-18",
-      "icLink": "",
-      "gbTime": "2024-11-12",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_304",
+      "sortTime": "2024-11-12",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Luminkey75 V2.png"
       ],
-      "sortTime": "2024-11-12"
+      "icTime": "2024-10-18",
+      "icLink": "https://www.zfrontier.com/app/flow/ZkVMbPNyOP7W",
+      "gbTime": "2024-11-12",
+      "gbLink": "https://www.zfrontier.com/app/flow/wvdKp6qaO68p",
+      "description": ""
     },
     {
+      "id": "kb_305",
       "name": "Luminkey98",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024/10/16",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/Createkeebs/Luminkey98.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024/10/16",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_305",
-      "images": [
-        "/images/Createkeebs/Luminkey98.png",
-        "/images/Createkeebs/luminkey98.webp"
-      ],
-      "sortTime": ""
+      "description": ""
     },
     {
+      "id": "kb_306",
       "name": "LX60 - LoobedSwitch(Bowl)",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-09-10",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Createkeebs/lx60.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-09-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_306",
-      "images": [
-        "/images/Createkeebs/LX60 - LoobedSwitch(Bowl).png",
-        "/images/Createkeebs/lx60.webp"
-      ],
-      "sortTime": "2024-09-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/pWrg0p9kQWzd",
+      "description": ""
     },
     {
+      "id": "kb_307",
       "name": "Luminkey65",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-12-15",
-      "icLink": "",
-      "gbTime": "2023-12-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_307",
+      "sortTime": "2023-12-25",
+      "layout": "65%",
+      "status": "gb",
       "images": [
-        "/images/Createkeebs/Luminkey65.png",
         "/images/Createkeebs/luminkey65.webp"
       ],
-      "sortTime": "2023-12-25"
+      "icTime": "2023-12-15",
+      "icLink": "https://www.zfrontier.com/app/flow/XdvE6PmBpLgJ",
+      "gbTime": "2023-12-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/X9AXAYoGlpMy",
+      "description": ""
     },
     {
+      "id": "kb_308",
       "name": "Luminkey80",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
+      "sortTime": "2023-09-25",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Createkeebs/Luminkey80.webp"
+      ],
       "icTime": "2023-07-14",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/3WmNdJ9yYO9x",
       "gbTime": "2023-09-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_308",
-      "images": [],
-      "sortTime": "2023-09-25"
+      "gbLink": "https://www.zfrontier.com/app/flow/06mlgj1NG7rz",
+      "description": ""
     },
     {
+      "id": "kb_309",
       "name": "Luminkey75",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2023-06-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_309",
+      "sortTime": "2023-06-26",
+      "layout": "75%",
+      "status": "gb",
       "images": [
-        "/images/Createkeebs/Luminkey75 V2.png"
+        "/images/Createkeebs/Luminkey75 V2.png",
+        "/images/Createkeebs/Luminkey75.webp"
       ],
-      "sortTime": "2023-06-26"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/xGqXq0K5WWvw",
+      "gbTime": "2023-06-26",
+      "gbLink": "https://www.zfrontier.com/app/flow/d08pgEbwj1J8",
+      "description": ""
     },
     {
+      "id": "kb_310",
       "name": "Venice Rialto",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-10-26",
-      "icLink": "",
-      "gbTime": "2023-01-08",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_310",
+      "sortTime": "2023-01-08",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Venice Rialto.png"
       ],
-      "sortTime": "2023-01-08"
+      "icTime": "2022-10-26",
+      "icLink": "https://www.zfrontier.com/app/flow/Wj3NMEgg5wqQ",
+      "gbTime": "2023-01-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/bXzAoxP6nQbB",
+      "description": ""
     },
     {
+      "id": "kb_311",
       "name": "Thera75 V2",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2022-07-08",
-      "icLink": "",
-      "gbTime": "2022-09-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_311",
+      "sortTime": "2022-09-26",
+      "layout": "75%",
+      "status": "gb",
       "images": [
-        "/images/Createkeebs/Thera75 V2.webp",
-        "/images/Createkeebs/Thera75.png",
-        "/images/Createkeebs/Thera75.webp"
+        "/images/Createkeebs/Thera75 V2.webp"
       ],
-      "sortTime": "2022-09-26"
+      "icTime": "2022-07-08",
+      "icLink": "https://www.zfrontier.com/app/flow/4jaVoA07BAbW",
+      "gbTime": "2022-09-26",
+      "gbLink": "https://www.zfrontier.com/app/flow/6j9VyPWKx7a8",
+      "description": ""
     },
     {
+      "id": "kb_312",
       "name": "Glacier80",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2022-01-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_312",
+      "sortTime": "2022-01-14",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Glacier80.png"
       ],
-      "sortTime": "2022-01-14"
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/DyAzZA9zYZlr",
+      "gbTime": "2022-01-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/2OA5aExb7bjo",
+      "description": ""
     },
     {
+      "id": "kb_313",
       "name": "Thera75",
       "studio": "Createkeebs",
+      "sortTime": "2021-08-15",
       "layout": "",
       "status": "",
-      "icTime": "2021-07-07",
-      "icLink": "",
-      "gbTime": "2021-08-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_313",
       "images": [
-        "/images/Createkeebs/Thera75 V2.webp",
-        "/images/Createkeebs/Thera75.png",
         "/images/Createkeebs/Thera75.webp"
       ],
-      "sortTime": "2021-08-15"
+      "icTime": "2021-07-07",
+      "icLink": "https://www.zfrontier.com/app/flow/2vObqK53ZYlj",
+      "gbTime": "2021-08-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/enV3ax8wNBBp",
+      "description": ""
     },
     {
+      "id": "kb_314",
       "name": "Valli60",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-05-19",
-      "icLink": "https://geekhack.org/index.php?topic=112914.0",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_314",
+      "sortTime": "2021-05-21",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Valli60.png"
       ],
-      "sortTime": "2021-05-19"
+      "icTime": "2021-05-19",
+      "icLink": "https://geekhack.org/index.php?topic=112914.0",
+      "gbTime": "2021-05-21",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_315",
       "name": "Vast60",
       "studio": "Createkeebs",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-02-02",
-      "icLink": "https://geekhack.org/index.php?topic=111008.0",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_315",
+      "sortTime": "2021-02-03",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/Createkeebs/Vast60.jpg"
       ],
-      "sortTime": "2021-02-02"
+      "icTime": "2021-02-02",
+      "icLink": "https://geekhack.org/index.php?topic=111008.0",
+      "gbTime": "2021-02-03",
+      "gbLink": "",
+      "description": ""
     },
     {
+      "id": "kb_316",
       "name": "Jahre65",
       "studio": "GRIT Works",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-02-28",
-      "icLink": "",
-      "gbTime": "2026-05-15",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_316",
+      "sortTime": "2026-05-15",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/GRIT Works/Jahre65.webp"
       ],
-      "sortTime": "2026-05-15"
+      "icTime": "2026-02-28",
+      "icLink": "https://www.zfrontier.com/app/flow/1zbwYlW639PZ?utm_source=copyLink",
+      "gbTime": "2026-05-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/Ow1m7MavxRZw",
+      "description": ""
     },
     {
+      "id": "kb_317",
       "name": "Wraith60",
       "studio": "GRIT Works",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-02-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_317",
+      "sortTime": "2026-02-14",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/GRIT Works/Wraith60.webp"
       ],
-      "sortTime": "2026-02-14"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-02-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/Zlr9xyMrnALr",
+      "description": ""
     },
     {
+      "id": "kb_318",
       "name": "Dune65",
       "studio": "GRIT Works",
-      "layout": "",
-      "status": "",
-      "icTime": "2024-02-21",
-      "icLink": "",
-      "gbTime": "2024-06-27",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_318",
+      "sortTime": "2024-06-27",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/GRIT Works/Dune65.webp"
       ],
-      "sortTime": "2024-06-27"
+      "icTime": "2024-02-21",
+      "icLink": "https://www.zfrontier.com/app/flow/n1xB6bMqyvQo",
+      "gbTime": "2024-06-27",
+      "gbLink": "https://www.zfrontier.com/app/flow/RmG85bbOEmzO",
+      "description": "R2 GB阶段: 2024/09/10 ~ 2024/10/10 | https://www.zfrontier.com/app/flow/gkKQ1Wlw6vY0"
     },
     {
+      "id": "kb_319",
       "name": "Keylice",
       "studio": "GRIT Works",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-02-01",
-      "icLink": "",
-      "gbTime": "2023-07-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_319",
+      "sortTime": "2023-07-01",
+      "layout": "Alice",
+      "status": "gb",
       "images": [
         "/images/GRIT Works/Keylice.webp"
       ],
-      "sortTime": "2023-07-01"
+      "icTime": "2023-02-01",
+      "icLink": "https://www.zfrontier.com/app/flow/Zoon5Eyb661W",
+      "gbTime": "2023-07-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/njjnPK393k9r",
+      "description": ""
     },
     {
+      "id": "kb_320",
       "name": "QK100Mk2",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-06-12",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK100Mk2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2026-06-12",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_320",
-      "images": [
-        "/images/QwertyKeys/QK100Mk2.webp"
-      ],
-      "sortTime": "2026-06-12"
+      "gbLink": "https://www.zfrontier.com/app/flow/g8jBlm8zryQ1",
+      "description": ""
     },
     {
+      "id": "kb_321",
       "name": "QK65Mk3",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-10-29",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK65Mk3.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-10-29",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_321",
-      "images": [],
-      "sortTime": "2025-10-29"
+      "gbLink": "https://www.zfrontier.com/app/flow/76l5XaRR7p7n",
+      "description": ""
     },
     {
+      "id": "kb_322",
       "name": "HEX80",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-07-10",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/HEX80.png"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-07-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_322",
-      "images": [],
-      "sortTime": "2025-07-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/aqVXkar5qKYv",
+      "description": ""
     },
     {
+      "id": "kb_323",
       "name": "QK Alice Duo",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-03-12",
+      "layout": "Split",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK Alice Duo.webp"
+      ],
       "icTime": "2025-02-07",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Y783L0AxRvn1",
       "gbTime": "2025-03-12",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_323",
-      "images": [],
-      "sortTime": "2025-03-12"
+      "gbLink": "https://www.zfrontier.com/app/flow/OxLLb9mOjWvK?utm_source=copyLink",
+      "description": ""
     },
     {
+      "id": "kb_324",
       "name": "QK101",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-01-07",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK101.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-01-07",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_324",
-      "images": [],
-      "sortTime": "2025-01-07"
+      "gbLink": "https://www.zfrontier.com/app/flow/k7PZ6ddwraBA",
+      "description": ""
     },
     {
+      "id": "kb_325",
       "name": "QK80 MK2",
       "studio": "QwertyKeys",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-07-31",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK80 MK2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-07-31",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_325",
-      "images": [
-        "/images/QwertyKeys/QK100Mk2.webp"
-      ],
-      "sortTime": "2024-07-31"
+      "gbLink": "https://www.zfrontier.com/app/flow/lRA817WAa63p",
+      "description": ""
     },
     {
       "name": "QK65 V2 Classic",
@@ -5244,7 +5096,9 @@
       "image": "",
       "description": "",
       "id": "kb_326",
-      "images": [],
+      "images": [
+        "/images/QwertyKeys/QK65Mk3.png"
+      ],
       "sortTime": "2024-03-08"
     },
     {
@@ -5259,7 +5113,9 @@
       "image": "",
       "description": "",
       "id": "kb_327",
-      "images": [],
+      "images": [
+        "/images/QwertyKeys/QK65Mk3.png"
+      ],
       "sortTime": "2023-12-14"
     },
     {
@@ -5306,7 +5162,9 @@
       "image": "",
       "description": "",
       "id": "kb_330",
-      "images": [],
+      "images": [
+        "/images/QwertyKeys/QK80 MK2.webp"
+      ],
       "sortTime": "2023-02-12"
     },
     {
@@ -5351,7 +5209,9 @@
       "image": "",
       "description": "",
       "id": "kb_333",
-      "images": [],
+      "images": [
+        "/images/QwertyKeys/QK65Mk3.png"
+      ],
       "sortTime": "2022-04-23"
     },
     {
@@ -7728,288 +7588,260 @@
       "description": ""
     },
     {
+      "id": "kb_482",
       "name": "Gehirn60 - BAIONLENJA",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2026-02-15",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Gehirn60 - BAIONLENJA.webp"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2026-02-15",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_482",
-      "images": [
-        "/images/VTX Engine/Bias DE - Baionlenja.webp"
-      ],
-      "sortTime": ""
+      "description": "国内由VTX代理售卖"
     },
     {
-      "name": "Oblique 60% - Bowl",
+      "id": "kb_483",
+      "name": "Oblique60 - Bowl",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2025-12-26",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Oblique60 - Bowl.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2025-12-26",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_483",
-      "images": [
-        "/images/VTX Engine/Capy60 - Bowl.png",
-        "/images/VTX Engine/Capy60 - Bowl_compressed.png",
-        "/images/VTX Engine/Pangea - Bowl.webp",
-        "/images/VTX Engine/Pangea mini - Bowl.webp"
-      ],
-      "sortTime": "2025-12-26"
+      "gbLink": "https://www.zfrontier.com/app/mch/lOzbymzzadpx",
+      "description": ""
     },
     {
+      "id": "kb_484",
       "name": "S100",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-12-19",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/S100.webp"
+      ],
       "icTime": "2024-12-09",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/goYkBlZ6pmg8",
       "gbTime": "2024-12-19",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_484",
-      "images": [],
-      "sortTime": "2024-12-19"
+      "gbLink": "https://www.zfrontier.com/app/flow/9RqmVgO8k5l8",
+      "description": ""
     },
     {
+      "id": "kb_485",
       "name": "Pangea mini - Bowl",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-12-28",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Pangea mini - Bowl.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-12-28",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_485",
-      "images": [
-        "/images/VTX Engine/Capy60 - Bowl.png",
-        "/images/VTX Engine/Capy60 - Bowl_compressed.png",
-        "/images/VTX Engine/Pangea - Bowl.webp",
-        "/images/VTX Engine/Pangea mini - Bowl.webp"
-      ],
-      "sortTime": "2024-12-28"
+      "gbLink": "https://www.zfrontier.com/app/flow/AlK8nakbZjX1",
+      "description": "国内由VTX代理售卖"
     },
     {
+      "id": "kb_486",
       "name": "Capy60 - Bowl",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-12-21",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Capy60 - Bowl.png"
+      ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-12-21",
       "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_486",
-      "images": [
-        "/images/VTX Engine/Capy60 - Bowl.png",
-        "/images/VTX Engine/Capy60 - Bowl_compressed.png",
-        "/images/VTX Engine/Pangea - Bowl.webp",
-        "/images/VTX Engine/Pangea mini - Bowl.webp"
-      ],
-      "sortTime": ""
+      "description": "国内由VTX代理售卖"
     },
     {
+      "id": "kb_487",
       "name": "Pangea - Bowl",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2024-10-16",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Pangea - Bowl.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2024-10-16",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_487",
-      "images": [
-        "/images/VTX Engine/Capy60 - Bowl.png",
-        "/images/VTX Engine/Capy60 - Bowl_compressed.png",
-        "/images/VTX Engine/Pangea - Bowl.webp",
-        "/images/VTX Engine/Pangea mini - Bowl.webp"
-      ],
-      "sortTime": "2024-10-16"
+      "gbLink": "https://www.zfrontier.com/app/flow/6Va7va3LVaW5",
+      "description": "国内由VTX代理售卖"
     },
     {
+      "id": "kb_488",
       "name": "Pt75",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2024-10-10",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_488",
+      "sortTime": "2024-10-10",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Pt75.webp"
       ],
-      "sortTime": "2024-10-10"
-    },
-    {
-      "name": "Bias DE - Baionlenja",
-      "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2024-10-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-10-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/q9VQqJagRQBz",
+      "description": ""
+    },
+    {
       "id": "kb_489",
+      "name": "Bias DE - Baionlenja",
+      "studio": "VTX Engine",
+      "sortTime": "2024-10-01",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Bias DE - Baionlenja.webp"
       ],
-      "sortTime": "2024-10-01"
-    },
-    {
-      "name": "VØID65(Void65) - ANOREXUS",
-      "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2024-09-09",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-10-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/Q1kkoy3JJr3B",
+      "description": "国内由VTX代理售卖"
+    },
+    {
       "id": "kb_490",
+      "name": "VØID65(Void65) - ANOREXUS",
+      "studio": "VTX Engine",
+      "sortTime": "2024-09-09",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Void65.webp"
       ],
-      "sortTime": "2024-09-09"
-    },
-    {
-      "name": "Spyder TKL - Plywrks",
-      "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "2024-08-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-09-09",
+      "gbLink": "https://www.zfrontier.com/app/flow/Eddmdqvg78JL",
+      "description": "国内由VTX代理售卖"
+    },
+    {
       "id": "kb_491",
+      "name": "Spyder TKL - Plywrks",
+      "studio": "VTX Engine",
+      "sortTime": "2024-08-01",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Spyder TKL - Plywrks.webp"
       ],
-      "sortTime": "2024-08-01"
-    },
-    {
-      "name": "Cycle8",
-      "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
+      "gbTime": "2024-08-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/BlyRBzRLdbZj",
+      "description": "国内由VTX代理售卖"
+    },
+    {
       "id": "kb_492",
+      "name": "Cycle8",
+      "studio": "VTX Engine",
+      "sortTime": "2023-12-31",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Cycle8.webp"
       ],
-      "sortTime": ""
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Pqg5AXRvAQzJ",
+      "gbTime": "2023-12-31",
+      "gbLink": "https://www.zfrontier.com/app/flow/6ZgkWBBEaAp8",
+      "description": ""
     },
     {
+      "id": "kb_493",
       "name": "Angle65",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-06-10",
-      "icLink": "",
-      "gbTime": "2024-08-01",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_493",
+      "sortTime": "2024-08-01",
+      "layout": "65%",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Angle65.webp"
       ],
-      "sortTime": "2024-08-01"
+      "icTime": "2023-06-10",
+      "icLink": "https://www.zfrontier.com/app/flow/m5nG9GrQGzXa",
+      "gbTime": "2024-08-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/bnRKXlXWxak8",
+      "description": ""
     },
     {
+      "id": "kb_494",
       "name": "Cycle7",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
-      "icTime": "2023-04-30",
-      "icLink": "",
-      "gbTime": "2023-05-25",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_494",
+      "sortTime": "2023-05-25",
+      "layout": "70%FRL_TKL",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/Cycle7.webp"
       ],
-      "sortTime": "2023-05-25"
+      "icTime": "2023-04-30",
+      "icLink": "https://www.zfrontier.com/app/flow/ELRoyRbGY88O",
+      "gbTime": "2023-05-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/7RMEnjkvYjEp",
+      "description": ""
     },
     {
+      "id": "kb_495",
       "name": "ARC60",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2022-11-13",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_495",
+      "sortTime": "2022-11-13",
+      "layout": "60%",
+      "status": "gb",
       "images": [
         "/images/VTX Engine/ARC60.webp"
       ],
-      "sortTime": "2022-11-13"
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2022-11-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/kkXrzW1wW5Nj",
+      "description": ""
     },
     {
+      "id": "kb_496",
       "name": "Angle80 R2",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
+      "sortTime": "2022-01-26",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/VTX Engine/Angle80r2.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "gbTime": "2022-01-26",
       "gbLink": "https://www.zfrontier.com/app/flow/2lPNgBlj8B6w",
-      "image": "",
-      "description": "",
-      "id": "kb_496",
-      "images": [
-        "/images/VTX Engine/Angle80.webp",
-        "/images/VTX Engine/Angle80r2.webp"
-      ],
-      "sortTime": "2022-01-26"
+      "description": ""
     },
     {
+      "id": "kb_497",
       "name": "Angle80 R1",
       "studio": "VTX Engine",
-      "layout": "",
-      "status": "",
-      "icTime": "2021-02-08",
-      "icLink": "",
-      "gbTime": "2021-06-06",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_497",
+      "sortTime": "2021-06-06",
+      "layout": "80%TKL",
+      "status": "gb",
       "images": [
-        "/images/VTX Engine/Angle80.webp",
-        "/images/VTX Engine/Angle80r2.webp"
+        "/images/VTX Engine/Angle80.webp"
       ],
-      "sortTime": "2021-06-06"
+      "icTime": "2021-02-08",
+      "icLink": "https://www.zfrontier.com/app/flow/DG0RPWxKR6o8",
+      "gbTime": "2021-06-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/DAxrwKEjvmGr",
+      "description": ""
     },
     {
       "id": "kb_498",
@@ -8559,6 +8391,22 @@
       "icLink": "https://www.zfrontier.com/app/flow/DrANj0XKlaWJ",
       "gbTime": "2022/06/08",
       "gbLink": "https://www.zfrontier.com/app/flow/2avYlkpq7z81",
+      "description": ""
+    },
+    {
+      "id": "kb_1785231018750",
+      "name": "Luminkey80 MK II",
+      "studio": "Createkeebs",
+      "sortTime": "2026-07-11",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Createkeebs/Luminkey80 MK II.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2026-07-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/zWKZ6JGzmQLQ",
       "description": ""
     }
   ]
