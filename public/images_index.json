@@ -1,6 +1,16 @@
 {
   "images": [
     {
+      "path": "/images/4GT/Sabre.jpg",
+      "name": "Sabre.jpg",
+      "group": "4GT"
+    },
+    {
+      "path": "/images/4GT/Silhouette.jpeg",
+      "name": "Silhouette.jpeg",
+      "group": "4GT"
+    },
+    {
       "path": "/images/Aether Works/Selene65.webp",
       "name": "Selene65.webp",
       "group": "Aether Works"
@@ -2756,5 +2766,5 @@
       "group": "(root)"
     }
   ],
-  "total": 551
+  "total": 553
 }

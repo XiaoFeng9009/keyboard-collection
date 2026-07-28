@@ -67,21 +67,6 @@
       "description": ""
     },
     {
-      "name": "FMATE98",
-      "studio": "INKC Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-01-30",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_7",
-      "images": [],
-      "sortTime": "2026-01-30"
-    },
-    {
       "id": "kb_10",
       "name": "Origami TKL V2",
       "studio": "Plexkbd Studio",
@@ -525,7 +510,9 @@
       "image": "",
       "description": "",
       "id": "kb_37",
-      "images": [],
+      "images": [
+        "/images/4GT/Silhouette.jpeg"
+      ],
       "sortTime": "2023-05-15"
     },
     {
@@ -540,7 +527,9 @@
       "image": "",
       "description": "",
       "id": "kb_38",
-      "images": [],
+      "images": [
+        "/images/4GT/Sabre.jpg"
+      ],
       "sortTime": "2021-12-24"
     },
     {
@@ -2692,7 +2681,7 @@
       "id": "kb_175",
       "name": "Orryx60",
       "studio": "Apex predator",
-      "sortTime": "",
+      "sortTime": "2024-12-01",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -2700,16 +2689,15 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2024-12-01",
       "gbLink": "",
-      "description": "",
-      "image": ""
+      "description": ""
     },
     {
       "id": "kb_176",
       "name": "Moxly60",
       "studio": "Apex predator",
-      "sortTime": "",
+      "sortTime": "2025-03-01",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -2717,55 +2705,9 @@
       ],
       "icTime": "",
       "icLink": "",
-      "gbTime": "",
+      "gbTime": "2025-03-01",
       "gbLink": "",
-      "description": "",
-      "image": ""
-    },
-    {
-      "name": "产品名称",
-      "studio": "Desktop Tribe桌面部落",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_177",
-      "images": [],
-      "sortTime": ""
-    },
-    {
-      "name": "产品名称",
-      "studio": "Desktop Tribe桌面部落",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_178",
-      "images": [],
-      "sortTime": ""
-    },
-    {
-      "name": "产品名称",
-      "studio": "Desktop Tribe桌面部落",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_179",
-      "images": [],
-      "sortTime": ""
+      "description": ""
     },
     {
       "id": "kb_180",
@@ -2946,51 +2888,6 @@
       "sortTime": "2024-07-14"
     },
     {
-      "name": "产品名称",
-      "studio": "JY堇忆",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_191",
-      "images": [],
-      "sortTime": ""
-    },
-    {
-      "name": "产品名称",
-      "studio": "JY堇忆",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_192",
-      "images": [],
-      "sortTime": ""
-    },
-    {
-      "name": "产品名称",
-      "studio": "JY堇忆",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_193",
-      "images": [],
-      "sortTime": ""
-    },
-    {
       "id": "kb_194",
       "name": "OLLEH65",
       "studio": "TOUCHKEYS",
@@ -3165,53 +3062,6 @@
       "gbTime": "2025-11-17",
       "gbLink": "https://www.zfrontier.com/app/flow/xvEjJ0vqMPmp",
       "description": ""
-    },
-    {
-      "name": "Story POMI65",
-      "studio": "MXRSKEY",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_205",
-      "images": [
-        "/images/MXRSKEY/POMI65.webp"
-      ],
-      "sortTime": ""
-    },
-    {
-      "name": "Charme100",
-      "studio": "MXRSKEY",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_206",
-      "images": [],
-      "sortTime": ""
-    },
-    {
-      "name": "SCC100",
-      "studio": "MXRSKEY",
-      "layout": "",
-      "status": "",
-      "icTime": "",
-      "icLink": "IC链接",
-      "gbTime": "",
-      "gbLink": "GB链接",
-      "image": "",
-      "description": "",
-      "id": "kb_207",
-      "images": [],
-      "sortTime": ""
     },
     {
       "id": "kb_208",
