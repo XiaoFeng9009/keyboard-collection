@@ -895,56 +895,53 @@
       "sortTime": "2026-02-17"
     },
     {
+      "id": "kb_60",
       "name": "Minnie75(IC)",
       "studio": "EVIE Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-06-26",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "https://www.zfrontier.com/app/flow/MYlwgL7JGByp",
-      "image": "",
-      "description": "",
-      "id": "kb_60",
+      "sortTime": "2026-07-18",
+      "layout": "75%",
+      "status": "gb",
       "images": [
         "/images/EVIE Studio/Minnie75.jpg",
         "/images/EVIE Studio/Minnie75.webp"
       ],
-      "sortTime": "2026-06-26"
+      "icTime": "2026-06-26",
+      "icLink": "https://www.zfrontier.com/app/flow/MYlwgL7JGByp",
+      "gbTime": "2026-07-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/YK0BJbdlpbW8",
+      "description": ""
     },
     {
+      "id": "kb_61",
       "name": "FT02 Pad",
       "studio": "EVIE Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2026-02-27",
-      "icLink": "",
-      "gbTime": "2026-03-14",
-      "gbLink": "",
-      "image": "",
-      "description": "",
-      "id": "kb_61",
+      "sortTime": "2026-03-14",
+      "layout": "Pad",
+      "status": "gb",
       "images": [
         "/images/EVIE Studio/Evie FT02 Pad.webp"
       ],
-      "sortTime": "2026-03-14"
+      "icTime": "2026-02-27",
+      "icLink": "https://www.zfrontier.com/app/flow/jzyQwZzkpM6W",
+      "gbTime": "2026-03-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/LOmvM635rR57",
+      "description": ""
     },
     {
-      "name": "Alice01",
-      "studio": "EVIE Studio",
-      "layout": "",
-      "status": "",
-      "icTime": "2025-08-01",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
-      "image": "",
-      "description": "",
       "id": "kb_62",
+      "name": "Evie Alice01",
+      "studio": "EVIE Studio",
+      "sortTime": "2025-10-08",
+      "layout": "Alice",
+      "status": "ic",
       "images": [
         "/images/EVIE Studio/Evie Alice01.webp"
       ],
-      "sortTime": "2025-08-01"
+      "icTime": "2025-08-01",
+      "icLink": "https://www.zfrontier.com/app/flow/3WXWgjrRBAdZ",
+      "gbTime": "2025-10-08",
+      "gbLink": "",
+      "description": ""
     },
     {
       "id": "kb_63",
@@ -1049,14 +1046,14 @@
       "id": "kb_69",
       "name": "Draco TKL",
       "studio": "HSX Studio寒山雪",
-      "sortTime": "2026-03-11",
+      "sortTime": "2026-07-26",
       "layout": "80%TKL",
       "status": "ic",
       "images": [
-        "/images/HSX Studio寒山雪/Draco TKL.webp"
+        "/images/HSX Studio寒山雪/Draco TKL（1）.webp"
       ],
-      "icTime": "2026-03-11",
-      "icLink": "https://www.zfrontier.com/app/flow/jNK8VdmpmoAV",
+      "icTime": "2026-07-26",
+      "icLink": "https://www.zfrontier.com/app/flow/zbWrLNBEL7Ez",
       "gbTime": "",
       "gbLink": "",
       "description": ""
@@ -8333,6 +8330,235 @@
       "icLink": "",
       "gbTime": "2026-07-24",
       "gbLink": "",
+      "description": ""
+    },
+    {
+      "id": "kb_1785208487978",
+      "name": "Eau75",
+      "studio": "CHAOSERA",
+      "sortTime": "2021-10-25",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/CHAOSERA/Eau75.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2wqELY5bpOxB",
+      "gbTime": "2021-10-25",
+      "gbLink": "https://www.zfrontier.com/app/flow/2wJYm8aaozVv",
+      "description": ""
+    },
+    {
+      "id": "kb_1785208602439",
+      "name": "Heracles80",
+      "studio": "CHAOSERA",
+      "sortTime": "2023-01-05",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/CHAOSERA/Heracles80.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2J5gdNmBMvvN",
+      "gbTime": "2023-01-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/Aw6v68oGMAvG",
+      "description": ""
+    },
+    {
+      "id": "kb_1785208665405",
+      "name": "Cupid65",
+      "studio": "CHAOSERA",
+      "sortTime": "2023/07/30",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/CHAOSERA/Cupid65.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/6qOdx8awE9N8",
+      "gbTime": "2023/07/30",
+      "gbLink": "https://www.zfrontier.com/app/flow/0MbRNdxGqg33",
+      "description": ""
+    },
+    {
+      "id": "kb_1785208707511",
+      "name": "Eau75 V2",
+      "studio": "CHAOSERA",
+      "sortTime": "2024-10-20",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/CHAOSERA/Eau75 V2.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Z8Znn0Vkpkn1",
+      "gbTime": "2024-10-20",
+      "gbLink": "https://www.zfrontier.com/app/flow/vb7QglOYwq8N",
+      "description": ""
+    },
+    {
+      "id": "kb_1785208896673",
+      "name": "大力神V2 Heracles80 V2",
+      "studio": "CHAOSERA",
+      "sortTime": "2026-07-22",
+      "layout": "80%TKL",
+      "status": "ic",
+      "images": [
+        "/images/CHAOSERA/大力神V2 Heracles80 V2.webp"
+      ],
+      "icTime": "2026-07-22",
+      "icLink": "https://www.zfrontier.com/app/flow/nxKRKnNmPqPo",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
+    },
+    {
+      "id": "kb_1785210486971",
+      "name": "Spacemarine TKL",
+      "studio": "Yucas",
+      "sortTime": "2025/07/26",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Yucas/Spacemarine TKL.webp",
+        "/images/Yucas/Spacemarine TKL（1）.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2025/07/26",
+      "gbLink": "https://www.zfrontier.com/app/flow/P5nAwPXlo3JW",
+      "description": ""
+    },
+    {
+      "id": "kb_1785210569231",
+      "name": "Ba60 BloodAngel60",
+      "studio": "Yucas",
+      "sortTime": "2026-07-26",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/Yucas/Ba60.webp"
+      ],
+      "icTime": "2026-07-26",
+      "icLink": "https://www.zfrontier.com/app/flow/kg3WEEY0LkQv",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212541897",
+      "name": "Paper60e",
+      "studio": "WhatEver Studio",
+      "sortTime": "2026-07-28",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/WhatEver Studio/Paper60e.webp"
+      ],
+      "icTime": "2026-07-28",
+      "icLink": "https://www.zfrontier.com/app/flow/9jykXZdKxyYO",
+      "gbTime": "",
+      "gbLink": "",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212595631",
+      "name": "Paper65",
+      "studio": "WhatEver Studio",
+      "sortTime": "2025-08-04",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Paper65.png"
+      ],
+      "icTime": "2025-04-29",
+      "icLink": "https://www.zfrontier.com/app/flow/ljvj1zyAbjGK",
+      "gbTime": "2025-08-04",
+      "gbLink": "https://www.zfrontier.com/app/flow/lJ7EBYXMKMVo",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212634640",
+      "name": "Vany Alice",
+      "studio": "WhatEver Studio",
+      "sortTime": "2025/01/06",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Vany Alice.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/JKyyB08PzOJg",
+      "gbTime": "2025/01/06",
+      "gbLink": "https://www.zfrontier.com/app/flow/9bgJoxn88wXN",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212671077",
+      "name": "Paper Pad",
+      "studio": "WhatEver Studio",
+      "sortTime": "2024/08/14",
+      "layout": "Pad",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Paper Pad.png",
+        "/images/WhatEver Studio/Paper60e.webp",
+        "/images/WhatEver Studio/Paper65.png",
+        "/images/WhatEver Studio/Paper75.png",
+        "/images/WhatEver Studio/Paper80.png"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "gbTime": "2024/08/14",
+      "gbLink": "https://www.zfrontier.com/app/flow/7Bnyk00J6YZp",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212706681",
+      "name": "Paper80",
+      "studio": "WhatEver Studio",
+      "sortTime": "2023/12/20",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Paper80.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/OY1gbraNArnw",
+      "gbTime": "2023/12/20",
+      "gbLink": "https://www.zfrontier.com/app/flow/AWzKQNv3Yz5r",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212750160",
+      "name": "Paper75",
+      "studio": "WhatEver Studio",
+      "sortTime": "2022/12/07",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Paper75.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/OzA01abgBlKo",
+      "gbTime": "2022/12/07",
+      "gbLink": "https://www.zfrontier.com/app/flow/E39R78dN1yz0",
+      "description": ""
+    },
+    {
+      "id": "kb_1785212781530",
+      "name": "Estella",
+      "studio": "WhatEver Studio",
+      "sortTime": "2022/06/08",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/WhatEver Studio/Estella.png"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/DrANj0XKlaWJ",
+      "gbTime": "2022/06/08",
+      "gbLink": "https://www.zfrontier.com/app/flow/2avYlkpq7z81",
       "description": ""
     }
   ]

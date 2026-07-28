@@ -176,6 +176,31 @@
       "group": "Castle Bravo Studio"
     },
     {
+      "path": "/images/CHAOSERA/Cupid65.png",
+      "name": "Cupid65.png",
+      "group": "CHAOSERA"
+    },
+    {
+      "path": "/images/CHAOSERA/Eau75 V2.png",
+      "name": "Eau75 V2.png",
+      "group": "CHAOSERA"
+    },
+    {
+      "path": "/images/CHAOSERA/Eau75.png",
+      "name": "Eau75.png",
+      "group": "CHAOSERA"
+    },
+    {
+      "path": "/images/CHAOSERA/Heracles80.png",
+      "name": "Heracles80.png",
+      "group": "CHAOSERA"
+    },
+    {
+      "path": "/images/CHAOSERA/大力神V2 Heracles80 V2.webp",
+      "name": "大力神V2 Heracles80 V2.webp",
+      "group": "CHAOSERA"
+    },
+    {
       "path": "/images/CHOSFOX哈狐/CF81 & CF81 Pro.png",
       "name": "CF81 & CF81 Pro.png",
       "group": "CHOSFOX哈狐"
@@ -663,6 +688,11 @@
     {
       "path": "/images/HSX Studio寒山雪/Draco TKL.webp",
       "name": "Draco TKL.webp",
+      "group": "HSX Studio寒山雪"
+    },
+    {
+      "path": "/images/HSX Studio寒山雪/Draco TKL（1）.webp",
+      "name": "Draco TKL（1）.webp",
       "group": "HSX Studio寒山雪"
     },
     {
@@ -2326,6 +2356,41 @@
       "group": "VTX Engine"
     },
     {
+      "path": "/images/WhatEver Studio/Estella.png",
+      "name": "Estella.png",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Paper Pad.png",
+      "name": "Paper Pad.png",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Paper60e.webp",
+      "name": "Paper60e.webp",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Paper65.png",
+      "name": "Paper65.png",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Paper75.png",
+      "name": "Paper75.png",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Paper80.png",
+      "name": "Paper80.png",
+      "group": "WhatEver Studio"
+    },
+    {
+      "path": "/images/WhatEver Studio/Vany Alice.png",
+      "name": "Vany Alice.png",
+      "group": "WhatEver Studio"
+    },
+    {
       "path": "/images/WuqueStudio/Aurora.png",
       "name": "Aurora.png",
       "group": "WuqueStudio"
@@ -2411,6 +2476,21 @@
       "group": "WuqueStudio"
     },
     {
+      "path": "/images/Yucas/Ba60.webp",
+      "name": "Ba60.webp",
+      "group": "Yucas"
+    },
+    {
+      "path": "/images/Yucas/Spacemarine TKL.webp",
+      "name": "Spacemarine TKL.webp",
+      "group": "Yucas"
+    },
+    {
+      "path": "/images/Yucas/Spacemarine TKL（1）.webp",
+      "name": "Spacemarine TKL（1）.webp",
+      "group": "Yucas"
+    },
+    {
       "path": "/images/Yuizh呆唯/Kurisu TKL.webp",
       "name": "Kurisu TKL.webp",
       "group": "Yuizh呆唯"
@@ -2491,5 +2571,5 @@
       "group": "(root)"
     }
   ],
-  "total": 498
+  "total": 514
 }

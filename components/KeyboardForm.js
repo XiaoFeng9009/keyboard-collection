@@ -1,6 +1,6 @@
-﻿import { useState, useEffect } from 'react'
+﻿import { useState, useEffect, useRef } from 'react'
 
-export default function KeyboardForm({ show, onClose, onSave, editData }) {
+export default function KeyboardForm({ show, onClose, onSave, editData, studios }) {
   const [name, setName] = useState('')
   const [studio, setStudio] = useState('')
   const [layout, setLayout] = useState('')
@@ -16,6 +16,28 @@ export default function KeyboardForm({ show, onClose, onSave, editData }) {
   const [allImgs, setAllImgs] = useState([])
   const [browseOpen, setBrowseOpen] = useState(false)
   const [browseFilter, setBrowseFilter] = useState('')
+  var [showSuggestions, setShowSuggestions] = useState(false)
+  var [filteredStudios, setFilteredStudios] = useState([])
+  var wrapperRef = useRef(null)
+
+  useEffect(function() {
+    var handler = function(e) {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target)) setShowSuggestions(false)
+    }
+    document.addEventListener('mousedown', handler)
+    return function() { document.removeEventListener('mousedown', handler) }
+  }, [])
+
+  var handleStudioChange = function(value) {
+    setStudio(value)
+    if (value.trim()) {
+      var filtered = (studios || []).filter(function(s) { return s.toLowerCase().indexOf(value.toLowerCase()) !== -1 })
+      setFilteredStudios(filtered)
+      setShowSuggestions(filtered.length > 0)
+    } else {
+      setShowSuggestions(false)
+    }
+  }
 
   useEffect(() => {
     if (editData) {

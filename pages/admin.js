@@ -209,7 +209,7 @@ export default function Admin() {
         </table>
       </div>
       <Pagination current={page} total={filteredData.length} pageSize={PAGE_SIZE} onChange={setPage} />
-      <KeyboardForm show={showForm} onClose={() => { setShowForm(false); setEditData(null) }} onSave={save} editData={editData} />
+      <KeyboardForm show={showForm} onClose={() => { setShowForm(false); setEditData(null) }} onSave={save} editData={editData} studios={[...new Set(data.map(function(k){return k.studio}))]} />
     </Layout>
   )
 }
