@@ -116,13 +116,13 @@
       "group": "Atelier Haven"
     },
     {
-      "path": "/images/Atelier Haven/Haven65+.png",
-      "name": "Haven65+.png",
+      "path": "/images/Atelier Haven/Haven65.png",
+      "name": "Haven65.png",
       "group": "Atelier Haven"
     },
     {
-      "path": "/images/Atelier Haven/Haven65.png",
-      "name": "Haven65.png",
+      "path": "/images/Atelier Haven/Haven65plus.png",
+      "name": "Haven65plus.png",
       "group": "Atelier Haven"
     },
     {
@@ -1121,11 +1121,6 @@
       "group": "Keyboard Science"
     },
     {
-      "path": "/images/Kezewa/+84 Classic TKL - Nuxroskb.webp",
-      "name": "+84 Classic TKL - Nuxroskb.webp",
-      "group": "Kezewa"
-    },
-    {
       "path": "/images/Kezewa/Enter67 V2.png",
       "name": "Enter67 V2.png",
       "group": "Kezewa"
@@ -1198,6 +1193,11 @@
     {
       "path": "/images/Kezewa/Optica60 - Penguin.png",
       "name": "Optica60 - Penguin.png",
+      "group": "Kezewa"
+    },
+    {
+      "path": "/images/Kezewa/plus 84 Classic TKL - Nuxroskb.webp",
+      "name": "plus 84 Classic TKL - Nuxroskb.webp",
       "group": "Kezewa"
     },
     {
@@ -1391,8 +1391,8 @@
       "group": "Matrix Lab"
     },
     {
-      "path": "/images/Matrix Lab/Abel +.webp",
-      "name": "Abel +.webp",
+      "path": "/images/Matrix Lab/Abel plus.webp",
+      "name": "Abel plus.webp",
       "group": "Matrix Lab"
     },
     {
@@ -1456,18 +1456,18 @@
       "group": "Matrix Lab"
     },
     {
-      "path": "/images/Matrix Lab/IM+ 80 XMAS EDITION.png",
-      "name": "IM+ 80 XMAS EDITION.png",
+      "path": "/images/Matrix Lab/IMplus 80 XMAS EDITION.png",
+      "name": "IMplus 80 XMAS EDITION.png",
       "group": "Matrix Lab"
     },
     {
-      "path": "/images/Matrix Lab/IM+ Meta 75.jpg",
-      "name": "IM+ Meta 75.jpg",
+      "path": "/images/Matrix Lab/IMplus Meta 75.jpg",
+      "name": "IMplus Meta 75.jpg",
       "group": "Matrix Lab"
     },
     {
-      "path": "/images/Matrix Lab/IM+80.png",
-      "name": "IM+80.png",
+      "path": "/images/Matrix Lab/IMplus80.png",
+      "name": "IMplus80.png",
       "group": "Matrix Lab"
     },
     {
