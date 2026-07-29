@@ -292,7 +292,7 @@
     },
     {
       "id": "kb_24",
-      "name": "NEOS75 (IC)",
+      "name": "NEOS75",
       "studio": "AULA新文艺复兴",
       "sortTime": "2026-06-22",
       "layout": "75%",
@@ -324,7 +324,7 @@
     },
     {
       "id": "kb_26",
-      "name": "Random60 (IC)",
+      "name": "Random60",
       "studio": "Pony",
       "sortTime": "2025-11-09",
       "layout": "60%",
@@ -566,7 +566,7 @@
     },
     {
       "id": "kb_41",
-      "name": "Reign (IC)",
+      "name": "Reign",
       "studio": "Foraz Signature",
       "sortTime": "2026-04-13",
       "layout": "60%+Macro",
@@ -871,7 +871,7 @@
     },
     {
       "id": "kb_60",
-      "name": "Minnie75(IC)",
+      "name": "Minnie75",
       "studio": "EVIE Studio",
       "sortTime": "2026-07-18",
       "layout": "75%",
@@ -952,7 +952,7 @@
     },
     {
       "id": "kb_65",
-      "name": "LN60 (IC)",
+      "name": "LN60",
       "studio": "Miatames",
       "sortTime": "2026-07-04",
       "layout": "60%",
@@ -984,7 +984,7 @@
     },
     {
       "id": "kb_67",
-      "name": "ishtar60(IC)",
+      "name": "ishtar60",
       "studio": "HSX Studio寒山雪",
       "sortTime": "2026-06-27",
       "layout": "60%",
@@ -2645,7 +2645,7 @@
     },
     {
       "id": "kb_173",
-      "name": "Orfis60 (IC)",
+      "name": "Orfis60",
       "studio": "Apex predator",
       "sortTime": "2026-07-04",
       "layout": "60%",
@@ -2657,8 +2657,7 @@
       "icLink": "https://www.zfrontier.com/app/flow/9q77gPLgMV1O",
       "gbTime": "",
       "gbLink": "",
-      "description": "",
-      "image": ""
+      "description": ""
     },
     {
       "id": "kb_174",
@@ -2953,7 +2952,7 @@
     },
     {
       "id": "kb_198",
-      "name": "Carrera65(IC)",
+      "name": "Carrera65",
       "studio": "Castle Bravo Studio",
       "sortTime": "2026-06-14",
       "layout": "65%",
@@ -2985,7 +2984,7 @@
     },
     {
       "id": "kb_200",
-      "name": "iP(IC)",
+      "name": "iP",
       "studio": "Castle Bravo Studio",
       "sortTime": "2025-01-16",
       "layout": "65%",
@@ -4013,11 +4012,11 @@
     },
     {
       "id": "kb_267",
-      "name": "Type Box 101800 By Hymm X Werk Technica (IC)",
+      "name": "Type Box 101800 By Hymm X Werk Technica",
       "studio": "Kezewa",
       "sortTime": "2026-05-10",
       "layout": "AT",
-      "status": "gb",
+      "status": "ic",
       "images": [
         "/images/Kezewa/Type Box 101800.webp"
       ],
@@ -5135,7 +5134,7 @@
     },
     {
       "id": "kb_338",
-      "name": "Separation80(IC)",
+      "name": "Separation80",
       "studio": "Sensy Lab",
       "sortTime": "2025-10-17",
       "layout": "80%TKL",
