@@ -1,5 +1,4 @@
 ﻿import { useState, useEffect, useRef } from 'react'
-
 export default function KeyboardForm({ show, onClose, onSave, editData, studios }) {
   const [name, setName] = useState('')
   const [studio, setStudio] = useState('')
@@ -8,9 +7,11 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
   const [images, setImages] = useState([])
   const [imgInput, setImgInput] = useState('')
   const [icTime, setIcTime] = useState('')
-  const [icLink, setIcLink] = useState('')
+  const [icLinks, setIcLinks] = useState([])
+  const [gbLinks, setGbLinks] = useState([])
+  const [icLinkInput, setIcLinkInput] = useState('')
+  const [gbLinkInput, setGbLinkInput] = useState('')
   const [gbTime, setGbTime] = useState('')
-  const [gbLink, setGbLink] = useState('')
   const [desc, setDesc] = useState('')
   const [sortTime, setSortTime] = useState('')
   const [allImgs, setAllImgs] = useState([])
@@ -28,6 +29,21 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
     return function() { document.removeEventListener('mousedown', handler) }
   }, [])
 
+  var addIcLink = function() {
+    if (icLinkInput.trim()) setIcLinks([].concat(icLinks, [icLinkInput.trim()]))
+    setIcLinkInput('')
+  }
+  var removeIcLink = function(idx) {
+    setIcLinks(icLinks.filter(function(_, i) { return i !== idx }))
+  }
+  var addGbLink = function() {
+    if (gbLinkInput.trim()) setGbLinks([].concat(gbLinks, [gbLinkInput.trim()]))
+    setGbLinkInput('')
+  }
+  var removeGbLink = function(idx) {
+    setGbLinks(gbLinks.filter(function(_, i) { return i !== idx }))
+  }
+
   var handleStudioChange = function(value) {
     setStudio(value)
     if (value.trim()) {
@@ -38,7 +54,6 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
       setShowSuggestions(false)
     }
   }
-
   useEffect(() => {
     if (editData) {
       setName(editData.name || '')
@@ -47,13 +62,13 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
       setStatus(editData.status || '')
       setImages(editData.images || (editData.image ? [editData.image] : []))
       setIcTime((editData.icTime || '').replace(/\//g, '-'))
-      setIcLink(editData.icLink || '')
+      setIcLinks(editData.icLinks || (editData.icLink ? [editData.icLink] : []))
       setGbTime((editData.gbTime || '').replace(/\//g, '-'))
-      setGbLink(editData.gbLink || '')
+      setGbLinks(editData.gbLinks || (editData.gbLink ? [editData.gbLink] : []))
       setDesc(editData.description || '')
     } else {
       setName(''); setStudio(''); setLayout(''); setStatus('')
-      setImages([]); setIcTime(''); setIcLink(''); setGbTime(''); setGbLink(''); setDesc('')
+      setImages([]); setIcTime(''); setIcLinks([]); setIcLinkInput(''); setGbTime(''); setGbLinks([]); setGbLinkInput(''); setDesc('')
     }
     setImgInput('')
     if (show && allImgs.length === 0) {
@@ -61,42 +76,35 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
     }
   }, [editData, show])
   useEffect(() => { setSortTime(gbTime || icTime || '') }, [icTime, gbTime])
-
   const addImage = (e) => {
     if (e) e.preventDefault()
     const url = imgInput.trim()
     if (url && !images.includes(url)) setImages([...images, url])
     setImgInput('')
   }
-
   const removeImage = (idx) => setImages(images.filter((_, i) => i !== idx))
-
   const setCover = (idx) => {
     const arr = [...images]
     const [item] = arr.splice(idx, 1)
     arr.unshift(item)
     setImages(arr)
   }
-
   const toggleImage = (url) => {
     if (images.includes(url)) setImages(images.filter(i => i !== url))
     else setImages([...images, url])
   }
-
   const handleSave = (e) => {
     if (e) e.preventDefault()
     if (!name.trim() || !studio.trim()) return
     onSave({ id: editData?.id || 'kb_' + Date.now(), name: name.trim(), studio: studio.trim(), sortTime: sortTime,
-      layout, status, images, icTime, icLink, gbTime, gbLink, description: desc })
+      layout, status, images, icTime, icLink: icLinks[0] || '', icLinks,
+      gbTime, gbLink: gbLinks[0] || '', gbLinks, description: desc })
   }
-
   if (!show) return null
-
   const st = { label: { display:'block', fontSize:11, color:'var(--text-muted)', marginBottom:4, textTransform:'uppercase', letterSpacing:1 },
     input: { width:'100%', padding:'8px 10px', background:'var(--bg-base)', border:'1px solid var(--border-base)', color:'var(--text-primary)', fontSize:13, borderRadius:0 },
     row: { display:'grid', gridTemplateColumns:'1fr 1fr', gap:12 },
     grp: { marginBottom:14 } }
-
   // Group images by directory for browsing
   const groups = {}
   let filteredImgs = allImgs
@@ -108,17 +116,14 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
     if (!groups[i.group]) groups[i.group] = []
     groups[i.group].push(i)
   })
-
   return (
     <div style={{display:'flex',position:'fixed',inset:0,background:'rgba(0,0,0,0.5)',zIndex:200,justifyContent:'center',alignItems:'center',backdropFilter:'blur(4px)'}} onClick={onClose}>
       <div style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',padding:28,width:'90%',maxWidth:620,maxHeight:'85vh',overflowY:'auto',boxShadow:'var(--shadow-hover)',borderTop:'4px solid var(--text-primary)'}} onClick={e => e.stopPropagation()}>
         <h2 style={{marginBottom:20,fontSize:16,fontWeight:600,letterSpacing:0.5}}>{editData ? '\u7F16\u8F91\u952E\u76D8' : '\u6DFB\u52A0\u952E\u76D8'}</h2>
-
         <div style={st.grp}><label style={st.label}>{'\u952E\u76D8\u540D\u79F0'} *</label>
           <input value={name} onChange={e=>setName(e.target.value)} style={st.input} /></div>
         <div style={st.grp}><label style={st.label}>{'\u5DE5\u4F5C\u5BA4'} *</label>
           <input value={studio} onChange={e=>setStudio(e.target.value)} style={st.input} /></div>
-
         <div style={st.row}>
           <div style={st.grp}><label style={st.label}>{'\u914D\u5217'}</label>
             <select value={layout} onChange={e=>setLayout(e.target.value)} style={st.input}>
@@ -133,7 +138,6 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
               <option value="completed">{'\u5DF2\u5B8C\u6210'}</option>
             </select></div>
         </div>
-
         <div style={st.grp}>
           <label style={st.label}>{'\u56FE\u7247'}</label>
           <div style={{display:'flex',gap:8,marginBottom:8}}>
@@ -141,7 +145,6 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
             <button onClick={addImage} type="button" style={{padding:'8px 16px',fontSize:12,cursor:'pointer',fontWeight:600,background:'var(--accent)',border:'2px solid var(--text-primary)',whiteSpace:'nowrap'}}>{'\u6DFB\u52A0'}</button>
             <button onClick={()=>setBrowseOpen(!browseOpen)} type="button" style={{padding:'8px 16px',fontSize:12,cursor:'pointer',fontWeight:600,background:'var(--bg-primary)',border:'1px solid var(--border-base)',whiteSpace:'nowrap'}}>{'\u6D4F\u89C8'}</button>
           </div>
-
           {/* Selected images with cover support */}
           {images.length > 0 && <div style={{display:'flex',flexWrap:'wrap',gap:6,marginBottom:8}}>
             {images.map((url,i) => (
@@ -153,7 +156,6 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
               </div>
             ))}
           </div>}
-
           {/* Image browser */}
           {browseOpen && <div style={{border:'1px solid var(--border-base)',background:'var(--bg-secondary)',padding:12,maxHeight:300,overflowY:'auto'}}>
             <input value={browseFilter} onChange={e=>setBrowseFilter(e.target.value)} placeholder={'\u641C\u7D22\u56FE\u7247...'} style={{...st.input,marginBottom:8}} />
@@ -173,7 +175,6 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
             ))}
           </div>}
         </div>
-
         <div style={st.row}>
           <div style={st.grp}><label style={st.label}>IC {'\u65F6\u95F4'}</label>
             <div style={{display:'flex',gap:4,alignItems:'center'}}>
@@ -190,11 +191,35 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
         </div>
         <div style={st.row}>
           <div style={st.grp}><label style={st.label}>IC {'\u94FE\u63A5'}</label>
-            <input value={icLink} onChange={e=>setIcLink(e.target.value)} placeholder="https://..." style={st.input} /></div>
+            {icLinks.map(function(link, i) {
+              return <div key={i} style={{display:"flex",gap:4,alignItems:"center",marginBottom:4}}>
+                <input value={link} readOnly style={{...st.input,flex:1,background:"var(--bg-secondary)"}} />
+                <button onClick={()=>removeIcLink(i)} type="button" style={{padding:"4px 8px",border:"1px solid var(--border-base)",cursor:"pointer",background:"var(--bg-primary)",fontSize:12,color:"var(--text-muted)",lineHeight:1}}>
+                  {String.fromCharCode(0x2715)}
+                </button>
+              </div>
+            })}
+            <div style={{display:"flex",gap:4}}>
+              <input value={icLinkInput} onChange={function(e){setIcLinkInput(e.target.value)}} placeholder="https://..." style={{...st.input,flex:1}} onKeyDown={function(e){if(e.key==='Enter'){e.preventDefault();addIcLink()}}} />
+              <button onClick={()=>addIcLink()} type="button" style={{padding:"4px 12px",fontSize:14,cursor:"pointer",fontWeight:600,background:"var(--bg-primary)",border:"1px solid var(--border-base)",color:"var(--text-primary)",lineHeight:1}}>+</button>
+            </div>
+          </div>
           <div style={st.grp}><label style={st.label}>GB {'\u94FE\u63A5'}</label>
-            <input value={gbLink} onChange={e=>setGbLink(e.target.value)} placeholder="https://..." style={st.input} /></div>
+            {gbLinks.map(function(link, i) {
+              return <div key={i} style={{display:"flex",gap:4,alignItems:"center",marginBottom:4}}>
+                <input value={link} readOnly style={{...st.input,flex:1,background:"var(--bg-secondary)"}} />
+                <button onClick={()=>removeGbLink(i)} type="button" style={{padding:"4px 8px",border:"1px solid var(--border-base)",cursor:"pointer",background:"var(--bg-primary)",fontSize:12,color:"var(--text-muted)",lineHeight:1}}>
+                  {String.fromCharCode(0x2715)}
+                </button>
+              </div>
+            })}
+            <div style={{display:"flex",gap:4}}>
+              <input value={gbLinkInput} onChange={function(e){setGbLinkInput(e.target.value)}} placeholder="https://..." style={{...st.input,flex:1}} onKeyDown={function(e){if(e.key==='Enter'){e.preventDefault();addGbLink()}}} />
+              <button onClick={()=>addGbLink()} type="button" style={{padding:"4px 12px",fontSize:14,cursor:"pointer",fontWeight:600,background:"var(--bg-primary)",border:"1px solid var(--border-base)",color:"var(--text-primary)",lineHeight:1}}>+</button>
+            </div>
+          </div>
         </div>
-        <div style={st.grp}><label style={st.label}>{'\u5907\u6CE8'}</label>
+        <div style={st.grp}><label style={st.label}>{'备注'}</label>
           <input value={desc} onChange={e=>setDesc(e.target.value)} style={st.input} /></div>
         <div style={{display:'flex',gap:8,justifyContent:'flex-end',marginTop:20}}>
           <button onClick={onClose} type="button" style={{padding:'8px 20px',fontSize:12,cursor:'pointer',fontWeight:600,letterSpacing:0.5,background:'var(--bg-primary)',color:'var(--text-primary)',border:'1px solid var(--border-base)'}}>{'\u53D6\u6D88'}</button>

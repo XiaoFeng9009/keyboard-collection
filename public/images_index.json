@@ -41,6 +41,11 @@
       "group": "Apex predator"
     },
     {
+      "path": "/images/Arcanum/Akuma60.webp",
+      "name": "Akuma60.webp",
+      "group": "Arcanum"
+    },
+    {
       "path": "/images/Ark Studio/ARK21.png",
       "name": "ARK21.png",
       "group": "Ark Studio"
@@ -139,6 +144,21 @@
       "path": "/images/AULA新文艺复兴/NEOS75.png",
       "name": "NEOS75.png",
       "group": "AULA新文艺复兴"
+    },
+    {
+      "path": "/images/Bokery Studio/Bread65.png",
+      "name": "Bread65.png",
+      "group": "Bokery Studio"
+    },
+    {
+      "path": "/images/Bokery Studio/Bread75.png",
+      "name": "Bread75.png",
+      "group": "Bokery Studio"
+    },
+    {
+      "path": "/images/Bokery Studio/Bread80.png",
+      "name": "Bread80.png",
+      "group": "Bokery Studio"
     },
     {
       "path": "/images/Cary Works/C11.png",
@@ -409,6 +429,16 @@
       "path": "/images/Domikey/Laby85.webp",
       "name": "Laby85.webp",
       "group": "Domikey"
+    },
+    {
+      "path": "/images/Eazsoo studio/ESU63 一溯63.webp",
+      "name": "ESU63 一溯63.webp",
+      "group": "Eazsoo studio"
+    },
+    {
+      "path": "/images/Eazsoo studio/ESU67 一溯67.png",
+      "name": "ESU67 一溯67.png",
+      "group": "Eazsoo studio"
     },
     {
       "path": "/images/EVIE Studio/Evie Alice01.webp",
@@ -949,6 +979,21 @@
       "path": "/images/JR举人工作室/K-EDC65.webp",
       "name": "K-EDC65.webp",
       "group": "JR举人工作室"
+    },
+    {
+      "path": "/images/Just Studio/SlowPlay60.webp",
+      "name": "SlowPlay60.webp",
+      "group": "Just Studio"
+    },
+    {
+      "path": "/images/Just Studio/Soso-65%.jpg",
+      "name": "Soso-65%.jpg",
+      "group": "Just Studio"
+    },
+    {
+      "path": "/images/Just Studio/Soso-Pad.jpg",
+      "name": "Soso-Pad.jpg",
+      "group": "Just Studio"
     },
     {
       "path": "/images/KBDFans怡科外设/461E 5°.png",
@@ -1636,16 +1681,6 @@
       "group": "Matrix Lab"
     },
     {
-      "path": "/images/MBE猫不二/埃及猫 Bastet Split.webp",
-      "name": "埃及猫 Bastet Split.webp",
-      "group": "MBE猫不二"
-    },
-    {
-      "path": "/images/MBE猫不二/零零喵.webp",
-      "name": "零零喵.webp",
-      "group": "MBE猫不二"
-    },
-    {
       "path": "/images/Miatames/LN60 new.webp",
       "name": "LN60 new.webp",
       "group": "Miatames"
@@ -1654,6 +1689,51 @@
       "path": "/images/MILKYWAY/MASS80.jpg",
       "name": "MASS80.jpg",
       "group": "MILKYWAY"
+    },
+    {
+      "path": "/images/MM Studio/Class0413.png",
+      "name": "Class0413.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class100.webp",
+      "name": "Class100.webp",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class1800.png",
+      "name": "Class1800.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class60.png",
+      "name": "Class60.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class65 V2.png",
+      "name": "Class65 V2.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class65 V3.webp",
+      "name": "Class65 V3.webp",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class65.png",
+      "name": "Class65.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class80 R2.png",
+      "name": "Class80 R2.png",
+      "group": "MM Studio"
+    },
+    {
+      "path": "/images/MM Studio/Class80.png",
+      "name": "Class80.png",
+      "group": "MM Studio"
     },
     {
       "path": "/images/MODIKY Studio/MOK AIR 84.webp",
@@ -2161,6 +2241,21 @@
       "group": "PERMECH派镁"
     },
     {
+      "path": "/images/PixelSpace/Capsule65.png",
+      "name": "Capsule65.png",
+      "group": "PixelSpace"
+    },
+    {
+      "path": "/images/PixelSpace/ENDLESS80.png",
+      "name": "ENDLESS80.png",
+      "group": "PixelSpace"
+    },
+    {
+      "path": "/images/PixelSpace/Shadow80.png",
+      "name": "Shadow80.png",
+      "group": "PixelSpace"
+    },
+    {
       "path": "/images/Plexkbd Studio/Origami TKL V2.webp",
       "name": "Origami TKL V2.webp",
       "group": "Plexkbd Studio"
@@ -2299,6 +2394,36 @@
       "path": "/images/Rain2 图2/蛇Serpens&秋Autumn.webp",
       "name": "蛇Serpens&秋Autumn.webp",
       "group": "Rain2 图2"
+    },
+    {
+      "path": "/images/rien works/RIEN60.png",
+      "name": "RIEN60.png",
+      "group": "rien works"
+    },
+    {
+      "path": "/images/rien works/SONIC MINI.jpg",
+      "name": "SONIC MINI.jpg",
+      "group": "rien works"
+    },
+    {
+      "path": "/images/rien works/SONIC170 V2.webp",
+      "name": "SONIC170 V2.webp",
+      "group": "rien works"
+    },
+    {
+      "path": "/images/rien works/SONIC170.png",
+      "name": "SONIC170.png",
+      "group": "rien works"
+    },
+    {
+      "path": "/images/rien works/Syrin TKL.png",
+      "name": "Syrin TKL.png",
+      "group": "rien works"
+    },
+    {
+      "path": "/images/rien works/Tetris60 & Gboy20.png",
+      "name": "Tetris60 & Gboy20.png",
+      "group": "rien works"
     },
     {
       "path": "/images/Russ Works/Fukuro R2.jpg",
@@ -2476,6 +2601,21 @@
       "group": "Sam"
     },
     {
+      "path": "/images/SEED PLAN种子计划/Linedge65.webp",
+      "name": "Linedge65.webp",
+      "group": "SEED PLAN种子计划"
+    },
+    {
+      "path": "/images/SEED PLAN种子计划/SEA75.png",
+      "name": "SEA75.png",
+      "group": "SEED PLAN种子计划"
+    },
+    {
+      "path": "/images/SEED PLAN种子计划/TonishTKL.jpg",
+      "name": "TonishTKL.jpg",
+      "group": "SEED PLAN种子计划"
+    },
+    {
       "path": "/images/Sensy Lab/Seal100.png",
       "name": "Seal100.png",
       "group": "Sensy Lab"
@@ -2511,6 +2651,61 @@
       "group": "Sensy Lab"
     },
     {
+      "path": "/images/Sirius天狼星/Cap.45.webp",
+      "name": "Cap.45.webp",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Manta40 多宝鱼 V2.png",
+      "name": "Manta40 多宝鱼 V2.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/MeowTool X1.png",
+      "name": "MeowTool X1.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/MeowTool大猫 X1 Mini.png",
+      "name": "MeowTool大猫 X1 Mini.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/MeowTool大猫 X2.png",
+      "name": "MeowTool大猫 X2.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Sirius03 雙.png",
+      "name": "Sirius03 雙.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Uni660.png",
+      "name": "Uni660.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Uni660青春版.png",
+      "name": "Uni660青春版.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/UniGo66.png",
+      "name": "UniGo66.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Ursa Major 大熊座.png",
+      "name": "Ursa Major 大熊座.png",
+      "group": "Sirius天狼星"
+    },
+    {
+      "path": "/images/Sirius天狼星/Ursa Major大熊座 V2.png",
+      "name": "Ursa Major大熊座 V2.png",
+      "group": "Sirius天狼星"
+    },
+    {
       "path": "/images/SpringKeys/flora65.webp",
       "name": "flora65.webp",
       "group": "SpringKeys"
@@ -2529,6 +2724,61 @@
       "path": "/images/SumJoy/Scene 01 Dyad.webp",
       "name": "Scene 01 Dyad.webp",
       "group": "SumJoy"
+    },
+    {
+      "path": "/images/TapBox/DTR60.png",
+      "name": "DTR60.png",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/ELA60.png",
+      "name": "ELA60.png",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/GTR60.png",
+      "name": "GTR60.png",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Oculus.jpeg",
+      "name": "Oculus.jpeg",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Ou_mini.jpeg",
+      "name": "Ou_mini.jpeg",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/PTR65.jpeg",
+      "name": "PTR65.jpeg",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Shift65.webp",
+      "name": "Shift65.webp",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Sigma TKL.jpeg",
+      "name": "Sigma TKL.jpeg",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Turbo-R TKL FNF.webp",
+      "name": "Turbo-R TKL FNF.webp",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Turbo-R TKL.png",
+      "name": "Turbo-R TKL.png",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/比奇堡660.png",
+      "name": "比奇堡660.png",
+      "group": "TapBox"
     },
     {
       "path": "/images/The Last Keyboard/DeLast.webp",
@@ -2916,19 +3166,74 @@
       "group": "Zephyr Lab"
     },
     {
+      "path": "/images/Zero-G Studio/EM-01.webp",
+      "name": "EM-01.webp",
+      "group": "Zero-G Studio"
+    },
+    {
+      "path": "/images/Zero-G Studio/Z80重剑.png",
+      "name": "Z80重剑.png",
+      "group": "Zero-G Studio"
+    },
+    {
       "path": "/images/ZitaoTech/ZitaoTech_Sofle.webp",
       "name": "ZitaoTech_Sofle.webp",
       "group": "ZitaoTech"
     },
     {
-      "path": "/images/ChatGPT Image 2026年6月23日 13_55_17.png",
-      "name": "ChatGPT Image 2026年6月23日 13_55_17.png",
-      "group": "(root)"
+      "path": "/images/忘川/光契40.webp",
+      "name": "光契40.webp",
+      "group": "忘川"
     },
     {
-      "path": "/images/Dallors75.webp",
-      "name": "Dallors75.webp",
-      "group": "(root)"
+      "path": "/images/忘川/硅土 GT75.webp",
+      "name": "硅土 GT75.webp",
+      "group": "忘川"
+    },
+    {
+      "path": "/images/忘川/驭光67.webp",
+      "name": "驭光67.webp",
+      "group": "忘川"
+    },
+    {
+      "path": "/images/猫不二/埃及猫 Bastet Split.webp",
+      "name": "埃及猫 Bastet Split.webp",
+      "group": "猫不二"
+    },
+    {
+      "path": "/images/猫不二/零零喵.webp",
+      "name": "零零喵.webp",
+      "group": "猫不二"
+    },
+    {
+      "path": "/images/皮特邱/pixi87(rx78-2).png",
+      "name": "pixi87(rx78-2).png",
+      "group": "皮特邱"
+    },
+    {
+      "path": "/images/皮特邱/venus65.png",
+      "name": "venus65.png",
+      "group": "皮特邱"
+    },
+    {
+      "path": "/images/衍 Studio/啟65.jpg",
+      "name": "啟65.jpg",
+      "group": "衍 Studio"
+    },
+    {
+      "path": "/images/衍 Studio/简70.webp",
+      "name": "简70.webp",
+      "group": "衍 Studio"
+    },
+    {
+      "path": "/images/顽皮匞/Secret65.webp",
+      "name": "Secret65.webp",
+      "group": "顽皮匞"
+    },
+    {
+      "path": "/images/顽皮匞/W70.webp",
+      "name": "W70.webp",
+      "group": "顽皮匞"
     },
     {
       "path": "/images/favicon.png",
@@ -2938,11 +3243,6 @@
     {
       "path": "/images/Grim TKL.webp",
       "name": "Grim TKL.webp",
-      "group": "(root)"
-    },
-    {
-      "path": "/images/Klavier II.webp",
-      "name": "Klavier II.webp",
       "group": "(root)"
     },
     {
@@ -2971,5 +3271,5 @@
       "group": "(root)"
     }
   ],
-  "total": 594
+  "total": 654
 }

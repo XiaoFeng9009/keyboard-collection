@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef } from 'react'
+﻿import { useState, useEffect, useRef, createElement } from 'react'
 import useBreakpoint from '../lib/useBreakpoint'
 
 export default function StudioDetail({ studio, keyboards, onClose }) {
@@ -38,7 +38,24 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
     if (kb.images && kb.images.length > 0) return kb.images[0]
     return kb.image || ''
   }
-
+  const getLinks = function(k, field) {
+    var arr = k[field + 'Links']
+    if (arr && arr.length > 0) return arr
+    return k[field + 'Link'] ? [k[field + 'Link']] : []
+  }
+  var renderLinkTags = function(links) {
+    if (!links || links.length === 0) return null
+    var result = [];
+    result.push(' | ');
+    for (var i = 0; i < links.length; i++) {
+      if (i > 0) result.push(" ");
+      result.push(createElement("a", {
+        key: i, href: links[i], target: "_blank", rel: "noopener",
+        style: {background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}
+      }, '查看详情' + (links.length > 1 ? (i+1) : '')));
+    }
+    return result
+  }
   var scrollTo = function(idx) {
     var el = sectionRefs.current[idx]
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -104,11 +121,11 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                         <p style={{fontSize:14,fontWeight:600,marginBottom:12,color:'var(--text-primary)'}}>{k.name}</p>
                         <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                           <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}
-                          {k.icLink && <> | <a href={k.icLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a></>}
+                          {renderLinkTags(getLinks(k,'ic'))}
                         </p>
                         <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                           <strong style={{color:'var(--text-primary)'}}>{'GB\u9636\u6BB5'}</strong>: {k.gbTime || '\u2014'}
-                          {k.gbLink && <> | <a href={k.gbLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a></>}
+                          {renderLinkTags(getLinks(k,"gb"))}
                         </p>
                         {k.description && (<div style={{background:'var(--bg-secondary)',border:'1px solid var(--border-base)',borderRadius:8,padding:'12px 16px',margin:'12px 0',fontSize:12,color:'var(--text-secondary)',lineHeight:1.6}}>{'\uD83D\uDCDD'} {k.description}</div>)}
                         {idx < list.length - 1 && <hr style={{border:'none',borderTop:'1px solid var(--border-base)',margin:'36px 0'}} />}
@@ -153,11 +170,11 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                       <p style={{fontSize:14,fontWeight:600,marginBottom:12,color:'var(--text-primary)'}}>{k.name}</p>
                       <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                         <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}
-                        {k.icLink && <> | <a href={k.icLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a></>}
+                        {renderLinkTags(getLinks(k,"ic"))}
                       </p>
                       <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                         <strong style={{color:'var(--text-primary)'}}>{'GB\u9636\u6BB5'}</strong>: {k.gbTime || '\u2014'}
-                        {k.gbLink && <> | <a href={k.gbLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a></>}
+                        {renderLinkTags(getLinks(k,"gb"))}
                       </p>
                       {k.description && (<div style={{background:'var(--bg-secondary)',border:'1px solid var(--border-base)',borderRadius:8,padding:'12px 16px',margin:'12px 0',fontSize:12,color:'var(--text-secondary)',lineHeight:1.6}}>{'\uD83D\uDCDD'} {k.description}</div>)}
                       {idx < list.length - 1 && <hr style={{border:'none',borderTop:'1px solid var(--border-base)',margin:'36px 0'}} />}

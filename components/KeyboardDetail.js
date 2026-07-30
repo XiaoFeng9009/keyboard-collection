@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 
 export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   const [imgIdx, setImgIdx] = useState(0)
@@ -22,6 +22,13 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   const row = { padding:'10px 0', display:'flex', gap:12 }
 
   const statusLabel = keyboard.status === 'ic' ? 'IC' : keyboard.status === 'gb' ? 'GB' : keyboard.status === 'completed' ? '已完成' : ''
+  const getLinks = function(k, field) {
+    var arr = k[field + 'Links']
+    if (arr && arr.length > 0) return arr
+    return k[field + 'Link'] ? [k[field + 'Link']] : []
+  }
+  const icLinks = getLinks(keyboard, 'ic')
+  const gbLinks = getLinks(keyboard, 'gb')
 
   return (
     <>
@@ -65,9 +72,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
 
             {/* Info rows */}
             {keyboard.layout && <div style={row}><span style={{...label,width:80}}>{'配列'}</span><span style={value}>{keyboard.layout}</span></div>}
-            {statusLabel && <div style={row}><span style={{...label,width:80}}>{'状态'}</span><span style={value}>{statusLabel}</span></div>}
-            {keyboard.icTime && <div style={row}><span style={{...label,width:80}}>IC {'时间'}</span><span style={value}>{keyboard.icTime}{keyboard.icLink ? ' ·' : ''} {keyboard.icLink && <a href={keyboard.icLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a>}</span></div>}
-            {keyboard.gbTime && <div style={row}><span style={{...label,width:80}}>GB {'时间'}</span><span style={value}>{keyboard.gbTime}{keyboard.gbLink ? ' ·' : ''} {keyboard.gbLink && <a href={keyboard.gbLink} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600}}>{'查看详情'}</a>}</span></div>}
+            {statusLabel && <div style={row}><span style={{...label,width:80}}>{'状态'}</span><span style={value}>{statusLabel}</span></div>}            {(keyboard.icTime || icLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>IC {'\u65F6\u95F4'}</span><span style={value}>{keyboard.icTime || '\u2014'}{icLinks.length > 0 ? ' \u00B7' : ''} {icLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (icLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}            {(keyboard.gbTime || gbLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>GB {'\u65F6\u95F4'}</span><span style={value}>{keyboard.gbTime || '\u2014'}{gbLinks.length > 0 ? ' \u00B7' : ''} {gbLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (gbLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}
             {keyboard.description && <div style={row}><span style={{...label,width:80}}>{'备注'}</span><span style={value}>{keyboard.description}</span></div>}
 
             {/* Close button */}
