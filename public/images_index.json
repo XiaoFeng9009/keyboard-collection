@@ -11,6 +11,36 @@
       "group": "4GT"
     },
     {
+      "path": "/images/80retros/Auto Pad.jpg",
+      "name": "Auto Pad.jpg",
+      "group": "80retros"
+    },
+    {
+      "path": "/images/80retros/GAME 1989 40(GB40).png",
+      "name": "GAME 1989 40(GB40).png",
+      "group": "80retros"
+    },
+    {
+      "path": "/images/80retros/GAME 1989 65(GB65).png",
+      "name": "GAME 1989 65(GB65).png",
+      "group": "80retros"
+    },
+    {
+      "path": "/images/80retros/GAME 1989 80.png",
+      "name": "GAME 1989 80.png",
+      "group": "80retros"
+    },
+    {
+      "path": "/images/80retros/GB PAD.png",
+      "name": "GB PAD.png",
+      "group": "80retros"
+    },
+    {
+      "path": "/images/80retros/XT 1981.png",
+      "name": "XT 1981.png",
+      "group": "80retros"
+    },
+    {
       "path": "/images/Aether Works/Selene65.webp",
       "name": "Selene65.webp",
       "group": "Aether Works"
@@ -19,6 +49,26 @@
       "path": "/images/Akuko Labs/Motif65.webp",
       "name": "Motif65.webp",
       "group": "Akuko Labs"
+    },
+    {
+      "path": "/images/Anthem Studio/春日80.jpg",
+      "name": "春日80.jpg",
+      "group": "Anthem Studio"
+    },
+    {
+      "path": "/images/Anthem Studio/肥皂65.png",
+      "name": "肥皂65.png",
+      "group": "Anthem Studio"
+    },
+    {
+      "path": "/images/Anthem Studio/肥皂75.png",
+      "name": "肥皂75.png",
+      "group": "Anthem Studio"
+    },
+    {
+      "path": "/images/Anthem Studio/肥皂Pad.png",
+      "name": "肥皂Pad.png",
+      "group": "Anthem Studio"
     },
     {
       "path": "/images/Apex predator/Eyroix60.webp",
@@ -161,6 +211,36 @@
       "group": "Bokery Studio"
     },
     {
+      "path": "/images/BUFF Lab/BUFF67 V2.png",
+      "name": "BUFF67 V2.png",
+      "group": "BUFF Lab"
+    },
+    {
+      "path": "/images/BUFF Lab/BUFF67 V3.png",
+      "name": "BUFF67 V3.png",
+      "group": "BUFF Lab"
+    },
+    {
+      "path": "/images/BUFF Lab/BUFF75 R2.png",
+      "name": "BUFF75 R2.png",
+      "group": "BUFF Lab"
+    },
+    {
+      "path": "/images/BUFF Lab/BUFF75.png",
+      "name": "BUFF75.png",
+      "group": "BUFF Lab"
+    },
+    {
+      "path": "/images/BUFF Lab/BUFF80.png",
+      "name": "BUFF80.png",
+      "group": "BUFF Lab"
+    },
+    {
+      "path": "/images/BUFF Lab/BUFF98.png",
+      "name": "BUFF98.png",
+      "group": "BUFF Lab"
+    },
+    {
       "path": "/images/Cary Works/C11.png",
       "name": "C11.png",
       "group": "Cary Works"
@@ -224,6 +304,11 @@
       "path": "/images/Castle Bravo Studio/Schema M60 - Alexotos & Bowl.webp",
       "name": "Schema M60 - Alexotos & Bowl.webp",
       "group": "Castle Bravo Studio"
+    },
+    {
+      "path": "/images/CC Works/DOUBLE Q9 mini.jpg",
+      "name": "DOUBLE Q9 mini.jpg",
+      "group": "CC Works"
     },
     {
       "path": "/images/CFHSS Style/Grand TKL.webp",
@@ -386,6 +471,36 @@
       "group": "CSEA Studio"
     },
     {
+      "path": "/images/CSO STUDIO/Glory80 & Pad.png",
+      "name": "Glory80 & Pad.png",
+      "group": "CSO STUDIO"
+    },
+    {
+      "path": "/images/CSO STUDIO/KEIT75 R2.png",
+      "name": "KEIT75 R2.png",
+      "group": "CSO STUDIO"
+    },
+    {
+      "path": "/images/CSO STUDIO/KEIT75.png",
+      "name": "KEIT75.png",
+      "group": "CSO STUDIO"
+    },
+    {
+      "path": "/images/CSO STUDIO/SOUL 65.jpg",
+      "name": "SOUL 65.jpg",
+      "group": "CSO STUDIO"
+    },
+    {
+      "path": "/images/CSO STUDIO/SOUL 70.png",
+      "name": "SOUL 70.png",
+      "group": "CSO STUDIO"
+    },
+    {
+      "path": "/images/Cub Studio/Cub65.jpg",
+      "name": "Cub65.jpg",
+      "group": "Cub Studio"
+    },
+    {
       "path": "/images/DATGLOW/Dallors75.webp",
       "name": "Dallors75.webp",
       "group": "DATGLOW"
@@ -484,6 +599,36 @@
       "path": "/images/Eazsoo studio/ESU67 一溯67.png",
       "name": "ESU67 一溯67.png",
       "group": "Eazsoo studio"
+    },
+    {
+      "path": "/images/Equalz/0.9XE.jpg",
+      "name": "0.9XE.jpg",
+      "group": "Equalz"
+    },
+    {
+      "path": "/images/Equalz/ONE80.png",
+      "name": "ONE80.png",
+      "group": "Equalz"
+    },
+    {
+      "path": "/images/Equalz/ZER0.9EE.png",
+      "name": "ZER0.9EE.png",
+      "group": "Equalz"
+    },
+    {
+      "path": "/images/Equalz/ZERO80.jpeg",
+      "name": "ZERO80.jpeg",
+      "group": "Equalz"
+    },
+    {
+      "path": "/images/Equalz/山岳(1).png",
+      "name": "山岳(1).png",
+      "group": "Equalz"
+    },
+    {
+      "path": "/images/Equalz/山岳.png",
+      "name": "山岳.png",
+      "group": "Equalz"
     },
     {
       "path": "/images/EVIE Studio/Evie Alice01.webp",
@@ -899,6 +1044,16 @@
       "path": "/images/HSX Studio寒山雪/ishtar60.webp",
       "name": "ishtar60.webp",
       "group": "HSX Studio寒山雪"
+    },
+    {
+      "path": "/images/HTT Works/Kurisu TKL.webp",
+      "name": "Kurisu TKL.webp",
+      "group": "HTT Works"
+    },
+    {
+      "path": "/images/HTT Works/Yui60.webp",
+      "name": "Yui60.webp",
+      "group": "HTT Works"
     },
     {
       "path": "/images/INKC Studio/FMATE98.webp",
@@ -1436,6 +1591,31 @@
       "group": "Knock Knock Studio"
     },
     {
+      "path": "/images/Mage Studio/Gift80.webp",
+      "name": "Gift80.webp",
+      "group": "Mage Studio"
+    },
+    {
+      "path": "/images/Mage Studio/Milce.png",
+      "name": "Milce.png",
+      "group": "Mage Studio"
+    },
+    {
+      "path": "/images/Mage Studio/情书65.png",
+      "name": "情书65.png",
+      "group": "Mage Studio"
+    },
+    {
+      "path": "/images/Mage Studio/情书75.png",
+      "name": "情书75.png",
+      "group": "Mage Studio"
+    },
+    {
+      "path": "/images/Mage Studio/情书Pad.webp",
+      "name": "情书Pad.webp",
+      "group": "Mage Studio"
+    },
+    {
       "path": "/images/Matrix Lab/10XV 1.0.png",
       "name": "10XV 1.0.png",
       "group": "Matrix Lab"
@@ -1726,6 +1906,41 @@
       "group": "Matrix Lab"
     },
     {
+      "path": "/images/Mek Studio/Mek Alpha Pad.png",
+      "name": "Mek Alpha Pad.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek Geometry 70 几何.png",
+      "name": "Mek Geometry 70 几何.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek Hyaline 65 璃.png",
+      "name": "Mek Hyaline 65 璃.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek Limpid 80 澈.png",
+      "name": "Mek Limpid 80 澈.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek Nycto 88 夜.png",
+      "name": "Mek Nycto 88 夜.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek75 Sagittarius射手座.png",
+      "name": "Mek75 Sagittarius射手座.png",
+      "group": "Mek Studio"
+    },
+    {
+      "path": "/images/Mek Studio/Mek980.png",
+      "name": "Mek980.png",
+      "group": "Mek Studio"
+    },
+    {
       "path": "/images/Miatames/LN60 new.webp",
       "name": "LN60 new.webp",
       "group": "Miatames"
@@ -1829,6 +2044,26 @@
       "path": "/images/MY Studio/Metallica77.png",
       "name": "Metallica77.png",
       "group": "MY Studio"
+    },
+    {
+      "path": "/images/NAPE Studio/Aurora96.png",
+      "name": "Aurora96.png",
+      "group": "NAPE Studio"
+    },
+    {
+      "path": "/images/NAPE Studio/Manda80 2.0.png",
+      "name": "Manda80 2.0.png",
+      "group": "NAPE Studio"
+    },
+    {
+      "path": "/images/NAPE Studio/Manda80.png",
+      "name": "Manda80.png",
+      "group": "NAPE Studio"
+    },
+    {
+      "path": "/images/NAPE Studio/TAKU65.png",
+      "name": "TAKU65.png",
+      "group": "NAPE Studio"
     },
     {
       "path": "/images/NDNH无砚工作室/ND104.webp",
@@ -2331,6 +2566,21 @@
       "group": "PixelSpace"
     },
     {
+      "path": "/images/Play Keyboard/Curve65.png",
+      "name": "Curve65.png",
+      "group": "Play Keyboard"
+    },
+    {
+      "path": "/images/Play Keyboard/MODEL OLED.png",
+      "name": "MODEL OLED.png",
+      "group": "Play Keyboard"
+    },
+    {
+      "path": "/images/Play Keyboard/Smurve80.png",
+      "name": "Smurve80.png",
+      "group": "Play Keyboard"
+    },
+    {
       "path": "/images/Plexkbd Studio/Origami TKL V2.webp",
       "name": "Origami TKL V2.webp",
       "group": "Plexkbd Studio"
@@ -2811,6 +3061,36 @@
       "group": "SumJoy"
     },
     {
+      "path": "/images/Swagkeys/EAVE65.jpeg",
+      "name": "EAVE65.jpeg",
+      "group": "Swagkeys"
+    },
+    {
+      "path": "/images/Swagkeys/Integral.jpg",
+      "name": "Integral.jpg",
+      "group": "Swagkeys"
+    },
+    {
+      "path": "/images/Swagkeys/Shelby65.png",
+      "name": "Shelby65.png",
+      "group": "Swagkeys"
+    },
+    {
+      "path": "/images/Swagkeys/Shelby80.png",
+      "name": "Shelby80.png",
+      "group": "Swagkeys"
+    },
+    {
+      "path": "/images/Swagkeys/Transition Lite.png",
+      "name": "Transition Lite.png",
+      "group": "Swagkeys"
+    },
+    {
+      "path": "/images/Swagkeys/Transition TKL.png",
+      "name": "Transition TKL.png",
+      "group": "Swagkeys"
+    },
+    {
       "path": "/images/TapBox/DTR60.png",
       "name": "DTR60.png",
       "group": "TapBox"
@@ -2864,6 +3144,36 @@
       "path": "/images/TapBox/比奇堡660.png",
       "name": "比奇堡660.png",
       "group": "TapBox"
+    },
+    {
+      "path": "/images/Tea House/Ayleen 冬.webp",
+      "name": "Ayleen 冬.webp",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Ayleen.png",
+      "name": "Ayleen.png",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Bina.png",
+      "name": "Bina.png",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Chalice.png",
+      "name": "Chalice.png",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Cinque.png",
+      "name": "Cinque.png",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Devotion.jpeg",
+      "name": "Devotion.jpeg",
+      "group": "Tea House"
     },
     {
       "path": "/images/The Last Keyboard/DeLast.webp",
@@ -3051,6 +3361,11 @@
       "group": "Vida Lab"
     },
     {
+      "path": "/images/VIRTUAL Studio/VIRTUAL87.jpg",
+      "name": "VIRTUAL87.jpg",
+      "group": "VIRTUAL Studio"
+    },
+    {
       "path": "/images/VTX Engine/Angle65.webp",
       "name": "Angle65.webp",
       "group": "VTX Engine"
@@ -3171,6 +3486,86 @@
       "group": "WhatEver Studio"
     },
     {
+      "path": "/images/Wind Studio/Hola Mini.png",
+      "name": "Hola Mini.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Hola.png",
+      "name": "Hola.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Sin65.png",
+      "name": "Sin65.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X R2.png",
+      "name": "Wind X R2.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X.png",
+      "name": "Wind X.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X65.png",
+      "name": "Wind X65.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X80 Classic.png",
+      "name": "Wind X80 Classic.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X80.png",
+      "name": "Wind X80.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/WIND X98 R2.png",
+      "name": "WIND X98 R2.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind X98.png",
+      "name": "Wind X98.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind Xlice.jpg",
+      "name": "Wind Xlice.jpg",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/Wind Studio/Wind Z75.png",
+      "name": "Wind Z75.png",
+      "group": "Wind Studio"
+    },
+    {
+      "path": "/images/WOB/Crush80 Reboot.png",
+      "name": "Crush80 Reboot.png",
+      "group": "WOB"
+    },
+    {
+      "path": "/images/WOB/Crush80.png",
+      "name": "Crush80.png",
+      "group": "WOB"
+    },
+    {
+      "path": "/images/WOB/Rainy75.png",
+      "name": "Rainy75.png",
+      "group": "WOB"
+    },
+    {
+      "path": "/images/WOB/ZEN65.webp",
+      "name": "ZEN65.webp",
+      "group": "WOB"
+    },
+    {
       "path": "/images/WuqueStudio/Aurora.png",
       "name": "Aurora.png",
       "group": "WuqueStudio"
@@ -3276,16 +3671,6 @@
       "group": "Yucas"
     },
     {
-      "path": "/images/Yuizh呆唯/Kurisu TKL.webp",
-      "name": "Kurisu TKL.webp",
-      "group": "Yuizh呆唯"
-    },
-    {
-      "path": "/images/Yuizh呆唯/Yui60.webp",
-      "name": "Yui60.webp",
-      "group": "Yuizh呆唯"
-    },
-    {
       "path": "/images/ZBLB CLUB/Trapezium90.webp",
       "name": "Trapezium90.webp",
       "group": "ZBLB CLUB"
@@ -3324,6 +3709,31 @@
       "path": "/images/忘川/驭光67.webp",
       "name": "驭光67.webp",
       "group": "忘川"
+    },
+    {
+      "path": "/images/果光/Corgi Fairlady Alice.png",
+      "name": "Corgi Fairlady Alice.png",
+      "group": "果光"
+    },
+    {
+      "path": "/images/果光/Corgi60.png",
+      "name": "Corgi60.png",
+      "group": "果光"
+    },
+    {
+      "path": "/images/果光/Corgi65.webp",
+      "name": "Corgi65.webp",
+      "group": "果光"
+    },
+    {
+      "path": "/images/果光/Corgi75 Pain de Mie.png",
+      "name": "Corgi75 Pain de Mie.png",
+      "group": "果光"
+    },
+    {
+      "path": "/images/果光/Corgi80 MIRROR80.png",
+      "name": "Corgi80 MIRROR80.png",
+      "group": "果光"
     },
     {
       "path": "/images/猫不二/埃及猫 Bastet Split.webp",
@@ -3401,5 +3811,5 @@
       "group": "(root)"
     }
   ],
-  "total": 680
+  "total": 762
 }
