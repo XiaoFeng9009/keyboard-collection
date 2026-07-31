@@ -51,6 +51,51 @@
       "group": "Akuko Labs"
     },
     {
+      "path": "/images/Angry Miao怒喵/65LESS.webp",
+      "name": "65LESS.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/AFA R2.webp",
+      "name": "AFA R2.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/AGA.webp",
+      "name": "AGA.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/Cyberboard R4.webp",
+      "name": "Cyberboard R4.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/Cyberboard.webp",
+      "name": "Cyberboard.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/HATSU.webp",
+      "name": "HATSU.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/Neon80.webp",
+      "name": "Neon80.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/Relic80.webp",
+      "name": "Relic80.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
+      "path": "/images/Angry Miao怒喵/RGB65.webp",
+      "name": "RGB65.webp",
+      "group": "Angry Miao怒喵"
+    },
+    {
       "path": "/images/Anthem Studio/春日80.jpg",
       "name": "春日80.jpg",
       "group": "Anthem Studio"
@@ -3811,5 +3856,5 @@
       "group": "(root)"
     }
   ],
-  "total": 762
+  "total": 771
 }

@@ -11501,16 +11501,22 @@
     },
     {
       "id": "kb_csv_183",
-      "name": "AM Neon 80",
-      "studio": "Angry Miao",
+      "name": "Neon80",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2024-06-18",
-      "layout": "80-TKL",
-      "status": "",
-      "images": [],
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/Neon80.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-06-18",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/d61OMNB8JPyX",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/d61OMNB8JPyX"
+      ],
       "description": ""
     },
     {
@@ -11585,16 +11591,22 @@
     },
     {
       "id": "kb_csv_188",
-      "name": "AM RGB 65",
-      "studio": "Angry Miao",
+      "name": "RGB65",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2024-05-31",
-      "layout": "65",
-      "status": "",
-      "images": [],
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/RGB65.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-05-31",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/Gn3E5701lVW8",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/Gn3E5701lVW8"
+      ],
       "description": ""
     },
     {
@@ -12607,16 +12619,22 @@
     },
     {
       "id": "kb_csv_249",
-      "name": "AM Relic 80",
-      "studio": "Angry Miao",
+      "name": "Relic80",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2023-09-25",
-      "layout": "80-TKL",
-      "status": "",
-      "images": [],
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/Relic80.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2023-09-25",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/Kdj3YGVbE6pP",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/Kdj3YGVbE6pP"
+      ],
       "description": ""
     },
     {
@@ -12782,15 +12800,21 @@
     {
       "id": "kb_csv_260",
       "name": "Cyberboard R4",
-      "studio": "Angry Miao",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2023-08-25",
-      "layout": "75",
-      "status": "",
-      "images": [],
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/Cyberboard R4.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2023-08-25",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/r0k78d13KYxG",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/r0k78d13KYxG"
+      ],
       "description": ""
     },
     {
@@ -12855,16 +12879,20 @@
     },
     {
       "id": "kb_csv_265",
-      "name": "AM AFA R2",
-      "studio": "Angry Miao",
+      "name": "AFA R2",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2023-07-20",
-      "layout": "65",
-      "status": "",
-      "images": [],
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/AFA R2.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2023-07-20",
       "gbLink": "",
+      "gbLinks": [],
       "description": ""
     },
     {
@@ -13551,16 +13579,24 @@
     },
     {
       "id": "kb_csv_308",
-      "name": "AM 65 LESS",
-      "studio": "Angry Miao",
+      "name": "65LESS",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2022-12-30",
-      "layout": "60",
-      "status": "",
-      "images": [],
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/65LESS.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/WwoboGlapGXM",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/WwoboGlapGXM"
+      ],
       "gbTime": "2022-12-30",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/5by0v96k6rWo",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/5by0v96k6rWo"
+      ],
       "description": ""
     },
     {
@@ -13761,16 +13797,24 @@
     },
     {
       "id": "kb_csv_321",
-      "name": "AM AGA",
-      "studio": "Angry Miao",
+      "name": "AFA",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2022-10-26",
-      "layout": "65",
-      "status": "",
-      "images": [],
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/AGA.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2O87NB7dGEK1",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/2O87NB7dGEK1"
+      ],
       "gbTime": "2022-10-26",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/8lYp3O19ol8r",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/8lYp3O19ol8r"
+      ],
       "description": ""
     },
     {
@@ -15570,16 +15614,22 @@
     },
     {
       "id": "kb_csv_432",
-      "name": "AM HATSU",
-      "studio": "Angry Miao",
+      "name": "HATSU",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2021-04-29",
       "layout": "Split",
-      "status": "",
-      "images": [],
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/HATSU.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2021-04-29",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/e3bwbwEzXwVL",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/e3bwbwEzXwVL"
+      ],
       "description": ""
     },
     {
@@ -15995,15 +16045,23 @@
     {
       "id": "kb_csv_459",
       "name": "Cyberboard",
-      "studio": "Angry Miao",
+      "studio": "Angry Miao怒喵",
       "sortTime": "2020-08-14",
-      "layout": "75",
-      "status": "",
-      "images": [],
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/Angry Miao怒喵/Cyberboard.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Dzgn9EBa6vRm",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/Dzgn9EBa6vRm"
+      ],
       "gbTime": "2020-08-14",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/2OAy61AOpzZz",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2OAy61AOpzZz"
+      ],
       "description": ""
     },
     {
