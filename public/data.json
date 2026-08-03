@@ -8866,21 +8866,6 @@
       "sortTime": "2026-01-29"
     },
     {
-      "id": "kb_csv_24",
-      "name": "Saber",
-      "studio": "Ephem",
-      "layout": "60",
-      "status": "ic",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-01-26",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2026-01-26"
-    },
-    {
       "id": "kb_csv_25",
       "name": "Obey65",
       "studio": "RebellionStudio",
@@ -8915,16 +8900,21 @@
       "id": "kb_csv_27",
       "name": "Charme100",
       "studio": "MXRSKEY",
-      "layout": "98",
+      "sortTime": "2026-01-12",
+      "layout": "98%",
       "status": "ic",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2026-01-12",
+      "images": [
+        "/images/MXRSKEY/Charme100.jpg"
+      ],
+      "icTime": "2026-01-12",
+      "icLink": "https://www.zfrontier.com/app/flow/kMk7PnGRQ5EA",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/kMk7PnGRQ5EA"
+      ],
+      "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2026-01-12"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_28",
@@ -9003,16 +8993,21 @@
       "id": "kb_csv_33",
       "name": "T1",
       "studio": "Tars Works",
-      "layout": "80-TKL",
-      "status": "",
+      "sortTime": "2025-12-12",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Tars Works/T1.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-12-12",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-12-12"
+      "gbLink": "https://www.zfrontier.com/app/flow/LZK01Enp6vj3",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/LZK01Enp6vj3"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_34",
@@ -9338,16 +9333,21 @@
       "id": "kb_csv_50",
       "name": "Taka60 v2",
       "studio": "Hunk",
-      "layout": "60",
+      "sortTime": "2025-10-02",
+      "layout": "60%",
       "status": "ic",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2025-10-02",
+      "images": [
+        "/images/Hunk/Taka60 v2.jpg"
+      ],
+      "icTime": "2025-10-02",
+      "icLink": "https://www.zfrontier.com/app/flow/GYrdO9BZWGzZ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/GYrdO9BZWGzZ"
+      ],
+      "gbTime": "",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-10-02"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_51",
@@ -9454,18 +9454,23 @@
     },
     {
       "id": "kb_csv_56",
-      "name": "Ramune 60",
+      "name": "Ramune60",
       "studio": "Hatoworks",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2025-09-15",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Hatoworks/Ramune60.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-09-15",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-09-15"
+      "gbLink": "https://www.zfrontier.com/app/flow/KJRKzyGA0v5N",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/KJRKzyGA0v5N"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_57",
@@ -9712,18 +9717,23 @@
     },
     {
       "id": "kb_csv_70",
-      "name": "EM60%",
+      "name": "EM60",
       "studio": "MetaKeebs",
-      "layout": "60",
-      "status": "ic",
+      "sortTime": "2025-08-24",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/MetaKeebs/EM60.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-08-24",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-08-24"
+      "gbLink": "https://www.zfrontier.com/app/flow/ryK3qrBaP3E8",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/ryK3qrBaP3E8"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_71",
@@ -9769,16 +9779,21 @@
       "id": "kb_csv_73",
       "name": "BNK-16 - Binepad",
       "studio": "DIM SUM LAB",
+      "sortTime": "2025-08-04",
       "layout": "Pad",
-      "status": "",
+      "status": "gb",
+      "images": [
+        "/images/DIM SUM LAB/BNK-16 - Binepad.jpg"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-08-04",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-08-04"
+      "gbLink": "https://www.zfrontier.com/app/flow/RNYk6bWxRWyK",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/RNYk6bWxRWyK"
+      ],
+      "description": "国内由DIM SUM LAB代理销售"
     },
     {
       "id": "kb_csv_74",
@@ -9886,16 +9901,21 @@
       "id": "kb_csv_80",
       "name": "KIKI's",
       "studio": "27Studio",
-      "layout": "65",
-      "status": "",
+      "sortTime": "2025-07-20",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/27Studio/KIKI's.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-07-20",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-07-20"
+      "gbLink": "https://www.zfrontier.com/app/flow/g5a00EpGmmGP",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/g5a00EpGmmGP"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_81",
@@ -10192,13 +10212,21 @@
       "name": "极光80",
       "studio": "PMOLab",
       "sortTime": "2025-05-21",
-      "layout": "80-TKL",
-      "status": "",
-      "images": [],
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/PMOLab/极光80.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/WN9mmrRxkw7J",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/WN9mmrRxkw7J"
+      ],
       "gbTime": "2025-05-21",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/3J8PZwbWkbwA",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/3J8PZwbWkbwA"
+      ],
       "description": ""
     },
     {
@@ -10371,13 +10399,21 @@
       "name": "Laze65(摸鱼65)",
       "studio": "TDD LAB",
       "sortTime": "2025-04-12",
-      "layout": "65",
-      "status": "",
-      "images": [],
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/TDD LAB/Laze65(摸鱼65).png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/nB97jnbOQz5G",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/nB97jnbOQz5G"
+      ],
       "gbTime": "2025-04-12",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/6l8zVokAM1JO",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/6l8zVokAM1JO"
+      ],
       "description": ""
     },
     {
@@ -10405,29 +10441,22 @@
       "name": "Fish80",
       "studio": "年年有鱼",
       "sortTime": "2025-03-28",
-      "layout": "80-TKL",
-      "status": "",
-      "images": [],
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/年年有鱼/Fish80.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/VljWwQkQWwxw",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/VljWwQkQWwxw"
+      ],
       "gbTime": "2025-03-28",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/pb1Jd16nLY6z",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/pb1Jd16nLY6z"
+      ],
       "description": ""
-    },
-    {
-      "id": "kb_csv_110",
-      "name": "Vish80",
-      "studio": "Hunk",
-      "layout": "75",
-      "status": "ic",
-      "icTime": "",
-      "icLink": "",
-      "gbTime": "2025-03-20",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-03-20"
     },
     {
       "id": "kb_csv_111",
@@ -10647,16 +10676,23 @@
       "id": "kb_csv_122",
       "name": "Taka60",
       "studio": "Hunk",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2025-01-26",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Hunk/Taka60.jpg"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/Vq6p91bgmo9Y",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/Vq6p91bgmo9Y"
+      ],
       "gbTime": "2025-01-26",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-01-26"
+      "gbLink": "https://www.zfrontier.com/app/flow/YOxJMZ8rZ5X6",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/YOxJMZ8rZ5X6"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_123",
@@ -10874,18 +10910,26 @@
     },
     {
       "id": "kb_csv_134",
-      "name": "The Base 75 +",
-      "studio": "POP-LAB",
-      "layout": "75",
-      "status": "",
+      "name": "TheBase75+",
+      "studio": "POP LAB",
+      "sortTime": "2025-01-09",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/POP LAB/TheBase75+.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/kmJ5lrdgk5q6",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/kmJ5lrdgk5q6",
+        "https://www.zfrontier.com/app/flow/6zK5wpMJNYRm"
+      ],
       "gbTime": "2025-01-09",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-01-09"
+      "gbLink": "https://www.zfrontier.com/app/flow/RK8z0mrx1dgO",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/RK8z0mrx1dgO"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_135",
@@ -10909,16 +10953,23 @@
       "id": "kb_csv_136",
       "name": "PIC60",
       "studio": "KeysMe",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2025-01-05",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/KeysMe/PIC60.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/w7VQPjRwWWAp",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/w7VQPjRwWWAp"
+      ],
       "gbTime": "2025-01-05",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2025-01-05"
+      "gbLink": "https://www.zfrontier.com/app/flow/8lwdj38m0vj3",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/8lwdj38m0vj3"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_137",
@@ -11006,16 +11057,19 @@
       "id": "kb_csv_141",
       "name": "Doro60",
       "studio": "Viko",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2024-12-14",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Viko/Doro60.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-12-14",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-12-14"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_142",
@@ -11083,16 +11137,19 @@
       "id": "kb_csv_145",
       "name": "Casper60",
       "studio": "FRID4Y",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2024-11-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/FRID4Y/Casper60.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-11-30",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-11-30"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_146",
@@ -11183,16 +11240,20 @@
     },
     {
       "id": "kb_csv_150",
-      "name": "Pegasus60-马60",
+      "name": "Pegasus60 马60",
       "studio": "FRID4Y",
       "sortTime": "2024-11-10",
-      "layout": "60",
-      "status": "",
-      "images": [],
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/FRID4Y/Pegasus60 马60.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-11-10",
       "gbLink": "",
+      "gbLinks": [],
       "description": ""
     },
     {
@@ -11301,31 +11362,45 @@
       "id": "kb_csv_156",
       "name": "Wave75",
       "studio": "PMOLab",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2024-10-15",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/PMOLab/Wave75.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/KoaqjbaVJgpP",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/KoaqjbaVJgpP"
+      ],
       "gbTime": "2024-10-15",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-10-15"
+      "gbLink": "https://www.zfrontier.com/app/flow/BjMrJGKJrE1w",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/BjMrJGKJrE1w"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_157",
       "name": "AIM04 HE",
       "studio": "KeysMe",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2024-10-10",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/KeysMe/AIM04 HE.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/0WvOXloljnd8",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/0WvOXloljnd8"
+      ],
       "gbTime": "2024-10-10",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-10-10"
+      "gbLink": "https://www.zfrontier.com/app/flow/XmLmmpqvABPj",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/XmLmmpqvABPj"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_158",
@@ -11495,16 +11570,24 @@
       "id": "kb_csv_166",
       "name": "Fly65",
       "studio": "Fly vision",
-      "layout": "65",
-      "status": "",
+      "sortTime": "2024-09-05",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Fly vision/Fly65.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/LLQM355nA6ya",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/LLQM355nA6ya"
+      ],
       "gbTime": "2024-09-05",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-09-05"
+      "gbLink": "https://www.zfrontier.com/app/flow/5oOzPmzLp6Zl",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/5oOzPmzLp6Zl",
+        "https://www.zfrontier.com/app/flow/6dGrYdGO5xl8"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_167",
@@ -11526,13 +11609,21 @@
       "name": "Fish75",
       "studio": "年年有鱼",
       "sortTime": "2024-08-13",
-      "layout": "75",
-      "status": "",
-      "images": [],
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/年年有鱼/Fish75.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/7Eal9E5yEAOE",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/7Eal9E5yEAOE"
+      ],
       "gbTime": "2024-08-13",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/GJLNGRMB1qLZ",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/GJLNGRMB1qLZ"
+      ],
       "description": ""
     },
     {
@@ -11805,18 +11896,23 @@
     },
     {
       "id": "kb_csv_182",
-      "name": "Miles 60",
+      "name": "Miles60",
       "studio": "Viko",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2024-06-19",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Viko/Miles60.jpeg"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-06-19",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-06-19"
+      "gbLink": "https://www.zfrontier.com/app/flow/0zk6dEEQ5orR",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/0zk6dEEQ5orR"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_183",
@@ -12079,48 +12175,66 @@
     },
     {
       "id": "kb_csv_196",
-      "name": "HIEXA V65",
+      "name": "V65",
       "studio": "Hiexa Key",
-      "layout": "65",
-      "status": "",
+      "sortTime": "2024-05-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Hiexa Key/V65.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/657MGPKvXAzp",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/657MGPKvXAzp"
+      ],
       "gbTime": "2024-05-01",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-05-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/WEw8w7zrVyg0",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/WEw8w7zrVyg0",
+        "https://www.zfrontier.com/app/flow/PzwX8lzPg63J"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_197",
-      "name": "HIEXA V75",
+      "name": "V75",
       "studio": "Hiexa Key",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2024-05-01",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/Hiexa Key/V75.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-05-01",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-05-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/lN9LvzJMzdmX",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/lN9LvzJMzdmX"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_198",
-      "name": "HIEXA V80",
+      "name": "V80",
       "studio": "Hiexa Key",
-      "layout": "80-TKL",
-      "status": "",
+      "sortTime": "2024-05-01",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Hiexa Key/V80.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-05-01",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-05-01"
+      "gbLink": "https://www.zfrontier.com/app/flow/JGkXPjPGw1O9",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/JGkXPjPGw1O9"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_199",
@@ -12162,31 +12276,43 @@
       "id": "kb_csv_201",
       "name": "Bridge75",
       "studio": "ShortCut Studio",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2024-04-25",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/ShortCut Studio/Bridge75.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-04-25",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-04-25"
+      "gbLink": "https://www.zfrontier.com/app/flow/KaYkxYQdW8gE",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/KaYkxYQdW8gE"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_202",
       "name": "Razor80",
       "studio": "TWP Works",
-      "layout": "80-TKL",
-      "status": "",
+      "sortTime": "2024-04-14",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/TWP Works/Razor80.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/dnKGGJXrva0k",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/dnKGGJXrva0k"
+      ],
       "gbTime": "2024-04-14",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-04-14"
+      "gbLink": "https://www.zfrontier.com/app/flow/9YXRn3AxxpRq",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/9YXRn3AxxpRq"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_203",
@@ -12403,18 +12529,21 @@
     },
     {
       "id": "kb_csv_214",
-      "name": "Mars-03",
+      "name": "Mars03",
       "studio": "KeysMe",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2024-01-25",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/KeysMe/Mars03.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2024-01-25",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2024-01-25"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_215",
@@ -13055,18 +13184,21 @@
     },
     {
       "id": "kb_csv_247",
-      "name": "Lunar-02",
+      "name": "Lunar02",
       "studio": "KeysMe",
+      "sortTime": "2023-10-17",
       "layout": "Pad",
-      "status": "",
+      "status": "gb",
+      "images": [
+        "/images/KeysMe/Lunar02.png"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2023-10-17",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2023-10-17"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_248",
@@ -14032,31 +14164,45 @@
       "id": "kb_csv_297",
       "name": "Razor65",
       "studio": "TWP Works",
-      "layout": "65",
-      "status": "",
+      "sortTime": "2023-02-28",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/TWP Works/Razor65.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/a5vzj911qd8o",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/a5vzj911qd8o"
+      ],
       "gbTime": "2023-02-28",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2023-02-28"
+      "gbLink": "https://www.zfrontier.com/app/flow/xA3gZqmxjyyM",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/xA3gZqmxjyyM"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_298",
       "name": "PRIME75",
       "studio": "PRIME Works",
-      "layout": "75",
-      "status": "",
+      "sortTime": "2023-02-23",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/PRIME Works/PRIME75.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/wxBRWwjpxdyB",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/wxBRWwjpxdyB"
+      ],
       "gbTime": "2023-02-23",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2023-02-23"
+      "gbLink": "https://www.zfrontier.com/app/flow/5nPBYkbYrQPV",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/5nPBYkbYrQPV"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_299",
@@ -14382,16 +14528,19 @@
       "id": "kb_csv_314",
       "name": "Lunar-01",
       "studio": "KeysMe",
-      "layout": "80-TKL",
-      "status": "",
+      "sortTime": "2022-12-15",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/KeysMe/Lunar01.webp"
+      ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2022-12-15",
       "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2022-12-15"
+      "gbLinks": [],
+      "description": ""
     },
     {
       "id": "kb_csv_315",
@@ -14990,16 +15139,24 @@
       "id": "kb_csv_345",
       "name": "Fly60",
       "studio": "Fly vision",
-      "layout": "60",
-      "status": "",
+      "sortTime": "2022-07-06",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Fly vision/Fly60.webp"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/ep8jZVBwbqxJ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/ep8jZVBwbqxJ"
+      ],
       "gbTime": "2022-07-06",
-      "gbLink": "",
-      "image": "",
-      "images": [],
-      "description": "",
-      "sortTime": "2022-07-06"
+      "gbLink": "https://www.zfrontier.com/app/flow/2lWnOmRq31Bw",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2lWnOmRq31Bw",
+        "https://www.zfrontier.com/app/flow/e3vMKYRbvrMy"
+      ],
+      "description": ""
     },
     {
       "id": "kb_csv_346",
@@ -16257,13 +16414,23 @@
       "name": "OM60",
       "studio": "ML(梅乐菲斯)外设",
       "sortTime": "2021-10-01",
-      "layout": "60",
-      "status": "",
-      "images": [],
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/ML(梅乐菲斯)外设/OM60.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2kxXwQx6R0EA",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/2kxXwQx6R0EA",
+        "https://www.zfrontier.com/app/flow/epMM0yw3Rp6J"
+      ],
       "gbTime": "2021-10-01",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/2wdnzXMgaQJQ",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2wdnzXMgaQJQ",
+        "https://www.zfrontier.com/app/flow/DrkMl8BOm6rn"
+      ],
       "description": ""
     },
     {
@@ -16451,13 +16618,21 @@
       "name": "ML Gas75",
       "studio": "ML(梅乐菲斯)外设",
       "sortTime": "2021-08-01",
-      "layout": "75",
-      "status": "",
-      "images": [],
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/ML(梅乐菲斯)外设/ML Gas75.png"
+      ],
       "icTime": "",
-      "icLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/4jVgnomPL0Y0",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/4jVgnomPL0Y0"
+      ],
       "gbTime": "2021-08-01",
-      "gbLink": "",
+      "gbLink": "https://www.zfrontier.com/app/flow/29nKx0oqP7Zd",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/29nKx0oqP7Zd"
+      ],
       "description": ""
     },
     {
