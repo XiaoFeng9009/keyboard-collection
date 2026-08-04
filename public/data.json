@@ -2271,14 +2271,19 @@
       "studio": "Vida Lab",
       "sortTime": "2026-04-13",
       "layout": "70%FRL_TKL",
-      "status": "gb",
+      "status": "ic",
       "images": [
         "/images/Vida Lab/Doo & Do.25.webp"
       ],
       "icTime": "2026-04-13",
-      "icLink": "https://www.zfrontier.com/app/flow/Oq9jW8OEQ5g1",
+      "icLink": "https://www.zfrontier.com/app/flow/dw1PBBLjXnxd",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/dw1PBBLjXnxd",
+        "https://www.zfrontier.com/app/flow/Oq9jW8OEQ5g1"
+      ],
       "gbTime": "",
       "gbLink": "",
+      "gbLinks": [],
       "description": ""
     },
     {

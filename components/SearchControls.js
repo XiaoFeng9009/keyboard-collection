@@ -4,6 +4,7 @@ export default function SearchControls({ data, onFilter }) {
   const [inputValue, setInputValue] = useState('')
   const [query, setQuery] = useState('')
   const [layout, setLayout] = useState('')
+  const [status, setStatus] = useState('')
   const [filteredCount, setFilteredCount] = useState(data.length)
   var layoutOrder=["30%","40%","40%+Macro","40%+Pad","45%","50%","60%","60%+Macro","60%+Pad","AT","65%","65%+Macro","65%+Pad","65%AT","70%FRL_TKL","70%FRL_TKL+Macro","70%FRL_TKL+Pad","75%","80%TKL","80%TKL+Macro","1800","1800FRL","90%","98%","100%Full","100%Full_FRL","Pad","Alice","Split","Hub","Function","其他"];
   var layouts=layoutOrder.filter(function(o){return data.some(function(k){return k.layout===o})})
@@ -34,11 +35,12 @@ export default function SearchControls({ data, onFilter }) {
         if (text.indexOf(q) === -1 && abbr.indexOf(q) === -1) return false
       }
       if (layout && k.layout !== layout) return false
+      if (status && k.status !== status) return false
       return true
     })
     setFilteredCount(filtered.length)
     onFilter(filtered)
-  }, [query, layout, data, onFilter])
+  }, [query, layout, status, data, onFilter])
 
   return (
     <div style={{display:'flex',gap:10,marginBottom:24,flexWrap:'wrap',alignItems:'center'}}>
@@ -59,6 +61,12 @@ export default function SearchControls({ data, onFilter }) {
         style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px',fontSize:13,borderRadius:8,cursor:'pointer',boxShadow:'var(--shadow-base)',minWidth:120}}>
         <option value="">{'\u5168\u90E8\u914D\u5217'}</option>
         {layouts.map(function(l) { return <option key={l} value={l}>{l}</option> })}
+      </select>
+      <select value={status} onChange={function(e){setStatus(e.target.value)}}
+        style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px',fontSize:13,borderRadius:8,cursor:'pointer',boxShadow:'var(--shadow-base)',minWidth:100}}>
+        <option value="">{'\u5168\u90E8\u72B6\u6001'}</option>
+        <option value="ic">IC</option>
+        <option value="gb">GB</option>
       </select>
       <span style={{color:'var(--text-muted)',fontSize:12,whiteSpace:'nowrap'}}>
         {'\u5171 ' + filteredCount + ' \u628A\u952E\u76D8'}
