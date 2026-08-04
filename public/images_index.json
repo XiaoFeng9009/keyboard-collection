@@ -3566,6 +3566,11 @@
       "group": "outva凹凸凹"
     },
     {
+      "path": "/images/Overwrite Studio/Dock77.1.webp",
+      "name": "Dock77.1.webp",
+      "group": "Overwrite Studio"
+    },
+    {
       "path": "/images/Overwrite Studio/Dock77.webp",
       "name": "Dock77.webp",
       "group": "Overwrite Studio"
@@ -5481,5 +5486,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1096
+  "total": 1097
 }
