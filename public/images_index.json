@@ -61,6 +61,11 @@
       "group": "80retros"
     },
     {
+      "path": "/images/Acro Design/Tanto60.webp",
+      "name": "Tanto60.webp",
+      "group": "Acro Design"
+    },
+    {
       "path": "/images/Aether Works/Selene65.webp",
       "name": "Selene65.webp",
       "group": "Aether Works"
@@ -159,6 +164,11 @@
       "path": "/images/Arcanum/Akuma60.webp",
       "name": "Akuma60.webp",
       "group": "Arcanum"
+    },
+    {
+      "path": "/images/Argent Keys/Ripple60 涟漪60.webp",
+      "name": "Ripple60 涟漪60.webp",
+      "group": "Argent Keys"
     },
     {
       "path": "/images/Ark Studio/ARK21.png",
@@ -319,6 +329,21 @@
       "path": "/images/BeatLab/Solar80.webp",
       "name": "Solar80.webp",
       "group": "BeatLab"
+    },
+    {
+      "path": "/images/Blank Works留白造物/Blank60.webp",
+      "name": "Blank60.webp",
+      "group": "Blank Works留白造物"
+    },
+    {
+      "path": "/images/BOC Studio/BOC65.2.webp",
+      "name": "BOC65.2.webp",
+      "group": "BOC Studio"
+    },
+    {
+      "path": "/images/BOC Studio/BOC65.webp",
+      "name": "BOC65.webp",
+      "group": "BOC Studio"
     },
     {
       "path": "/images/Bokery Studio/Bread65.png",
@@ -761,6 +786,21 @@
       "group": "DaringRun Works(DR_WORKS)"
     },
     {
+      "path": "/images/DARK FORCE/Clip40.webp",
+      "name": "Clip40.webp",
+      "group": "DARK FORCE"
+    },
+    {
+      "path": "/images/DARK FORCE/Fib68.webp",
+      "name": "Fib68.webp",
+      "group": "DARK FORCE"
+    },
+    {
+      "path": "/images/DARK FORCE/TARS40.webp",
+      "name": "TARS40.webp",
+      "group": "DARK FORCE"
+    },
+    {
       "path": "/images/Dark lab/Beacon70.png",
       "name": "Beacon70.png",
       "group": "Dark lab"
@@ -806,6 +846,16 @@
       "group": "Designer Studio构思者工作室"
     },
     {
+      "path": "/images/DeskTop Lab/Coder66.webp",
+      "name": "Coder66.webp",
+      "group": "DeskTop Lab"
+    },
+    {
+      "path": "/images/DeskTop Lab/Rainbow65.webp",
+      "name": "Rainbow65.webp",
+      "group": "DeskTop Lab"
+    },
+    {
       "path": "/images/Desktop Tribe桌面部落/DT Balance103.jpg",
       "name": "DT Balance103.jpg",
       "group": "Desktop Tribe桌面部落"
@@ -829,6 +879,16 @@
       "path": "/images/DIM SUM LAB/BNK-16 - Binepad.jpg",
       "name": "BNK-16 - Binepad.jpg",
       "group": "DIM SUM LAB"
+    },
+    {
+      "path": "/images/Discover&Manufacture客制化空间/Axis轴线68.webp",
+      "name": "Axis轴线68.webp",
+      "group": "Discover&Manufacture客制化空间"
+    },
+    {
+      "path": "/images/DK Studio/Loong60.webp",
+      "name": "Loong60.webp",
+      "group": "DK Studio"
     },
     {
       "path": "/images/Domikey/Babyface.webp",
@@ -1806,9 +1866,24 @@
       "group": "iNN Studio"
     },
     {
+      "path": "/images/iphree艾弗里工作室/艾弗里iphree64.webp",
+      "name": "艾弗里iphree64.webp",
+      "group": "iphree艾弗里工作室"
+    },
+    {
       "path": "/images/IRIS Lab/IRIS65.webp",
       "name": "IRIS65.webp",
       "group": "IRIS Lab"
+    },
+    {
+      "path": "/images/IXI Lab/Flex75.webp",
+      "name": "Flex75.webp",
+      "group": "IXI Lab"
+    },
+    {
+      "path": "/images/IXI Lab/Story65.webp",
+      "name": "Story65.webp",
+      "group": "IXI Lab"
     },
     {
       "path": "/images/Jacky KeyLab/Bear65 V2.png",
@@ -2276,6 +2351,11 @@
       "group": "Keyboard Science"
     },
     {
+      "path": "/images/KEYNO WORKS/Y8.webp",
+      "name": "Y8.webp",
+      "group": "KEYNO WORKS"
+    },
+    {
       "path": "/images/KeysMe/AIM04 HE.png",
       "name": "AIM04 HE.png",
       "group": "KeysMe"
@@ -2621,9 +2701,19 @@
       "group": "Let's keyboard"
     },
     {
+      "path": "/images/Li Studio/Cyber68_CyberPad.webp",
+      "name": "Cyber68_CyberPad.webp",
+      "group": "Li Studio"
+    },
+    {
       "path": "/images/Light Studio/FAIZ65.webp",
       "name": "FAIZ65.webp",
       "group": "Light Studio"
+    },
+    {
+      "path": "/images/Lucky Dai/Clover80 suit外壳.webp",
+      "name": "Clover80 suit外壳.webp",
+      "group": "Lucky Dai"
     },
     {
       "path": "/images/Luffy Studio/SAAG65.webp",
@@ -2649,6 +2739,11 @@
       "path": "/images/M ONE Lab/M·ONE.png",
       "name": "M·ONE.png",
       "group": "M ONE Lab"
+    },
+    {
+      "path": "/images/M POWER/Mortal65.webp",
+      "name": "Mortal65.webp",
+      "group": "M POWER"
     },
     {
       "path": "/images/Machina/Cloud9.jpg",
@@ -3321,6 +3416,26 @@
       "group": "NDNH无砚工作室"
     },
     {
+      "path": "/images/NE KEY/Luck68.webp",
+      "name": "Luck68.webp",
+      "group": "NE KEY"
+    },
+    {
+      "path": "/images/NE KEY/NEK60HE.webp",
+      "name": "NEK60HE.webp",
+      "group": "NE KEY"
+    },
+    {
+      "path": "/images/NE KEY/OpenEnding OE93.webp",
+      "name": "OpenEnding OE93.webp",
+      "group": "NE KEY"
+    },
+    {
+      "path": "/images/NE KEY/Sprig80.webp",
+      "name": "Sprig80.webp",
+      "group": "NE KEY"
+    },
+    {
       "path": "/images/Neo Studio/Neo60Core.png",
       "name": "Neo60Core.png",
       "group": "Neo Studio"
@@ -3766,6 +3881,16 @@
       "group": "OwLab"
     },
     {
+      "path": "/images/Peculiar Works怪奇工作室/Hill pad.webp",
+      "name": "Hill pad.webp",
+      "group": "Peculiar Works怪奇工作室"
+    },
+    {
+      "path": "/images/Peculiar Works怪奇工作室/Hill40.webp",
+      "name": "Hill40.webp",
+      "group": "Peculiar Works怪奇工作室"
+    },
+    {
       "path": "/images/PercentStudio浦杉制造/Booster.png",
       "name": "Booster.png",
       "group": "PercentStudio浦杉制造"
@@ -3874,6 +3999,16 @@
       "path": "/images/PERMECH派镁/折纸100.webp",
       "name": "折纸100.webp",
       "group": "PERMECH派镁"
+    },
+    {
+      "path": "/images/PINKBEAR/HEATH07.webp",
+      "name": "HEATH07.webp",
+      "group": "PINKBEAR"
+    },
+    {
+      "path": "/images/PINKBEAR/MECHA08.webp",
+      "name": "MECHA08.webp",
+      "group": "PINKBEAR"
     },
     {
       "path": "/images/PixelSpace/Capsule65.png",
@@ -4099,6 +4234,16 @@
       "path": "/images/Raw Studio/RawNook75.png",
       "name": "RawNook75.png",
       "group": "Raw Studio"
+    },
+    {
+      "path": "/images/Ray Studio/Lapis98.2.webp",
+      "name": "Lapis98.2.webp",
+      "group": "Ray Studio"
+    },
+    {
+      "path": "/images/Ray Studio/Lapis98.webp",
+      "name": "Lapis98.webp",
+      "group": "Ray Studio"
     },
     {
       "path": "/images/RebellionStudio/Obey65.webp",
@@ -4501,6 +4646,11 @@
       "group": "SMIT6Y WORK(S61铁匠铺)"
     },
     {
+      "path": "/images/Spoken Studio/VR980.webp",
+      "name": "VR980.webp",
+      "group": "Spoken Studio"
+    },
+    {
       "path": "/images/SpringKeys/flora65.webp",
       "name": "flora65.webp",
       "group": "SpringKeys"
@@ -4746,6 +4896,11 @@
       "group": "The Last Keyboard"
     },
     {
+      "path": "/images/The LJTuring Studio/Palice.webp",
+      "name": "Palice.webp",
+      "group": "The LJTuring Studio"
+    },
+    {
       "path": "/images/Thocc Supply/Shadow_duo.13.webp",
       "name": "Shadow_duo.13.webp",
       "group": "Thocc Supply"
@@ -4779,6 +4934,11 @@
       "path": "/images/TickType塔塔次方/NAJA68.webp",
       "name": "NAJA68.webp",
       "group": "TickType塔塔次方"
+    },
+    {
+      "path": "/images/TLA/ZEUS65.webp",
+      "name": "ZEUS65.webp",
+      "group": "TLA"
     },
     {
       "path": "/images/Tohsi Industrial Design多喜工业/GANZO.png",
@@ -5171,6 +5331,16 @@
       "group": "Wind Studio"
     },
     {
+      "path": "/images/Wish Studio/Bow65.webp",
+      "name": "Bow65.webp",
+      "group": "Wish Studio"
+    },
+    {
+      "path": "/images/Wish Studio/Yummy75.webp",
+      "name": "Yummy75.webp",
+      "group": "Wish Studio"
+    },
+    {
       "path": "/images/WOB/Crush80 Reboot.png",
       "name": "Crush80 Reboot.png",
       "group": "WOB"
@@ -5369,6 +5539,16 @@
       "path": "/images/XXWB雪雪旺饼/RT65.jpg",
       "name": "RT65.jpg",
       "group": "XXWB雪雪旺饼"
+    },
+    {
+      "path": "/images/YIGIIX Lab/GK81.webp",
+      "name": "GK81.webp",
+      "group": "YIGIIX Lab"
+    },
+    {
+      "path": "/images/YR/Sandwich80.webp",
+      "name": "Sandwich80.webp",
+      "group": "YR"
     },
     {
       "path": "/images/Yucas/Ba60.webp",
@@ -5676,6 +5856,11 @@
       "group": "躁极Gopolar"
     },
     {
+      "path": "/images/野原达之助/Cross80.webp",
+      "name": "Cross80.webp",
+      "group": "野原达之助"
+    },
+    {
       "path": "/images/阿聪/Infinity75.webp",
       "name": "Infinity75.webp",
       "group": "阿聪"
@@ -5711,5 +5896,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1142
+  "total": 1179
 }
