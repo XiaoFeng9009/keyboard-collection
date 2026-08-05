@@ -956,6 +956,11 @@
       "group": "DRY Studio"
     },
     {
+      "path": "/images/Duo Foundry/Duo-S.webp",
+      "name": "Duo-S.webp",
+      "group": "Duo Foundry"
+    },
+    {
       "path": "/images/Eazsoo studio/ESU63 一溯63.webp",
       "name": "ESU63 一溯63.webp",
       "group": "Eazsoo studio"
@@ -2121,6 +2126,11 @@
       "group": "Just Studio"
     },
     {
+      "path": "/images/Karl鱼/Cetus40 小鲸鱼40.webp",
+      "name": "Cetus40 小鲸鱼40.webp",
+      "group": "Karl鱼"
+    },
+    {
       "path": "/images/KBDFans怡科外设/461E 5°.png",
       "name": "461E 5°.png",
       "group": "KBDFans怡科外设"
@@ -2639,6 +2649,41 @@
       "path": "/images/Lance/Tas60.webp",
       "name": "Tas60.webp",
       "group": "Lance"
+    },
+    {
+      "path": "/images/Lazydesigners/Bolt.jpg",
+      "name": "Bolt.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Dimple.jpg",
+      "name": "Dimple.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/DimplePlus.jpg",
+      "name": "DimplePlus.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/The30.jpg",
+      "name": "The30.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/The40.jpg",
+      "name": "The40.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/The50.jpg",
+      "name": "The50.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/The60.jpg",
+      "name": "The60.jpg",
+      "group": "Lazydesigners"
     },
     {
       "path": "/images/LeleLab/Lele Autumn.png",
@@ -5896,5 +5941,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1179
+  "total": 1188
 }

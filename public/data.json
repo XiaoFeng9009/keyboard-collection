@@ -12223,7 +12223,7 @@
     },
     {
       "id": "kb_csv_194",
-      "name": "Cloud9",
+      "name": "Cloud Nine C9",
       "studio": "Machina",
       "sortTime": "2024-05-04",
       "layout": "60%",
@@ -20878,6 +20878,200 @@
       "gbLink": "",
       "gbLinks": [],
       "description": ""
+    },
+    {
+      "id": "kb_1785921178697",
+      "name": "Duo-S DuoS",
+      "studio": "Duo Foundry",
+      "sortTime": "2021-06-03",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Duo Foundry/Duo-S.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2021-06-03",
+      "gbLink": "https://www.zfrontier.com/app/flow/2agrqXpyqQ6m",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2agrqXpyqQ6m"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785921497194",
+      "name": "Cetus40 小鲸鱼40",
+      "studio": "Karl鱼",
+      "sortTime": "2022-11-18",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Karl鱼/Cetus40 小鲸鱼40.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/4xmwyovokbJp",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/4xmwyovokbJp"
+      ],
+      "gbTime": "2022-11-18",
+      "gbLink": "https://www.zfrontier.com/app/flow/6PKV0A9ZqoPL",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/6PKV0A9ZqoPL"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785921732678",
+      "name": "Dimple",
+      "studio": "Lazydesigners",
+      "sortTime": "2019-05-01",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Dimple.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2019-05-01",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921751238",
+      "name": "DimplePlus",
+      "studio": "Lazydesigners",
+      "sortTime": "2021-09-01",
+      "layout": "50%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/DimplePlus.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2021-09-01",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921762876",
+      "name": "Bolt",
+      "studio": "Lazydesigners",
+      "sortTime": "2020-08-01",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Bolt.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2020-08-01",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921780734",
+      "name": "The30",
+      "studio": "Lazydesigners",
+      "sortTime": "2018-05-01",
+      "layout": "30%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/The30.jpg"
+      ],
+      "icTime": "",
+      "icLink": "https://lazydesigners.cn/the30prototype/",
+      "icLinks": [
+        "https://lazydesigners.cn/the30prototype/"
+      ],
+      "gbTime": "2018-05-01",
+      "gbLink": "https://lazydesigners.cn/the30/",
+      "gbLinks": [
+        "https://lazydesigners.cn/the30/"
+      ],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921790850",
+      "name": "The40",
+      "studio": "Lazydesigners",
+      "sortTime": "2021-01-01",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/The40.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2021-01-01",
+      "gbLink": "https://lazydesigners.cn/the40/",
+      "gbLinks": [
+        "https://lazydesigners.cn/the40/"
+      ],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921801122",
+      "name": "The50",
+      "studio": "Lazydesigners",
+      "sortTime": "2018-11-01",
+      "layout": "40%+Pad",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/The50.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2018-11-01",
+      "gbLink": "http://lazydesigners.cn/the50/",
+      "gbLinks": [
+        "http://lazydesigners.cn/the50/"
+      ],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785921812560",
+      "name": "The60",
+      "studio": "Lazydesigners",
+      "sortTime": "2018-06-01",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/The60.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2018-06-01",
+      "gbLink": "http://lazydesigners.cn/the60/",
+      "gbLinks": [
+        "http://lazydesigners.cn/the60/"
+      ],
+      "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785922749850",
+      "name": "Cloud",
+      "studio": "Lazydesigners",
+      "sortTime": "2022-04-01",
+      "layout": "40%",
+      "status": "gb",
+      "images": [],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2022-04-01",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "根据官网时间线推断"
     }
   ]
 }
