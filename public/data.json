@@ -9437,7 +9437,7 @@
     },
     {
       "id": "kb_csv_52",
-      "name": "啟65",
+      "name": "启65",
       "studio": "衍 Studio",
       "sortTime": "2025-09-25",
       "layout": "65%",
@@ -21069,14 +21069,16 @@
       "id": "kb_1785922749850",
       "name": "Cloud",
       "studio": "Lazydesigners",
-      "sortTime": "2022-04-01",
+      "sortTime": "2023-08-21",
       "layout": "40%",
       "status": "gb",
-      "images": [],
+      "images": [
+        "/images/Lazydesigners/Cloud.webp"
+      ],
       "icTime": "",
       "icLink": "",
       "icLinks": [],
-      "gbTime": "2022-04-01",
+      "gbTime": "2023-08-21",
       "gbLink": "",
       "gbLinks": [],
       "description": "根据官网时间线推断"
@@ -21216,6 +21218,501 @@
       "gbTime": "",
       "gbLink": "",
       "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786002450350",
+      "name": "TASTE65",
+      "studio": "KEY SAVOR LAB",
+      "sortTime": "2025-09-30",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/KEY SAVOR LAB/TASTE65.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/ZqYzqxGQqgJr",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/ZqYzqxGQqgJr"
+      ],
+      "gbTime": "2025-09-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/lBx0A8bp9pob",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/lBx0A8bp9pob"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786002668107",
+      "name": "Virginian75",
+      "studio": "Sonare",
+      "sortTime": "2026-07-23",
+      "layout": "75%",
+      "status": "ic",
+      "images": [
+        "/images/Sonare/Virginian75.webp",
+        "/images/Sonare/Virginian75.2.webp"
+      ],
+      "icTime": "2026-07-23",
+      "icLink": "https://www.zfrontier.com/app/flow/K8NQYOyEVB5J",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/K8NQYOyEVB5J",
+        "https://www.zfrontier.com/app/flow/aAon8OLvkP7v",
+        "https://www.zfrontier.com/app/flow/O3avkPknOY0o"
+      ],
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786002894256",
+      "name": "Turbo60",
+      "studio": "次元桌搭",
+      "sortTime": "2026-04-26",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/次元桌搭/Turbo60.2.webp",
+        "/images/次元桌搭/Turbo60.webp"
+      ],
+      "icTime": "2026-04-26",
+      "icLink": "https://www.zfrontier.com/app/flow/K3xzAZWo1R6o",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/K3xzAZWo1R6o",
+        "https://www.zfrontier.com/app/flow/P0pPZOXYqP3J"
+      ],
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786003302967",
+      "name": "Bite65",
+      "studio": "oitsso",
+      "sortTime": "2024-07-08",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/oitsso/Bite65.3.webp",
+        "/images/oitsso/Bite65.2.webp",
+        "/images/oitsso/Bite65.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/K1rlVpaNB0yJ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/K1rlVpaNB0yJ"
+      ],
+      "gbTime": "2024-07-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/OznlE0xbRNwr",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/OznlE0xbRNwr"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786003460390",
+      "name": "Bite65-R Bite65R",
+      "studio": "oitsso",
+      "sortTime": "2024-07-08",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/oitsso/Bite65R.webp",
+        "/images/oitsso/Bite65R.2.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/5YLrKxE5AMK1",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/5YLrKxE5AMK1"
+      ],
+      "gbTime": "2024-07-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/O9mqoYBM07og",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/O9mqoYBM07og"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786003897601",
+      "name": "Encore",
+      "studio": "MODE Design",
+      "sortTime": "2024-06-13",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Encore.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2024-06-13",
+      "gbLink": "https://modedesigns.com/pages/encore",
+      "gbLinks": [
+        "https://modedesigns.com/pages/encore"
+      ],
+      "description": "2024年首次推出"
+    },
+    {
+      "id": "kb_1786003946837",
+      "name": "Prologue",
+      "studio": "MODE Design",
+      "sortTime": "2026-06-27",
+      "layout": "98%",
+      "status": "ic",
+      "images": [
+        "/images/MODE Design/Prologue.webp"
+      ],
+      "icTime": "2026-06-27",
+      "icLink": "https://modedesigns.com/pages/prologue",
+      "icLinks": [
+        "https://modedesigns.com/pages/prologue"
+      ],
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786004148187",
+      "name": "Sonnet",
+      "studio": "MODE Design",
+      "sortTime": "2022-04-22",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Sonnet.2.webp",
+        "/images/MODE Design/Sonnet.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2022-04-22",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2022年首次推出"
+    },
+    {
+      "id": "kb_1786004265668",
+      "name": "Eighty",
+      "studio": "MODE Design",
+      "sortTime": "2020-11-16",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Eighty.webp",
+        "/images/MODE Design/Eighty.2.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://geekhack.org/index.php?topic=108610.0",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=108610.0"
+      ],
+      "gbTime": "2020-11-16",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2020年9月首次推出"
+    },
+    {
+      "id": "kb_1786004404787",
+      "name": "SixtyFive",
+      "studio": "MODE Design",
+      "sortTime": "2021-06-25",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/SixtyFive.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2021-06-25",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2021年首次推出"
+    },
+    {
+      "id": "kb_1786004512003",
+      "name": "Tempo",
+      "studio": "MODE Design",
+      "sortTime": "2023-09-06",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Tempo.2.webp",
+        "/images/MODE Design/Tempo.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2023-09-06",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2023年首次推出"
+    },
+    {
+      "id": "kb_1786004565013",
+      "name": "Loop",
+      "studio": "MODE Design",
+      "sortTime": "2023-11-14",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Loop.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2023-11-14",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2023年首次推出"
+    },
+    {
+      "id": "kb_1786004728923",
+      "name": "Envoy",
+      "studio": "MODE Design",
+      "sortTime": "2023-06-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/MODE Design/Envoy.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2023-06-01",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": "2023年首次推出"
+    },
+    {
+      "id": "kb_1786006931413",
+      "name": "Seven75",
+      "studio": "怒仔AngryBear",
+      "sortTime": "2024-12-01",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/怒仔AngryBear/Seven75.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/7mO79GmbaaVn",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/7mO79GmbaaVn"
+      ],
+      "gbTime": "2024-12-01",
+      "gbLink": "https://www.zfrontier.com/app/flow/Q7Evn3oo5YrV",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/Q7Evn3oo5YrV"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786007016254",
+      "name": "And80",
+      "studio": "怒仔AngryBear",
+      "sortTime": "2024-10-08",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/怒仔AngryBear/And80.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/QQKw6j3EyrAV",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/QQKw6j3EyrAV"
+      ],
+      "gbTime": "2024-10-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/rNNM6PxBXQpn",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/rNNM6PxBXQpn"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786007110913",
+      "name": "Sign75",
+      "studio": "怒仔AngryBear",
+      "sortTime": "2023-12-13",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/怒仔AngryBear/Sign75.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/PAZOVEMNzgJo",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/PAZOVEMNzgJo"
+      ],
+      "gbTime": "2023-12-13",
+      "gbLink": "https://www.zfrontier.com/app/flow/Wq7OkYaOxVR0",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/Wq7OkYaOxVR0"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786007349565",
+      "name": "MC65 R2",
+      "studio": "怒仔AngryBear",
+      "sortTime": "2023-03-06",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/怒仔AngryBear/MC65 R2.jpg"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/ENZkvXxrVlgJ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/ENZkvXxrVlgJ"
+      ],
+      "gbTime": "2023-03-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/g5Mxl9lbmA19",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/g5Mxl9lbmA19"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786007457631",
+      "name": "MC65",
+      "studio": "怒仔AngryBear",
+      "sortTime": "2022-07-28",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/怒仔AngryBear/MC65.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/e1lKwgmLWjYP",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/e1lKwgmLWjYP"
+      ],
+      "gbTime": "2022-07-28",
+      "gbLink": "https://www.zfrontier.com/app/flow/2ddLjn1R10RW",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2ddLjn1R10RW"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786007627181",
+      "name": "Dream75",
+      "studio": "DreamDraw Lab",
+      "sortTime": "2026-07-15",
+      "layout": "75%",
+      "status": "gb",
+      "images": [
+        "/images/DreamDraw Lab/Dream75.webp",
+        "/images/DreamDraw Lab/Dream75.2.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-07-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/NRwaV6bzoXY0",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/NRwaV6bzoXY0"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786009166489",
+      "name": "Kradle X",
+      "studio": "Lazydesigners",
+      "sortTime": "2026-03-04",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Kradle X.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-03-04",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786009237628",
+      "name": "Duo40",
+      "studio": "Lazydesigners",
+      "sortTime": "2023-06-01",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Duo40.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2023-06-01",
+      "gbLink": "https://lazydesigners.cn/duo40gbr2/",
+      "gbLinks": [
+        "https://lazydesigners.cn/duo40gbr2/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786009258972",
+      "name": "Duo60",
+      "studio": "Lazydesigners",
+      "sortTime": "2024-12-20",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Duo60.1.jpg",
+        "/images/Lazydesigners/Duo60.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2024-12-20",
+      "gbLink": "https://lazydesigners.cn/duo60gb/",
+      "gbLinks": [
+        "https://lazydesigners.cn/duo60gb/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786009343534",
+      "name": "tk40x",
+      "studio": "Lazydesigners",
+      "sortTime": "2024-05-16",
+      "layout": "40%",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/tk40x.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2024-05-16",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1786009505689",
+      "name": "Varius",
+      "studio": "Lazydesigners",
+      "sortTime": "2026-07-19",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Lazydesigners/Varius.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-07-19",
+      "gbLink": "https://lazydesigners.cn/variusgbr1/",
+      "gbLinks": [
+        "https://lazydesigners.cn/variusgbr1/"
+      ],
       "description": ""
     }
   ]

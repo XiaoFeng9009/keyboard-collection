@@ -936,6 +936,16 @@
       "group": "Domikey"
     },
     {
+      "path": "/images/DreamDraw Lab/Dream75.2.webp",
+      "name": "Dream75.2.webp",
+      "group": "DreamDraw Lab"
+    },
+    {
+      "path": "/images/DreamDraw Lab/Dream75.webp",
+      "name": "Dream75.webp",
+      "group": "DreamDraw Lab"
+    },
+    {
       "path": "/images/DRY Studio/ATM 98(龙雀98).jpg",
       "name": "ATM 98(龙雀98).jpg",
       "group": "DRY Studio"
@@ -2411,6 +2421,11 @@
       "group": "Kesu1"
     },
     {
+      "path": "/images/KEY SAVOR LAB/TASTE65.webp",
+      "name": "TASTE65.webp",
+      "group": "KEY SAVOR LAB"
+    },
+    {
       "path": "/images/Keyboard Science/OINN65.webp",
       "name": "OINN65.webp",
       "group": "Keyboard Science"
@@ -2706,6 +2721,11 @@
       "group": "Lazydesigners"
     },
     {
+      "path": "/images/Lazydesigners/Cloud.webp",
+      "name": "Cloud.webp",
+      "group": "Lazydesigners"
+    },
+    {
       "path": "/images/Lazydesigners/Dimple.jpg",
       "name": "Dimple.jpg",
       "group": "Lazydesigners"
@@ -2713,6 +2733,26 @@
     {
       "path": "/images/Lazydesigners/DimplePlus.jpg",
       "name": "DimplePlus.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Duo40.jpg",
+      "name": "Duo40.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Duo60.1.jpg",
+      "name": "Duo60.1.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Duo60.jpg",
+      "name": "Duo60.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Kradle X.webp",
+      "name": "Kradle X.webp",
       "group": "Lazydesigners"
     },
     {
@@ -2733,6 +2773,16 @@
     {
       "path": "/images/Lazydesigners/The60.jpg",
       "name": "The60.jpg",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/tk40x.webp",
+      "name": "tk40x.webp",
+      "group": "Lazydesigners"
+    },
+    {
+      "path": "/images/Lazydesigners/Varius.jpg",
+      "name": "Varius.jpg",
       "group": "Lazydesigners"
     },
     {
@@ -3346,6 +3396,61 @@
       "group": "MM Studio"
     },
     {
+      "path": "/images/MODE Design/Eighty.2.webp",
+      "name": "Eighty.2.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Eighty.webp",
+      "name": "Eighty.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Encore.webp",
+      "name": "Encore.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Envoy.webp",
+      "name": "Envoy.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Loop.webp",
+      "name": "Loop.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Prologue.webp",
+      "name": "Prologue.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/SixtyFive.webp",
+      "name": "SixtyFive.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Sonnet.2.webp",
+      "name": "Sonnet.2.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Sonnet.webp",
+      "name": "Sonnet.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Tempo.2.webp",
+      "name": "Tempo.2.webp",
+      "group": "MODE Design"
+    },
+    {
+      "path": "/images/MODE Design/Tempo.webp",
+      "name": "Tempo.webp",
+      "group": "MODE Design"
+    },
+    {
       "path": "/images/MODIKY Studio/MOK AIR 84.webp",
       "name": "MOK AIR 84.webp",
       "group": "MODIKY Studio"
@@ -3894,6 +3999,31 @@
       "path": "/images/OF Studio/OF1.jpg",
       "name": "OF1.jpg",
       "group": "OF Studio"
+    },
+    {
+      "path": "/images/oitsso/Bite65.2.webp",
+      "name": "Bite65.2.webp",
+      "group": "oitsso"
+    },
+    {
+      "path": "/images/oitsso/Bite65.3.webp",
+      "name": "Bite65.3.webp",
+      "group": "oitsso"
+    },
+    {
+      "path": "/images/oitsso/Bite65.webp",
+      "name": "Bite65.webp",
+      "group": "oitsso"
+    },
+    {
+      "path": "/images/oitsso/Bite65R.2.webp",
+      "name": "Bite65R.2.webp",
+      "group": "oitsso"
+    },
+    {
+      "path": "/images/oitsso/Bite65R.webp",
+      "name": "Bite65R.webp",
+      "group": "oitsso"
     },
     {
       "path": "/images/OneKey Studio/流80 NAGARE80.webp",
@@ -4764,6 +4894,16 @@
       "path": "/images/SMIT6Y WORK(S61铁匠铺)/Bifrost 80_880.png",
       "name": "Bifrost 80_880.png",
       "group": "SMIT6Y WORK(S61铁匠铺)"
+    },
+    {
+      "path": "/images/Sonare/Virginian75.2.webp",
+      "name": "Virginian75.2.webp",
+      "group": "Sonare"
+    },
+    {
+      "path": "/images/Sonare/Virginian75.webp",
+      "name": "Virginian75.webp",
+      "group": "Sonare"
     },
     {
       "path": "/images/Spoken Studio/VR980.webp",
@@ -5841,6 +5981,31 @@
       "group": "忘川"
     },
     {
+      "path": "/images/怒仔AngryBear/And80.webp",
+      "name": "And80.webp",
+      "group": "怒仔AngryBear"
+    },
+    {
+      "path": "/images/怒仔AngryBear/MC65 R2.jpg",
+      "name": "MC65 R2.jpg",
+      "group": "怒仔AngryBear"
+    },
+    {
+      "path": "/images/怒仔AngryBear/MC65.webp",
+      "name": "MC65.webp",
+      "group": "怒仔AngryBear"
+    },
+    {
+      "path": "/images/怒仔AngryBear/Seven75.webp",
+      "name": "Seven75.webp",
+      "group": "怒仔AngryBear"
+    },
+    {
+      "path": "/images/怒仔AngryBear/Sign75.webp",
+      "name": "Sign75.webp",
+      "group": "怒仔AngryBear"
+    },
+    {
       "path": "/images/晚星客制化工作室/Polaris65S.webp",
       "name": "Polaris65S.webp",
       "group": "晚星客制化工作室"
@@ -5884,6 +6049,16 @@
       "path": "/images/果光/Corgi80 MIRROR80.png",
       "name": "Corgi80 MIRROR80.png",
       "group": "果光"
+    },
+    {
+      "path": "/images/次元桌搭/Turbo60.2.webp",
+      "name": "Turbo60.2.webp",
+      "group": "次元桌搭"
+    },
+    {
+      "path": "/images/次元桌搭/Turbo60.webp",
+      "name": "Turbo60.webp",
+      "group": "次元桌搭"
     },
     {
       "path": "/images/火柴/PC65 R2.webp",
@@ -6016,5 +6191,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1203
+  "total": 1238
 }
