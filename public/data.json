@@ -4270,18 +4270,24 @@
     {
       "id": "kb_280",
       "name": "Optica60 - Penguin",
-      "studio": "Kezewa",
+      "studio": "kaikbd",
       "sortTime": "2024-11-20",
       "layout": "60%",
       "status": "gb",
       "images": [
-        "/images/Kezewa/Optica60 - Penguin.png"
+        "/images/kaikbd/Optica60 - Penguin.png"
       ],
       "icTime": "2024-09-27",
       "icLink": "https://www.zfrontier.com/app/flow/6vLVgR3JdZqQ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/6vLVgR3JdZqQ"
+      ],
       "gbTime": "2024-11-20",
       "gbLink": "https://www.zfrontier.com/app/flow/O6X6bwQMmvPz",
-      "description": ""
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/O6X6bwQMmvPz"
+      ],
+      "description": "国内由Kezewa代理销售"
     },
     {
       "id": "kb_281",
@@ -5775,19 +5781,21 @@
     },
     {
       "id": "kb_375",
-      "name": "Eden",
-      "studio": "KBDFans怡科外设",
+      "name": "Eden - Penguin",
+      "studio": "kaikbd",
       "sortTime": "2025-04-11",
       "layout": "60%",
       "status": "gb",
       "images": [
-        "/images/KBDFans怡科外设/Eden.jpg"
+        "/images/kaikbd/Eden.jpg"
       ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
       "gbTime": "2025-04-11",
       "gbLink": "",
-      "description": ""
+      "gbLinks": [],
+      "description": "国内由KBDFans代理销售"
     },
     {
       "id": "kb_376",
@@ -21072,6 +21080,143 @@
       "gbLink": "",
       "gbLinks": [],
       "description": "根据官网时间线推断"
+    },
+    {
+      "id": "kb_1785982708772",
+      "name": "ZOO65",
+      "studio": "MOMOKA",
+      "sortTime": "2021-12-15",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/MOMOKA/ZOO65.2.webp",
+        "/images/MOMOKA/ZOO65.3.webp",
+        "/images/MOMOKA/ZOO65.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/2W85ojBvlkJ3",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/2W85ojBvlkJ3"
+      ],
+      "gbTime": "2021-12-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/2lMxbNNkW5Kp",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/2lMxbNNkW5Kp",
+        "https://www.zfrontier.com/app/flow/2EEEGv3rG7oo"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785982856453",
+      "name": "Jellyfish60",
+      "studio": "LONGK",
+      "sortTime": "2022-04-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/LONGK/Jellyfish60.2.webp",
+        "/images/LONGK/Jellyfish60.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/4jyokL9EgpG3",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/4jyokL9EgpG3"
+      ],
+      "gbTime": "2022-04-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/4jgMVMgXRaQ3",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/4jgMVMgXRaQ3"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785983511482",
+      "name": "Retro60",
+      "studio": "Anton Studio",
+      "sortTime": "2025-12-30",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Anton Studio/Retro60.2.webp",
+        "/images/Anton Studio/Retro60.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2025-12-30",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1785983725694",
+      "name": "Pillow6x",
+      "studio": "AmaiiWorks",
+      "sortTime": "2023-12-30",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/AmaiiWorks/Pillow6x.webp",
+        "/images/AmaiiWorks/Pillow6x.2.webp",
+        "/images/AmaiiWorks/Pillow6x.3.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://www.zfrontier.com/app/flow/yp15QdNXqMOa",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/yp15QdNXqMOa",
+        "https://www.zfrontier.com/app/flow/dPQ9vjM7Lmdp",
+        "https://www.zfrontier.com/app/flow/08dRkMzLdXL6"
+      ],
+      "gbTime": "2023-12-30",
+      "gbLink": "https://www.zfrontier.com/app/flow/x636pqNRvMM5",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/x636pqNRvMM5"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785984378088",
+      "name": "Poorkoi V2",
+      "studio": "HLB",
+      "sortTime": "2026-01-23",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/HLB/Poorkoi V2.webp",
+        "/images/HLB/Poorkoi V2 2.webp",
+        "/images/HLB/Poorkoi V2 3.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-01-23",
+      "gbLink": "https://www.zfrontier.com/app/flow/0Xd9xZ78WP38",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/0Xd9xZ78WP38"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1785986211819",
+      "name": "Botanica60 - Penguin",
+      "studio": "kaikbd",
+      "sortTime": "2026-03-22",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/kaikbd/Botanica60.png",
+        "/images/kaikbd/Botanica60.webp"
+      ],
+      "icTime": "2026-03-22",
+      "icLink": "https://geekhack.org/index.php?topic=126502.0",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=126502.0",
+        "https://kaikbd.com/botanica"
+      ],
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
     }
   ]
 }

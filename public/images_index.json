@@ -76,6 +76,21 @@
       "group": "Akuko Labs"
     },
     {
+      "path": "/images/AmaiiWorks/Pillow6x.2.webp",
+      "name": "Pillow6x.2.webp",
+      "group": "AmaiiWorks"
+    },
+    {
+      "path": "/images/AmaiiWorks/Pillow6x.3.webp",
+      "name": "Pillow6x.3.webp",
+      "group": "AmaiiWorks"
+    },
+    {
+      "path": "/images/AmaiiWorks/Pillow6x.webp",
+      "name": "Pillow6x.webp",
+      "group": "AmaiiWorks"
+    },
+    {
       "path": "/images/Angry Miao怒喵/65LESS.webp",
       "name": "65LESS.webp",
       "group": "Angry Miao怒喵"
@@ -139,6 +154,16 @@
       "path": "/images/Anthem Studio/肥皂Pad.png",
       "name": "肥皂Pad.png",
       "group": "Anthem Studio"
+    },
+    {
+      "path": "/images/Anton Studio/Retro60.2.webp",
+      "name": "Retro60.2.webp",
+      "group": "Anton Studio"
+    },
+    {
+      "path": "/images/Anton Studio/Retro60.webp",
+      "name": "Retro60.webp",
+      "group": "Anton Studio"
     },
     {
       "path": "/images/Apex predator/Eyroix60.webp",
@@ -1701,6 +1726,21 @@
       "group": "Hiexa Key"
     },
     {
+      "path": "/images/HLB/Poorkoi V2 2.webp",
+      "name": "Poorkoi V2 2.webp",
+      "group": "HLB"
+    },
+    {
+      "path": "/images/HLB/Poorkoi V2 3.webp",
+      "name": "Poorkoi V2 3.webp",
+      "group": "HLB"
+    },
+    {
+      "path": "/images/HLB/Poorkoi V2.webp",
+      "name": "Poorkoi V2.webp",
+      "group": "HLB"
+    },
+    {
       "path": "/images/Holy Nation Studio/Anka60XT.webp",
       "name": "Anka60XT.webp",
       "group": "Holy Nation Studio"
@@ -2126,6 +2166,26 @@
       "group": "Just Studio"
     },
     {
+      "path": "/images/kaikbd/Botanica60.png",
+      "name": "Botanica60.png",
+      "group": "kaikbd"
+    },
+    {
+      "path": "/images/kaikbd/Botanica60.webp",
+      "name": "Botanica60.webp",
+      "group": "kaikbd"
+    },
+    {
+      "path": "/images/kaikbd/Eden.jpg",
+      "name": "Eden.jpg",
+      "group": "kaikbd"
+    },
+    {
+      "path": "/images/kaikbd/Optica60 - Penguin.png",
+      "name": "Optica60 - Penguin.png",
+      "group": "kaikbd"
+    },
+    {
       "path": "/images/Karl鱼/Cetus40 小鲸鱼40.webp",
       "name": "Cetus40 小鲸鱼40.webp",
       "group": "Karl鱼"
@@ -2223,11 +2283,6 @@
     {
       "path": "/images/KBDFans怡科外设/D65.jpeg",
       "name": "D65.jpeg",
-      "group": "KBDFans怡科外设"
-    },
-    {
-      "path": "/images/KBDFans怡科外设/Eden.jpg",
-      "name": "Eden.jpg",
       "group": "KBDFans怡科外设"
     },
     {
@@ -2491,11 +2546,6 @@
       "group": "Kezewa"
     },
     {
-      "path": "/images/Kezewa/Optica60 - Penguin.png",
-      "name": "Optica60 - Penguin.png",
-      "group": "Kezewa"
-    },
-    {
       "path": "/images/Kezewa/plus 84 Classic TKL - Nuxroskb.webp",
       "name": "plus 84 Classic TKL - Nuxroskb.webp",
       "group": "Kezewa"
@@ -2754,6 +2804,16 @@
       "path": "/images/Light Studio/FAIZ65.webp",
       "name": "FAIZ65.webp",
       "group": "Light Studio"
+    },
+    {
+      "path": "/images/LONGK/Jellyfish60.2.webp",
+      "name": "Jellyfish60.2.webp",
+      "group": "LONGK"
+    },
+    {
+      "path": "/images/LONGK/Jellyfish60.webp",
+      "name": "Jellyfish60.webp",
+      "group": "LONGK"
     },
     {
       "path": "/images/Lucky Dai/Clover80 suit外壳.webp",
@@ -3309,6 +3369,21 @@
       "path": "/images/MoeeTech/L01.webp",
       "name": "L01.webp",
       "group": "MoeeTech"
+    },
+    {
+      "path": "/images/MOMOKA/ZOO65.2.webp",
+      "name": "ZOO65.2.webp",
+      "group": "MOMOKA"
+    },
+    {
+      "path": "/images/MOMOKA/ZOO65.3.webp",
+      "name": "ZOO65.3.webp",
+      "group": "MOMOKA"
+    },
+    {
+      "path": "/images/MOMOKA/ZOO65.webp",
+      "name": "ZOO65.webp",
+      "group": "MOMOKA"
     },
     {
       "path": "/images/MOX Studio/TIME MACHINE 1980S.jpg",
@@ -5941,5 +6016,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1188
+  "total": 1203
 }
