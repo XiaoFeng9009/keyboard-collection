@@ -4481,6 +4481,81 @@
       "group": "Rain2 图2"
     },
     {
+      "path": "/images/RAMA Works/KARA.webp",
+      "name": "KARA.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/KOYU.webp",
+      "name": "KOYU.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M10-A.webp",
+      "name": "M10-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M36-A.webp",
+      "name": "M36-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M50-A.webp",
+      "name": "M50-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M60-A SEQ2.webp",
+      "name": "M60-A SEQ2.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M60-A.webp",
+      "name": "M60-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M60-B.webp",
+      "name": "M60-B.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M65-A.webp",
+      "name": "M65-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M65-B.webp",
+      "name": "M65-B.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M65-C.webp",
+      "name": "M65-C.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M67-A.2.webp",
+      "name": "M67-A.2.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/M67-A.webp",
+      "name": "M67-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/U80-A.webp",
+      "name": "U80-A.webp",
+      "group": "RAMA Works"
+    },
+    {
+      "path": "/images/RAMA Works/U80-B.webp",
+      "name": "U80-B.webp",
+      "group": "RAMA Works"
+    },
+    {
       "path": "/images/Raw Studio/RawNook75.png",
       "name": "RawNook75.png",
       "group": "Raw Studio"
@@ -6191,5 +6266,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1238
+  "total": 1253
 }

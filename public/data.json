@@ -7088,7 +7088,7 @@
     },
     {
       "id": "kb_456",
-      "name": "Wind-borne60",
+      "name": "WindBorne60 WB60",
       "studio": "NIUNIU牛牛开车",
       "sortTime": "2026-06-29",
       "layout": "60%",
@@ -7099,8 +7099,14 @@
       ],
       "icTime": "2026-02-05",
       "icLink": "https://www.zfrontier.com/app/flow/653VyNJJG3rQ",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/653VyNJJG3rQ"
+      ],
       "gbTime": "2026-06-29",
       "gbLink": "https://www.zfrontier.com/app/flow/KobaOnKbaGqP",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/KobaOnKbaGqP"
+      ],
       "description": ""
     },
     {
@@ -21712,6 +21718,287 @@
       "gbLink": "https://lazydesigners.cn/variusgbr1/",
       "gbLinks": [
         "https://lazydesigners.cn/variusgbr1/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010629079",
+      "name": "U80-B",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/U80-B.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/u80b/",
+      "gbLinks": [
+        "https://rama.works/#/u80b/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010642371",
+      "name": "M60-B",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M60-B.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m60-b/",
+      "gbLinks": [
+        "https://rama.works/#/m60-b/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010666198",
+      "name": "M65-C",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M65-C.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m65-c/",
+      "gbLinks": [
+        "https://rama.works/#/m65-c/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010696072",
+      "name": "KARA",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/KARA.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/kara/",
+      "gbLinks": [
+        "https://rama.works/#/kara/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010739218",
+      "name": "M50-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "50%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M50-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m50a/",
+      "gbLinks": [
+        "https://rama.works/#/m50a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010785988",
+      "name": "M65-B",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M65-B.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m65-b/",
+      "gbLinks": [
+        "https://rama.works/#/m65-b/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010799927",
+      "name": "U80-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/U80-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/u80-a/",
+      "gbLinks": [
+        "https://rama.works/#/u80-a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010811651",
+      "name": "M60-A SEQ2",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M60-A SEQ2.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m60a-seq2/",
+      "gbLinks": [
+        "https://rama.works/#/m60a-seq2/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010828522",
+      "name": "KOYU",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/KOYU.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/koyu/",
+      "gbLinks": [
+        "https://rama.works/#/koyu/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010844046",
+      "name": "M60-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M60-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m60-a/",
+      "gbLinks": [
+        "https://rama.works/#/m60-a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010858247",
+      "name": "M67-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M67-A.2.webp",
+        "/images/RAMA Works/M67-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m67a/",
+      "gbLinks": [
+        "https://rama.works/#/m67a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010876519",
+      "name": "M65-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M65-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m65a/",
+      "gbLinks": [
+        "https://rama.works/#/m65a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010886467",
+      "name": "M36-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "30%",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M36-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m36a/",
+      "gbLinks": [
+        "https://rama.works/#/m36a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786010909768",
+      "name": "M10-A",
+      "studio": "RAMA Works",
+      "sortTime": "",
+      "layout": "Pad",
+      "status": "gb",
+      "images": [
+        "/images/RAMA Works/M10-A.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "",
+      "gbLink": "https://rama.works/#/m10-a/",
+      "gbLinks": [
+        "https://rama.works/#/m10-a/"
       ],
       "description": ""
     }
