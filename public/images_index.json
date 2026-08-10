@@ -2676,6 +2676,11 @@
       "group": "Knock Knock Studio"
     },
     {
+      "path": "/images/Koi Lab/Healer60.webp",
+      "name": "Healer60.webp",
+      "group": "Koi Lab"
+    },
+    {
       "path": "/images/k星工作室-Kindlestar/AQUILA.png",
       "name": "AQUILA.png",
       "group": "k星工作室-Kindlestar"
@@ -3991,6 +3996,11 @@
       "group": "Oasis绿洲工业"
     },
     {
+      "path": "/images/Oboro Studio/OBR60.2.webp",
+      "name": "OBR60.2.webp",
+      "group": "Oboro Studio"
+    },
+    {
       "path": "/images/Oboro Studio/OBR60.webp",
       "name": "OBR60.webp",
       "group": "Oboro Studio"
@@ -5113,6 +5123,11 @@
     {
       "path": "/images/TapBox/Ou_mini.jpeg",
       "name": "Ou_mini.jpeg",
+      "group": "TapBox"
+    },
+    {
+      "path": "/images/TapBox/Ou_Mini.webp",
+      "name": "Ou_Mini.webp",
       "group": "TapBox"
     },
     {
@@ -6266,5 +6281,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1253
+  "total": 1256
 }

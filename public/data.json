@@ -8451,16 +8451,23 @@
       "id": "kb_1785307731143",
       "name": "OBR60",
       "studio": "Oboro Studio",
-      "sortTime": "2026-03-20",
+      "sortTime": "2026-08-10",
       "layout": "60%",
       "status": "ic",
       "images": [
+        "/images/Oboro Studio/OBR60.2.webp",
         "/images/Oboro Studio/OBR60.webp"
       ],
       "icTime": "2026-03-20",
       "icLink": "https://www.zfrontier.com/app/flow/kmvLrQxdpEo8",
-      "gbTime": "",
-      "gbLink": "",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/kmvLrQxdpEo8"
+      ],
+      "gbTime": "2026-08-10",
+      "gbLink": "https://www.zfrontier.com/app/flow/MwlXGYOgB8oz",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/MwlXGYOgB8oz"
+      ],
       "description": ""
     },
     {
@@ -8861,18 +8868,23 @@
     },
     {
       "id": "kb_csv_21",
-      "name": "Ou_mini",
+      "name": "Ou_Mini",
       "studio": "TapBox",
-      "sortTime": "2026-02-06",
+      "sortTime": "2026-08-11",
       "layout": "60%",
-      "status": "ic",
+      "status": "gb",
       "images": [
+        "/images/TapBox/Ou_Mini.webp",
         "/images/TapBox/Ou_mini.jpeg"
       ],
       "icTime": "2026-02-06",
       "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
+      "icLinks": [],
+      "gbTime": "2026-08-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/EN5y55Y9WxXA",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/EN5y55Y9WxXA"
+      ],
       "description": ""
     },
     {
@@ -21999,6 +22011,26 @@
       "gbLink": "https://rama.works/#/m10-a/",
       "gbLinks": [
         "https://rama.works/#/m10-a/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786339315330",
+      "name": "Healer60",
+      "studio": "Koi Lab",
+      "sortTime": "2026-08-08",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Koi Lab/Healer60.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-08-08",
+      "gbLink": "https://www.zfrontier.com/app/flow/pvE6kRqwl315",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/pvE6kRqwl315"
       ],
       "description": ""
     }
