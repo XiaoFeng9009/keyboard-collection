@@ -1191,8 +1191,8 @@
       "layout": "75%",
       "status": "ic",
       "images": [
-        "/images/Overwrite Studio/Dock77.1.webp",
-        "/images/Overwrite Studio/Dock77.webp"
+        "/images/Overwrite Studio/Dock77.webp",
+        "/images/Overwrite Studio/Dock77.1.webp"
       ],
       "icTime": "2026-08-03",
       "icLink": "https://www.zfrontier.com/app/flow/zb0k8ymxGbW9",
@@ -5143,16 +5143,24 @@
       "id": "kb_335",
       "name": "Supernova60",
       "studio": "Sensy Lab",
-      "sortTime": "2026-06-14",
+      "sortTime": "2026-08-17",
       "layout": "60%",
-      "status": "ic",
+      "status": "gb",
       "images": [
+        "/images/Sensy Lab/Supernova60.2.webp",
+        "/images/Sensy Lab/Supernova60.3.webp",
         "/images/Sensy Lab/Supernova60.webp"
       ],
       "icTime": "2026-06-14",
-      "icLink": "",
-      "gbTime": "",
-      "gbLink": "",
+      "icLink": "https://www.zfrontier.com/app/flow/do6z9GWKAvgX",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/do6z9GWKAvgX"
+      ],
+      "gbTime": "2026-08-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/VlByJVEp7ygr",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/VlByJVEp7ygr"
+      ],
       "description": ""
     },
     {

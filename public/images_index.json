@@ -4891,6 +4891,16 @@
       "group": "Sensy Lab"
     },
     {
+      "path": "/images/Sensy Lab/Supernova60.2.webp",
+      "name": "Supernova60.2.webp",
+      "group": "Sensy Lab"
+    },
+    {
+      "path": "/images/Sensy Lab/Supernova60.3.webp",
+      "name": "Supernova60.3.webp",
+      "group": "Sensy Lab"
+    },
+    {
       "path": "/images/Sensy Lab/Supernova60.webp",
       "name": "Supernova60.webp",
       "group": "Sensy Lab"
@@ -6281,5 +6291,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1256
+  "total": 1258
 }
