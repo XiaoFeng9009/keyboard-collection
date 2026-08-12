@@ -22041,6 +22041,27 @@
         "https://www.zfrontier.com/app/flow/pvE6kRqwl315"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1786512087354",
+      "name": "Evanthe",
+      "studio": "Tea House",
+      "sortTime": "2026-08-15",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Tea House/Evanthe.webp",
+        "/images/Tea House/Evanthe.2.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "gbTime": "2026-08-15",
+      "gbLink": "https://shimo.im/docs/5rk9KbM8b6cEOd3x",
+      "gbLinks": [
+        "https://shimo.im/docs/5rk9KbM8b6cEOd3x"
+      ],
+      "description": ""
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   const [imgIdx, setImgIdx] = useState(0)
-  const [previewImg, setPreviewImg] = useState(null)
+  const [previewOpen, setPreviewOpen] = useState(false)
   const [previewClosing, setPreviewClosing] = useState(false)
   const images = keyboard.images || (keyboard.image ? [keyboard.image] : [])
   const img = images.length > 0 ? images[imgIdx] : null
@@ -14,8 +14,22 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
 
   const closePreview = () => {
     setPreviewClosing(true)
-    setTimeout(() => { setPreviewImg(null); setPreviewClosing(false) }, 250)
+    setTimeout(() => { setPreviewOpen(false); setPreviewClosing(false) }, 250)
   }
+
+  useEffect(() => {
+    if (!previewOpen) return
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        closePreview()
+      } else if (images.length > 1) {
+        if (e.key === 'ArrowLeft') setImgIdx(i => (i - 1 + images.length) % images.length)
+        else if (e.key === 'ArrowRight') setImgIdx(i => (i + 1) % images.length)
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [previewOpen, images.length])
 
   const label = { fontSize:11, color:'var(--text-muted)', fontWeight:600, textTransform:'uppercase', letterSpacing:1 }
   const value = { fontSize:13, color:'var(--text-primary)' }
@@ -32,9 +46,40 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
 
   return (
     <>
-      {previewImg && (
-        <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
-          <img src={previewImg} style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
+      {previewOpen && images.length > 0 && (
+        <div data-testid="fullscreen-preview" style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
+          {images.length > 1 && (
+            <button
+              type="button"
+              aria-label="上一张"
+              title="上一张"
+              data-testid="preview-prev"
+              onClick={e => { e.stopPropagation(); setImgIdx(i => (i - 1 + images.length) % images.length) }}
+              style={{position:'absolute',left:16,top:'50%',transform:'translateY(-50%)',zIndex:1,background:'rgba(24,24,27,0.72)',color:'#fff',border:'none',borderRadius:8,width:44,height:44,fontSize:20,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}
+            >{'\u25C0'}</button>
+          )}
+          <img src={images[((imgIdx % images.length) + images.length) % images.length]} alt={keyboard.name} style={{maxWidth:images.length > 1 ? 'calc(100% - 104px)' : '95%',maxHeight:'calc(100% - 72px)',objectFit:'contain'}} />
+          {images.length > 1 && (
+            <button
+              type="button"
+              aria-label="下一张"
+              title="下一张"
+              data-testid="preview-next"
+              onClick={e => { e.stopPropagation(); setImgIdx(i => (i + 1) % images.length) }}
+              style={{position:'absolute',right:16,top:'50%',transform:'translateY(-50%)',zIndex:1,background:'rgba(24,24,27,0.72)',color:'#fff',border:'none',borderRadius:8,width:44,height:44,fontSize:20,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}
+            >{'\u25B6'}</button>
+          )}
+          {images.length > 1 && (
+            <div data-testid="preview-counter" style={{position:'absolute',bottom:16,left:'50%',transform:'translateX(-50%)',background:'rgba(24,24,27,0.72)',color:'#fff',padding:'4px 12px',fontSize:12,borderRadius:8}}>{((imgIdx % images.length) + images.length) % images.length + 1}{'/'}{images.length}</div>
+          )}
+          <button
+            type="button"
+            aria-label="关闭"
+            title="关闭"
+            data-testid="preview-close"
+            onClick={e => { e.stopPropagation(); closePreview() }}
+            style={{position:'absolute',top:16,right:16,zIndex:1,background:'rgba(24,24,27,0.72)',color:'#fff',border:'none',borderRadius:8,width:40,height:40,fontSize:18,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}
+          >{'\u2715'}</button>
         </div>
       )}
       <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:20,animation:'overlayIn .3s ease'}} onClick={onClose}>
@@ -44,7 +89,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
           {images.length > 0 && (
             <div style={{position:'relative',background:'var(--bg-secondary)',borderRadius:'12px 12px 0 0'}}>
               <img src={img} alt={keyboard.name} style={{width:'100%',maxHeight:420,objectFit:'cover',display:'block',cursor:'zoom-in'}}
-                onClick={() => setPreviewImg(img)}
+                onClick={() => setPreviewOpen(true)}
                 onError={e=>{e.target.style.display='none'}} />
               {images.length > 1 && (
                 <>

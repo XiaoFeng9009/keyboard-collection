@@ -5236,6 +5236,16 @@
       "group": "Tea House"
     },
     {
+      "path": "/images/Tea House/Evanthe.2.webp",
+      "name": "Evanthe.2.webp",
+      "group": "Tea House"
+    },
+    {
+      "path": "/images/Tea House/Evanthe.webp",
+      "name": "Evanthe.webp",
+      "group": "Tea House"
+    },
+    {
       "path": "/images/TG Work/Casperr60.webp",
       "name": "Casperr60.webp",
       "group": "TG Work"
@@ -6291,5 +6301,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1258
+  "total": 1260
 }
