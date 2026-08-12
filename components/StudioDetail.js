@@ -82,9 +82,9 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
         </div>
       )}
 
-      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:'60px 20px',animation:'overlayIn .3s ease'}} onClick={onClose}>
-        <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:960,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
-          <div style={{overflowY:'auto',maxHeight:'75vh'}}>
+      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:'40px 20px',animation:'overlayIn .3s ease'}} onClick={onClose}>
+        <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:1152,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
+          <div style={{overflowY:'auto',maxHeight:'88vh'}}>
 
             {/* Header */}
             <div style={{position:'sticky',top:0,background:'var(--bg-primary)',zIndex:2,padding:'16px 24px',borderBottom:'1px solid var(--border-base)',display:'flex',alignItems:'center',justifyContent:'space-between'}}>
@@ -117,8 +117,8 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                       <div key={k.id} ref={function(el){sectionRefs.current[idx]=el}} data-idx={idx}
                         style={{scrollMarginTop:80, marginBottom: idx < list.length - 1 ? 36 : 0}}>
                         <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
-                        {img && (<img src={img} alt={k.name} style={{width:'100%',height:280,objectFit:'cover',display:'block',margin:'0 auto 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
-                        <p style={{fontSize:14,fontWeight:600,marginBottom:12,color:'var(--text-primary)'}}>{k.name}</p>
+                        {img && (<img src={img} alt={k.name} style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
+                        <p style={{fontSize:13,fontWeight:500,margin:'0 0 12px',width:'88%',color:'var(--text-secondary)',textAlign:'center'}}>{k.name}</p>
                         <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                           <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}
                           {renderLinkTags(getLinks(k,'ic'))}
@@ -166,8 +166,8 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                     <div key={k.id} ref={function(el){sectionRefs.current[idx]=el}} data-idx={idx}
                       style={{marginBottom: idx < list.length - 1 ? 36 : 0}}>
                       <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
-                      {img && (<img src={img} alt={k.name} style={{width:'100%',height:220,objectFit:'cover',display:'block',margin:'0 auto 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
-                      <p style={{fontSize:14,fontWeight:600,marginBottom:12,color:'var(--text-primary)'}}>{k.name}</p>
+                      {img && (<img src={img} alt={k.name} style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
+                      <p style={{fontSize:13,fontWeight:500,margin:'0 0 12px',width:'88%',color:'var(--text-secondary)',textAlign:'center'}}>{k.name}</p>
                       <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                         <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}
                         {renderLinkTags(getLinks(k,"ic"))}

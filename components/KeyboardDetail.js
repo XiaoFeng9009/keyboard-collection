@@ -1,6 +1,8 @@
 ﻿import { useState, useEffect } from 'react'
+import useBreakpoint from '../lib/useBreakpoint'
 
 export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
+  const { isDesktop, isMobile } = useBreakpoint()
   const [imgIdx, setImgIdx] = useState(0)
   const [previewOpen, setPreviewOpen] = useState(false)
   const [previewClosing, setPreviewClosing] = useState(false)
@@ -82,48 +84,70 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
           >{'\u2715'}</button>
         </div>
       )}
-      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:20,animation:'overlayIn .3s ease'}} onClick={onClose}>
-        <div style={{background:'var(--bg-primary)',borderRadius:12,width:'100%',maxWidth:660,maxHeight:'90vh',overflowY:'auto',boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={e=>e.stopPropagation()}>
+      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:isMobile?8:20,animation:'overlayIn .3s ease'}} onClick={onClose}>
+        <div style={{background:'var(--bg-primary)',borderRadius:12,width:'100%',maxWidth:1440,height:isDesktop?'min(94vh, calc(min(100vw - 40px, 1440px) * 0.465))':'auto',maxHeight:'94vh',display:'flex',flexDirection:isDesktop?'row':'column',overflow:'hidden',boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={e=>e.stopPropagation()}>
 
-          {/* Image carousel */}
-          {images.length > 0 && (
-            <div style={{position:'relative',background:'var(--bg-secondary)',borderRadius:'12px 12px 0 0'}}>
-              <img src={img} alt={keyboard.name} style={{width:'100%',maxHeight:420,objectFit:'cover',display:'block',cursor:'zoom-in'}}
+          {/* Edge-to-edge image area */}
+          <div style={{position:'relative',flex:isDesktop?'1 1 62%':'0 0 auto',minWidth:0,width:isDesktop?'auto':'100%',aspectRatio:'4/3',overflow:'hidden',background:'var(--bg-secondary)'}}>
+            {images.length > 0 && (
+              <img src={img} alt={keyboard.name} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',display:'block',cursor:'zoom-in'}}
                 onClick={() => setPreviewOpen(true)}
                 onError={e=>{e.target.style.display='none'}} />
-              {images.length > 1 && (
-                <>
-                  <button onClick={()=>setImgIdx(i=>(i-1+images.length)%images.length)} style={{position:'absolute',left:12,top:'50%',transform:'translateY(-50%)',background:'var(--bg-primary)',border:'1px solid var(--border-base)',borderRadius:8,padding:'8px 12px',cursor:'pointer',fontSize:16,opacity:0.9,boxShadow:'0 2px 6px rgba(0,0,0,0.1)'}}>{'\u25C0'}</button>
-                  <button onClick={()=>setImgIdx(i=>(i+1)%images.length)} style={{position:'absolute',right:12,top:'50%',transform:'translateY(-50%)',background:'var(--bg-primary)',border:'1px solid var(--border-base)',borderRadius:8,padding:'8px 12px',cursor:'pointer',fontSize:16,opacity:0.9,boxShadow:'0 2px 6px rgba(0,0,0,0.1)'}}>{'\u25B6'}</button>
-                  <div style={{position:'absolute',bottom:12,left:'50%',transform:'translateX(-50%)',background:'rgba(24,24,27,0.8)',color:'#fff',padding:'3px 12px',fontSize:11,borderRadius:6}}>{(imgIdx+1)+'/'+images.length}</div>
-                </>
-              )}
+            )}
+
+            {images.length > 1 && (
+              <>
+                <button type="button" aria-label={'\u4E0A\u4E00\u5F20'} title={'\u4E0A\u4E00\u5F20'} onClick={()=>setImgIdx(i=>(i-1+images.length)%images.length)} style={{position:'absolute',left:14,top:'50%',transform:'translateY(-50%)',zIndex:2,background:'rgba(24,24,27,0.55)',color:'#fff',border:'none',borderRadius:'50%',width:40,height:40,fontSize:18,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}>{'\u25C0'}</button>
+                <button type="button" aria-label={'\u4E0B\u4E00\u5F20'} title={'\u4E0B\u4E00\u5F20'} onClick={()=>setImgIdx(i=>(i+1)%images.length)} style={{position:'absolute',right:14,top:'50%',transform:'translateY(-50%)',zIndex:2,background:'rgba(24,24,27,0.55)',color:'#fff',border:'none',borderRadius:'50%',width:40,height:40,fontSize:18,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}>{'\u25B6'}</button>
+                <div style={{position:'absolute',top:12,right:12,zIndex:2,background:'rgba(24,24,27,0.55)',color:'#fff',padding:'3px 10px',fontSize:11,borderRadius:6}}>{(imgIdx+1)+'/'+images.length}</div>
+
+                <div style={{position:'absolute',left:'50%',bottom:14,transform:'translateX(-50%)',zIndex:2,display:'flex',gap:8,padding:'8px 10px',maxWidth:'92%',overflowX:'auto',background:'rgba(24,24,27,0.55)',borderRadius:10,backdropFilter:'blur(6px)'}}>
+                  {images.map(function(src, idx) {
+                    const active = idx === imgIdx
+                    return (
+                      <button
+                        key={idx}
+                        type="button"
+                        onClick={() => setImgIdx(idx)}
+                        aria-label={'\u67E5\u770B\u7B2C' + (idx+1) + '\u5F20'}
+                        style={{position:'relative',width:56,height:42,flexShrink:0,padding:0,borderRadius:6,overflow:'hidden',cursor:'pointer',background:'var(--bg-secondary)',border:active?'2px solid #fff':'1px solid rgba(255,255,255,0.35)'}}>
+                        <img src={src} alt={keyboard.name + ' ' + (idx+1)} style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} onError={e=>{e.target.style.display='none'}} />
+                        {active && <span style={{position:'absolute',inset:0,background:'rgba(0,0,0,0.35)'}} />}
+                      </button>
+                    )
+                  })}
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* Right info */}
+          <div style={{flex:isDesktop?'1 1 38%':'1 1 auto',minWidth:0,minHeight:0,overflowY:'auto',padding:isMobile?'20px 18px 24px':'32px 36px'}}>
+            <div style={{display:'flex',alignItems:'flex-start',justifyContent:'space-between',gap:12,marginBottom:22}}>
+              <div style={{minWidth:0}}>
+                <h2 style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',lineHeight:1.3}}>{keyboard.name}</h2>
+                {keyboard.studio && (
+                  <button onClick={() => onShowStudio && onShowStudio(keyboard.studio)}
+                    style={{marginTop:8,background:'var(--accent)',border:'none',color:'#18181b',padding:'3px 10px',borderRadius:4,fontSize:12,cursor:'pointer',fontWeight:600,fontFamily:'inherit',letterSpacing:0.3,whiteSpace:'nowrap'}}>
+                    {keyboard.studio}
+                  </button>
+                )}
+              </div>
+              <button onClick={onClose} aria-label={'\u5173\u95ED\u8BE6\u60C5'} style={{flexShrink:0,background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:16,cursor:'pointer',padding:'4px 10px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
             </div>
-          )}
 
-          {/* Keyboard Info */}
-          <div style={{padding:'40px 44px'}}>
-            {/* Title row */}
-            <div style={{display:'flex',alignItems:'baseline',gap:12,marginBottom:6}}>
-              <h2 style={{fontSize:22,fontWeight:700,color:'var(--text-primary)'}}>{keyboard.name}</h2>
-              <button onClick={() => onShowStudio && onShowStudio(keyboard.studio)}
-                style={{background:'var(--accent)',border:'none',color:'#18181b',padding:'2px 8px',borderRadius:4,fontSize:12,cursor:'pointer',fontWeight:600,fontFamily:'inherit',letterSpacing:0.3,whiteSpace:'nowrap'}}>
-                {keyboard.studio}
-              </button>
-            </div>
-
-            {/* Divider */}
-            <div style={{height:1,background:'var(--border-base)',margin:'20px 0'}} />
-
-            {/* Info rows */}
-            {keyboard.layout && <div style={row}><span style={{...label,width:80}}>{'配列'}</span><span style={value}>{keyboard.layout}</span></div>}
-            {statusLabel && <div style={row}><span style={{...label,width:80}}>{'状态'}</span><span style={value}>{statusLabel}</span></div>}            {(keyboard.icTime || icLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>IC {'\u65F6\u95F4'}</span><span style={value}>{keyboard.icTime || '\u2014'}{icLinks.length > 0 ? ' \u00B7' : ''} {icLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (icLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}            {(keyboard.gbTime || gbLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>GB {'\u65F6\u95F4'}</span><span style={value}>{keyboard.gbTime || '\u2014'}{gbLinks.length > 0 ? ' \u00B7' : ''} {gbLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (gbLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}
-            {keyboard.description && <div style={row}><span style={{...label,width:80}}>{'备注'}</span><span style={value}>{keyboard.description}</span></div>}
-
-            {/* Close button */}
-            <div style={{textAlign:'center',marginTop:28}}>
-              <button onClick={onClose} style={{background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:18,cursor:'pointer',padding:'4px 12px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
-            </div>
+            {keyboard.layout && <div style={row}><span style={{...label,width:80}}>{'\u914D\u5217'}</span><span style={value}>{keyboard.layout}</span></div>}
+            {statusLabel && <div style={row}><span style={{...label,width:80}}>{'\u72B6\u6001'}</span><span style={value}>{statusLabel}</span></div>}
+            {keyboard.size && <div style={row}><span style={{...label,width:80}}>{'\u5C3A\u5BF8'}</span><span style={value}>{keyboard.size}</span></div>}
+            {keyboard.structure && <div style={row}><span style={{...label,width:80}}>{'\u7ED3\u6784'}</span><span style={value}>{keyboard.structure}</span></div>}
+            {keyboard.frontHeight && <div style={row}><span style={{...label,width:80}}>{'\u524D\u9AD8'}</span><span style={value}>{keyboard.frontHeight}</span></div>}
+            {keyboard.angle && <div style={row}><span style={{...label,width:80}}>{'\u89D2\u5EA6'}</span><span style={value}>{keyboard.angle}</span></div>}
+            {keyboard.weight && <div style={row}><span style={{...label,width:80}}>{'\u91CD\u91CF'}</span><span style={value}>{keyboard.weight}</span></div>}
+            {keyboard.material && <div style={row}><span style={{...label,width:80}}>{'\u6750\u8D28'}</span><span style={value}>{keyboard.material}</span></div>}
+            {keyboard.gbPrice && <div style={row}><span style={{...label,width:80}}>{'\u56E2\u8D2D\u4EF7\u683C'}</span><span style={value}>{keyboard.gbPrice}</span></div>}
+            {(keyboard.icTime || icLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>IC {'\u65F6\u95F4'}</span><span style={value}>{keyboard.icTime || '\u2014'}{icLinks.length > 0 ? ' \u00B7' : ''} {icLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (icLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}
+            {(keyboard.gbTime || gbLinks.length > 0) && <div style={row}><span style={{...label,width:80}}>GB {'\u65F6\u95F4'}</span><span style={value}>{keyboard.gbTime || '\u2014'}{gbLinks.length > 0 ? ' \u00B7' : ''} {gbLinks.map(function(l, idx) {return <span key={idx}>{idx > 0 && ' '}<a href={l} target="_blank" rel="noopener" style={{background:'var(--accent)',color:'#18181b',padding:'0 5px',borderRadius:4,textDecoration:'none',fontWeight:600,marginRight:4}}>{'\u67E5\u770B\u8BE6\u60C5' + (gbLinks.length > 1 ? (idx+1) : '')}</a></span>})}</span></div>}
+            {keyboard.description && <div style={row}><span style={{...label,width:80}}>{'\u5907\u6CE8'}</span><span style={value}>{keyboard.description}</span></div>}
           </div>
         </div>
       </div>

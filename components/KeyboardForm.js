@@ -4,6 +4,13 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
   const [studio, setStudio] = useState('')
   const [layout, setLayout] = useState('')
   const [status, setStatus] = useState('')
+  const [size, setSize] = useState('')
+  const [structure, setStructure] = useState('')
+  const [frontHeight, setFrontHeight] = useState('')
+  const [angle, setAngle] = useState('')
+  const [weight, setWeight] = useState('')
+  const [material, setMaterial] = useState('')
+  const [gbPrice, setGbPrice] = useState('')
   const [images, setImages] = useState([])
   const [imgInput, setImgInput] = useState('')
   const [icTime, setIcTime] = useState('')
@@ -60,6 +67,13 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
       setStudio(editData.studio || '')
       setLayout(editData.layout || '')
       setStatus(editData.status || '')
+      setSize(editData.size || '')
+      setStructure(editData.structure || '')
+      setFrontHeight(editData.frontHeight || '')
+      setAngle(editData.angle || '')
+      setWeight(editData.weight || '')
+      setMaterial(editData.material || '')
+      setGbPrice(editData.gbPrice || '')
       setImages(editData.images || (editData.image ? [editData.image] : []))
       setIcTime((editData.icTime || '').replace(/\//g, '-'))
       setIcLinks(editData.icLinks || (editData.icLink ? [editData.icLink] : []))
@@ -67,7 +81,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
       setGbLinks(editData.gbLinks || (editData.gbLink ? [editData.gbLink] : []))
       setDesc(editData.description || '')
     } else {
-      setName(''); setStudio(''); setLayout(''); setStatus('')
+      setName(''); setStudio(''); setLayout(''); setStatus(''); setSize(''); setStructure(''); setFrontHeight(''); setAngle(''); setWeight(''); setMaterial(''); setGbPrice('')
       setImages([]); setIcTime(''); setIcLinks([]); setIcLinkInput(''); setGbTime(''); setGbLinks([]); setGbLinkInput(''); setDesc('')
     }
     setImgInput('')
@@ -97,7 +111,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
     if (e) e.preventDefault()
     if (!name.trim() || !studio.trim()) return
     onSave({ id: editData?.id || 'kb_' + Date.now(), name: name.trim(), studio: studio.trim(), sortTime: sortTime,
-      layout, status, images, icTime, icLink: icLinks[0] || '', icLinks,
+      layout, status, images, icTime, icLink: icLinks[0] || '', icLinks, size: size.trim(), structure: structure.trim(), frontHeight: frontHeight.trim(), angle: angle.trim(), weight: weight.trim(), material: material.trim(), gbPrice: gbPrice.trim(),
       gbTime, gbLink: gbLinks[0] || '', gbLinks, description: desc })
   }
   if (!show) return null
@@ -138,6 +152,26 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
               <option value="completed">{'\u5DF2\u5B8C\u6210'}</option>
             </select></div>
         </div>
+        <div style={st.row}>
+          <div style={st.grp}><label style={st.label}>{'\u5C3A\u5BF8'}</label>
+            <input value={size} onChange={e=>setSize(e.target.value)} style={st.input} /></div>
+          <div style={st.grp}><label style={st.label}>{'\u7ED3\u6784'}</label>
+            <input value={structure} onChange={e=>setStructure(e.target.value)} style={st.input} /></div>
+        </div>
+        <div style={st.row}>
+          <div style={st.grp}><label style={st.label}>{'\u524D\u9AD8'}</label>
+            <input value={frontHeight} onChange={e=>setFrontHeight(e.target.value)} style={st.input} /></div>
+          <div style={st.grp}><label style={st.label}>{'\u89D2\u5EA6'}</label>
+            <input value={angle} onChange={e=>setAngle(e.target.value)} style={st.input} /></div>
+        </div>
+        <div style={st.row}>
+          <div style={st.grp}><label style={st.label}>{'\u91CD\u91CF'}</label>
+            <input value={weight} onChange={e=>setWeight(e.target.value)} style={st.input} /></div>
+          <div style={st.grp}><label style={st.label}>{'\u6750\u8D28'}</label>
+            <input value={material} onChange={e=>setMaterial(e.target.value)} style={st.input} /></div>
+        </div>
+        <div style={st.grp}><label style={st.label}>{'\u56E2\u8D2D\u4EF7\u683C'}</label>
+          <input value={gbPrice} onChange={e=>setGbPrice(e.target.value)} style={st.input} /></div>
         <div style={st.grp}>
           <label style={st.label}>{'\u56FE\u7247'}</label>
           <div style={{display:'flex',gap:8,marginBottom:8}}>

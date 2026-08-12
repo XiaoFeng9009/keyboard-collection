@@ -1191,8 +1191,8 @@
       "layout": "75%",
       "status": "ic",
       "images": [
-        "/images/Overwrite Studio/Dock77.webp",
-        "/images/Overwrite Studio/Dock77.1.webp"
+        "/images/Overwrite Studio/Dock77.1.webp",
+        "/images/Overwrite Studio/Dock77.webp"
       ],
       "icTime": "2026-08-03",
       "icLink": "https://www.zfrontier.com/app/flow/zb0k8ymxGbW9",
@@ -1200,6 +1200,13 @@
         "https://www.zfrontier.com/app/flow/zb0k8ymxGbW9",
         "https://www.zfrontier.com/app/flow/lPN0WNEj53Wa"
       ],
+      "size": "",
+      "structure": "Gasket Mount/Top Mount",
+      "frontHeight": "约17.8mm(不含脚垫) EKH：约22mm",
+      "angle": "7°",
+      "weight": "",
+      "material": "铝合金/不锈钢/黄铜",
+      "gbPrice": "",
       "gbTime": "",
       "gbLink": "",
       "gbLinks": [],
@@ -2992,6 +2999,13 @@
         "https://www.zfrontier.com/app/flow/8qWn9Vwrzovg",
         "https://www.zfrontier.com/app/flow/kkPXXkzNAzMQ"
       ],
+      "size": "",
+      "structure": "Top Mount",
+      "frontHeight": "18.5 mm",
+      "angle": "7.5°",
+      "weight": "约1.2kg",
+      "material": "铝合金/黄铜/不锈钢/亚克力",
+      "gbPrice": "",
       "gbTime": "",
       "gbLink": "",
       "gbLinks": [],
@@ -4055,7 +4069,7 @@
     },
     {
       "id": "kb_267",
-      "name": "Type Box 101800 By Hymm X Werk Technica",
+      "name": "Type Box 101800 - Hymm X Werk Technica",
       "studio": "Kezewa",
       "sortTime": "2026-08-02",
       "layout": "AT",
@@ -4068,6 +4082,13 @@
       "icLinks": [
         "https://www.zfrontier.com/app/flow/OMw9k9lvaQoK"
       ],
+      "size": "446mm x 158.5mm x 46.7mm",
+      "structure": "Hybrid Leaf Spring & Top Mount",
+      "frontHeight": "20.5mm",
+      "angle": "Alpha区5°；F区30°",
+      "weight": "2.8KG-5.8KG",
+      "material": "铝合金/红铜",
+      "gbPrice": "",
       "gbTime": "2026-08-02",
       "gbLink": "https://www.zfrontier.com/app/flow/kmAAWwGaZWk7",
       "gbLinks": [
@@ -5156,6 +5177,13 @@
       "icLinks": [
         "https://www.zfrontier.com/app/flow/do6z9GWKAvgX"
       ],
+      "size": "296.3x119x36.5mm",
+      "structure": "Top Mount",
+      "frontHeight": "FH=17.5mm/EKH=22.5mm",
+      "angle": "9°",
+      "weight": "PC上盖≈1.47-1.54kg；铝合金上盖≈1.58-1.65kg",
+      "material": "铝合金/PC/不锈钢/黄铜/PEI",
+      "gbPrice": "",
       "gbTime": "2026-08-17",
       "gbLink": "https://www.zfrontier.com/app/flow/VlByJVEp7ygr",
       "gbLinks": [
@@ -8471,6 +8499,13 @@
       "icLinks": [
         "https://www.zfrontier.com/app/flow/kmvLrQxdpEo8"
       ],
+      "size": "",
+      "structure": "类Gasket Mount齿轮同步缓冲机构",
+      "frontHeight": "约21mm（前切角最高点）",
+      "angle": "8°",
+      "weight": "",
+      "material": "铝合金/不锈钢/黄铜",
+      "gbPrice": "",
       "gbTime": "2026-08-10",
       "gbLink": "https://www.zfrontier.com/app/flow/MwlXGYOgB8oz",
       "gbLinks": [
@@ -8888,6 +8923,13 @@
       "icTime": "2026-02-06",
       "icLink": "",
       "icLinks": [],
+      "size": "",
+      "structure": "Leaf Spring Top Mount",
+      "frontHeight": "前高：18.5 mm；有效前高：22.5 mm",
+      "angle": "9°",
+      "weight": "",
+      "material": "铝合金/不锈钢",
+      "gbPrice": "",
       "gbTime": "2026-08-11",
       "gbLink": "https://www.zfrontier.com/app/flow/EN5y55Y9WxXA",
       "gbLinks": [
@@ -22035,6 +22077,13 @@
       "icTime": "",
       "icLink": "",
       "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "18.6mm（不包含脚贴露出部分）",
+      "angle": "6.2°",
+      "weight": "",
+      "material": "铝合金/PC/不锈钢/碳纤维",
+      "gbPrice": "",
       "gbTime": "2026-08-08",
       "gbLink": "https://www.zfrontier.com/app/flow/pvE6kRqwl315",
       "gbLinks": [
@@ -22056,6 +22105,13 @@
       "icTime": "",
       "icLink": "",
       "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "中间14 mm，两侧16 mm",
+      "angle": "坡度：9° 佩列最大倾角：12°",
+      "weight": "2379g（组后）",
+      "material": "铝合金/不锈钢",
+      "gbPrice": "",
       "gbTime": "2026-08-15",
       "gbLink": "https://shimo.im/docs/5rk9KbM8b6cEOd3x",
       "gbLinks": [
