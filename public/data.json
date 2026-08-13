@@ -22118,6 +22118,36 @@
         "https://shimo.im/docs/5rk9KbM8b6cEOd3x"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1786603155221",
+      "name": "TOFULL",
+      "studio": "KBDFans怡科外设",
+      "sortTime": "2026-08-14",
+      "layout": "100%Full",
+      "status": "gb",
+      "images": [
+        "/images/KBDFans怡科外设/TOFULL.webp",
+        "/images/KBDFans怡科外设/TOFULL.2.webp",
+        "/images/KBDFans怡科外设/TOFULL.3.webp",
+        "/images/KBDFans怡科外设/TOFULL.4.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "≈437.20 × 144.27 × 38.87（后高）",
+      "structure": "Top Mount / PCB Gasket Mount",
+      "frontHeight": "17.14（前高）mm",
+      "angle": "≈9°",
+      "weight": "",
+      "material": "铝合金/黄铜/不锈钢",
+      "gbPrice": "",
+      "gbTime": "2026-08-14",
+      "gbLink": "https://www.zfrontier.com/app/flow/ZGVVGlX5qAaX",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/ZGVVGlX5qAaX"
+      ],
+      "description": ""
     }
   ]
 }
