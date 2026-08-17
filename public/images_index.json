@@ -261,6 +261,26 @@
       "group": "Astrum Studio"
     },
     {
+      "path": "/images/Atelier Haven/Decon80.2.webp",
+      "name": "Decon80.2.webp",
+      "group": "Atelier Haven"
+    },
+    {
+      "path": "/images/Atelier Haven/Decon80.3.webp",
+      "name": "Decon80.3.webp",
+      "group": "Atelier Haven"
+    },
+    {
+      "path": "/images/Atelier Haven/Decon80.4.webp",
+      "name": "Decon80.4.webp",
+      "group": "Atelier Haven"
+    },
+    {
+      "path": "/images/Atelier Haven/Decon80.webp",
+      "name": "Decon80.webp",
+      "group": "Atelier Haven"
+    },
+    {
       "path": "/images/Atelier Haven/Haven103 Lite.webp",
       "name": "Haven103 Lite.webp",
       "group": "Atelier Haven"
@@ -1478,6 +1498,16 @@
     {
       "path": "/images/GDK Lab/NV60.webp",
       "name": "NV60.webp",
+      "group": "GDK Lab"
+    },
+    {
+      "path": "/images/GDK Lab/NV70.2.webp",
+      "name": "NV70.2.webp",
+      "group": "GDK Lab"
+    },
+    {
+      "path": "/images/GDK Lab/NV70.3.webp",
+      "name": "NV70.3.webp",
       "group": "GDK Lab"
     },
     {
@@ -6321,5 +6351,5 @@
       "group": "(root)"
     }
   ],
-  "total": 1264
+  "total": 1270
 }

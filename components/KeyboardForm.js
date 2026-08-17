@@ -131,7 +131,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
     groups[i.group].push(i)
   })
   return (
-    <div style={{display:'flex',position:'fixed',inset:0,background:'rgba(0,0,0,0.5)',zIndex:200,justifyContent:'center',alignItems:'center',backdropFilter:'blur(4px)'}} onClick={onClose}>
+    <div style={{display:'flex',position:'fixed',inset:0,background:'rgba(0,0,0,0.5)',zIndex:200,justifyContent:'center',alignItems:'center',backdropFilter:'blur(4px)'}}>
       <div style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',padding:28,width:'90%',maxWidth:620,maxHeight:'85vh',overflowY:'auto',boxShadow:'var(--shadow-hover)',borderTop:'4px solid var(--text-primary)'}} onClick={e => e.stopPropagation()}>
         <h2 style={{marginBottom:20,fontSize:16,fontWeight:600,letterSpacing:0.5}}>{editData ? '\u7F16\u8F91\u952E\u76D8' : '\u6DFB\u52A0\u952E\u76D8'}</h2>
         <div style={st.grp}><label style={st.label}>{'\u952E\u76D8\u540D\u79F0'} *</label>

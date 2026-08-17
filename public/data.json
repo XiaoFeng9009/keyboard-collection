@@ -2061,13 +2061,27 @@
       "layout": "70%FRL_TKL",
       "status": "gb",
       "images": [
+        "/images/GDK Lab/NV70.2.webp",
+        "/images/GDK Lab/NV70.3.webp",
         "/images/GDK Lab/NV-70.png"
       ],
       "icTime": "",
       "icLink": "",
+      "icLinks": [],
+      "size": "354.6*113*32mm",
+      "structure": "Gasket Mount",
+      "frontHeight": "16.8mm（不含脚垫）",
+      "angle": "8°",
+      "weight": "组装后1.75kg(根据轴体或键帽不同可能会有差异)",
+      "material": "铝合金/不锈钢",
+      "gbPrice": "",
       "gbTime": "2025-09-17",
       "gbLink": "https://www.zfrontier.com/app/flow/oL6VbOVa6W1g",
-      "description": ""
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/oL6VbOVa6W1g",
+        "https://www.zfrontier.com/app/flow/q5OLEmmWX6O0"
+      ],
+      "description": "2026-08-13~2026-08-20 发售双镜版本（NV-70镜面工艺版本）"
     },
     {
       "id": "kb_136",
@@ -22146,6 +22160,36 @@
       "gbLink": "https://www.zfrontier.com/app/flow/ZGVVGlX5qAaX",
       "gbLinks": [
         "https://www.zfrontier.com/app/flow/ZGVVGlX5qAaX"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1786930826071",
+      "name": "Decon80",
+      "studio": "Atelier Haven",
+      "sortTime": "2026-08-17",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/Atelier Haven/Decon80.webp",
+        "/images/Atelier Haven/Decon80.2.webp",
+        "/images/Atelier Haven/Decon80.3.webp",
+        "/images/Atelier Haven/Decon80.4.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "361.45*140.1*36.7mm",
+      "structure": "Gasket Mount",
+      "frontHeight": "前高：16.80mm，EKH：21.25mm",
+      "angle": "8.5°",
+      "weight": "",
+      "material": "铝合金/不锈钢/红铜",
+      "gbPrice": "",
+      "gbTime": "2026-08-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/6gYApGnAMm3p",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/6gYApGnAMm3p"
       ],
       "description": ""
     }
