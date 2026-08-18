@@ -4,10 +4,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const IMG_DIR = path.join(__dirname, 'public', 'images');
 const DATA_FILE = path.join(__dirname, 'public', 'data.json');
 const INDEX_FILE = path.join(__dirname, 'public', 'images_index.json');
+const META_FILE = path.join(__dirname, 'public', 'data-meta.json');
 
 const VALID_EXTS = new Set(['.jpg','.jpeg','.png','.webp','.gif','.svg','.bmp']);
 
@@ -88,11 +90,24 @@ kbs.forEach(kb => {
 });
 
 data.keyboards = kbs;
-fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
+const dataText = JSON.stringify(data, null, 2);
+fs.writeFileSync(DATA_FILE, dataText, 'utf-8');
 console.log('  data.json 已更新');
   console.log('  已有图片已跳过: ' + skipped);
   console.log('  新匹配图片的键盘: ' + matched);
   console.log('  无匹配图片的键盘: ' + unmatched);
+
+// === 3. 生成 data-meta.json（前端缓存校验用）===
+const hash = crypto.createHash('sha256').update(dataText).digest('hex');
+const meta = {
+  hash: 'sha256-' + hash,
+  generatedAt: new Date().toISOString()
+};
+fs.writeFileSync(META_FILE, JSON.stringify(meta, null, 2), 'utf-8');
+console.log('');
+console.log('=== 3. 生成数据版本信息 ===');
+console.log('  data-meta.json 已更新');
+console.log('  hash: ' + meta.hash);
 
 console.log('');
 console.log('=== 完成 ===');
