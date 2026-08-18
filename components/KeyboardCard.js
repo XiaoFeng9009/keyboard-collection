@@ -22,7 +22,6 @@ export default function KeyboardCard({ kb, onClick }) {
   var shownImg = imgFallback ? img : thumbFor(img)
 
   var s = {
-    card: { background:'var(--bg-primary)', overflow:'hidden', borderRadius:10, cursor:'pointer', position:'relative' },
     imgWrap: { width:'100%', aspectRatio:'16/12', background:'var(--bg-secondary)', position:'relative', overflow:'hidden' },
     body: { padding:'1.25rem' },
     name: { fontSize:'0.9375rem', fontWeight:600, marginBottom:2 },
@@ -30,7 +29,7 @@ export default function KeyboardCard({ kb, onClick }) {
   }
 
   return (
-        <div style={s.card}
+        <div className="card hover-lift" style={{cursor:'pointer'}}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
       onClick={handleClick}
@@ -49,8 +48,8 @@ export default function KeyboardCard({ kb, onClick }) {
         <div style={s.name}>{kb.name}</div>
         <div style={s.studio}>{kb.studio}</div>
         <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
-          {kb.layout && <span style={{fontSize:'0.625rem',padding:'2px 8px',fontWeight:600,letterSpacing:0.5,textTransform:'uppercase',background:'var(--bg-secondary)',color:'var(--text-secondary)',borderRadius:4}}>{kb.layout}</span>}
-          {sc && <span style={{fontSize:'0.625rem',padding:'2px 8px',fontWeight:600,letterSpacing:0.5,textTransform:'uppercase',borderRadius:4,background:kb.status==='gb'?'#18181b':'var(--accent-dim)',color:kb.status==='gb'?'#fff':'#18181b'}}>{sc.label}</span>}
+          {kb.layout && <span className="tag">{kb.layout}</span>}
+          {sc && <span className="tag" style={{background:kb.status==='gb'?'#18181b':'var(--accent-dim)',color:kb.status==='gb'?'#fff':'#18181b'}}>{sc.label}</span>}
         </div>
                  </div>
     </div>

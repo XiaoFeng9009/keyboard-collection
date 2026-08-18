@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, createElement } from 'react'
+import { useState, useEffect, useRef, createElement, useMemo } from 'react'
 import useBreakpoint from '../lib/useBreakpoint'
 
 export default function StudioDetail({ studio, keyboards, onClose }) {
@@ -8,8 +8,10 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
   const [activeIdx, setActiveIdx] = useState(0)
   const [tocOpen, setTocOpen] = useState(isDesktop)
   const sectionRefs = useRef([])
-  const list = [...keyboards].filter(k => k.studio === studio)
-    .sort((a, b) => (b.sortTime || '').localeCompare(a.sortTime || ''))
+  const list = useMemo(function() {
+    return [...keyboards].filter(k => k.studio === studio)
+      .sort((a, b) => (b.sortTime || '').localeCompare(a.sortTime || ''))
+  }, [keyboards, studio])
 
   useEffect(function() {
     document.body.style.overflow = 'hidden'
@@ -77,12 +79,12 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
   return (
     <>
       {fullscreenImg && (
-        <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(fullscreenClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closeFullscreen}>
+        <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.55)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(fullscreenClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closeFullscreen}>
           <img src={fullscreenImg} style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
         </div>
       )}
 
-      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:'40px 20px',animation:'overlayIn .3s ease'}} onClick={onClose}>
+      <div className="overlay" style={{padding:'40px 20px'}} onClick={onClose}>
         <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:1152,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
           <div style={{overflowY:'auto',maxHeight:'88vh'}}>
 

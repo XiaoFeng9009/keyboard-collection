@@ -44,32 +44,27 @@ export default function SearchControls({ data, onFilter }) {
   }, [query, layout, status, data, onFilter])
 
   return (
-    <div style={{display:'flex',gap:10,marginBottom:24,flexWrap:'wrap',alignItems:'center'}}>
-      <div style={{position:'relative',flex:2,minWidth:260}}>
+    <div className="search-controls">
+      <div className="search-field">
         <Icon name="search" size={14} style={{position:'absolute',left:14,top:'50%',transform:'translateY(-50%)',color:'var(--text-muted)',pointerEvents:'none'}} />
         <input type="text" value={inputValue} onChange={function(e){setInputValue(e.target.value)}} onKeyDown={handleKeyDown}
           placeholder={'\u641C\u7D22\u952E\u76D8\u540D\u79F0\u3001\u5DE5\u4F5C\u5BA4...'}
-          style={{width:'100%',background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px 10px 40px',borderRadius:8,fontSize:14,boxShadow:'var(--shadow-base)',outline:'none'}} />
+          className="input-control" style={{paddingLeft:40}} />
         {inputValue && <button onClick={clearSearch} style={{position:'absolute',right:8,top:'50%',transform:'translateY(-50%)',background:'none',border:'none',cursor:'pointer',fontSize:14,color:'var(--text-muted)',padding:'4px 6px',lineHeight:1}}>{'\u2715'}</button>}
       </div>
-      <button onClick={doSearch}
-        style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',borderRadius:8,padding:'10px 16px',fontSize:13,cursor:'pointer',color:'var(--text-primary)',fontFamily:'inherit',boxShadow:'var(--shadow-base)',transition:'all .15s',whiteSpace:'nowrap'}}
-        onMouseEnter={function(e){e.target.style.background='var(--accent)';e.target.style.borderColor='var(--accent)'}}
-        onMouseLeave={function(e){e.target.style.background='var(--bg-primary)';e.target.style.borderColor='var(--border-base)'}}>
+      <button onClick={doSearch} className="btn" style={{flexShrink:0}}>
         {'\u641C\u7D22'}
       </button>
-      <select value={layout} onChange={function(e){setLayout(e.target.value)}}
-        style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px',fontSize:13,borderRadius:8,cursor:'pointer',boxShadow:'var(--shadow-base)',minWidth:120}}>
+      <select value={layout} onChange={function(e){setLayout(e.target.value)}} className="select-control search-select">
         <option value="">{'\u5168\u90E8\u914D\u5217'}</option>
         {layouts.map(function(l) { return <option key={l} value={l}>{l}</option> })}
       </select>
-      <select value={status} onChange={function(e){setStatus(e.target.value)}}
-        style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px',fontSize:13,borderRadius:8,cursor:'pointer',boxShadow:'var(--shadow-base)',minWidth:100}}>
+      <select value={status} onChange={function(e){setStatus(e.target.value)}} className="select-control search-select">
         <option value="">{'\u5168\u90E8\u72B6\u6001'}</option>
         <option value="ic">IC</option>
         <option value="gb">GB</option>
       </select>
-      <span style={{color:'var(--text-muted)',fontSize:12,whiteSpace:'nowrap'}}>
+      <span className="search-count">
         {'\u5171 ' + filteredCount + ' \u628A\u952E\u76D8'}
       </span>
     </div>

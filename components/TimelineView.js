@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import useBreakpoint from '../lib/useBreakpoint'
 
 export default function TimelineView({ keyboards }) {
@@ -9,11 +9,15 @@ export default function TimelineView({ keyboards }) {
   var sentinelRef = useRef(null)
   var { isMobile, isTablet, isDesktop } = useBreakpoint()
 
-  var sorted = [...keyboards].filter(function(k) { return k.sortTime })
-    .sort(function(a, b) { return b.sortTime.localeCompare(a.sortTime) })
+  var sorted = useMemo(function() {
+    return [...keyboards].filter(function(k) { return k.sortTime })
+      .sort(function(a, b) { return b.sortTime.localeCompare(a.sortTime) })
+  }, [keyboards])
 
-  var allYears = [...new Set(sorted.map(function(k) { return k.sortTime.slice(0, 4) }))]
-    .sort(function(a, b) { return b - a })
+  var allYears = useMemo(function() {
+    return [...new Set(sorted.map(function(k) { return k.sortTime.slice(0, 4) }))]
+      .sort(function(a, b) { return b - a })
+  }, [sorted])
 
   useEffect(function() {
     setVisibleCount(30)
@@ -79,15 +83,18 @@ export default function TimelineView({ keyboards }) {
     </div>
   }
 
-  var groupData = sorted.slice(0, visibleCount)
-  var groups = {}
-  groupData.forEach(function(k) {
-    var y = k.sortTime.slice(0, 4)
-    var m = parseInt(k.sortTime.slice(5, 7)) + '\u6708'
-    if (!groups[y]) groups[y] = {}
-    if (!groups[y][m]) groups[y][m] = []
-    groups[y][m].push(k)
-  })
+  var groupData = useMemo(function() { return sorted.slice(0, visibleCount) }, [sorted, visibleCount])
+  var groups = useMemo(function() {
+    const result = {}
+    groupData.forEach(function(k) {
+      var y = k.sortTime.slice(0, 4)
+      var m = parseInt(k.sortTime.slice(5, 7)) + '\u6708'
+      if (!result[y]) result[y] = {}
+      if (!result[y][m]) result[y][m] = []
+      result[y][m].push(k)
+    })
+    return result
+  }, [groupData])
 
   var statusText = function(k) {
     return k.status === 'ic' ? 'IC' : k.status === 'gb' ? 'GB' : k.status === 'completed' ? '\u5DF2\u5B8C\u6210' : ''
@@ -318,13 +325,13 @@ export default function TimelineView({ keyboards }) {
   return (
     <>
       {previewImg && (
-        <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
+        <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.55)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
           <img src={previewImg} decoding="async" style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
         </div>
       )}
 
       {isMobile && detailData && (
-        <div style={{position:'fixed',inset:0,zIndex:300,background:'rgba(0,0,0,0.5)',backdropFilter:'blur(3px)',display:'flex',alignItems:'flex-end',animation:'overlayIn .25s ease'}} onClick={function(){setDetailData(null)}}>
+        <div style={{position:'fixed',inset:0,zIndex:300,background:'rgba(0,0,0,0.6)',display:'flex',alignItems:'flex-end',animation:'overlayIn .25s ease'}} onClick={function(){setDetailData(null)}}>
           <div style={{background:'var(--bg-primary)',width:'100%',maxHeight:'88vh',overflowY:'auto',borderRadius:'16px 16px 0 0',animation:'slideUp .3s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
             {renderPanelContent()}
           </div>

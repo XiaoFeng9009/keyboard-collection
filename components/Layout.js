@@ -92,7 +92,7 @@ export default function Layout({ children, onGoHome }) {
 
       {/* Main content */}
       <div style={{marginLeft:0,width:'100%',minHeight:'100vh'}}>
-        <main style={{maxWidth:'85rem',margin:'0 auto',padding:isMobile?'60px 12px 32px':(isTablet?'60px 20px 32px':'80px 40px 32px')}}>
+        <main className="site-main">
           {children}
         </main>
       </div>

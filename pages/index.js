@@ -77,7 +77,7 @@ export default function Home() {
     <>
       <Layout onGoHome={handleGoHome}>
       <SearchControls key={router.asPath + '_' + resetKey} data={sortedKeyboards} onFilter={setFiltered} />
-      <div style={{display:'grid',gridTemplateColumns:'repeat('+cols+',1fr)',gap:isMobile?'0.75rem':'1.25rem'}}>
+      <div className={'card-grid ' + (cols === 1 ? 'grid-cards-1' : cols === 2 ? 'grid-cards-2' : 'grid-cards-4')}>
         {paged.map(k => <KeyboardCard key={k.id} kb={k} onClick={() => setDetailData(k)} />)}
       </div>
       {filtered.length === 0 && (

@@ -57,9 +57,6 @@ export default function Studios() {
   if (loading) return <Layout><div style={{textAlign:'center',padding:'60px',color:'var(--text-muted)',fontSize:13}}>{'\u52A0\u8F7D\u4E2D...'}</div></Layout>
 
   const cardMin = isMobile ? 140 : isTablet ? 180 : 220
-  const card = { background:'var(--bg-primary)', border:'1px solid var(--border-base)', padding:'14px 18px',
-    cursor:'pointer', transition:'all .2s', boxShadow:'var(--shadow-base)' }
-
   return (
     <Layout>
       {/* A-Z Quick Nav */}
@@ -86,9 +83,7 @@ export default function Studios() {
           <div style={{fontSize:22,fontWeight:700,color:'var(--text-primary)',borderBottom:'2px solid var(--accent)',paddingBottom:4,marginBottom:12,letterSpacing:1}}>{ch}</div>
           <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax('+cardMin+'px,1fr))',gap:isMobile?10:12}}>
             {(groups[ch] || []).map(s => (
-              <div key={s.name} style={card}
-                onMouseEnter={e=>{e.currentTarget.style.boxShadow='var(--shadow-hover)';e.currentTarget.style.transform='translateY(-2px)'}}
-                onMouseLeave={e=>{e.currentTarget.style.boxShadow='var(--shadow-base)';e.currentTarget.style.transform='translateY(0)'}}
+              <div key={s.name} className="card hover-lift" style={{border:'1px solid var(--border-base)',padding:'14px 18px',cursor:'pointer'}}
                 onClick={() => setStudioData(s.name)}>
                 <div style={{fontSize:14,fontWeight:600,marginBottom:2}}>{s.name}</div>
                 <div style={{display:'flex',alignItems:'center',gap:6,fontSize:11,color:'var(--text-muted)'}}>

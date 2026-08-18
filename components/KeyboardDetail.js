@@ -49,7 +49,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   return (
     <>
       {previewOpen && images.length > 0 && (
-        <div data-testid="fullscreen-preview" style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
+        <div data-testid="fullscreen-preview" style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.55)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
           {images.length > 1 && (
             <button
               type="button"
@@ -84,7 +84,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
           >{'\u2715'}</button>
         </div>
       )}
-      <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.6)',zIndex:300,display:'flex',justifyContent:'center',alignItems:'center',backdropFilter:'blur(6px)',padding:isMobile?8:20,animation:'overlayIn .3s ease'}} onClick={onClose}>
+      <div className="overlay" style={{padding:isMobile?8:20}} onClick={onClose}>
         <div style={{background:'var(--bg-primary)',borderRadius:12,width:'100%',maxWidth:1440,height:isDesktop?'min(94vh, calc(min(100vw - 40px, 1440px) * 0.465))':'auto',maxHeight:'94vh',display:'flex',flexDirection:isDesktop?'row':'column',overflow:'hidden',boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={e=>e.stopPropagation()}>
 
           {/* Edge-to-edge image area */}
@@ -101,7 +101,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
                 <button type="button" aria-label={'\u4E0B\u4E00\u5F20'} title={'\u4E0B\u4E00\u5F20'} onClick={()=>setImgIdx(i=>(i+1)%images.length)} style={{position:'absolute',right:14,top:'50%',transform:'translateY(-50%)',zIndex:2,background:'rgba(24,24,27,0.55)',color:'#fff',border:'none',borderRadius:'50%',width:40,height:40,fontSize:18,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',lineHeight:1}}>{'\u25B6'}</button>
                 <div style={{position:'absolute',top:12,right:12,zIndex:2,background:'rgba(24,24,27,0.55)',color:'#fff',padding:'3px 10px',fontSize:11,borderRadius:6}}>{(imgIdx+1)+'/'+images.length}</div>
 
-                <div style={{position:'absolute',left:'50%',bottom:14,transform:'translateX(-50%)',zIndex:2,display:'flex',gap:8,padding:'8px 10px',maxWidth:'92%',overflowX:'auto',background:'rgba(24,24,27,0.55)',borderRadius:10,backdropFilter:'blur(6px)'}}>
+                <div style={{position:'absolute',left:'50%',bottom:14,transform:'translateX(-50%)',zIndex:2,display:'flex',gap:8,padding:'8px 10px',maxWidth:'92%',overflowX:'auto',background:'rgba(24,24,27,0.72)',borderRadius:10}}>
                   {images.map(function(src, idx) {
                     const active = idx === imgIdx
                     return (

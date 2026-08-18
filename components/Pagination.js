@@ -5,30 +5,6 @@ export default function Pagination({ current, total, pageSize, onChange, onPageS
   const totalPages = Math.ceil(total / pageSize)
   if (totalPages <= 1) return null
 
-  const base = {
-    btn: (active) => ({
-      padding: '6px 12px', fontSize: 12, cursor: 'pointer', fontFamily: 'inherit',
-      fontWeight: active ? 600 : 400,
-      background: active ? 'var(--accent)' : 'var(--bg-primary)',
-      color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-      border: '1px solid var(--border-base)', boxShadow: active ? '0 0 0 1.5px var(--text-primary)' : 'none',
-      transition: 'all .15s', borderRadius: 6, lineHeight: 1, minWidth: 32,
-    }),
-    nav: (disabled) => ({
-      padding: '6px 12px', fontSize: 12, cursor: disabled ? 'default' : 'pointer',
-      fontFamily: 'inherit', fontWeight: 500,
-      background: 'var(--bg-primary)',
-      color: disabled ? 'var(--text-muted)' : 'var(--text-primary)',
-      border: '1px solid var(--border-base)',
-      opacity: disabled ? 0.4 : 1, transition: 'all .15s', borderRadius: 6, lineHeight: 1,
-    }),
-    input: {
-      width: 48, padding: '6px 8px', fontSize: 12, textAlign: 'center',
-      background: 'var(--bg-base)', border: '1px solid var(--border-base)',
-      color: 'var(--text-primary)', fontFamily: 'inherit', borderRadius: 6,
-    }
-  }
-
   const go = (p) => {
     if (p >= 1 && p <= totalPages) onChange(p)
     setJumpInput('')
@@ -49,42 +25,28 @@ export default function Pagination({ current, total, pageSize, onChange, onPageS
 
   return (
     <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:4,marginTop:24,padding:'8px 0',flexWrap:'wrap'}}>
-      <button disabled={current <= 1} onClick={() => go(1)} style={base.nav(current <= 1)}
-        onMouseEnter={e=>{if(current>1)e.target.style.borderColor='var(--text-primary)'}}
-        onMouseLeave={e=>{e.target.style.borderColor='var(--border-base)'}}>{'\u00AB'}</button>
-      <button disabled={current <= 1} onClick={() => go(current - 1)} style={base.nav(current <= 1)}
-        onMouseEnter={e=>{if(current>1)e.target.style.borderColor='var(--text-primary)'}}
-        onMouseLeave={e=>{e.target.style.borderColor='var(--border-base)'}}>{'\u2039'}</button>
+      <button disabled={current <= 1} onClick={() => go(1)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current <= 1 ? 0.4 : 1}}>{'\u00AB'}</button>
+      <button disabled={current <= 1} onClick={() => go(current - 1)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current <= 1 ? 0.4 : 1}}>{'\u2039'}</button>
 
       {start > 1 && <span style={{color:'var(--text-muted)',fontSize:12,padding:'0 2px'}}>...</span>}
       {pages.map(p => (
-        <button key={p} onClick={() => go(p)} style={base.btn(p === current)}
-          onMouseEnter={e=>{if(p!==current)e.target.style.borderColor='var(--text-primary)'}}
-          onMouseLeave={e=>{if(p!==current)e.target.style.borderColor='var(--border-base)'}}>{p}</button>
+        <button key={p} onClick={() => go(p)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,fontWeight:p === current ? 600 : 400,background:p === current ? 'var(--accent)' : 'var(--bg-primary)',boxShadow:p === current ? '0 0 0 1.5px var(--text-primary)' : 'none'}}>{p}</button>
       ))}
       {end < totalPages && <span style={{color:'var(--text-muted)',fontSize:12,padding:'0 2px'}}>...</span>}
 
-      <button disabled={current >= totalPages} onClick={() => go(current + 1)} style={base.nav(current >= totalPages)}
-        onMouseEnter={e=>{if(current<totalPages)e.target.style.borderColor='var(--text-primary)'}}
-        onMouseLeave={e=>{e.target.style.borderColor='var(--border-base)'}}>{'\u203A'}</button>
-      <button disabled={current >= totalPages} onClick={() => go(totalPages)} style={base.nav(current >= totalPages)}
-        onMouseEnter={e=>{if(current<totalPages)e.target.style.borderColor='var(--text-primary)'}}
-        onMouseLeave={e=>{e.target.style.borderColor='var(--border-base)'}}>{'\u00BB'}</button>
+      <button disabled={current >= totalPages} onClick={() => go(current + 1)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current >= totalPages ? 0.4 : 1}}>{'\u203A'}</button>
+      <button disabled={current >= totalPages} onClick={() => go(totalPages)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current >= totalPages ? 0.4 : 1}}>{'\u00BB'}</button>
 
       <select value={pageSize} onChange={function(e){onPageSizeChange(parseInt(e.target.value))}}
-        style={{padding:'6px 8px',fontSize:12,background:'var(--bg-base)',border:'1px solid var(--border-base)',color:'var(--text-primary)',fontFamily:'inherit',cursor:'pointer',borderRadius:6,marginLeft:8}}>
+        className="input-control" style={{width:'auto',minHeight:0,padding:'6px 8px',fontSize:12,background:'var(--bg-base)',borderRadius:6,marginLeft:8}}>
         <option value={8}>8</option>
         <option value={12}>12</option>
         <option value={16}>16</option>
       </select>
             <form onSubmit={handleJump} style={{display:'flex',alignItems:'center',gap:4,marginLeft:8}}>
         <input type="text" value={jumpInput} onChange={e=>setJumpInput(e.target.value)}
-          placeholder={''+totalPages} style={base.input} />
-        <button type="submit" style={{padding:'6px 12px',fontSize:12,cursor:'pointer',
-          fontFamily:'inherit',fontWeight:500,background:'var(--bg-primary)',
-          color:'var(--text-primary)',border:'1px solid var(--border-base)',borderRadius:6,
-          lineHeight:1}} onMouseEnter={e=>e.target.style.borderColor='var(--text-primary)'}
-          onMouseLeave={e=>e.target.style.borderColor='var(--border-base)'}>GO</button>
+          placeholder={''+totalPages} className="input-control" style={{width:48,minHeight:0,padding:'6px 8px',fontSize:12,textAlign:'center',background:'var(--bg-base)',borderRadius:6}} />
+        <button type="submit" className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6}}>GO</button>
       </form>
 
       <span style={{color:'var(--text-muted)',fontSize:11,marginLeft:4}}>{current}/{totalPages}</span>
