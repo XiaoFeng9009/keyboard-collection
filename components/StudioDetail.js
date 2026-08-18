@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef, createElement } from 'react'
+import { useState, useEffect, useRef, createElement } from 'react'
 import useBreakpoint from '../lib/useBreakpoint'
 
 export default function StudioDetail({ studio, keyboards, onClose }) {
@@ -117,7 +117,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                       <div key={k.id} ref={function(el){sectionRefs.current[idx]=el}} data-idx={idx}
                         style={{scrollMarginTop:80, marginBottom: idx < list.length - 1 ? 36 : 0}}>
                         <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
-                        {img && (<img src={img} alt={k.name} style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
+                        {img && (<img src={img} alt={k.name} loading="lazy" decoding="async" style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
                         <p style={{fontSize:13,fontWeight:500,margin:'0 0 12px',width:'88%',color:'var(--text-secondary)',textAlign:'center'}}>{k.name}</p>
                         <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                           <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}
@@ -166,7 +166,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                     <div key={k.id} ref={function(el){sectionRefs.current[idx]=el}} data-idx={idx}
                       style={{marginBottom: idx < list.length - 1 ? 36 : 0}}>
                       <h3 style={{fontSize:20,fontWeight:700,marginBottom:16,color:'var(--text-primary)',paddingBottom:6}}>{k.name}</h3>
-                      {img && (<img src={img} alt={k.name} style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
+                      {img && (<img src={img} alt={k.name} loading="lazy" decoding="async" style={{width:'88%',aspectRatio:'4/3',objectFit:'cover',display:'block',margin:'0 0 12px',cursor:'zoom-in',background:'var(--bg-secondary)',borderRadius:8}} onClick={function(){setFullscreenImg(img)}} onError={function(e){e.target.style.display='none'}} />)}
                       <p style={{fontSize:13,fontWeight:500,margin:'0 0 12px',width:'88%',color:'var(--text-secondary)',textAlign:'center'}}>{k.name}</p>
                       <p style={{fontSize:13,marginBottom:4,lineHeight:1.6,color:'var(--text-secondary)'}}>
                         <strong style={{color:'var(--text-primary)'}}>{'IC\u9636\u6BB5'}</strong>: {k.icTime || '\u2014'}

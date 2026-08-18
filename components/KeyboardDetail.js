@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import useBreakpoint from '../lib/useBreakpoint'
 
 export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
@@ -90,7 +90,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
           {/* Edge-to-edge image area */}
           <div style={{position:'relative',flex:isDesktop?'1 1 62%':'0 0 auto',minWidth:0,width:isDesktop?'auto':'100%',aspectRatio:'4/3',overflow:'hidden',background:'var(--bg-secondary)'}}>
             {images.length > 0 && (
-              <img src={img} alt={keyboard.name} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',display:'block',cursor:'zoom-in'}}
+              <img src={img} alt={keyboard.name} decoding="async" style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',display:'block',cursor:'zoom-in'}}
                 onClick={() => setPreviewOpen(true)}
                 onError={e=>{e.target.style.display='none'}} />
             )}
@@ -111,7 +111,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
                         onClick={() => setImgIdx(idx)}
                         aria-label={'\u67E5\u770B\u7B2C' + (idx+1) + '\u5F20'}
                         style={{position:'relative',width:56,height:42,flexShrink:0,padding:0,borderRadius:6,overflow:'hidden',cursor:'pointer',background:'var(--bg-secondary)',border:active?'2px solid #fff':'1px solid rgba(255,255,255,0.35)'}}>
-                        <img src={src} alt={keyboard.name + ' ' + (idx+1)} style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} onError={e=>{e.target.style.display='none'}} />
+                        <img src={src} alt={keyboard.name + ' ' + (idx+1)} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}} onError={e=>{e.target.style.display='none'}} />
                         {active && <span style={{position:'absolute',inset:0,background:'rgba(0,0,0,0.35)'}} />}
                       </button>
                     )

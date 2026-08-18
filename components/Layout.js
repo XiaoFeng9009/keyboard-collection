@@ -2,6 +2,7 @@
 import { useRouter } from 'next/router'
 import BackToTop from './BackToTop'
 import useBreakpoint from '../lib/useBreakpoint'
+import Icon from './Icon'
 
 export default function Layout({ children, onGoHome }) {
   const router = useRouter()
@@ -19,10 +20,10 @@ export default function Layout({ children, onGoHome }) {
   }, [])
 
   const tabs = [
-    { path: '/', label: 'HOME', icon: 'fas fa-home' },
-    { path: '/studios', label: 'STUDIO', icon: 'fas fa-th' },
-    { path: '/timeline', label: 'TIMELINE', icon: 'fas fa-archive' },
-    { path: '/admin', label: 'SETTING', icon: 'fas fa-tag' },
+    { path: '/', label: 'HOME', icon: 'home' },
+    { path: '/studios', label: 'STUDIO', icon: 'grid' },
+    { path: '/timeline', label: 'TIMELINE', icon: 'archive' },
+    { path: '/admin', label: 'SETTING', icon: 'tag' },
   ]
 
   var renderSidebar = function(isOpenStyle) {
@@ -37,7 +38,7 @@ export default function Layout({ children, onGoHome }) {
             return (
               <button key={t.path} onClick={function(){ if(t.path==='/'&&onGoHome){onGoHome()}else{router.push(t.path)} if(!isDesktop) setMenuOpen(false) }}
                 style={{width:'100%',display:'flex',alignItems:'center',padding:'14px 34px',border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:15,letterSpacing:0.5,background:isActive?'var(--accent)':'transparent',color:isActive?'#18181b':'var(--text-primary)',fontWeight:600,transition:'all .15s',whiteSpace:'nowrap',textAlign:'left'}}>
-                <i className={t.icon} style={{fontSize:16,width:22,textAlign:'center',lineHeight:1}}></i>
+                <Icon name={t.icon} size={16} style={{width:22,flexShrink:0}} />
                 <span style={{opacity:(isOpenStyle||expanded)?1:0,maxWidth:(isOpenStyle||expanded)?200:0,marginLeft:(isOpenStyle||expanded)?14:0,overflow:'hidden',whiteSpace:'nowrap',transition:(isOpenStyle||expanded)?'opacity .3s ease .075s,maxWidth .3s ease .075s,marginLeft .3s ease .075s':'opacity .2s ease,maxWidth .2s ease,marginLeft .2s ease'}}>{t.label}</span>
               </button>
             )
@@ -64,7 +65,7 @@ export default function Layout({ children, onGoHome }) {
                 style={{padding:'0 18px',height:56,border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:13,fontWeight:isActive?600:400,letterSpacing:0.5,borderRadius:0,background:isActive?'var(--accent)':'transparent',color:isActive?'#18181b':'var(--text-primary)',transition:'all .15s',display:'flex',alignItems:'center',gap:8}}
                 onMouseEnter={function(e){if(!isActive)e.target.style.background='var(--bg-secondary)'}}
                 onMouseLeave={function(e){if(!isActive)e.target.style.background='transparent'}}>
-                <i className={t.icon} style={{fontSize:14}}></i>
+                <Icon name={t.icon} size={14} />
                 <span>{t.label}</span>
               </button>
             )

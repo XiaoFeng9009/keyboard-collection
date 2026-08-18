@@ -5,16 +5,35 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const { execFileSync } = require('child_process');
 
 const IMG_DIR = path.join(__dirname, 'public', 'images');
 const DATA_FILE = path.join(__dirname, 'public', 'data.json');
 const INDEX_FILE = path.join(__dirname, 'public', 'images_index.json');
 const META_FILE = path.join(__dirname, 'public', 'data-meta.json');
+const THUMB_DIR = path.join(__dirname, 'public', 'thumbnails');
+const THUMB_SCRIPT = path.join(__dirname, 'generate-thumbnails.js');
 
 const VALID_EXTS = new Set(['.jpg','.jpeg','.png','.webp','.gif','.svg','.bmp']);
+const THUMB_EXTS = new Set(['.jpg','.jpeg','.png','.webp']);
+
+function getThumbUrl(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  if (!THUMB_EXTS.has(ext)) return null;
+
+  const rel = path.relative(IMG_DIR, filePath).replace(/\\/g, '/');
+  const webpRel = rel.slice(0, -ext.length) + '.webp';
+  return fs.existsSync(path.join(THUMB_DIR, webpRel)) ? '/thumbnails/' + webpRel : null;
+}
 
 // === 1. 生成 images_index.json（管理页面选择图片用）===
 console.log('=== 1. 扫描图片文件夹 ===');
+
+try {
+  execFileSync(process.execPath, [THUMB_SCRIPT], { stdio: 'inherit' });
+} catch (err) {
+  console.warn('缩略图生成失败，将跳过缩略图字段');
+}
 
 const images = [];
 const dirs = fs.readdirSync(IMG_DIR, {withFileTypes:true}).filter(d => d.isDirectory());
@@ -23,7 +42,11 @@ dirs.forEach(dir => {
   const files = fs.readdirSync(path.join(IMG_DIR, dir.name));
   files.forEach(file => {
     if (VALID_EXTS.has(path.extname(file).toLowerCase())) {
-      images.push({ path: '/images/' + dir.name + '/' + file, name: file, group: dir.name });
+      const filePath = path.join(IMG_DIR, dir.name, file);
+      const thumb = getThumbUrl(filePath);
+      const item = { path: '/images/' + dir.name + '/' + file, name: file, group: dir.name };
+      if (thumb) item.thumb = thumb;
+      images.push(item);
     }
   });
 });
@@ -32,13 +55,17 @@ dirs.forEach(dir => {
 fs.readdirSync(IMG_DIR).forEach(f => {
   const fp = path.join(IMG_DIR, f);
   if (fs.statSync(fp).isFile() && VALID_EXTS.has(path.extname(f).toLowerCase())) {
-    images.push({ path: '/images/' + f, name: f, group: '(root)' });
+    const thumb = getThumbUrl(fp);
+    const item = { path: '/images/' + f, name: f, group: '(root)' };
+    if (thumb) item.thumb = thumb;
+    images.push(item);
   }
 });
 
 const index = { images, total: images.length };
 fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2), 'utf-8');
 console.log('  images_index.json 已更新: ' + images.length + ' 张图片');
+  console.log('  缩略图字段已写入');
 
 // === 2. 更新 data.json 中键盘的图片路径 ===
 console.log('');

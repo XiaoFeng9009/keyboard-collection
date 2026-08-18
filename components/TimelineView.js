@@ -117,7 +117,7 @@ export default function TimelineView({ keyboards }) {
           <button onClick={function(){setDetailData(null)}} style={{background:'none',border:'none',cursor:'pointer',fontSize:16,color:'var(--text-muted)',lineHeight:1,padding:'2px 6px'}}>{'\u2715'}</button>
         </div>
 
-        {detailImg && <img src={detailImg} alt={detailData.name} style={{width:'100%',maxHeight:isMobile?260:280,objectFit:'cover',display:'block',cursor:'zoom-in'}} onClick={function(){setPreviewImg(detailImg)}} onError={function(e){e.target.style.display='none'}} />}
+        {detailImg && <img src={detailImg} alt={detailData.name} loading="lazy" decoding="async" style={{width:'100%',maxHeight:isMobile?260:280,objectFit:'cover',display:'block',cursor:'zoom-in'}} onClick={function(){setPreviewImg(detailImg)}} onError={function(e){e.target.style.display='none'}} />}
 
         <div style={{padding:isMobile?'16px 18px':'22px 24px'}}>
           <h4 style={{fontSize:isMobile?20:22,fontWeight:700,marginBottom:12,color:'var(--text-primary)'}}>{detailData.name}</h4>
@@ -319,7 +319,7 @@ export default function TimelineView({ keyboards }) {
     <>
       {previewImg && (
         <div style={{position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,0.3)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',cursor:'zoom-out',padding:20,animation:(previewClosing?'previewOut .25s ease':'previewIn .25s ease')}} onClick={closePreview}>
-          <img src={previewImg} style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
+          <img src={previewImg} decoding="async" style={{maxWidth:'95%',maxHeight:'95%',objectFit:'contain'}} />
         </div>
       )}
 

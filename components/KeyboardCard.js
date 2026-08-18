@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { thumbFor } from '../lib/imageUrl'
 function getImg(kb) {
   if (kb.images && kb.images.length > 0) return kb.images[0]
   return kb.image || ''
@@ -13,10 +14,12 @@ export default function KeyboardCard({ kb, onClick }) {
   var img = getImg(kb)
   var multi = kb.images && kb.images.length > 1
   var [hovered, setHovered] = useState(false)
+  var [imgFallback, setImgFallback] = useState(false)
   var t = hovered ? 1 : 0
   var handleEnter = function() { setHovered(true) }
   var handleLeave = function() { setHovered(false) }
   var handleClick = function() { onClick && onClick(kb) }
+  var shownImg = imgFallback ? img : thumbFor(img)
 
   var s = {
     card: { background:'var(--bg-primary)', overflow:'hidden', borderRadius:10, cursor:'pointer', position:'relative' },
@@ -37,8 +40,8 @@ export default function KeyboardCard({ kb, onClick }) {
       <div style={{position:'absolute',top:0,left:0,right:0,height:3,zIndex:2,background:'var(--accent)',transform:'scaleX(' + t + ')',transformOrigin:'left',transition:'transform .3s ease'}} />
       
       <div style={s.imgWrap}>
-        {img ? <img src={img} alt={kb.name} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale(' + (1 + t * 0.05) + ')',transition:'transform .7s ease'}}
-          onError={function(e){e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
+        {img ? <img src={shownImg} alt={kb.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale(' + (1 + t * 0.05) + ')',transition:'transform .7s ease'}}
+          onError={function(e){if(!imgFallback){setImgFallback(true);return}e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
         <div style={{display:img?'none':'flex',alignItems:'center',justifyContent:'center',height:'100%',color:'var(--text-muted)',fontSize:'0.75rem'}}>{kb.name}</div>
         {multi && <div style={{position:'absolute',top:8,right:8,background:'var(--bg-primary)',padding:'2px 6px',fontSize:'0.625rem',borderRadius:4}}>{'+'+(kb.images.length-1)}</div>}
       </div>

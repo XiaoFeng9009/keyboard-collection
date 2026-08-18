@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 export default function KeyboardForm({ show, onClose, onSave, editData, studios }) {
   const [name, setName] = useState('')
   const [studio, setStudio] = useState('')
@@ -24,6 +24,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
   const [allImgs, setAllImgs] = useState([])
   const [browseOpen, setBrowseOpen] = useState(false)
   const [browseFilter, setBrowseFilter] = useState('')
+  const [expandedGroups, setExpandedGroups] = useState({})
   var [showSuggestions, setShowSuggestions] = useState(false)
   var [filteredStudios, setFilteredStudios] = useState([])
   var wrapperRef = useRef(null)
@@ -193,20 +194,36 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
           {/* Image browser */}
           {browseOpen && <div style={{border:'1px solid var(--border-base)',background:'var(--bg-secondary)',padding:12,maxHeight:300,overflowY:'auto'}}>
             <input value={browseFilter} onChange={e=>setBrowseFilter(e.target.value)} placeholder={'\u641C\u7D22\u56FE\u7247...'} style={{...st.input,marginBottom:8}} />
-            {Object.entries(groups).sort().map(([group, imgs]) => (
-              <details key={group} style={{marginBottom:4}}>
-                <summary style={{fontSize:11,fontWeight:600,cursor:'pointer',padding:'2px 0',color:'var(--text-secondary)',letterSpacing:0.5}}>{group} ({imgs.length})</summary>
-                <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minpx(60px,1fr))',gap:4,padding:4}}>
-                  {imgs.sort((a,b)=>a.name.localeCompare(b.name)).map(img => {
-                    const selected = images.includes(img.path)
-                    return <div key={img.path} onClick={()=>toggleImage(img.path)} style={{cursor:'pointer',border:selected?'2px solid var(--accent)':'1px solid var(--border-base)',overflow:'hidden',background:'var(--bg-primary)',position:'relative',aspectRatio:1}} title={img.name}>
-                      <img src={img.path} alt={img.name} style={{width:'100%',height:'100%',objectFit:'cover'}} onError={e=>e.target.style.display='none'} />
-                      {selected && <div style={{position:'absolute',top:0,right:0,background:'var(--accent)',color:'var(--text-primary)',fontSize:9,padding:'1px 4px',fontWeight:700}}>{'\u2713'}</div>}
+            {Object.entries(groups).sort(function(a, b) { return a[0].localeCompare(b[0]) }).map(function(entry) {
+              const group = entry[0]
+              const imgs = entry[1]
+              const isOpen = !!expandedGroups[group]
+              return (
+                <div key={group} style={{marginBottom:4}}>
+                  <button
+                    type="button"
+                    onClick={function() { setExpandedGroups(function(prev) { return { ...prev, [group]: !prev[group] } }) }}
+                    style={{width:'100%',textAlign:'left',fontFamily:'inherit',fontSize:11,fontWeight:600,cursor:'pointer',padding:'4px 2px',color:'var(--text-secondary)',letterSpacing:0.5,background:'transparent',border:'none',display:'flex',justifyContent:'space-between',alignItems:'center'}}
+                  >
+                    <span>{group} ({imgs.length})</span>
+                    <span>{isOpen ? '\u25B4' : '\u25BE'}</span>
+                  </button>
+                  {isOpen && (
+                    <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(60px,1fr))',gap:4,padding:4}}>
+                      {[...imgs].sort(function(a,b){return a.name.localeCompare(b.name)}).map(function(img) {
+                        const selected = images.includes(img.path)
+                        return (
+                          <div key={img.path} onClick={function(){toggleImage(img.path)}} style={{cursor:'pointer',border:selected?'2px solid var(--accent)':'1px solid var(--border-base)',overflow:'hidden',background:'var(--bg-primary)',position:'relative',aspectRatio:1}} title={img.name}>
+                            <img src={img.thumb || img.path} alt={img.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover'}} onError={function(e){e.target.style.display='none'}} />
+                            {selected && <div style={{position:'absolute',top:0,right:0,background:'var(--accent)',color:'var(--text-primary)',fontSize:9,padding:'1px 4px',fontWeight:700}}>{'\u2713'}</div>}
+                          </div>
+                        )
+                      })}
                     </div>
-                  })}
+                  )}
                 </div>
-              </details>
-            ))}
+              )
+            })}
           </div>}
         </div>
         <div style={st.row}>

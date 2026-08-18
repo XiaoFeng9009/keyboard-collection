@@ -1,4 +1,5 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import Icon from './Icon'
 
 export default function SearchControls({ data, onFilter }) {
   const [inputValue, setInputValue] = useState('')
@@ -45,7 +46,7 @@ export default function SearchControls({ data, onFilter }) {
   return (
     <div style={{display:'flex',gap:10,marginBottom:24,flexWrap:'wrap',alignItems:'center'}}>
       <div style={{position:'relative',flex:2,minWidth:260}}>
-        <i className="fas fa-search" style={{position:'absolute',left:14,top:'50%',transform:'translateY(-50%)',color:'var(--text-muted)',fontSize:14,pointerEvents:'none'}}></i>
+        <Icon name="search" size={14} style={{position:'absolute',left:14,top:'50%',transform:'translateY(-50%)',color:'var(--text-muted)',pointerEvents:'none'}} />
         <input type="text" value={inputValue} onChange={function(e){setInputValue(e.target.value)}} onKeyDown={handleKeyDown}
           placeholder={'\u641C\u7D22\u952E\u76D8\u540D\u79F0\u3001\u5DE5\u4F5C\u5BA4...'}
           style={{width:'100%',background:'var(--bg-primary)',border:'1px solid var(--border-base)',color:'var(--text-primary)',padding:'10px 14px 10px 40px',borderRadius:8,fontSize:14,boxShadow:'var(--shadow-base)',outline:'none'}} />
