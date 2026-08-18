@@ -223,9 +223,9 @@ a:focus-visible {
 
 .search-controls .search-field {
   position: relative;
-  flex: 1 1 260px;
+  flex: 1 1 auto;
   min-width: 0;
-  max-width: 520px;
+  max-width: none;
 }
 
 .search-controls .search-field .input-control {
@@ -233,9 +233,13 @@ a:focus-visible {
 }
 
 .search-controls .search-select {
-  flex: 0 1 120px;
-  max-width: 150px;
-  min-width: 0;
+  flex: 0 0 144px;
+  max-width: 165px;
+}
+
+.search-controls .btn {
+  height: 38px;
+  min-height: 38px;
 }
 
 .search-controls .search-count {
