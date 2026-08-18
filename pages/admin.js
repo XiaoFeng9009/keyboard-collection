@@ -6,6 +6,35 @@ import useData from '../lib/useData'
 
 const ADMIN_PASSWORD = 'kb2026'
 const PAGE_SIZE = 15
+const ADMIN_EDITS_KEY = 'keyboardAdminEdits'
+const ADMIN_DELETED_KEY = 'keyboardDeletedIds'
+
+function getAdminEdits() {
+  try {
+    const raw = localStorage.getItem(ADMIN_EDITS_KEY)
+    return raw ? JSON.parse(raw) || {} : {}
+  } catch (err) {
+    return {}
+  }
+}
+
+function setAdminEdits(edits) {
+  localStorage.setItem(ADMIN_EDITS_KEY, JSON.stringify(edits || {}))
+}
+
+function getDeletedIds() {
+  try {
+    const raw = localStorage.getItem(ADMIN_DELETED_KEY)
+    const value = raw ? JSON.parse(raw) : []
+    return Array.isArray(value) ? value : []
+  } catch (err) {
+    return []
+  }
+}
+
+function setDeletedIds(ids) {
+  localStorage.setItem(ADMIN_DELETED_KEY, JSON.stringify(ids || []))
+}
 
 export default function Admin() {
   const { keyboards, loading } = useData()
@@ -75,6 +104,11 @@ export default function Admin() {
   const save = (kb) => {
     let updated = editData ? data.map(k => k.id === kb.id ? kb : k) : [...data, kb]
     setData(updated); localStorage.setItem("keyboardData", JSON.stringify(updated))
+    const edits = getAdminEdits()
+    edits[kb.id] = kb
+    setAdminEdits(edits)
+    const deleted = getDeletedIds().filter(function(id) { return id !== kb.id })
+    setDeletedIds(deleted)
     setShowForm(false); setEditData(null); setToastMsg(editData ? "\u5DF2\u66F4\u65B0\uFF08\u4E34\u65F6\uFF09\uFF0C\u8BF7\u5BFC\u51FA JSON \u4EE5\u6C38\u4E45\u4FDD\u5B58" : "\u5DF2\u6DFB\u52A0\uFF08\u4E34\u65F6\uFF09\uFF0C\u8BF7\u5BFC\u51FA JSON \u4EE5\u6C38\u4E45\u4FDD\u5B58")
   }
 
@@ -82,6 +116,12 @@ export default function Admin() {
     if (!confirm("\u786E\u5B9A\u5220\u9664?")) return
     const updated = data.filter(k => k.id !== id)
     setData(updated); localStorage.setItem("keyboardData", JSON.stringify(updated)); setToastMsg("\u5DF2\u5220\u9664\uFF08\u4E34\u65F6\uFF09")
+    const edits = getAdminEdits()
+    delete edits[id]
+    setAdminEdits(edits)
+    const deleted = getDeletedIds()
+    if (!deleted.includes(id)) deleted.push(id)
+    setDeletedIds(deleted)
   }
 
   const exportJSON = () => {
@@ -93,7 +133,7 @@ export default function Admin() {
   const importJSON = (e) => {
     const file = e.target.files[0]; if (!file) return
     const r = new FileReader()
-    r.onload = (ev) => { try { const d = JSON.parse(ev.target.result); if (d.keyboards) { setData(d.keyboards); localStorage.setItem("keyboardData",JSON.stringify(d.keyboards)); setToastMsg("\u5BFC\u5165\u6210\u529F") } } catch(err) {} }
+    r.onload = (ev) => { try { const d = JSON.parse(ev.target.result); if (d.keyboards) { setData(d.keyboards); localStorage.setItem("keyboardData",JSON.stringify(d.keyboards)); setAdminEdits({}); setDeletedIds([]); setToastMsg("\u5BFC\u5165\u6210\u529F") } } catch(err) {} }
     r.readAsText(file); e.target.value = ""
   }
 
