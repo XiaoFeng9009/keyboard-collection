@@ -39,6 +39,7 @@ export default function KeyboardCard({ kb, onClick }) {
         <div className="kb-card-zoom">
           <div className="kb-card-img">
             {img ? <img src={shownImg} alt={kb.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
+              onLoad={function(e){if(!imgFallback && e.target.naturalWidth === 0){setImgFallback(true)}}}
               onError={function(e){if(!imgFallback){setImgFallback(true);return}e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
             <div style={{display:img?'none':'flex',alignItems:'center',justifyContent:'center',height:'100%',color:'var(--text-muted)',fontSize:'0.75rem',position:'relative',zIndex:0}}>{'\u6682\u65E0\u56FE\u7247'}</div>
           </div>

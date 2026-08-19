@@ -22192,6 +22192,37 @@
         "https://www.zfrontier.com/app/flow/6gYApGnAMm3p"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1787129642391",
+      "name": "Spaceforge",
+      "studio": "GrayStudio造键坞",
+      "sortTime": "2026-08-19",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/GrayStudio造键坞/Spaceforge.2.webp",
+        "/images/GrayStudio造键坞/Spaceforge.3.webp",
+        "/images/GrayStudio造键坞/Spaceforge.4.webp",
+        "/images/GrayStudio造键坞/Spaceforge.5.webp",
+        "/images/GrayStudio造键坞/Spaceforge.webp"
+      ],
+      "icTime": "2026-08-19",
+      "icLink": "https://www.zfrontier.com/app/flow/xw9mqwoGpGE5",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/xw9mqwoGpGE5"
+      ],
+      "size": "330x114.00x35.20mm",
+      "structure": "Gasket/Top  Mount",
+      "frontHeight": "前高：19.00mm，有效前高：23.20mm",
+      "angle": "7°",
+      "weight": "本体约等于1800g",
+      "material": "铝合金/红铜/不锈钢/PC",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
     }
   ]
 }
