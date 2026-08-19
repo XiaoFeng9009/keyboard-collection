@@ -55,16 +55,15 @@ export default function Layout({ children, onGoHome }) {
     <div style={{minHeight:'100vh',display:'flex'}}>
             {/* Desktop top navbar */}
       {isDesktop && (
-        <nav style={{position:'fixed',top:0,left:0,right:0,zIndex:100,height:56,background:'var(--bg-primary)',borderBottom:'1px solid var(--border-base)',boxShadow:'var(--shadow-base)',display:'flex',alignItems:'center',padding:'0 24px',gap:8}}>
+        <nav style={{position:'fixed',top:0,left:0,right:0,zIndex:100,height:56,background:'var(--bg-primary)',borderBottom:'1px solid var(--border-base)',boxShadow:'none',display:'flex',alignItems:'center',padding:'0 24px',gap:8}}>
           <img src='/images/logo.png' alt='logo' style={{height:46,cursor:'pointer'}} onClick={function(){if(onGoHome)onGoHome();else router.push('/')}} />
           <div style={{flex:1}} />
           {tabs.filter(function(t){return !(t.path==='/admin'&&!isLocal)}).map(function(t){
             var isActive = router.pathname === t.path
             return (
               <button key={t.path} onClick={function(){if(t.path==='/'&&onGoHome)onGoHome();else router.push(t.path)}}
-                style={{padding:'0 18px',height:56,border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:13,fontWeight:isActive?600:400,letterSpacing:0.5,borderRadius:0,background:isActive?'var(--accent)':'transparent',color:isActive?'#18181b':'var(--text-primary)',transition:'all .15s',display:'flex',alignItems:'center',gap:8}}
-                onMouseEnter={function(e){if(!isActive)e.target.style.background='var(--bg-secondary)'}}
-                onMouseLeave={function(e){if(!isActive)e.target.style.background='transparent'}}>
+                className={'nav-item' + (isActive ? ' active' : '')}
+                style={{padding:'0 18px',height:56,border:'none',cursor:'pointer',fontFamily:'inherit',fontSize:13,fontWeight:isActive?600:400,letterSpacing:0.5,borderRadius:0,background:'transparent',color:isActive?'var(--text-primary)':'var(--text-secondary)',transition:'color .15s ease, background .15s ease',display:'flex',alignItems:'center',gap:8}}>
                 <Icon name={t.icon} size={14} />
                 <span>{t.label}</span>
               </button>

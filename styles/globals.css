@@ -84,7 +84,26 @@ a:focus-visible {
   width: 100%;
   max-width: var(--content-max);
   margin: 0 auto;
-  padding: 80px 40px 32px;
+  padding: 104px 40px 32px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item:hover {
+  background: var(--bg-secondary);
+}
+
+.nav-item.active::after {
+  content: '';
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 0;
+  height: 3px;
+  background: #18181b;
+  border-radius: 3px 3px 0 0;
 }
 
 .btn {
@@ -192,7 +211,7 @@ a:focus-visible {
 .kb-card-gradient {
   position: absolute;
   inset: auto 0 0 0;
-  height: 38%;
+  height: 24%;
   background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
   z-index: 1;
@@ -232,24 +251,47 @@ a:focus-visible {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+.kb-card-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.kb-card-badges {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
 .kb-card-body {
   position: relative;
   z-index: 2;
   background: var(--bg-primary);
   margin-top: -1px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
   padding: 0.5rem 1.25rem 1rem;
   line-height: 1.5;
+}
+
+.kb-card-body .kb-card-meta {
+  width: 100%;
 }
 
 .tag {
   display: inline-flex;
   align-items: center;
-  min-height: 22px;
-  padding: 2px 8px;
-  border-radius: 4px;
+  min-height: 24px;
+  padding: 3px 8px;
+  border-radius: var(--radius-md);
   background: var(--bg-secondary);
   color: var(--text-secondary);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.5px;
   line-height: 1.4;
@@ -259,10 +301,10 @@ a:focus-visible {
 .kb-status-pill {
   display: inline-flex;
   align-items: center;
-  min-height: 22px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 10px;
+  min-height: 24px;
+  padding: 3px 8px;
+  border-radius: var(--radius-md);
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.4;
@@ -347,6 +389,74 @@ a:focus-visible {
 .search-controls .btn {
   height: 38px;
   min-height: 38px;
+  background: #18181b;
+  border-color: #18181b;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.search-controls .btn:hover {
+  background: #000000;
+  border-color: #000000;
+  transform: none;
+}
+
+.search-controls .input-control,
+.search-controls .select-control {
+  box-shadow: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.search-controls .input-control:focus,
+.search-controls .select-control:focus {
+  border-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 24px;
+  padding: 8px 0;
+}
+
+.pagination .btn {
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-secondary);
+  box-shadow: none;
+  font-size: 12px;
+}
+
+.pagination .btn:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  transform: none;
+}
+
+.pagination .btn:disabled {
+  opacity: 0.35;
+}
+
+.pagination .pagination-active {
+  background: #18181b !important;
+  color: #ffffff !important;
+}
+
+.pagination .input-control,
+.pagination .select-control {
+  min-height: 32px;
+  padding: 6px 8px;
+  border: 1px solid var(--border-base);
+  background: var(--bg-primary);
+  box-shadow: none;
+  font-size: 12px;
 }
 
 .search-controls .search-count {
@@ -386,13 +496,13 @@ a:focus-visible {
 
 @media (max-width: 1023px) {
   .site-main {
-    padding: 60px 20px 32px;
+    padding: 84px 20px 32px;
   }
 }
 
 @media (max-width: 639px) {
   .site-main {
-    padding: 60px 12px 32px;
+    padding: 76px 12px 32px;
   }
 
   .card-grid {

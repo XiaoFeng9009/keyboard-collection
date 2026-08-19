@@ -22,7 +22,7 @@ export default function KeyboardCard({ kb, onClick }) {
   var displayTime = (kb.gbTime || kb.icTime || '').replace(/\//g, '-')
 
   var s = {
-    studio: { fontSize:'0.75rem', color:'var(--text-secondary)', marginTop:-2, marginBottom:6, lineHeight:'1.5', letterSpacing:0.3 }
+    studio: { fontSize:'0.9rem', fontWeight:600, color:'var(--text-secondary)', marginTop:-2, marginBottom:6, lineHeight:'1.5', letterSpacing:0.3 }
   }
 
   return (
@@ -48,10 +48,12 @@ export default function KeyboardCard({ kb, onClick }) {
       </div>
       <div className="kb-card-title">{kb.name}</div>
       <div className="kb-card-body">
-        <div style={s.studio}>{kb.studio}</div>
-        <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
-          {kb.layout && <span className="tag">{kb.layout}</span>}
-          {sc && <span className={'kb-status-pill kb-status-' + kb.status}>{sc.label}</span>}
+        <div className="kb-card-meta">
+          <div style={s.studio}>{kb.studio}</div>
+          <div className="kb-card-badges">
+            {kb.layout && <span className="tag">{kb.layout}</span>}
+            {sc && <span className={'kb-status-pill kb-status-' + kb.status}>{sc.label}</span>}
+          </div>
         </div>
       </div>
     </div>

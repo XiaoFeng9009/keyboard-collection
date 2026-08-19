@@ -24,13 +24,13 @@ export default function Pagination({ current, total, pageSize, onChange, onPageS
   for (let i = start; i <= end; i++) pages.push(i)
 
   return (
-    <div style={{display:'flex',alignItems:'center',justifyContent:'center',gap:4,marginTop:24,padding:'8px 0',flexWrap:'wrap'}}>
+    <div className="pagination">
       <button disabled={current <= 1} onClick={() => go(1)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current <= 1 ? 0.4 : 1}}>{'\u00AB'}</button>
       <button disabled={current <= 1} onClick={() => go(current - 1)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,opacity:current <= 1 ? 0.4 : 1}}>{'\u2039'}</button>
 
       {start > 1 && <span style={{color:'var(--text-muted)',fontSize:12,padding:'0 2px'}}>...</span>}
       {pages.map(p => (
-        <button key={p} onClick={() => go(p)} className="btn" style={{minHeight:0,padding:'6px 10px',fontSize:12,borderRadius:6,minWidth:32,fontWeight:p === current ? 600 : 400,background:p === current ? 'var(--accent)' : 'var(--bg-primary)',boxShadow:p === current ? '0 0 0 1.5px var(--text-primary)' : 'none'}}>{p}</button>
+        <button key={p} onClick={() => go(p)} className={'btn' + (p === current ? ' pagination-active' : '')} style={{minWidth:32,fontWeight:p === current ? 600 : 400}}>{p}</button>
       ))}
       {end < totalPages && <span style={{color:'var(--text-muted)',fontSize:12,padding:'0 2px'}}>...</span>}
 
