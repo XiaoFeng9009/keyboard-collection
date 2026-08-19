@@ -1,5 +1,4 @@
-﻿import { useState, useEffect, useMemo } from 'react'
-import BlurOverlay from '../components/BlurOverlay'
+import { useState, useEffect, useMemo } from 'react'
 import TopProgressBar from '../components/TopProgressBar'
 import Layout from '../components/Layout'
 import SearchControls from '../components/SearchControls'
@@ -17,7 +16,7 @@ export default function Home() {
   const router = useRouter()
   const { isDesktop, isTablet, isMobile } = useBreakpoint()
   const { keyboards, loading } = useData()
-  const [showBlur, setShowBlur] = useState(false)
+  const [showProgress, setShowProgress] = useState(false)
   const [filtered, setFiltered] = useState([])
   const [page, setPage] = useState(1)
   const [resetKey, setResetKey] = useState(0)
@@ -54,18 +53,16 @@ export default function Home() {
     setPage(1)
     setFiltered(sortedKeyboards)
     setResetKey(function(k){return k+1})
-    setShowBlur(true)
+    setShowProgress(true)
     setTimeout(function() {
       setPage(1)
       setFiltered(sortedKeyboards)
       setResetKey(function(k){return k+1})
     }, 100)
     setTimeout(function() {
-      setShowBlur(false)
-    }, 550)
-    setTimeout(function() {
+      setShowProgress(false)
       router.push('/')
-    }, 1000)
+    }, 650)
   }
 
   const handleShowStudio = (studio) => {
@@ -78,7 +75,13 @@ export default function Home() {
       <Layout onGoHome={handleGoHome}>
       <SearchControls key={router.asPath + '_' + resetKey} data={sortedKeyboards} onFilter={setFiltered} />
       <div className={'card-grid ' + (cols === 1 ? 'grid-cards-1' : cols === 2 ? 'grid-cards-2' : 'grid-cards-4')}>
-        {paged.map(k => <KeyboardCard key={k.id} kb={k} onClick={() => setDetailData(k)} />)}
+        {paged.map(function(k, index) {
+          return (
+            <div key={k.id + '-' + page} className="card-entry" style={{animationDelay: (index * 65) + 'ms'}}>
+              <KeyboardCard kb={k} onClick={() => setDetailData(k)} />
+            </div>
+          )
+        })}
       </div>
       {filtered.length === 0 && (
         <div style={{textAlign:'center',padding:'60px 20px',color:'var(--text-muted)'}}>
@@ -90,7 +93,7 @@ export default function Home() {
       {detailData && <KeyboardDetail keyboard={detailData} onClose={() => setDetailData(null)} onShowStudio={handleShowStudio} />}
       {studioData && <StudioDetail studio={studioData} keyboards={keyboards} onClose={() => setStudioData(null)} />}
     </Layout>
-      <BlurOverlay active={showBlur} />
+      <TopProgressBar active={showProgress} />
     </>
   )
 }

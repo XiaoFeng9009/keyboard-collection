@@ -6,6 +6,7 @@ export default function TimelineView({ keyboards }) {
   var [detailData, setDetailData] = useState(null)
   var [previewImg, setPreviewImg] = useState(null)
   var [previewClosing, setPreviewClosing] = useState(false)
+  var [panelClosing, setPanelClosing] = useState(false)
   var sentinelRef = useRef(null)
   var { isMobile, isTablet, isDesktop } = useBreakpoint()
 
@@ -44,6 +45,12 @@ export default function TimelineView({ keyboards }) {
   var closePreview = function() {
     setPreviewClosing(true)
     setTimeout(function() { setPreviewImg(null); setPreviewClosing(false) }, 250)
+  }
+
+  var closeDetail = function() {
+    if (panelClosing) return
+    setPanelClosing(true)
+    setTimeout(function() { setDetailData(null); setPanelClosing(false) }, 220)
   }
 
   var scrollToYear = function(year) {
@@ -118,10 +125,10 @@ export default function TimelineView({ keyboards }) {
   var renderPanelContent = function() {
     if (!detailData) return null
     return (
-      <div style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',borderRadius:8,overflow:'hidden',boxShadow:'var(--shadow-hover)',animation:'popupIn .3s cubic-bezier(0.16,1,0.3,1)'}}>
+      <div style={{background:'var(--bg-primary)',border:'1px solid var(--border-base)',borderRadius:8,overflow:'hidden',boxShadow:'var(--shadow-hover)',animation:panelClosing ? 'popupOut .22s cubic-bezier(0.16,1,0.3,1) both' : 'popupIn .3s cubic-bezier(0.16,1,0.3,1)'}}>
         <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'12px 16px',borderBottom:'1px solid var(--border-base)'}}>
           <div style={{fontSize:11,fontWeight:600,color:'var(--text-muted)',textTransform:'uppercase',letterSpacing:1}}>{'\u8BE6\u60C5'}</div>
-          <button onClick={function(){setDetailData(null)}} style={{background:'none',border:'none',cursor:'pointer',fontSize:16,color:'var(--text-muted)',lineHeight:1,padding:'2px 6px'}}>{'\u2715'}</button>
+          <button onClick={closeDetail} style={{background:'none',border:'none',cursor:'pointer',fontSize:16,color:'var(--text-muted)',lineHeight:1,padding:'2px 6px'}}>{'\u2715'}</button>
         </div>
 
         {detailImg && <img src={detailImg} alt={detailData.name} loading="lazy" decoding="async" style={{width:'100%',maxHeight:isMobile?260:280,objectFit:'cover',display:'block',cursor:'zoom-in'}} onClick={function(){setPreviewImg(detailImg)}} onError={function(e){e.target.style.display='none'}} />}
@@ -331,20 +338,20 @@ export default function TimelineView({ keyboards }) {
       )}
 
       {isMobile && detailData && (
-        <div style={{position:'fixed',inset:0,zIndex:300,background:'rgba(0,0,0,0.6)',display:'flex',alignItems:'flex-end',animation:'overlayIn .25s ease'}} onClick={function(){setDetailData(null)}}>
-          <div style={{background:'var(--bg-primary)',width:'100%',maxHeight:'88vh',overflowY:'auto',borderRadius:'16px 16px 0 0',animation:'slideUp .3s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
+        <div style={{position:'fixed',inset:0,zIndex:300,background:'rgba(0,0,0,0.6)',display:'flex',alignItems:'flex-end',animation:panelClosing ? 'overlayOut .22s ease both' : 'overlayIn .25s ease'}} onClick={closeDetail}>
+          <div style={{background:'var(--bg-primary)',width:'100%',maxHeight:'88vh',overflowY:'auto',borderRadius:'16px 16px 0 0',animation:panelClosing ? 'slideDown .22s cubic-bezier(0.16,1,0.3,1) both' : 'slideUp .3s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
             {renderPanelContent()}
           </div>
         </div>
       )}
 
       {isMobile ? (
-        <div onClick={function(){setDetailData(null)}}>
+        <div onClick={closeDetail}>
           {renderTopBookmarks()}
           {renderTimeline(undefined)}
         </div>
       ) : isTablet ? (
-        <div style={{display:'flex',gap:20}} onClick={function(){setDetailData(null)}}>
+        <div style={{display:'flex',gap:20}} onClick={closeDetail}>
           <div style={{flex:1,minWidth:0}}>
             {renderTopBookmarks()}
             {renderTimeline(undefined)}
@@ -352,7 +359,7 @@ export default function TimelineView({ keyboards }) {
           {renderRightPanel(320)}
         </div>
       ) : (
-        <div style={{display:'flex',gap:24}} onClick={function(){setDetailData(null)}}>
+        <div style={{display:'flex',gap:24}} onClick={closeDetail}>
           {renderSideBookmarks()}
           {renderTimeline(660)}
           {renderRightPanel(430)}

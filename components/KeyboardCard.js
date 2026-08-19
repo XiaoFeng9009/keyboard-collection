@@ -12,7 +12,6 @@ export default function KeyboardCard({ kb, onClick }) {
     completed: { label: '\u5DF2\u5B8C\u6210' }
   }[kb.status]
   var img = getImg(kb)
-  var multi = kb.images && kb.images.length > 1
   var [hovered, setHovered] = useState(false)
   var [imgFallback, setImgFallback] = useState(false)
   var t = hovered ? 1 : 0
@@ -20,12 +19,10 @@ export default function KeyboardCard({ kb, onClick }) {
   var handleLeave = function() { setHovered(false) }
   var handleClick = function() { onClick && onClick(kb) }
   var shownImg = imgFallback ? img : thumbFor(img)
+  var displayTime = (kb.gbTime || kb.icTime || '').replace(/\//g, '-')
 
   var s = {
-    imgWrap: { width:'100%', aspectRatio:'16/12', background:'var(--bg-secondary)', position:'relative', overflow:'hidden' },
-    body: { padding:'1.25rem' },
-    name: { fontSize:'0.9375rem', fontWeight:600, marginBottom:2 },
-    studio: { fontSize:'0.75rem', color:'var(--text-secondary)', marginBottom:10, letterSpacing:0.3 }
+    studio: { fontSize:'0.75rem', color:'var(--text-secondary)', marginTop:-2, marginBottom:6, lineHeight:'1.5', letterSpacing:0.3 }
   }
 
   return (
@@ -38,20 +35,25 @@ export default function KeyboardCard({ kb, onClick }) {
       {/* Yellow accent bar - sweeps from left on hover */}
       <div style={{position:'absolute',top:0,left:0,right:0,height:3,zIndex:2,background:'var(--accent)',transform:'scaleX(' + t + ')',transformOrigin:'left',transition:'transform .3s ease'}} />
       
-      <div style={s.imgWrap}>
-        {img ? <img src={shownImg} alt={kb.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale(' + (1 + t * 0.05) + ')',transition:'transform .7s ease'}}
-          onError={function(e){if(!imgFallback){setImgFallback(true);return}e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
-        <div style={{display:img?'none':'flex',alignItems:'center',justifyContent:'center',height:'100%',color:'var(--text-muted)',fontSize:'0.75rem'}}>{kb.name}</div>
-        {multi && <div style={{position:'absolute',top:8,right:8,background:'var(--bg-primary)',padding:'2px 6px',fontSize:'0.625rem',borderRadius:4}}>{'+'+(kb.images.length-1)}</div>}
+      <div className="kb-card-media">
+        <div className="kb-card-zoom">
+          <div className="kb-card-img">
+            {img ? <img src={shownImg} alt={kb.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
+              onError={function(e){if(!imgFallback){setImgFallback(true);return}e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex'}} /> : null}
+            <div style={{display:img?'none':'flex',alignItems:'center',justifyContent:'center',height:'100%',color:'var(--text-muted)',fontSize:'0.75rem',position:'relative',zIndex:0}}>{'\u6682\u65E0\u56FE\u7247'}</div>
+          </div>
+        </div>
+        <div className="kb-card-gradient" />
+        {displayTime && <div className="kb-card-time">{displayTime}</div>}
       </div>
-      <div style={s.body}>
-        <div style={s.name}>{kb.name}</div>
+      <div className="kb-card-title">{kb.name}</div>
+      <div className="kb-card-body">
         <div style={s.studio}>{kb.studio}</div>
         <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
           {kb.layout && <span className="tag">{kb.layout}</span>}
-          {sc && <span className="tag" style={{background:kb.status==='gb'?'#18181b':'var(--accent-dim)',color:kb.status==='gb'?'#fff':'#18181b'}}>{sc.label}</span>}
+          {sc && <span className={'kb-status-pill kb-status-' + kb.status}>{sc.label}</span>}
         </div>
-                 </div>
+      </div>
     </div>
   )
 }

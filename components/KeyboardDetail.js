@@ -6,6 +6,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   const [imgIdx, setImgIdx] = useState(0)
   const [previewOpen, setPreviewOpen] = useState(false)
   const [previewClosing, setPreviewClosing] = useState(false)
+  const [closing, setClosing] = useState(false)
   const images = keyboard.images || (keyboard.image ? [keyboard.image] : [])
   const img = images.length > 0 ? images[imgIdx] : null
 
@@ -17,6 +18,12 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
   const closePreview = () => {
     setPreviewClosing(true)
     setTimeout(() => { setPreviewOpen(false); setPreviewClosing(false) }, 250)
+  }
+
+  const handleClose = () => {
+    if (closing) return
+    setClosing(true)
+    setTimeout(() => { onClose() }, 220)
   }
 
   useEffect(() => {
@@ -84,8 +91,8 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
           >{'\u2715'}</button>
         </div>
       )}
-      <div className="overlay" style={{padding:isMobile?8:20}} onClick={onClose}>
-        <div style={{background:'var(--bg-primary)',borderRadius:12,width:'100%',maxWidth:1440,height:isDesktop?'min(94vh, calc(min(100vw - 40px, 1440px) * 0.465))':'auto',maxHeight:'94vh',display:'flex',flexDirection:isDesktop?'row':'column',overflow:'hidden',boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={e=>e.stopPropagation()}>
+      <div className="overlay" style={{padding:isMobile?8:20, animation: closing ? 'overlayOut .22s ease both' : 'overlayIn .3s ease'}} onClick={handleClose}>
+        <div style={{background:'var(--bg-primary)',borderRadius:12,width:'100%',maxWidth:1440,height:isDesktop?'min(94vh, calc(min(100vw - 40px, 1440px) * 0.465))':'auto',maxHeight:'94vh',display:'flex',flexDirection:isDesktop?'row':'column',overflow:'hidden',boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation: closing ? 'popupOut .22s cubic-bezier(0.16,1,0.3,1) both' : 'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={e=>e.stopPropagation()}>
 
           {/* Edge-to-edge image area */}
           <div style={{position:'relative',flex:isDesktop?'1 1 62%':'0 0 auto',minWidth:0,width:isDesktop?'auto':'100%',aspectRatio:'4/3',overflow:'hidden',background:'var(--bg-secondary)'}}>
@@ -133,7 +140,7 @@ export default function KeyboardDetail({ keyboard, onClose, onShowStudio }) {
                   </button>
                 )}
               </div>
-              <button onClick={onClose} aria-label={'\u5173\u95ED\u8BE6\u60C5'} style={{flexShrink:0,background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:16,cursor:'pointer',padding:'4px 10px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
+              <button onClick={handleClose} aria-label={'\u5173\u95ED\u8BE6\u60C5'} style={{flexShrink:0,background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:16,cursor:'pointer',padding:'4px 10px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
             </div>
 
             {keyboard.layout && <div style={row}><span style={{...label,width:80}}>{'\u914D\u5217'}</span><span style={value}>{keyboard.layout}</span></div>}

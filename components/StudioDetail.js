@@ -5,6 +5,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
   const { isDesktop } = useBreakpoint()
   const [fullscreenImg, setFullscreenImg] = useState(null)
   const [fullscreenClosing, setFullscreenClosing] = useState(false)
+  const [closing, setClosing] = useState(false)
   const [activeIdx, setActiveIdx] = useState(0)
   const [tocOpen, setTocOpen] = useState(isDesktop)
   const sectionRefs = useRef([])
@@ -34,6 +35,12 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
   var closeFullscreen = function() {
     setFullscreenClosing(true)
     setTimeout(function() { setFullscreenImg(null); setFullscreenClosing(false) }, 250)
+  }
+
+  var handleClose = function() {
+    if (closing) return
+    setClosing(true)
+    setTimeout(function() { onClose() }, 220)
   }
 
   var getImg = function(kb) {
@@ -84,8 +91,8 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
         </div>
       )}
 
-      <div className="overlay" style={{padding:'40px 20px'}} onClick={onClose}>
-        <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:1152,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation:'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
+      <div className="overlay" style={{padding:'40px 20px', animation: closing ? 'overlayOut .22s ease both' : 'overlayIn .3s ease'}} onClick={handleClose}>
+        <div style={{background:'var(--bg-primary)',borderRadius:12,overflow:'hidden',width:'100%',maxWidth:1152,boxShadow:'0 10px 40px rgba(0,0,0,0.15), 0 2px 8px rgba(0,0,0,0.1)',animation: closing ? 'popupOut .22s cubic-bezier(0.16,1,0.3,1) both' : 'popupIn .35s cubic-bezier(0.16,1,0.3,1)'}} onClick={function(e){e.stopPropagation()}}>
           <div style={{overflowY:'auto',maxHeight:'88vh'}}>
 
             {/* Header */}
@@ -94,7 +101,7 @@ export default function StudioDetail({ studio, keyboards, onClose }) {
                 <h2 style={{fontSize:18,fontWeight:700}}>{studio}</h2>
                 <p style={{fontSize:11,color:'var(--text-muted)',marginTop:2}}>{'共 ' + list.length + ' 把键盘'}</p>
               </div>
-              <button onClick={onClose} style={{background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:18,cursor:'pointer',padding:'4px 12px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
+              <button onClick={handleClose} style={{background:'none',border:'1px solid var(--border-base)',borderRadius:6,fontSize:18,cursor:'pointer',padding:'4px 12px',color:'var(--text-muted)',lineHeight:1}}>{'\u2715'}</button>
             </div>
 
             {/* Desktop: flex row layout */}
