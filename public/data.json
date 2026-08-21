@@ -22202,10 +22202,10 @@
       "status": "ic",
       "images": [
         "/images/GrayStudio造键坞/Spaceforge.webp",
-        "/images/GrayStudio造键坞/Spaceforge.5.webp",
         "/images/GrayStudio造键坞/Spaceforge.2.webp",
         "/images/GrayStudio造键坞/Spaceforge.3.webp",
-        "/images/GrayStudio造键坞/Spaceforge.4.webp"
+        "/images/GrayStudio造键坞/Spaceforge.4.webp",
+        "/images/GrayStudio造键坞/Spaceforge.5.webp"
       ],
       "icTime": "2026-08-19",
       "icLink": "https://www.zfrontier.com/app/flow/xw9mqwoGpGE5",
@@ -22222,6 +22222,99 @@
       "gbTime": "",
       "gbLink": "",
       "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1787291203203",
+      "name": "Phi60",
+      "studio": "CleverKeebs",
+      "sortTime": "2026-08-03",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/CleverKeebs/phi60-product-delian-2.webp",
+        "/images/CleverKeebs/phi60-product-promethean-1.webp",
+        "/images/CleverKeebs/phi60-product-thalassian-3.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "Front touch height (feet installed): 13.6mm Table to bottom row switch: 22.2mm Front height (with feet): 19mm",
+      "angle": "9°",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2026-08-03",
+      "gbLink": "https://www.cleverkeebs.com/zh/products/phi-60",
+      "gbLinks": [
+        "https://www.cleverkeebs.com/zh/products/phi-60"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787291651364",
+      "name": "Phi65",
+      "studio": "CleverKeebs",
+      "sortTime": "2025-04-01",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/CleverKeebs/Phi65_2.webp",
+        "/images/CleverKeebs/Phi65-side-angle-1.webp",
+        "/images/CleverKeebs/phi65-back-2.webp",
+        "/images/CleverKeebs/phi65-bottom-3.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "Cherry-lip front height: 14.1 mm; Front height: 17.9 mm",
+      "angle": "7.16°",
+      "weight": "",
+      "material": "铝合金/红铜",
+      "gbPrice": "",
+      "gbTime": "2025-04-01",
+      "gbLink": "https://www.cleverkeebs.com/zh/products/phi-65-keyboard-kit-preorder",
+      "gbLinks": [
+        "https://www.cleverkeebs.com/zh/products/phi-65-keyboard-kit-preorder"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787292911605",
+      "name": "Dia60",
+      "studio": "NoNumbers",
+      "sortTime": "2026-08-17",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/NoNumbers/Dia60_Feral_Render.webp",
+        "/images/NoNumbers/Dia60_MidnightPlum_Render.webp",
+        "/images/NoNumbers/Dia60_PinkDusk_Render.webp",
+        "/images/NoNumbers/Dia60_Rain_Render.webp",
+        "/images/NoNumbers/Dia60_Solar_1.webp",
+        "/images/NoNumbers/Dia60_Solar_2.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://bowlkeyboards.com/pages/dia-landing-page",
+      "icLinks": [
+        "https://bowlkeyboards.com/pages/dia-landing-page"
+      ],
+      "size": "",
+      "structure": "Top Mount/Gummy Oring",
+      "frontHeight": "18.5 mm；EKH: 21.5 mm",
+      "angle": "6°",
+      "weight": "~1.2Kg",
+      "material": "铝合金/红铜/不锈钢",
+      "gbPrice": "",
+      "gbTime": "2026-08-17",
+      "gbLink": "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081",
+      "gbLinks": [
+        "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081"
+      ],
       "description": ""
     }
   ]
