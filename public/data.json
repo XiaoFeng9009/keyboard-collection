@@ -21350,13 +21350,14 @@
     {
       "id": "kb_1786002894256",
       "name": "Turbo60",
-      "studio": "次元桌搭",
-      "sortTime": "2026-04-26",
+      "studio": "BRAKMODE破格外设",
+      "sortTime": "2026-08-21",
       "layout": "60%",
-      "status": "ic",
+      "status": "gb",
       "images": [
-        "/images/次元桌搭/Turbo60.2.webp",
-        "/images/次元桌搭/Turbo60.webp"
+        "/images/BRAKMODE破格外设/Turbo60_1.webp",
+        "/images/BRAKMODE破格外设/Turbo60.2.webp",
+        "/images/BRAKMODE破格外设/Turbo60.webp"
       ],
       "icTime": "2026-04-26",
       "icLink": "https://www.zfrontier.com/app/flow/K3xzAZWo1R6o",
@@ -21364,9 +21365,18 @@
         "https://www.zfrontier.com/app/flow/K3xzAZWo1R6o",
         "https://www.zfrontier.com/app/flow/P0pPZOXYqP3J"
       ],
-      "gbTime": "",
-      "gbLink": "",
-      "gbLinks": [],
+      "size": "",
+      "structure": "Tray Mount",
+      "frontHeight": "18.2mm",
+      "angle": "7°",
+      "weight": "1150g",
+      "material": "铝合金",
+      "gbPrice": "",
+      "gbTime": "2026-08-21",
+      "gbLink": "https://www.zfrontier.com/app/flow/qrGEljXqgBAz",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/qrGEljXqgBAz"
+      ],
       "description": ""
     },
     {
@@ -22202,10 +22212,10 @@
       "status": "ic",
       "images": [
         "/images/GrayStudio造键坞/Spaceforge.webp",
+        "/images/GrayStudio造键坞/Spaceforge.5.webp",
         "/images/GrayStudio造键坞/Spaceforge.2.webp",
         "/images/GrayStudio造键坞/Spaceforge.3.webp",
-        "/images/GrayStudio造键坞/Spaceforge.4.webp",
-        "/images/GrayStudio造键坞/Spaceforge.5.webp"
+        "/images/GrayStudio造键坞/Spaceforge.4.webp"
       ],
       "icTime": "2026-08-19",
       "icLink": "https://www.zfrontier.com/app/flow/xw9mqwoGpGE5",
@@ -22291,8 +22301,8 @@
       "layout": "60%",
       "status": "gb",
       "images": [
-        "/images/NoNumbers/Dia60_Feral_Render.webp",
         "/images/NoNumbers/Dia60_MidnightPlum_Render.webp",
+        "/images/NoNumbers/Dia60_Feral_Render.webp",
         "/images/NoNumbers/Dia60_PinkDusk_Render.webp",
         "/images/NoNumbers/Dia60_Rain_Render.webp",
         "/images/NoNumbers/Dia60_Solar_1.webp",
@@ -22315,6 +22325,60 @@
       "gbLinks": [
         "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081"
       ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787295008649",
+      "name": "LAUNCHER60",
+      "studio": "GEONWORKS",
+      "sortTime": "2025-11-11",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/GEONWORKS/LAUNCHER60.png"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "295.7*114.7*31.8mm",
+      "structure": "Key-snap Mount",
+      "frontHeight": "18.7mm",
+      "angle": "6.5°",
+      "weight": "~405g",
+      "material": "亚克力",
+      "gbPrice": "",
+      "gbTime": "2025-11-11",
+      "gbLink": "https://geon.works/products/launcher60-keyboard-case",
+      "gbLinks": [
+        "https://geon.works/products/launcher60-keyboard-case"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787296179358",
+      "name": "Init40",
+      "studio": "CHOSFOX哈狐",
+      "sortTime": "2026-08-19",
+      "layout": "40%",
+      "status": "ic",
+      "images": [
+        "/images/CHOSFOX哈狐/Init40.webp"
+      ],
+      "icTime": "2026-08-19",
+      "icLink": "https://www.zfrontier.com/app/flow/vwgrqbPr8GZM",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/vwgrqbPr8GZM"
+      ],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
       "description": ""
     }
   ]

@@ -487,6 +487,24 @@
       "thumb": "/thumbnails/Bokery Studio/Bread80.webp"
     },
     {
+      "path": "/images/BRAKMODE破格外设/Turbo60.2.webp",
+      "name": "Turbo60.2.webp",
+      "group": "BRAKMODE破格外设",
+      "thumb": "/thumbnails/BRAKMODE破格外设/Turbo60.2.webp"
+    },
+    {
+      "path": "/images/BRAKMODE破格外设/Turbo60.webp",
+      "name": "Turbo60.webp",
+      "group": "BRAKMODE破格外设",
+      "thumb": "/thumbnails/BRAKMODE破格外设/Turbo60.webp"
+    },
+    {
+      "path": "/images/BRAKMODE破格外设/Turbo60_1.webp",
+      "name": "Turbo60_1.webp",
+      "group": "BRAKMODE破格外设",
+      "thumb": "/thumbnails/BRAKMODE破格外设/Turbo60_1.webp"
+    },
+    {
       "path": "/images/bredchat(XXLL)/QAZ ALICE 30.webp",
       "name": "QAZ ALICE 30.webp",
       "group": "bredchat(XXLL)",
@@ -737,6 +755,12 @@
       "name": "Geonix48.png",
       "group": "CHOSFOX哈狐",
       "thumb": "/thumbnails/CHOSFOX哈狐/Geonix48.webp"
+    },
+    {
+      "path": "/images/CHOSFOX哈狐/Init40.webp",
+      "name": "Init40.webp",
+      "group": "CHOSFOX哈狐",
+      "thumb": "/thumbnails/CHOSFOX哈狐/Init40.webp"
     },
     {
       "path": "/images/CHOSFOX哈狐/Leo80.png",
@@ -1859,6 +1883,12 @@
       "name": "RITA65.png",
       "group": "General",
       "thumb": "/thumbnails/General/RITA65.webp"
+    },
+    {
+      "path": "/images/GEONWORKS/LAUNCHER60.png",
+      "name": "LAUNCHER60.png",
+      "group": "GEONWORKS",
+      "thumb": "/thumbnails/GEONWORKS/LAUNCHER60.webp"
     },
     {
       "path": "/images/Ghost Studio/Ghost65.png",
@@ -7561,18 +7591,6 @@
       "thumb": "/thumbnails/果光/Corgi80 MIRROR80.webp"
     },
     {
-      "path": "/images/次元桌搭/Turbo60.2.webp",
-      "name": "Turbo60.2.webp",
-      "group": "次元桌搭",
-      "thumb": "/thumbnails/次元桌搭/Turbo60.2.webp"
-    },
-    {
-      "path": "/images/次元桌搭/Turbo60.webp",
-      "name": "Turbo60.webp",
-      "group": "次元桌搭",
-      "thumb": "/thumbnails/次元桌搭/Turbo60.webp"
-    },
-    {
       "path": "/images/火柴/PC65 R2.webp",
       "name": "PC65 R2.webp",
       "group": "火柴",
@@ -7729,5 +7747,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1288
+  "total": 1291
 }
