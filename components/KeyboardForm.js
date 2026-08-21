@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { displayImage } from '../lib/imageUrl'
 export default function KeyboardForm({ show, onClose, onSave, editData, studios }) {
   const [name, setName] = useState('')
   const [studio, setStudio] = useState('')
@@ -214,7 +215,7 @@ export default function KeyboardForm({ show, onClose, onSave, editData, studios 
                         const selected = images.includes(img.path)
                         return (
                           <div key={img.path} onClick={function(){toggleImage(img.path)}} style={{cursor:'pointer',border:selected?'2px solid var(--accent)':'1px solid var(--border-base)',overflow:'hidden',background:'var(--bg-primary)',position:'relative',aspectRatio:1}} title={img.name}>
-                            <img src={img.thumb || img.path} alt={img.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover'}} onError={function(e){e.target.style.display='none'}} />
+                            <img src={displayImage(img.path)} alt={img.name} loading="lazy" decoding="async" style={{width:'100%',height:'100%',objectFit:'cover'}} onError={function(e){e.target.style.display='none'}} />
                             {selected && <div style={{position:'absolute',top:0,right:0,background:'var(--accent)',color:'var(--text-primary)',fontSize:9,padding:'1px 4px',fontWeight:700}}>{'\u2713'}</div>}
                           </div>
                         )

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { thumbFor } from '../lib/imageUrl'
+import { displayImage } from '../lib/imageUrl'
 function getImg(kb) {
   if (kb.images && kb.images.length > 0) return kb.images[0]
   return kb.image || ''
@@ -18,7 +18,7 @@ export default function KeyboardCard({ kb, onClick }) {
   var handleEnter = function() { setHovered(true) }
   var handleLeave = function() { setHovered(false) }
   var handleClick = function() { onClick && onClick(kb) }
-  var shownImg = imgFallback ? img : thumbFor(img)
+  var shownImg = imgFallback ? img : displayImage(img)
   var displayTime = (kb.gbTime || kb.icTime || '').replace(/\//g, '-')
 
   var s = {

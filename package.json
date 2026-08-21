@@ -7,8 +7,7 @@
     "prebuild": "node regenerate-assets.js",
     "build": "next build",
     "start": "next start",
-    "assets": "node regenerate-assets.js",
-    "update:meta": "node update-data-meta.js"
+    "assets": "node regenerate-assets.js"
   },
   "dependencies": {
     "next": "^16.2.10",
