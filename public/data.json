@@ -22380,6 +22380,251 @@
       "gbLink": "",
       "gbLinks": [],
       "description": ""
+    },
+    {
+      "id": "kb_1787298861465",
+      "name": "STINGA60",
+      "studio": "SINGAKBD",
+      "sortTime": "2026-08-15",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/stinga60_stonegrey_08.webp",
+        "/images/SINGAKBD/stinga60_stonegrey_09.webp",
+        "/images/SINGAKBD/stinga60_stonegrey_04.webp",
+        "/images/SINGAKBD/stinga60_onyxblack_01.webp",
+        "/images/SINGAKBD/stinga60_scarletred_03.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "~19mm",
+      "angle": "8°",
+      "weight": "",
+      "material": "铝合金/黄铜/玻璃",
+      "gbPrice": "",
+      "gbTime": "2026-08-15",
+      "gbLink": "https://singakbd.com/pages/stinga-60",
+      "gbLinks": [
+        "https://singakbd.com/pages/stinga-60"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787300190470",
+      "name": "GUNDAMHAKU",
+      "studio": "SINGAKBD",
+      "sortTime": "2025-11-17",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/gundamhaku_blue_05.webp",
+        "/images/SINGAKBD/gundamhaku_white_03.webp",
+        "/images/SINGAKBD/gundamhaku_white_05.webp",
+        "/images/SINGAKBD/gundamhaku_blue_01.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "19mm",
+      "angle": "8°",
+      "weight": "",
+      "material": "铝合金/不锈钢/玻璃",
+      "gbPrice": "",
+      "gbTime": "2025-11-17",
+      "gbLink": "https://singakbd.com/pages/gundamhaku",
+      "gbLinks": [
+        "https://singakbd.com/pages/gundamhaku",
+        "https://singakbd.com/pages/gundamhaku-groupbuy-details"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787300805296",
+      "name": "BELOVED KOHAKU",
+      "studio": "SINGAKBD",
+      "sortTime": "2024-12-30",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/Beloved KOHAKU_pink_07.webp",
+        "/images/SINGAKBD/Beloved KOHAKU_white_06.webp",
+        "/images/SINGAKBD/Beloved KOHAKU_white_01.webp",
+        "/images/SINGAKBD/Beloved KOHAKU_00.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2024-12-30",
+      "gbLink": "https://www.instagram.com/p/DEAPmZRTfc6/",
+      "gbLinks": [
+        "https://www.instagram.com/p/DEAPmZRTfc6/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787301356130",
+      "name": "SMKX25 KOHAKU",
+      "studio": "SINGAKBD",
+      "sortTime": "2025-03-20",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/smkx25 kohaku_01.webp",
+        "/images/SINGAKBD/SMKX25 KOHAKU_n.jpg",
+        "/images/SINGAKBD/SMKX25 KOHAKU_03.webp",
+        "/images/SINGAKBD/SMKX25 KOHAKU_05.webp",
+        "/images/SINGAKBD/SMKX25 KOHAKU_09.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2025-03-20",
+      "gbLink": "https://www.instagram.com/p/DHaX0B0vJsj/?img_index=2",
+      "gbLinks": [
+        "https://www.instagram.com/p/DHaX0B0vJsj/?img_index=2"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787301865588",
+      "name": "RUBREHAKU",
+      "studio": "SINGAKBD",
+      "sortTime": "2024-09-24",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/rubrehaku_grey_09.webp",
+        "/images/SINGAKBD/rubrehaku_grey_03.webp",
+        "/images/SINGAKBD/rubrehaku_grey_07.webp",
+        "/images/SINGAKBD/rubrehaku_grey_10.webp",
+        "/images/SINGAKBD/rubrehaku_beige_01.webp",
+        "/images/SINGAKBD/rubrehaku_beige_04.webp",
+        "/images/SINGAKBD/rubrehaku_beige_05.webp",
+        "/images/SINGAKBD/rubrehaku_beige_06.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2024-09-24",
+      "gbLink": "https://www.instagram.com/p/DAUKfscPwTB/",
+      "gbLinks": [
+        "https://www.instagram.com/p/DAUKfscPwTB/"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787302743305",
+      "name": "PC KOHAKU",
+      "studio": "SINGAKBD",
+      "sortTime": "2023-09-19",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/pc kohaku_2338060715923497383_n.jpg",
+        "/images/SINGAKBD/pc kohaku_3_n.jpg",
+        "/images/SINGAKBD/pc kohaku_2_n.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2023-09-19",
+      "gbLink": "https://www.instagram.com/p/CxLHzazyt-Q/?igsi=cjM2cHIyNGpiaWh4",
+      "gbLinks": [
+        "https://www.instagram.com/p/CxLHzazyt-Q/?igsi=cjM2cHIyNGpiaWh4"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787302859744",
+      "name": "KOHAKU R2",
+      "studio": "SINGAKBD",
+      "sortTime": "2023-04-12",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/KOHAKU R2_3n.jpg",
+        "/images/SINGAKBD/KOHAKU R2_2n.jpg",
+        "/images/SINGAKBD/KOHAKU R2_4n.jpg",
+        "/images/SINGAKBD/KOHAKU R2_n.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2023-04-12",
+      "gbLink": "https://www.instagram.com/p/CqSGsWsLIqv/?img_index=1&igsi=ZTI5bWl4d3I2bjd4",
+      "gbLinks": [
+        "https://www.instagram.com/p/CqSGsWsLIqv/?img_index=1&igsi=ZTI5bWl4d3I2bjd4"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787303111149",
+      "name": "JAGUAR R2",
+      "studio": "SINGAKBD",
+      "sortTime": "2022-12-16",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/SINGAKBD/JAGUAR R2_n.jpg",
+        "/images/SINGAKBD/JAGUAR R2_2n.jpg",
+        "/images/SINGAKBD/JAGUAR R2_3n.jpg"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2022-12-16",
+      "gbLink": "https://www.instagram.com/p/CmDY6MzvdTj/?igsi=N2xnbG55dGVtdGdo",
+      "gbLinks": [
+        "https://www.instagram.com/p/CmDY6MzvdTj/?igsi=N2xnbG55dGVtdGdo"
+      ],
+      "description": ""
     }
   ]
 }
