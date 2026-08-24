@@ -22625,6 +22625,38 @@
         "https://www.instagram.com/p/CmDY6MzvdTj/?igsi=N2xnbG55dGVtdGdo"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1787537263127",
+      "name": "SONOMA - Wired In",
+      "studio": "Radkbds",
+      "sortTime": "2026-06-20",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-9d6gxzahz2dh1.webp",
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-lql3k66iz2dh1.webp",
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-3h4upcrmz2dh1.webp",
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-dw0ywgrmz2dh1.webp",
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-8erj3drmz2dh1.webp",
+        "/images/Radkbds/sonoma-by-wired-in-aluminum-65-4-colorways-3-mounting-v0-q4c2wdrmz2dh1.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "115.8 mm × 339.6 mm (top) / 325.8 mm (bottom)",
+      "structure": "Proprietary Gasket Mount/O-Ring Mount",
+      "frontHeight": "19.7mm",
+      "angle": "6.8°",
+      "weight": "",
+      "material": "铝合金/PC/不锈钢/红铜",
+      "gbPrice": "",
+      "gbTime": "2026-06-20",
+      "gbLink": "https://landing.wiredinstore.com/sonoma",
+      "gbLinks": [
+        "https://landing.wiredinstore.com/sonoma"
+      ],
+      "description": ""
     }
   ]
 }
