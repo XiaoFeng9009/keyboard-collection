@@ -22673,7 +22673,7 @@
       "icLink": "",
       "icLinks": [],
       "size": "115.8 mm × 339.6 mm (top) / 325.8 mm (bottom)",
-      "structure": "Proprietary Gasket Mount/O-Ring Mount",
+      "structure": "O-Ring / Proprietary Gasket Mount",
       "frontHeight": "19.7mm",
       "angle": "6.8°",
       "weight": "",
@@ -22714,6 +22714,67 @@
       "gbTime": "",
       "gbLink": "",
       "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1787564887817",
+      "name": "Pneuma Mk.2/60",
+      "studio": "Antipode Studio",
+      "sortTime": "2024-05-06",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/Pneuma Red_WKL.webp",
+        "/images/Antipode Studio/Pneuma Blue_HHKB.webp",
+        "/images/Antipode Studio/Pneuma PC_WK.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "O-Ring Gasket Mount",
+      "frontHeight": "23.1mm",
+      "angle": "6.5 degree typing angle/7.5 degree top case angle",
+      "weight": "1.5kg (built)",
+      "material": "铝合金/PC/红铜",
+      "gbPrice": "",
+      "gbTime": "2024-05-06",
+      "gbLink": "https://geekhack.org/index.php?topic=122920.0",
+      "gbLinks": [
+        "https://geekhack.org/index.php?topic=122920.0"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787565540924",
+      "name": "Logos",
+      "studio": "Antipode Studio",
+      "sortTime": "2026-04-21",
+      "layout": "60%+Pad",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/Logos WKL_Silver_Brass_E-Coat.webp",
+        "/images/Antipode Studio/Logos WK_Black_Alu.webp",
+        "/images/Antipode Studio/Logos WK_Black_Copper.webp"
+      ],
+      "icTime": "2025-09-03",
+      "icLink": "https://geekhack.org/index.php?topic=125653.0",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=125653.0"
+      ],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "20.5mm Front Height / 25.5mm EKH",
+      "angle": "8 degree",
+      "weight": "3kg (unbuilt)",
+      "material": "铝合金/红铜/不锈钢",
+      "gbPrice": "",
+      "gbTime": "2026-04-21",
+      "gbLink": "https://www.antipode.studio/products/logos",
+      "gbLinks": [
+        "https://www.antipode.studio/products/logos",
+        "https://www.antipode.studio/collections/logos"
+      ],
       "description": ""
     }
   ]
