@@ -8579,20 +8579,30 @@
       "id": "kb_csv_1",
       "name": "Grim TKL",
       "studio": "REMY CONNECT",
-      "sortTime": "2026-05-05",
+      "sortTime": "2026-08-23",
       "layout": "80%TKL",
-      "status": "ic",
+      "status": "gb",
       "images": [
-        "/images/REMY CONNECT/Grim TKL.webp"
+        "/images/REMY CONNECT/Grim TKL.webp",
+        "/images/REMY CONNECT/Grim TKL back.webp"
       ],
       "icTime": "2026-05-05",
       "icLink": "https://www.zfrontier.com/app/flow/zP0LpanjvJOQ",
       "icLinks": [
         "https://www.zfrontier.com/app/flow/zP0LpanjvJOQ"
       ],
-      "gbTime": "",
-      "gbLink": "",
-      "gbLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "17.23mm（不含脚贴）",
+      "angle": "6.8°",
+      "weight": "",
+      "material": "铝合金/不锈钢/钛合金",
+      "gbPrice": "",
+      "gbTime": "2026-08-23",
+      "gbLink": "https://www.zfrontier.com/app/flow/yjkPyqk3RPEZ",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/yjkPyqk3RPEZ"
+      ],
       "description": ""
     },
     {
@@ -10636,19 +10646,28 @@
       "id": "kb_csv_111",
       "name": "FCUK EC",
       "studio": "CLAP KEYBOARDS",
-      "sortTime": "2025-03-20",
+      "sortTime": "2026-08-22",
       "layout": "60%",
-      "status": "ic",
+      "status": "gb",
       "images": [
         "/images/CLAP KEYBOARDS/FCUK EC.jpeg"
       ],
-      "icTime": "",
+      "icTime": "2025-03-20",
       "icLink": "",
       "icLinks": [],
-      "gbTime": "2025-03-20",
-      "gbLink": "",
-      "gbLinks": [],
-      "description": ""
+      "size": "297.3*116.2*38.4mm",
+      "structure": "Top Mount",
+      "frontHeight": "18mm",
+      "angle": "10°",
+      "weight": "",
+      "material": "铝合金/",
+      "gbPrice": "",
+      "gbTime": "2026-08-22",
+      "gbLink": "https://www.zfrontier.com/app/flow/b89mXvLRE5EB",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/b89mXvLRE5EB"
+      ],
+      "description": "2025-03-20 群内小团 2026-08-22发布团购贴"
     },
     {
       "id": "kb_csv_112",
@@ -19300,12 +19319,20 @@
       "icTime": "",
       "icLink": "",
       "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
       "gbTime": "2026-03-17",
       "gbLink": "https://www.xiaohongshu.com/discovery/item/69b92def000000002200d800?source=webshare&xhsshare=pc_web&xsec_token=ABJwCZ0fXnu_k_C6qp6bVct32-oPHJK9yx8Xz0fPaOn7A=&xsec_source=pc_share",
       "gbLinks": [
-        "https://www.xiaohongshu.com/discovery/item/69b92def000000002200d800?source=webshare&xhsshare=pc_web&xsec_token=ABJwCZ0fXnu_k_C6qp6bVct32-oPHJK9yx8Xz0fPaOn7A=&xsec_source=pc_share"
+        "https://www.xiaohongshu.com/discovery/item/69b92def000000002200d800?source=webshare&xhsshare=pc_web&xsec_token=ABJwCZ0fXnu_k_C6qp6bVct32-oPHJK9yx8Xz0fPaOn7A=&xsec_source=pc_share",
+        "https://www.zfrontier.com/app/flow/V8VkYYbQX31o"
       ],
-      "description": ""
+      "description": "2026-03-17团购，2026-08-22发布相关公开贴"
     },
     {
       "id": "kb_1785828350046",
@@ -22297,7 +22324,7 @@
       "id": "kb_1787292911605",
       "name": "Dia60",
       "studio": "NoNumbers",
-      "sortTime": "2026-08-17",
+      "sortTime": "2026-08-20",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -22320,12 +22347,13 @@
       "weight": "~1.2Kg",
       "material": "铝合金/红铜/不锈钢",
       "gbPrice": "",
-      "gbTime": "2026-08-17",
+      "gbTime": "2026-08-20",
       "gbLink": "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081",
       "gbLinks": [
-        "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081"
+        "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081",
+        "https://www.zfrontier.com/app/flow/LLY15OVKZQVw"
       ],
-      "description": ""
+      "description": "国内由TYPIST CLUB代理销售"
     },
     {
       "id": "kb_1787295008649",
@@ -22656,6 +22684,36 @@
       "gbLinks": [
         "https://landing.wiredinstore.com/sonoma"
       ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787540832048",
+      "name": "Barrix60",
+      "studio": "Pyrokeys Works",
+      "sortTime": "2026-08-22",
+      "layout": "60%",
+      "status": "ic",
+      "images": [
+        "/images/Pyrokeys Works/Barrix60.webp",
+        "/images/Pyrokeys Works/Barrix60.2.webp",
+        "/images/Pyrokeys Works/Barrix60.3.webp",
+        "/images/Pyrokeys Works/Barrix60.4.webp"
+      ],
+      "icTime": "2026-08-22",
+      "icLink": "https://www.zfrontier.com/app/flow/nEgXgJOxbGkg",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/nEgXgJOxbGkg"
+      ],
+      "size": "",
+      "structure": "Top Mount/Gasket Mount",
+      "frontHeight": "19mm左右",
+      "angle": "8.5°",
+      "weight": "1.1kg(铝中框)/2.7kg(黄铜中框)/2.6kg(不锈钢中框)/0.7kg(pc中框)",
+      "material": "铝合金/黄铜/PC/不锈钢",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
       "description": ""
     }
   ]

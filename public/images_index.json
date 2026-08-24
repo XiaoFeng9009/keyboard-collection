@@ -5431,6 +5431,30 @@
       "thumb": "/thumbnails/Promotype/Key Boy Advance.webp"
     },
     {
+      "path": "/images/Pyrokeys Works/Barrix60.2.webp",
+      "name": "Barrix60.2.webp",
+      "group": "Pyrokeys Works",
+      "thumb": "/thumbnails/Pyrokeys Works/Barrix60.2.webp"
+    },
+    {
+      "path": "/images/Pyrokeys Works/Barrix60.3.webp",
+      "name": "Barrix60.3.webp",
+      "group": "Pyrokeys Works",
+      "thumb": "/thumbnails/Pyrokeys Works/Barrix60.3.webp"
+    },
+    {
+      "path": "/images/Pyrokeys Works/Barrix60.4.webp",
+      "name": "Barrix60.4.webp",
+      "group": "Pyrokeys Works",
+      "thumb": "/thumbnails/Pyrokeys Works/Barrix60.4.webp"
+    },
+    {
+      "path": "/images/Pyrokeys Works/Barrix60.webp",
+      "name": "Barrix60.webp",
+      "group": "Pyrokeys Works",
+      "thumb": "/thumbnails/Pyrokeys Works/Barrix60.webp"
+    },
+    {
       "path": "/images/QEEKE奇趣喵/KR081.webp",
       "name": "KR081.webp",
       "group": "QEEKE奇趣喵",
@@ -5741,6 +5765,12 @@
       "name": "Obey65.webp",
       "group": "RebellionStudio",
       "thumb": "/thumbnails/RebellionStudio/Obey65.webp"
+    },
+    {
+      "path": "/images/REMY CONNECT/Grim TKL back.webp",
+      "name": "Grim TKL back.webp",
+      "group": "REMY CONNECT",
+      "thumb": "/thumbnails/REMY CONNECT/Grim TKL back.webp"
     },
     {
       "path": "/images/REMY CONNECT/Grim TKL.webp",
@@ -7999,5 +8029,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1333
+  "total": 1338
 }
