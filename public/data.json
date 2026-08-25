@@ -10644,9 +10644,9 @@
     },
     {
       "id": "kb_csv_111",
-      "name": "FCUK EC",
+      "name": "FCUK EC 外壳",
       "studio": "CLAP KEYBOARDS",
-      "sortTime": "2026-08-22",
+      "sortTime": "2026-08-25",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -10660,14 +10660,15 @@
       "frontHeight": "18mm",
       "angle": "10°",
       "weight": "",
-      "material": "铝合金/",
+      "material": "铝合金/不锈钢/红铜",
       "gbPrice": "",
-      "gbTime": "2026-08-22",
+      "gbTime": "2026-08-25",
       "gbLink": "https://www.zfrontier.com/app/flow/b89mXvLRE5EB",
       "gbLinks": [
-        "https://www.zfrontier.com/app/flow/b89mXvLRE5EB"
+        "https://www.zfrontier.com/app/flow/b89mXvLRE5EB",
+        "https://www.zfrontier.com/app/flow/Jqjgjlpx0pBK"
       ],
-      "description": "2025-03-20 群内小团 2026-08-22发布团购贴"
+      "description": "2025-03-20 群内小团 2026-08-25发布公开团购贴"
     },
     {
       "id": "kb_csv_112",
@@ -22774,6 +22775,126 @@
       "gbLinks": [
         "https://www.antipode.studio/products/logos",
         "https://www.antipode.studio/collections/logos"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787623036625",
+      "name": "AKB Vero v2",
+      "studio": "Antipode Studio",
+      "sortTime": "2024-04-05",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/AKB Vero v2 PC_Purple_Underside.webp",
+        "/images/Antipode Studio/AKB Vero v2 PC_Purple_Topside.webp",
+        "/images/Antipode Studio/AKB Vero v2 FoolsGold-Underside.webp",
+        "/images/Antipode Studio/AKB Vero v2 Luna-topside.webp"
+      ],
+      "icTime": "2023-11-20",
+      "icLink": "https://geekhack.org/index.php?topic=122102",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=122102"
+      ],
+      "size": "",
+      "structure": "Top Mount",
+      "frontHeight": "16.5mm",
+      "angle": "6.9 degree",
+      "weight": "",
+      "material": "铝合金/PC",
+      "gbPrice": "",
+      "gbTime": "2024-04-05",
+      "gbLink": "https://geekhack.org/index.php?topic=122709",
+      "gbLinks": [
+        "https://geekhack.org/index.php?topic=122709"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787623574059",
+      "name": "Aalto",
+      "studio": "Antipode Studio",
+      "sortTime": "2024-01-28",
+      "layout": "60%+Macro",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/Aalto DSCF3259-2.webp",
+        "/images/Antipode Studio/Aalto DSCF3191.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "6.9 degrees",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2024-01-28",
+      "gbLink": "https://geekhack.org/index.php?topic=122318",
+      "gbLinks": [
+        "https://geekhack.org/index.php?topic=122318"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787623847529",
+      "name": "FLX Virgo R2",
+      "studio": "Antipode Studio",
+      "sortTime": "2022-09-21",
+      "layout": "Alice",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/FLX Virgo DSC6025.webp",
+        "/images/Antipode Studio/FLX Virgo DSC5969.webp"
+      ],
+      "icTime": "2022-08-15",
+      "icLink": "https://geekhack.org/index.php?topic=118098",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=118098"
+      ],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "7 degree",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2022-09-21",
+      "gbLink": "https://geekhack.org/index.php?topic=118402",
+      "gbLinks": [
+        "https://geekhack.org/index.php?topic=118402"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1787624257339",
+      "name": "Nix Lilith",
+      "studio": "Antipode Studio",
+      "sortTime": "2023-04-23",
+      "layout": "65%",
+      "status": "gb",
+      "images": [
+        "/images/Antipode Studio/Nix Lilith_shopify-00050.webp",
+        "/images/Antipode Studio/Nix Lilith_shopify-08163.webp",
+        "/images/Antipode Studio/Nix Lilith_shopify-08184.webp",
+        "/images/Antipode Studio/Nix Lilith_shopify-08212.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2023-04-23",
+      "gbLink": "https://www.antipode.studio/products/nix-lilith",
+      "gbLinks": [
+        "https://www.antipode.studio/products/nix-lilith"
       ],
       "description": ""
     }
