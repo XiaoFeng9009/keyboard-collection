@@ -22897,6 +22897,33 @@
         "https://www.antipode.studio/products/nix-lilith"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1787652051393",
+      "name": "Nexus60",
+      "studio": "Kezewa",
+      "sortTime": "2026-07-21",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/Kezewa/Nexus60.webp",
+        "/images/Kezewa/Nexus60.2.webp",
+        "/images/Kezewa/Nexus60.1.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "~296.41*111.8mm",
+      "structure": "Tray Mount/PCB Snap",
+      "frontHeight": "有效前高: 24.9mm",
+      "angle": "7°",
+      "weight": "铝~1100g PC~800g",
+      "material": "铝合金/PC",
+      "gbPrice": "",
+      "gbTime": "2026-07-21",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
     }
   ]
 }

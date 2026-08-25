@@ -3331,6 +3331,24 @@
       "thumb": "/thumbnails/Kezewa/Metanoia By AKB x Kezewa.webp"
     },
     {
+      "path": "/images/Kezewa/Nexus60.1.webp",
+      "name": "Nexus60.1.webp",
+      "group": "Kezewa",
+      "thumb": "/thumbnails/Kezewa/Nexus60.1.webp"
+    },
+    {
+      "path": "/images/Kezewa/Nexus60.2.webp",
+      "name": "Nexus60.2.webp",
+      "group": "Kezewa",
+      "thumb": "/thumbnails/Kezewa/Nexus60.2.webp"
+    },
+    {
+      "path": "/images/Kezewa/Nexus60.webp",
+      "name": "Nexus60.webp",
+      "group": "Kezewa",
+      "thumb": "/thumbnails/Kezewa/Nexus60.webp"
+    },
+    {
       "path": "/images/Kezewa/OBJ.1 - BAIONLENJA.png",
       "name": "OBJ.1 - BAIONLENJA.png",
       "group": "Kezewa",
@@ -8137,5 +8155,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1356
+  "total": 1359
 }
