@@ -22924,6 +22924,38 @@
       "gbLink": "",
       "gbLinks": [],
       "description": ""
+    },
+    {
+      "id": "kb_1787732246007",
+      "name": "PAL60",
+      "studio": "Banana Stand Works",
+      "sortTime": "2024-07-23",
+      "layout": "",
+      "status": "",
+      "images": [
+        "/images/Banana Stand Works/PAL60.webp",
+        "/images/Banana Stand Works/PAL60.2.webp",
+        "/images/Banana Stand Works/PAL60.3.webp",
+        "/images/Banana Stand Works/PAL60.4.webp"
+      ],
+      "icTime": "",
+      "icLink": "https://geekhack.org/index.php?topic=116569.0",
+      "icLinks": [
+        "https://geekhack.org/index.php?topic=116569.0"
+      ],
+      "size": "",
+      "structure": "Tadpole Mount",
+      "frontHeight": "17.5mm front height, 21.50mm adjusted",
+      "angle": "6°",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2024-07-23",
+      "gbLink": "https://www.zfrontier.com/app/mch/lOdO7rnraxpo",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/mch/lOdO7rnraxpo"
+      ],
+      "description": ""
     }
   ]
 }

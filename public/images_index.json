@@ -493,6 +493,30 @@
       "thumb": "/thumbnails/AULA新文艺复兴/NEOS75.webp"
     },
     {
+      "path": "/images/Banana Stand Works/PAL60.2.webp",
+      "name": "PAL60.2.webp",
+      "group": "Banana Stand Works",
+      "thumb": "/thumbnails/Banana Stand Works/PAL60.2.webp"
+    },
+    {
+      "path": "/images/Banana Stand Works/PAL60.3.webp",
+      "name": "PAL60.3.webp",
+      "group": "Banana Stand Works",
+      "thumb": "/thumbnails/Banana Stand Works/PAL60.3.webp"
+    },
+    {
+      "path": "/images/Banana Stand Works/PAL60.4.webp",
+      "name": "PAL60.4.webp",
+      "group": "Banana Stand Works",
+      "thumb": "/thumbnails/Banana Stand Works/PAL60.4.webp"
+    },
+    {
+      "path": "/images/Banana Stand Works/PAL60.webp",
+      "name": "PAL60.webp",
+      "group": "Banana Stand Works",
+      "thumb": "/thumbnails/Banana Stand Works/PAL60.webp"
+    },
+    {
       "path": "/images/Basic IO Instruments/BIOI Kamilia - KARA双模Mod.png",
       "name": "BIOI Kamilia - KARA双模Mod.png",
       "group": "Basic IO Instruments",
@@ -8155,5 +8179,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1359
+  "total": 1363
 }
