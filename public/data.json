@@ -22956,6 +22956,37 @@
         "https://www.zfrontier.com/app/mch/lOdO7rnraxpo"
       ],
       "description": ""
+    },
+    {
+      "id": "kb_1787798510969",
+      "name": "NEX40",
+      "studio": "rien works",
+      "sortTime": "2026-08-27",
+      "layout": "40%",
+      "status": "ic",
+      "images": [
+        "/images/rien works/NEX40.webp",
+        "/images/rien works/NEX40.1.webp",
+        "/images/rien works/NEX40.2.webp",
+        "/images/rien works/NEX40.3.webp",
+        "/images/rien works/NEX40.4.webp"
+      ],
+      "icTime": "2026-08-27",
+      "icLink": "https://www.zfrontier.com/app/flow/nAwnw1KbVQvq",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/nAwnw1KbVQvq"
+      ],
+      "size": "239x100x28.6mm(后高)",
+      "structure": "Top Mount/O-ring/PCB Snap",
+      "frontHeight": "17.8mm",
+      "angle": "8°",
+      "weight": "",
+      "material": "铝合金/PC/PEI/红铜/不锈钢",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
     }
   ]
 }
