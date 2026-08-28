@@ -1,5 +1,4 @@
-# Custom Keyboard Database
-# 客制化键盘数据库
+# Custom Keyboard Database 客制化键盘数据库
 
 一个用于整理和展示客制化键盘项目信息的静态网站。项目使用 Next.js + React 构建，数据存储在本地 JSON 文件中，可以按名称、工作室、配列和状态搜索，也可以按工作室或时间线浏览。
 
