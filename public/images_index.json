@@ -1951,6 +1951,12 @@
       "thumb": "/thumbnails/GattMoo Studio/MOD Series.webp"
     },
     {
+      "path": "/images/GattMoo Studio/SC84.webp",
+      "name": "SC84.webp",
+      "group": "GattMoo Studio",
+      "thumb": "/thumbnails/GattMoo Studio/SC84.webp"
+    },
+    {
       "path": "/images/GDK Lab/DK1-60(1).png",
       "name": "DK1-60(1).png",
       "group": "GDK Lab",
@@ -4799,6 +4805,24 @@
       "name": "NICO.png",
       "group": "NESON DESIGN",
       "thumb": "/thumbnails/NESON DESIGN/NICO.webp"
+    },
+    {
+      "path": "/images/NESON DESIGN/NoryTek65 Medusa.2.webp",
+      "name": "NoryTek65 Medusa.2.webp",
+      "group": "NESON DESIGN",
+      "thumb": "/thumbnails/NESON DESIGN/NoryTek65 Medusa.2.webp"
+    },
+    {
+      "path": "/images/NESON DESIGN/NoryTek65 Medusa.3.webp",
+      "name": "NoryTek65 Medusa.3.webp",
+      "group": "NESON DESIGN",
+      "thumb": "/thumbnails/NESON DESIGN/NoryTek65 Medusa.3.webp"
+    },
+    {
+      "path": "/images/NESON DESIGN/NoryTek65 Medusa.webp",
+      "name": "NoryTek65 Medusa.webp",
+      "group": "NESON DESIGN",
+      "thumb": "/thumbnails/NESON DESIGN/NoryTek65 Medusa.webp"
     },
     {
       "path": "/images/NESON DESIGN/NoryTek70.webp",
@@ -8209,5 +8233,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1368
+  "total": 1372
 }

@@ -22987,6 +22987,62 @@
       "gbLink": "",
       "gbLinks": [],
       "description": ""
+    },
+    {
+      "id": "kb_1788141081429",
+      "name": "SC84",
+      "studio": "GattMoo Studio",
+      "sortTime": "2026-08-28",
+      "layout": "75%",
+      "status": "ic",
+      "images": [
+        "/images/GattMoo Studio/SC84.webp"
+      ],
+      "icTime": "2026-08-28",
+      "icLink": "https://www.zfrontier.com/app/flow/ggOAEQRGzARv",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/ggOAEQRGzARv"
+      ],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "17.39mm，有效前高：26.65mm",
+      "angle": "6°",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1788141555016",
+      "name": "NoryTek65 Medusa",
+      "studio": "NESON DESIGN",
+      "sortTime": "2026-09-11",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/NESON DESIGN/NoryTek65 Medusa.webp",
+        "/images/NESON DESIGN/NoryTek65 Medusa.3.webp",
+        "/images/NESON DESIGN/NoryTek65 Medusa.2.webp"
+      ],
+      "icTime": "2026-08-29",
+      "icLink": "",
+      "icLinks": [],
+      "size": "316.55mm×122.8mm",
+      "structure": "Gasket Mount",
+      "frontHeight": "前高：18.58mm（包含脚垫≈19.58mm）",
+      "angle": "8°",
+      "weight": "铝合金版本≈1.8kg（不包含定位板、pcb等仅外壳重量）",
+      "material": "铝合金/PC/不锈钢",
+      "gbPrice": "",
+      "gbTime": "2026-09-11",
+      "gbLink": "https://www.zfrontier.com/app/flow/5BQP35aypOvO",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/5BQP35aypOvO"
+      ],
+      "description": "抽签发售 ~（黑色、银色）铝合金版本：120套    PC版本：50套"
     }
   ]
 }
