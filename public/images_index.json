@@ -8191,6 +8191,24 @@
       "thumb": "/thumbnails/躁极Gopolar/太极GG86.webp"
     },
     {
+      "path": "/images/轻电科技/轻电i101 R2.2.webp",
+      "name": "轻电i101 R2.2.webp",
+      "group": "轻电科技",
+      "thumb": "/thumbnails/轻电科技/轻电i101 R2.2.webp"
+    },
+    {
+      "path": "/images/轻电科技/轻电i101 R2.3.webp",
+      "name": "轻电i101 R2.3.webp",
+      "group": "轻电科技",
+      "thumb": "/thumbnails/轻电科技/轻电i101 R2.3.webp"
+    },
+    {
+      "path": "/images/轻电科技/轻电i101 R2.webp",
+      "name": "轻电i101 R2.webp",
+      "group": "轻电科技",
+      "thumb": "/thumbnails/轻电科技/轻电i101 R2.webp"
+    },
+    {
       "path": "/images/野原达之助/Cross80.webp",
       "name": "Cross80.webp",
       "group": "野原达之助",
@@ -8233,5 +8251,5 @@
       "thumb": "/thumbnails/网站LOGO.webp"
     }
   ],
-  "total": 1372
+  "total": 1375
 }

@@ -23070,6 +23070,35 @@
         "https://www.zfrontier.com/app/flow/5BQP35aypOvO"
       ],
       "description": "抽签发售 ~（黑色、银色）铝合金版本：120套    PC版本：50套"
+    },
+    {
+      "id": "kb_1788232771761",
+      "name": "轻电i101 R2",
+      "studio": "轻电科技",
+      "sortTime": "2026-08-12",
+      "layout": "98%",
+      "status": "gb",
+      "images": [
+        "/images/轻电科技/轻电i101 R2.webp",
+        "/images/轻电科技/轻电i101 R2.2.webp",
+        "/images/轻电科技/轻电i101 R2.3.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2026-08-12",
+      "gbLink": "https://www.zfrontier.com/app/flow/Vpla6qARbb0r",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/Vpla6qARbb0r"
+      ],
+      "description": ""
     }
   ]
 }
