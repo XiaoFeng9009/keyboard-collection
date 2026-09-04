@@ -22262,9 +22262,9 @@
       "id": "kb_1787129642391",
       "name": "Spaceforge",
       "studio": "GrayStudio造键坞",
-      "sortTime": "2026-08-19",
+      "sortTime": "2026-09-05",
       "layout": "65%",
-      "status": "ic",
+      "status": "gb",
       "images": [
         "/images/GrayStudio造键坞/Spaceforge.webp",
         "/images/GrayStudio造键坞/Spaceforge.5.webp",
@@ -22284,9 +22284,11 @@
       "weight": "本体约等于1800g",
       "material": "铝合金/红铜/不锈钢/PC",
       "gbPrice": "",
-      "gbTime": "",
-      "gbLink": "",
-      "gbLinks": [],
+      "gbTime": "2026-09-05",
+      "gbLink": "https://www.zfrontier.com/app/flow/BMNy63Ndw37w",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/BMNy63Ndw37w"
+      ],
       "description": ""
     },
     {
