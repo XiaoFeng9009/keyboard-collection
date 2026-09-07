@@ -19069,17 +19069,23 @@
       "id": "kb_1785374023762",
       "name": "SlowPlay60",
       "studio": "Just Studio",
-      "sortTime": "2026-07-29",
+      "sortTime": "2026-09-06",
       "layout": "60%",
-      "status": "ic",
+      "status": "gb",
       "images": [
         "/images/Just Studio/SlowPlay60.webp"
       ],
       "icTime": "2026-07-29",
       "icLink": "https://www.zfrontier.com/app/flow/z1mJBLAzrBWb",
-      "gbTime": "",
-      "gbLink": "",
-      "description": ""
+      "gbTime": "2026-09-06",
+      "gbLink": "https://www.zfrontier.com/app/flow/1kr3Y7l51NLG",
+      "description": "",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/z1mJBLAzrBWb"
+      ],
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/1kr3Y7l51NLG"
+      ]
     },
     {
       "id": "kb_1785404155406",
@@ -23100,6 +23106,36 @@
       "gbLinks": [
         "https://www.zfrontier.com/app/flow/Vpla6qARbb0r"
       ],
+      "description": ""
+    },
+    {
+      "id": "kb_1788771265500",
+      "name": "Horizon TKL",
+      "studio": "Unlimited Studio",
+      "sortTime": "2026-09-05",
+      "layout": "80%TKL",
+      "status": "ic",
+      "images": [
+        "/images/Unlimited Studio/Horizon TKL.webp",
+        "/images/Unlimited Studio/Horizon TKL.2.webp",
+        "/images/Unlimited Studio/Horizon TKL.3.webp"
+      ],
+      "icTime": "2026-09-05",
+      "icLink": "https://www.zfrontier.com/app/flow/nnR3bgnr6Jpv",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/nnR3bgnr6Jpv",
+        "https://www.zfrontier.com/app/flow/vm96E85z1A6B"
+      ],
+      "size": "",
+      "structure": "",
+      "frontHeight": "",
+      "angle": "8°",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
       "description": ""
     }
   ]
