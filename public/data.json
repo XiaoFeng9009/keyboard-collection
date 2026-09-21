@@ -1187,7 +1187,7 @@
       "id": "kb_79",
       "name": "Dock77",
       "studio": "Overwrite Studio",
-      "sortTime": "2026-08-03",
+      "sortTime": "2026-09-15",
       "layout": "75%",
       "status": "ic",
       "images": [
@@ -1207,9 +1207,11 @@
       "weight": "",
       "material": "铝合金/不锈钢/黄铜",
       "gbPrice": "",
-      "gbTime": "",
-      "gbLink": "",
-      "gbLinks": [],
+      "gbTime": "2026-09-15",
+      "gbLink": "https://www.zfrontier.com/app/flow/0KxdmMA11z53",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/0KxdmMA11z53"
+      ],
       "description": ""
     },
     {
@@ -8269,7 +8271,7 @@
       "id": "kb_1785212541897",
       "name": "Paper60e",
       "studio": "WhatEver Studio",
-      "sortTime": "2026-07-28",
+      "sortTime": "2026-09-17",
       "layout": "60%",
       "status": "ic",
       "images": [
@@ -8277,8 +8279,21 @@
       ],
       "icTime": "2026-07-28",
       "icLink": "https://www.zfrontier.com/app/flow/9jykXZdKxyYO",
-      "gbTime": "",
-      "gbLink": "",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/9jykXZdKxyYO"
+      ],
+      "size": "",
+      "structure": "Gasket Mount/Tray Mount",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "",
+      "gbPrice": "",
+      "gbTime": "2026-09-17",
+      "gbLink": "https://www.zfrontier.com/app/flow/lK9Ay18KGzwB",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/lK9Ay18KGzwB"
+      ],
       "description": ""
     },
     {
@@ -22360,7 +22375,7 @@
       "id": "kb_1787292911605",
       "name": "Dia60",
       "studio": "NoNumbers",
-      "sortTime": "2026-08-20",
+      "sortTime": "2026-08-17",
       "layout": "60%",
       "status": "gb",
       "images": [
@@ -22383,11 +22398,10 @@
       "weight": "~1.2Kg",
       "material": "铝合金/红铜/不锈钢",
       "gbPrice": "",
-      "gbTime": "2026-08-20",
+      "gbTime": "2026-08-17",
       "gbLink": "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081",
       "gbLinks": [
-        "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081",
-        "https://www.zfrontier.com/app/flow/LLY15OVKZQVw"
+        "https://bowlkeyboards.com/products/gb-dia-keyboard-kit?variant=52082252022081"
       ],
       "description": "国内由TYPIST CLUB代理销售"
     },
@@ -23056,7 +23070,7 @@
       "studio": "NESON DESIGN",
       "sortTime": "2026-09-11",
       "layout": "65%",
-      "status": "ic",
+      "status": "gb",
       "images": [
         "/images/NESON DESIGN/NoryTek65 Medusa.webp",
         "/images/NESON DESIGN/NoryTek65 Medusa.3.webp",
@@ -23132,6 +23146,152 @@
       "angle": "8°",
       "weight": "",
       "material": "",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1789954099327",
+      "name": "Datum65XT",
+      "studio": "香蕉皮报吃",
+      "sortTime": "2026-09-07",
+      "layout": "65%+Macro",
+      "status": "ic",
+      "images": [
+        "/images/香蕉皮报吃/Datum65XT.webp",
+        "/images/香蕉皮报吃/Datum65XT.1.webp",
+        "/images/香蕉皮报吃/Datum65XT.2.webp",
+        "/images/香蕉皮报吃/Datum65XT.3.webp"
+      ],
+      "icTime": "2026-09-07",
+      "icLink": "https://www.zfrontier.com/app/flow/LxLGPg1g53nB",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/LxLGPg1g53nB"
+      ],
+      "size": "",
+      "structure": "硅胶粒 Gasket Mount",
+      "frontHeight": "15.79mm（含倒角）  Ekh：22mm",
+      "angle": "8°",
+      "weight": "预估裸重1.4kg",
+      "material": "铝合金/不锈钢/红铜",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1789954420054",
+      "name": "Aria80",
+      "studio": "OwLab",
+      "sortTime": "2026-09-22",
+      "layout": "80%TKL",
+      "status": "gb",
+      "images": [
+        "/images/OwLab/Aria80.webp",
+        "/images/OwLab/Aria80.1.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "",
+      "structure": "Gasket Mount + 壳悬浮结构融合",
+      "frontHeight": "",
+      "angle": "",
+      "weight": "",
+      "material": "铝合金/不锈钢",
+      "gbPrice": "",
+      "gbTime": "2026-09-22",
+      "gbLink": "https://www.zfrontier.com/app/flow/JmLkvmOjLYwa",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/JmLkvmOjLYwa"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1789954720273",
+      "name": "QK60 HE",
+      "studio": "QwertyKeys",
+      "sortTime": "2026-09-21",
+      "layout": "60%",
+      "status": "gb",
+      "images": [
+        "/images/QwertyKeys/QK60HE.webp",
+        "/images/QwertyKeys/QK60HE.2.webp",
+        "/images/QwertyKeys/QK60HE.3.webp"
+      ],
+      "icTime": "",
+      "icLink": "",
+      "icLinks": [],
+      "size": "297.9*120.9mm",
+      "structure": "铍铜板簧 Gasket Mount",
+      "frontHeight": "17.8mm",
+      "angle": "5.5°",
+      "weight": "",
+      "material": "铝合金",
+      "gbPrice": "",
+      "gbTime": "2026-09-21",
+      "gbLink": "https://www.zfrontier.com/app/flow/zNVw58jk8grm",
+      "gbLinks": [
+        "https://www.zfrontier.com/app/flow/zNVw58jk8grm"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kb_1789954967223",
+      "name": "Vintech Series 9009",
+      "studio": "Fusion Lab",
+      "sortTime": "2026-09-14",
+      "layout": "100%Full",
+      "status": "ic",
+      "images": [
+        "/images/Fusion Lab/Vintech Series 9009.webp",
+        "/images/Fusion Lab/Vintech Series 9009.1.webp",
+        "/images/Fusion Lab/Vintech Series 9009.2.webp"
+      ],
+      "icTime": "2026-09-14",
+      "icLink": "https://www.zfrontier.com/app/flow/QajGyEZ6Mwz9",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/QajGyEZ6Mwz9"
+      ],
+      "size": "503.9 × 252.3 × 67.1 mm（最高处）",
+      "structure": "TOP / Plateless TOP",
+      "frontHeight": "19.4mm",
+      "angle": "6°",
+      "weight": "约16斤 选择空腔配重后 约30斤",
+      "material": "铝合金",
+      "gbPrice": "",
+      "gbTime": "",
+      "gbLink": "",
+      "gbLinks": [],
+      "description": ""
+    },
+    {
+      "id": "kb_1789956591683",
+      "name": "Radius68",
+      "studio": "Synth Studio",
+      "sortTime": "2026-09-19",
+      "layout": "65%",
+      "status": "ic",
+      "images": [
+        "/images/Synth Studio/Radius68.webp",
+        "/images/Synth Studio/Radius68.1.webp",
+        "/images/Synth Studio/Radius68.2.webp",
+        "/images/Synth Studio/Radius68.3.webp"
+      ],
+      "icTime": "2026-09-19",
+      "icLink": "https://www.zfrontier.com/app/flow/ZGYqk88mlvpj",
+      "icLinks": [
+        "https://www.zfrontier.com/app/flow/ZGYqk88mlvpj"
+      ],
+      "size": "",
+      "structure": "Gasket Mount",
+      "frontHeight": "",
+      "angle": "0°",
+      "weight": "",
+      "material": "铝合金",
       "gbPrice": "",
       "gbTime": "",
       "gbLink": "",
